@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1626979397
-ModificationTime: 1627490591
+ModificationTime: 1627491028
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -91,7 +91,7 @@ DEI: 91125
 ChainSub2: coverage "pointy_a_2 subtable" 0 0 0 1
  1 0 1
   Coverage: 10 av_p_c_b.b
-  FCoverage: 176 tv_a.7 tv_u.7 sfu_r.7 sfv_r.7 nsfu_b.7 nsfv_b.7 nsfu_a.7 nsfv_b.7 pu_g_m.7 nv_r.7 pa_r.7 nv_b.7 pa_b.7 pu_g_d.7 pv_p.7 pu_r.7 pv_r.7 pv_a.7 pu_b.7 pv_b.7 av_a.7 nsfu_g.7 pa_v.7
+  FCoverage: 151 tv_a.7 tv_u.7 sfu_r.7 sfv_r.7 nsfu_b.7 nsfu_a.7 pu_g_m.7 nv_r.7 pa_r.7 nv_b.7 pa_b.7 pu_g_d.7 pv_p.7 pu_r.7 pv_r.7 pv_a.7 pu_b.7 pv_b.7 nsfu_g.7 pa_v.7
  1
   SeqLookup: 0 "Single Substitution lookup 48"
 EndFPST
@@ -105,7 +105,7 @@ EndFPST
 ChainSub2: coverage "pointy_b_2 subtable" 0 0 0 1
  1 1 0
   Coverage: 55 m_b.a m_b.b av_p_m_b.a av_p_m_b.b av_v_m_b.a av_v_m_b.b
-  BCoverage: 714 tv_a.3 tv_a.5 tv_a.6 tv_u.3 tv_u.5 tv_u.6 sfu_p.3 sfu_p.5 sfu_p.6 sfv_p.3 sfv_p.5 sfv_p.6 sfv_r.3 sfv_r.5 sfv_r.6 sfv_a.3 sfv_a.5 sfv_a.6 nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 nsfv_b.2 nsfv_b.3 nsfv_b.4 nsfv_b.5 nsfv_b.6 nsfu_a.2 nsfu_a.4 av_a.2 av_a.4 pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6 nsfu_g.2 nsfu_g.3 nsfu_g.4 nsfu_g.5 nsfu_g.6 pa_v.3 pa_v.5 pa_v.6 nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6 pa_p.2 pa_p.3 pa_p.4 pa_p.5 nv_r.2 nv_r.4 pa_r.2 pa_r.4 nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6 pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6 pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6 pa_u.6 pv_v.2 pv_v.4 pu_p.3 pu_p.5 pu_p.6 pv_p.3 pv_p.5 pv_p.6 pv_b.3 pv_b.5 pu_b.3 pu_b.5 pu_b.6 lfu_a.3 lfu_a.5 lfu_a.6 lav_a.3 lav_a.5
+  BCoverage: 696 tv_a.3 tv_a.5 tv_a.6 tv_u.3 tv_u.5 tv_u.6 sfu_p.3 sfu_p.5 sfu_p.6 sfv_p.3 sfv_p.5 sfv_p.6 sfv_r.3 sfv_r.5 sfv_r.6 sfv_a.3 sfv_a.5 sfv_a.6 nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 nsfv_b.2 nsfv_b.4 nsfv_b.6 nsfu_a.2 nsfu_a.4 av_a.2 av_a.4 pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6 nsfu_g.2 nsfu_g.3 nsfu_g.4 nsfu_g.5 nsfu_g.6 pa_v.3 pa_v.5 pa_v.6 nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6 pa_p.2 pa_p.3 pa_p.4 pa_p.5 nv_r.2 nv_r.4 pa_r.2 pa_r.4 nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6 pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6 pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6 pa_u.6 pv_v.2 pv_v.4 pu_p.3 pu_p.5 pu_p.6 pv_p.3 pv_p.5 pv_p.6 pv_b.3 pv_b.5 pu_b.3 pu_b.5 pu_b.6 lfu_a.3 lfu_a.5 lfu_a.6 lav_a.3 lav_a.5
  1
   SeqLookup: 0 "Single Substitution lookup 44"
 EndFPST
