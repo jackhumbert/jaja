@@ -306,7 +306,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 234 18 8
+WinInfo: 0 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -10935,7 +10935,7 @@ EndChar
 StartChar: pv_r.7
 Encoding: 322 -1 322
 Width: 0
-Flags: WO
+Flags: W
 HStem: 50 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
