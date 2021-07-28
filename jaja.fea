@@ -1,0 +1,392 @@
+
+@c = [ tv_a tv_u nsfu_p nsfu_v sfu_p sfv_p sfu_r sfv_r sfu_a sfv_a nsfu_b nsfv_b nsfu_a av_a pu_g_m nsfu_g nv_v pa_v nv_p pa_p nv_r pa_r nv_a pa_a nv_b pa_b pu_g_d pa_u pu_u pv_u pu_v pv_v pu_p pv_p pu_r pv_r pu_a pv_a pu_b pv_b lfu_a lav_a ];
+
+@c_1 = [ tv_a.1 tv_u.1 nsfu_p.1 nsfu_v.1 sfu_p.1 sfv_p.1 sfu_r.1 sfv_r.1 sfu_a.1 sfv_a.1 nsfu_b.1 nsfv_b.1 nsfu_a.1 av_a.1 pu_g_m.1 nsfu_g.1 nv_v.1 pa_v.1 nv_p.1 pa_p.1 nv_r.1 pa_r.1 nv_a.1 pa_a.1 nv_b.1 pa_b.1 pu_g_d.1 pa_u.1 pu_u.1 pv_u.1 pu_v.1 pv_v.1 pu_p.1 pv_p.1 pu_r.1 pv_r.1 pu_a.1 pv_a.1 pu_b.1 pv_b.1 lfu_a.1 lav_a.1 ];
+
+@c_2 = [ tv_a.2 tv_u.2 nsfu_p.2 nsfu_v.2 sfu_p.2 sfv_p.2 sfu_r.2 sfv_r.2 sfu_a.2 sfv_a.2 nsfu_b.2 nsfv_b.2 nsfu_a.2 av_a.2 pu_g_m.2 nsfu_g.2 nv_v.2 pa_v.2 nv_p.2 pa_p.2 nv_r.2 pa_r.2 nv_a.2 pa_a.2 nv_b.2 pa_b.2 pu_g_d.2 pa_u.2 pu_u.2 pv_u.2 pu_v.2 pv_v.2 pu_p.2 pv_p.2 pu_r.2 pv_r.2 pu_a.2 pv_a.2 pu_b.2 pv_b.2 lfu_a.2 lav_a.2 ];
+
+@c_3 = [ tv_a.3 tv_u.3 nsfu_p.3 nsfu_v.3 sfu_p.3 sfv_p.3 sfu_r.3 sfv_r.3 sfu_a.3 sfv_a.3 nsfu_b.3 nsfv_b.3 nsfu_a.3 av_a.3 pu_g_m.3 nsfu_g.3 nv_v.3 pa_v.3 nv_p.3 pa_p.3 nv_r.3 pa_r.3 nv_a.3 pa_a.3 nv_b.3 pa_b.3 pu_g_d.3 pa_u.3 pu_u.3 pv_u.3 pu_v.3 pv_v.3 pu_p.3 pv_p.3 pu_r.3 pv_r.3 pu_a.3 pv_a.3 pu_b.3 pv_b.3 lfu_a.3 lav_a.3 ];
+
+@c_4 = [ tv_a.4 tv_u.4 nsfu_p.4 nsfu_v.4 sfu_p.4 sfv_p.4 sfu_r.4 sfv_r.4 sfu_a.4 sfv_a.4 nsfu_b.4 nsfv_b.4 nsfu_a.4 av_a.4 pu_g_m.4 nsfu_g.4 nv_v.4 pa_v.4 nv_p.4 pa_p.4 nv_r.4 pa_r.4 nv_a.4 pa_a.4 nv_b.4 pa_b.4 pu_g_d.4 pa_u.4 pu_u.4 pv_u.4 pu_v.4 pv_v.4 pu_p.4 pv_p.4 pu_r.4 pv_r.4 pu_a.4 pv_a.4 pu_b.4 pv_b.4 lfu_a.4 lav_a.4 ];
+
+@c_5 = [ tv_a.5 tv_u.5 nsfu_p.5 nsfu_v.5 sfu_p.5 sfv_p.5 sfu_r.5 sfv_r.5 sfu_a.5 sfv_a.5 nsfu_b.5 nsfv_b.5 nsfu_a.5 av_a.5 pu_g_m.5 nsfu_g.5 nv_v.5 pa_v.5 nv_p.5 pa_p.5 nv_r.5 pa_r.5 nv_a.5 pa_a.5 nv_b.5 pa_b.5 pu_g_d.5 pa_u.5 pu_u.5 pv_u.5 pu_v.5 pv_v.5 pu_p.5 pv_p.5 pu_r.5 pv_r.5 pu_a.5 pv_a.5 pu_b.5 pv_b.5 lfu_a.5 lav_a.5 ];
+
+@c_6 = [ tv_a.6 tv_u.6 nsfu_p.6 nsfu_v.6 sfu_p.6 sfv_p.6 sfu_r.6 sfv_r.6 sfu_a.6 sfv_a.6 nsfu_b.6 nsfv_b.6 nsfu_a.6 av_a.6 pu_g_m.6 nsfu_g.6 nv_v.6 pa_v.6 nv_p.6 pa_p.6 nv_r.6 pa_r.6 nv_a.6 pa_a.6 nv_b.6 pa_b.6 pu_g_d.6 pa_u.6 pu_u.6 pv_u.6 pu_v.6 pv_v.6 pu_p.6 pv_p.6 pu_r.6 pv_r.6 pu_a.6 pv_a.6 pu_b.6 pv_b.6 lfu_a.6 lav_a.6 ];
+
+@c_7 = [ tv_a.7 tv_u.7 nsfu_p.7 nsfu_v.7 sfu_p.7 sfv_p.7 sfu_r.7 sfv_r.7 sfu_a.7 sfv_a.7 nsfu_b.7 nsfv_b.7 nsfu_a.7 av_a.7 pu_g_m.7 nsfu_g.7 nv_v.7 pa_v.7 nv_p.7 pa_p.7 nv_r.7 pa_r.7 nv_a.7 pa_a.7 nv_b.7 pa_b.7 pu_g_d.7 pa_u.7 pu_u.7 pv_u.7 pu_v.7 pv_v.7 pu_p.7 pv_p.7 pu_r.7 pv_r.7 pu_a.7 pv_a.7 pu_b.7 pv_b.7 lfu_a.7 lav_a.7 ];
+
+@c_8 = [ tv_a.8 tv_u.8 nsfu_p.8 nsfu_v.8 sfu_p.8 sfv_p.8 sfu_r.8 sfv_r.8 sfu_a.8 sfv_a.8 nsfu_b.8 nsfv_b.8 nsfu_a.8 av_a.8 pu_g_m.8 nsfu_g.8 nv_v.8 pa_v.8 nv_p.8 pa_p.8 nv_r.8 pa_r.8 nv_a.8 pa_a.8 nv_b.8 pa_b.8 pu_g_d.8 pa_u.8 pu_u.8 pv_u.8 pu_v.8 pv_v.8 pu_p.8 pv_p.8 pu_r.8 pv_r.8 pu_a.8 pv_a.8 pu_b.8 pv_b.8 lfu_a.8 lav_a.8 ];
+
+@v = [  o_c m_c c_f c_b m_f m_b av_v_o_c av_v_m_c av_v_c_f av_v_c_b av_v_m_f av_v_m_b av_p_o_c av_p_m_c av_p_c_f av_p_c_b av_p_m_f av_p_m_b vb vn ];
+
+@vh = [ o_c m_c c_f c_b m_f m_b av_v_o_c av_v_m_c av_v_c_f av_v_c_b av_v_m_f av_v_m_b ];
+@vh_cv = [ o_c.a m_c.a c_f.a c_b.a m_f.a m_b.a av_v_o_c.a av_v_m_c.a av_v_c_f.a av_v_c_b.a av_v_m_f.a av_v_m_b.a ];
+@vh_cvc = [ o_c.b m_c.b c_f.b c_b.b m_f.b m_b.b av_v_o_c.b av_v_m_c.b av_v_c_f.b av_v_c_b.b av_v_m_f.b av_v_m_b.b ];
+
+@vv = [ av_p_o_c av_p_m_c av_p_c_f av_p_c_b av_p_m_f av_p_m_b ];
+@vv_cv = [ av_p_o_c.a av_p_m_c.a av_p_c_f.a av_p_c_b.a av_p_m_f.a av_p_m_b.a ];
+@vv_cvc = [ av_p_o_c.b av_p_m_c.b av_p_c_f.b av_p_c_b.b av_p_m_f.b av_p_m_b.b ];
+
+@v_pointy_b_1 = [ m_f.a m_f.b av_p_m_f.a av_p_m_f.b av_v_m_f.a av_v_m_f.b ];
+@v_extend_b_1 = [ m_f.a.e m_f.b.e av_p_m_f.a.e av_p_m_f.b.e av_v_m_f.a.e av_v_m_f.b.e ];
+
+@v_pointy_b_2 = [ m_b.a m_b.b av_p_m_b.a av_p_m_b.b av_v_m_b.a av_v_m_b.b ];
+@v_extend_b_2 = [ m_b.a.e m_b.b.e av_p_m_b.a.e av_p_m_b.b.e av_v_m_b.a.e av_v_m_b.b.e ];
+
+@v_pointy_a_1 = [ av_p_c_f.b  ];
+@v_extend_a_1 = [ av_p_c_f.b.e ];
+
+@v_pointy_a_2 = [ av_p_c_b.b ];
+@v_extend_a_2 = [ av_p_c_b.b.e ];
+
+@c_pointy_b_1 = [
+  tv_a.3 tv_a.5 tv_a.6
+  tv_u.3 tv_u.5 tv_u.6
+  sfu_p.3 sfu_p.5 sfu_p.6 
+  sfv_p.3 sfv_p.5 sfv_p.6 
+  sfu_r.3 sfu_r.5 sfu_r.6 
+  sfu_a.3 sfu_a.5 sfu_a.6 
+  nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 
+  nsfv_b.2 nsfv_b.3 nsfv_b.4 nsfv_b.5 nsfv_b.6 
+  nsfu_a.2 nsfu_a.4
+  av_a.2 av_a.4
+  pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6
+  nsfu_g.2 nsfu_g.4
+  nv_v.2 nv_v.3 nv_v.4 nv_v.5 nv_v.6
+  pa_v.2 pa_v.4
+  nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6
+  pa_p.2 pa_p.3 pa_p.4 pa_p.5 pa_p.6
+  nv_r.2 nv_r.4
+  pa_r.3 pa_r.4 pa_r.5 pa_r.6
+  pa_a.3 pa_a.5 pa_a.6
+  nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6
+  pa_b.3 pa_b.4 pa_b.5 pa_b.6
+  pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6
+  pa_u.2 pa_u.3 pa_u.4 pa_u.5 pa_u.6
+  pu_v.2 pu_v.4
+  pv_v.2 pv_v.4
+  pu_p.3 pu_p.5 pu_p.6
+  pv_p.3 pv_p.5 pv_p.6
+  pv_a.2 pv_a.4
+  pu_b.3 pu_b.5 pu_b.6
+  lfu_a.3 lfu_a.5 lfu_a.6
+];
+@c_pointy_b_2 = [
+  tv_a.3 tv_a.5 tv_a.6
+  tv_u.3 tv_u.5 tv_u.6
+  sfu_p.3 sfu_p.5 sfu_p.6 
+  sfv_p.3 sfv_p.5 sfv_p.6 
+  sfv_r.3 sfv_r.5 sfv_r.6 
+  sfv_a.3 sfv_a.5 sfv_a.6 
+  nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 
+  nsfv_b.3 nsfv_b.4 nsfv_b.5 nsfv_b.6
+  nsfu_a.4
+  av_a.4
+  pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6
+  nsfu_g.4 nsfu_g.5 nsfu_g.6
+  pa_v.3 pa_v.5 pa_v.6
+  nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6
+  nv_r.4
+  pa_r.4
+  nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6
+  pa_b.3 pa_b.4 pa_b.5 pa_b.6
+  pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6
+  pa_u.2 pa_u.3 pa_u.4 pa_u.5 pa_u.6
+  pv_v.2 pv_v.4
+  pu_p.3 pu_p.5 pu_p.6
+  pv_p.3 pv_p.5 pv_p.6
+  pv_a.2 pv_a.4
+  pu_b.3 pu_b.5 pu_b.6
+  lfu_a.3 lfu_a.5 lfu_a.6
+];
+@c_pointy_a_1 = [
+  tv_a.7 tv_u.7
+  sfu_r.7 sfv_r.7
+  nsfu_b.7 nsfv_b.7
+  nsfu_a.7 nsfv_b.7
+  pu_g_m.7
+  nv_v.7
+  nv_r.7 pa_r.7
+  pa_a.7
+  nv_b.7 pa_b.7
+  pu_g_d.7 pa_u.7
+  pu_p.7
+  pu_r.7 pv_r.7
+  pu_a.7
+  pu_b.7
+
+];
+@c_pointy_a_2 = [
+  tv_a.7 tv_u.7
+  sfu_r.7 sfv_r.7
+  nsfu_b.7 nsfv_b.7
+  nsfu_a.7 nsfv_b.7
+  pu_g_m.7
+  nv_r.7 pa_r.7
+  nv_b.7 pa_b.7
+  pu_g_d.7
+  pv_p.7
+  pu_r.7 pv_r.7
+  pv_a.7
+  pu_b.7 pv_b.7
+];
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+lookup ascii_input {
+  lookupflag 0;
+  sub q by tv_a;
+  sub Q by tv_u;
+  sub w by nsfu_p;
+  sub W by nsfu_v;
+  sub e by sfu_p;
+  sub E by sfv_p;
+  sub r by sfu_r;
+  sub R by sfv_r;
+  sub t by sfu_a;
+  sub T by sfv_a;
+  sub y by nsfu_b;
+  sub Y by nsfv_b;
+  sub u by nsfu_a;
+  sub U by av_a;
+  sub i by av_v_o_c;
+  sub I by av_v_m_c;
+  sub o by av_v_c_f;
+  sub O by av_v_c_b;
+  sub p by av_v_m_f;
+  sub P by av_v_m_b;
+  sub a by pu_g_m;
+  sub A by nsfu_g;
+  sub s by nv_v;
+  sub S by pa_v;
+  sub d by nv_p;
+  sub D by pa_p;
+  sub f by nv_r;
+  sub F by pa_r;
+  sub g by nv_a;
+  sub G by pa_a;
+  sub h by nv_b;
+  sub H by pa_b;
+  sub j by vn;
+  sub J by pa_u;
+  sub k by o_c;
+  sub K by m_c;
+  sub l by c_f;
+  sub L by c_b;
+  sub zero by m_f;
+  sub one by m_b;
+  sub z by pu_u;
+  sub Z by pv_u;
+  sub x by pu_v;
+  sub X by pv_v;
+  sub c by pu_p;
+  sub C by pv_p;
+  sub v by pu_r;
+  sub V by pv_r;
+  sub b by pu_a;
+  sub B by pv_a;
+  sub n by pu_b;
+  sub N by pv_b;
+  sub m by lfu_a;
+  sub M by lav_a;
+  sub two by av_p_o_c;
+  sub three by av_p_m_c;
+  sub four by av_p_c_f;
+  sub five by av_p_c_b;
+  sub six by av_p_m_f;
+  sub seven by av_p_m_b;
+  sub eight by vb;
+  sub nine by pu_g_d;
+  sub space by jj_space;
+} ascii_input;
+
+
+lookup cvc_3v_c1 {
+  lookupflag 0;
+  ignore sub @c' @vv @c @v;
+  sub @c' @vv @c by @c_5;
+} cvc_3v_c1;
+
+lookup cvc_3v_v {
+  lookupflag 0;
+  sub @c_5 @vv' @c by @vv_cvc;
+} cvc_3v_v;
+
+lookup cvc_3v_c3 {
+  lookupflag 0;
+  sub @c_5 @vv_cvc @c' by @c_7;
+} cvc_3v_c3;
+
+
+lookup cvc_3h_c1 {
+  lookupflag 0;
+  ignore sub @c' @vh @c @v;
+  sub @c' @vh @c by @c_4;
+} cvc_3h_c1;
+
+lookup cvc_3h_v {
+  lookupflag 0;
+  sub @c_4 @vh' @c by @vh_cvc;
+} cvc_3h_v;
+
+lookup cvc_3h_c3 {
+  lookupflag 0;
+  sub @c_4 @vh_cvc @c' by @c_7;
+} cvc_3h_c3;
+
+
+lookup cbc_c1 {
+  lookupflag 0;
+  ignore sub @c' vb @c @v;
+  sub @c' vb @c by @c_6;
+} cbc_c1;
+
+lookup cbc_b {
+  lookupflag 0;
+  sub @c_6 vb' @c by vb.empty;
+} cbc_b;
+
+lookup cbc_c3 {
+  lookupflag 0;
+  sub @c_6 vb.empty @c' by @c_8;
+} cbc_c3;
+
+
+lookup cnc_c1 {
+  lookupflag 0;
+  ignore sub @c' vn @c @v;
+  sub @c' vn @c by @c_5;
+} cnc_c1;
+
+lookup cnc_n {
+  lookupflag 0;
+  sub @c_5 vn' @c by vn.b;
+} cnc_n;
+
+lookup cnc_c3 {
+  lookupflag 0;
+  sub @c_5 vn.b @c' by @c_7;
+} cnc_c3;
+
+
+lookup cv_h_c {
+  lookupflag 0;
+  sub @c' @vh by @c_2;
+} cv_h_c;
+
+lookup cv_h_v {
+  lookupflag 0;
+  sub @c_2 @vh' by @vh_cv;
+} cv_h_v;
+
+
+lookup cv_v_c {
+  lookupflag 0;
+  sub @c' @vv by @c_3;
+} cv_v_c;
+
+lookup cv_v_v {
+  lookupflag 0;
+  sub @c_3 @vv' by @vv_cv;
+} cv_v_v;
+
+
+lookup cb_c {
+  lookupflag 0;
+  sub @c' vb by @c_1;
+} cb_c;
+
+lookup cb_b {
+  lookupflag 0;
+  sub @c_1 vb' by vb.empty;
+} cb_b;
+
+lookup cn_c {
+  lookupflag 0;
+  sub @c' vn by @c_3;
+} cn_c;
+
+lookup cn_n {
+  lookupflag 0;
+  sub @c_3 vn' by vn.a;
+} cn_n;
+
+
+lookup pointy_b_1 {
+  lookupflag 0;
+  sub @c_pointy_b_1 @v_pointy_b_1' by @v_extend_b_1;
+} pointy_b_1;
+
+lookup pointy_b_2 {
+  lookupflag 0;
+  sub @c_pointy_b_2 @v_pointy_b_2' by @v_extend_b_2;
+} pointy_b_2;
+
+
+lookup pointy_a_1 {
+  lookupflag 0;
+  sub @v_pointy_a_1' @c_pointy_a_1 by @v_extend_a_1;
+} pointy_a_1;
+
+lookup pointy_a_2 {
+  lookupflag 0;
+  sub @v_pointy_a_2' @c_pointy_a_2 by @v_extend_a_2;
+} pointy_a_2;
+
+feature liga {
+  script DFLT;
+    language dflt;
+    lookup ascii_input;
+    lookup cvc_3v_c1;
+    lookup cvc_3v_v;
+    lookup cvc_3v_c3;
+    lookup cvc_3h_c1;
+    lookup cvc_3h_v;
+    lookup cvc_3h_c3;
+    lookup cv_h_c;
+    lookup cv_h_v;
+    lookup cv_v_c;
+    lookup cv_v_v;
+    lookup cbc_c1;
+    lookup cbc_b;
+    lookup cbc_c3;
+    lookup cnc_c1;
+    lookup cnc_n;
+    lookup cnc_c3;
+    lookup cb_c;
+    lookup cb_b;
+    lookup cn_c;
+    lookup cn_n;
+    lookup pointy_b_1;
+    lookup pointy_b_2;
+    lookup pointy_a_1;
+    lookup pointy_a_2;
+  script latn;
+    language dflt;
+    lookup ascii_input;
+    lookup cvc_3v_c1;
+    lookup cvc_3v_v;
+    lookup cvc_3v_c3;
+    lookup cvc_3h_c1;
+    lookup cvc_3h_v;
+    lookup cvc_3h_c3;
+    lookup cv_h_c;
+    lookup cv_h_v;
+    lookup cv_v_c;
+    lookup cv_v_v;
+    lookup cbc_c1;
+    lookup cbc_b;
+    lookup cbc_c3;
+    lookup cnc_c1;
+    lookup cnc_n;
+    lookup cnc_c3;
+    lookup cb_c;
+    lookup cb_b;
+    lookup cn_c;
+    lookup cn_n;
+    lookup pointy_b_1;
+    lookup pointy_b_2;
+    lookup pointy_a_1;
+    lookup pointy_a_2;
+} liga;
