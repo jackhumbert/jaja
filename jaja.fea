@@ -47,7 +47,7 @@
   sfu_r.3 sfu_r.5 sfu_r.6 
   sfu_a.3 sfu_a.5 sfu_a.6 
   nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 
-  nsfv_b.2 nsfv_b.3 nsfv_b.4 nsfv_b.5 nsfv_b.6 
+  nsfv_b.2 nsfv_b.4 nsfv_b.6 
   nsfu_a.2 nsfu_a.4
   av_a.2 av_a.4
   pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6
@@ -57,17 +57,17 @@
   nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6
   pa_p.2 pa_p.3 pa_p.4 pa_p.5 pa_p.6
   nv_r.2 nv_r.4
-  pa_r.3 pa_r.4 pa_r.5 pa_r.6
+  pa_r.2 pa_r.3 pa_r.4 pa_r.5 pa_r.6
   pa_a.3 pa_a.5 pa_a.6
   nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6
-  pa_b.3 pa_b.4 pa_b.5 pa_b.6
+  pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6
   pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6
   pa_u.2 pa_u.3 pa_u.4 pa_u.5 pa_u.6
   pu_v.2 pu_v.4
   pv_v.2 pv_v.4
+  pv_a.3 pv_a.5
   pu_p.3 pu_p.5 pu_p.6
   pv_p.3 pv_p.5 pv_p.6
-  pv_a.2 pv_a.4
   pu_b.3 pu_b.5 pu_b.6
   lfu_a.3 lfu_a.5 lfu_a.6
 ];
@@ -78,32 +78,33 @@
   sfv_p.3 sfv_p.5 sfv_p.6 
   sfv_r.3 sfv_r.5 sfv_r.6 
   sfv_a.3 sfv_a.5 sfv_a.6 
-  nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 
-  nsfv_b.3 nsfv_b.4 nsfv_b.5 nsfv_b.6
-  nsfu_a.4
-  av_a.4
+  nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 
+  nsfv_b.2 nsfv_b.3 nsfv_b.4 nsfv_b.5 nsfv_b.6
+  nsfu_a.2 nsfu_a.4
+  av_a.2 av_a.4
   pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6
   nsfu_g.4 nsfu_g.5 nsfu_g.6
   pa_v.3 pa_v.5 pa_v.6
   nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6
   nv_r.4
-  pa_r.4
+  pa_r.2 pa_r.4
   nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6
-  pa_b.3 pa_b.4 pa_b.5 pa_b.6
+  pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6
   pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6
-  pa_u.2 pa_u.3 pa_u.4 pa_u.5 pa_u.6
+  pa_u.6
   pv_v.2 pv_v.4
   pu_p.3 pu_p.5 pu_p.6
   pv_p.3 pv_p.5 pv_p.6
-  pv_a.2 pv_a.4
+  pv_b.3 pv_b.5
   pu_b.3 pu_b.5 pu_b.6
   lfu_a.3 lfu_a.5 lfu_a.6
 ];
 @c_pointy_a_1 = [
   tv_a.7 tv_u.7
   sfu_r.7 sfv_r.7
-  nsfu_b.7 nsfv_b.7
-  nsfu_a.7 nsfv_b.7
+  sfv_a.7
+  nsfu_b.7
+  nsfu_a.7
   pu_g_m.7
   nv_v.7
   nv_r.7 pa_r.7
@@ -129,6 +130,9 @@
   pu_r.7 pv_r.7
   pv_a.7
   pu_b.7 pv_b.7
+  av_a.7
+  nsfu_g.7
+  pa_v.7
 ];
 
 languagesystem DFLT dflt;
