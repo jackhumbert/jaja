@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1626979397
-ModificationTime: 1627489424
+ModificationTime: 1627489624
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -112,7 +112,7 @@ EndFPST
 ChainSub2: coverage "pointy_b_1 subtable" 0 0 0 1
  1 1 0
   Coverage: 55 m_f.a m_f.b av_p_m_f.a av_p_m_f.b av_v_m_f.a av_v_m_f.b
-  BCoverage: 772 tv_a.3 tv_a.5 tv_a.6 tv_u.3 tv_u.5 tv_u.6 sfu_p.3 sfu_p.5 sfu_p.6 sfv_p.3 sfv_p.5 sfv_p.6 sfu_r.3 sfu_r.5 sfu_r.6 sfu_a.3 sfu_a.5 sfu_a.6 nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 nsfv_b.2 nsfv_b.4 nsfv_b.6 nsfu_a.2 nsfu_a.4 av_a.2 av_a.4 pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6 nsfu_g.2 nsfu_g.4 nv_v.2 nv_v.3 nv_v.4 nv_v.5 nv_v.6 pa_v.2 pa_v.4 nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6 pa_p.2 pa_p.3 pa_p.4 pa_p.5 pa_p.6 nv_r.2 nv_r.4 pa_r.2 pa_r.3 pa_r.4 pa_r.5 pa_r.6 pa_a.3 pa_a.5 pa_a.6 nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6 pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6 pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6 pa_u.2 pa_u.3 pa_u.4 pa_u.5 pa_u.6 pu_v.2 pu_v.4 pv_v.2 pv_v.4 pv_a.3 pv_a.5 pu_p.3 pu_p.5 pu_p.6 pv_p.3 pv_p.5 pv_p.6 pu_b.3 pu_b.5 pu_b.6 lfu_a.3 lfu_a.5 lfu_a.6
+  BCoverage: 786 tv_a.3 tv_a.5 tv_a.6 tv_u.3 tv_u.5 tv_u.6 sfu_p.3 sfu_p.5 sfu_p.6 sfv_p.3 sfv_p.5 sfv_p.6 sfu_r.3 sfu_r.5 sfu_r.6 sfu_a.3 sfu_a.5 sfu_a.6 nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 nsfv_b.2 nsfv_b.4 nsfv_b.6 nsfu_a.2 nsfu_a.4 av_a.2 av_a.4 pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6 nsfu_g.2 nsfu_g.4 nv_v.2 nv_v.3 nv_v.4 nv_v.5 nv_v.6 pa_v.2 pa_v.4 nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6 pa_p.2 pa_p.3 pa_p.4 pa_p.5 pa_p.6 nv_r.2 nv_r.4 pa_r.2 pa_r.3 pa_r.4 pa_r.5 pa_r.6 pa_a.3 pa_a.5 pa_a.6 nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6 pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6 pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6 pa_u.2 pa_u.3 pa_u.4 pa_u.5 pa_u.6 pu_v.2 pu_v.4 pv_v.2 pv_v.4 pv_r.3 pv_r.5 pv_a.3 pv_a.5 pu_p.3 pu_p.5 pu_p.6 pv_p.3 pv_p.5 pv_p.6 pu_b.3 pu_b.5 pu_b.6 lfu_a.3 lfu_a.5 lfu_a.6
  1
   SeqLookup: 0 "Single Substitution lookup 42"
 EndFPST
@@ -306,7 +306,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 396 18 8
+WinInfo: 342 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -13185,37 +13185,37 @@ AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-300 50 m 0
- 327.595703125 50 350 27.595703125 350 0 c 0
- 350 -27.595703125 327.595703125 -50 300 -50 c 0
- 272.404296875 -50 250 -27.595703125 250 0 c 0
- 250 27.595703125 272.404296875 50 300 50 c 0
-700 50 m 0
- 727.595703125 50 750 27.595703125 750 0 c 0
- 750 -27.595703125 727.595703125 -50 700 -50 c 0
- 672.404296875 -50 650 -27.595703125 650 0 c 0
- 650 27.595703125 672.404296875 50 700 50 c 0
+350 50 m 0
+ 377.595703125 50 400 27.595703125 400 0 c 0
+ 400 -27.595703125 377.595703125 -50 350 -50 c 0
+ 322.404296875 -50 300 -27.595703125 300 0 c 0
+ 300 27.595703125 322.404296875 50 350 50 c 0
+650 50 m 4
+ 677.595703125 50 700 27.595703125 700 0 c 4
+ 700 -27.595703125 677.595703125 -50 650 -50 c 4
+ 622.404296875 -50 600 -27.595703125 600 0 c 4
+ 600 27.595703125 622.404296875 50 650 50 c 4
 EndSplineSet
 EndChar
 
 StartChar: av_p_m_c.b
 Encoding: 401 -1 401
 Width: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-300 350 m 0
- 327.595703125 350 350 327.595703125 350 300 c 0
- 350 272.404296875 327.595703125 250 300 250 c 0
- 272.404296875 250 250 272.404296875 250 300 c 0
- 250 327.595703125 272.404296875 350 300 350 c 0
-700 350 m 0
- 727.595703125 350 750 327.595703125 750 300 c 0
- 750 272.404296875 727.595703125 250 700 250 c 0
- 672.404296875 250 650 272.404296875 650 300 c 0
- 650 327.595703125 672.404296875 350 700 350 c 0
+350 350 m 0
+ 377.595703125 350 400 327.595703125 400 300 c 0
+ 400 272.404296875 377.595703125 250 350 250 c 0
+ 322.404296875 250 300 272.404296875 300 300 c 0
+ 300 327.595703125 322.404296875 350 350 350 c 0
+650 350 m 4
+ 677.595703125 350 700 327.595703125 700 300 c 4
+ 700 272.404296875 677.595703125 250 650 250 c 4
+ 622.404296875 250 600 272.404296875 600 300 c 4
+ 600 327.595703125 622.404296875 350 650 350 c 4
 EndSplineSet
 EndChar
 
@@ -15048,7 +15048,7 @@ EndChar
 StartChar: av_p_m_f.b.e
 Encoding: 511 -1 509
 Width: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
