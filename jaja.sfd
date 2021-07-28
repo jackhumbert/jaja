@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1626979397
-ModificationTime: 1627489624
+ModificationTime: 1627490060
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -98,14 +98,14 @@ EndFPST
 ChainSub2: coverage "pointy_a_1 subtable" 0 0 0 1
  1 0 1
   Coverage: 10 av_p_c_f.b
-  FCoverage: 157 tv_a.7 tv_u.7 sfu_r.7 sfv_r.7 sfv_a.7 nsfu_b.7 nsfu_a.7 pu_g_m.7 nv_v.7 nv_r.7 pa_r.7 pa_a.7 nv_b.7 pa_b.7 pu_g_d.7 pa_u.7 pu_p.7 pu_r.7 pv_r.7 pu_a.7 pu_b.7
+  FCoverage: 164 tv_a.7 tv_u.7 sfu_r.7 sfv_r.7 sfv_a.7 nsfu_b.7 nsfu_a.7 pu_g_m.7 nv_v.7 nv_r.7 pa_r.7 pa_a.7 nv_b.7 pa_b.7 pu_g_d.7 pa_u.7 pu_p.7 pu_r.7 pv_r.7 pu_a.7 pu_b.7 pa_p.7
  1
   SeqLookup: 0 "Single Substitution lookup 46"
 EndFPST
 ChainSub2: coverage "pointy_b_2 subtable" 0 0 0 1
  1 1 0
   Coverage: 55 m_b.a m_b.b av_p_m_b.a av_p_m_b.b av_v_m_b.a av_v_m_b.b
-  BCoverage: 645 tv_a.3 tv_a.5 tv_a.6 tv_u.3 tv_u.5 tv_u.6 sfu_p.3 sfu_p.5 sfu_p.6 sfv_p.3 sfv_p.5 sfv_p.6 sfv_r.3 sfv_r.5 sfv_r.6 sfv_a.3 sfv_a.5 sfv_a.6 nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 nsfv_b.2 nsfv_b.3 nsfv_b.4 nsfv_b.5 nsfv_b.6 nsfu_a.2 nsfu_a.4 av_a.2 av_a.4 pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6 nsfu_g.4 nsfu_g.5 nsfu_g.6 pa_v.3 pa_v.5 pa_v.6 nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6 nv_r.4 pa_r.2 pa_r.4 nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6 pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6 pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6 pa_u.6 pv_v.2 pv_v.4 pu_p.3 pu_p.5 pu_p.6 pv_p.3 pv_p.5 pv_p.6 pv_b.3 pv_b.5 pu_b.3 pu_b.5 pu_b.6 lfu_a.3 lfu_a.5 lfu_a.6
+  BCoverage: 696 tv_a.3 tv_a.5 tv_a.6 tv_u.3 tv_u.5 tv_u.6 sfu_p.3 sfu_p.5 sfu_p.6 sfv_p.3 sfv_p.5 sfv_p.6 sfv_r.3 sfv_r.5 sfv_r.6 sfv_a.3 sfv_a.5 sfv_a.6 nsfu_b.2 nsfu_b.3 nsfu_b.4 nsfu_b.5 nsfu_b.6 nsfv_b.2 nsfv_b.3 nsfv_b.4 nsfv_b.5 nsfv_b.6 nsfu_a.2 nsfu_a.4 av_a.2 av_a.4 pu_g_m.2 pu_g_m.3 pu_g_m.4 pu_g_m.5 pu_g_m.6 nsfu_g.4 nsfu_g.5 nsfu_g.6 pa_v.3 pa_v.5 pa_v.6 nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6 pa_p.2 pa_p.3 pa_p.4 pa_p.5 nv_r.2 nv_r.4 pa_r.2 pa_r.4 nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6 pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6 pu_g_d.2 pu_g_d.3 pu_g_d.4 pu_g_d.5 pu_g_d.6 pa_u.6 pv_v.2 pv_v.4 pu_p.3 pu_p.5 pu_p.6 pv_p.3 pv_p.5 pv_p.6 pv_b.3 pv_b.5 pu_b.3 pu_b.5 pu_b.6 lfu_a.3 lfu_a.5 lfu_a.6 lav_a.3 lav_a.5
  1
   SeqLookup: 0 "Single Substitution lookup 44"
 EndFPST
@@ -306,7 +306,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 342 18 8
+WinInfo: 396 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -13201,7 +13201,7 @@ EndChar
 StartChar: av_p_m_c.b
 Encoding: 401 -1 401
 Width: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14842,8 +14842,8 @@ AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-500 450 m 2
- 500 350 l 2
+480 450 m 2
+ 480 350 l 2
  650 350 l 1
  650 300 l 2
  650 272.404296875 672.404296875 250 700 250 c 0
@@ -14854,11 +14854,11 @@ SplineSet
  750 727.595703125 727.595703125 750 700 750 c 0
  672.404296875 750 650 727.595703125 650 700 c 2
  650 650 l 1
- 500 650 l 2
- 500 550 l 2
+ 480 650 l 2
+ 480 550 l 2
  650 550 l 1
  650 450 l 1
- 500 450 l 2
+ 480 450 l 2
 950 700 m 2
  950 727.595703125 927.595703125 750 900 750 c 0
  872.404296875 750 850 727.595703125 850 700 c 2
@@ -14974,7 +14974,7 @@ EndChar
 StartChar: av_p_c_f.b.e
 Encoding: 508 -1 506
 Width: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14983,8 +14983,8 @@ SplineSet
  72.404296875 350 50 327.595703125 50 300 c 0
  50 272.404296875 72.404296875 250 100 250 c 2
  450 250 l 1
- 450 120 l 2
- 550 120 l 2
+ 450 110 l 2
+ 550 110 l 2
  550 250 l 1
  900 250 l 2
  927.595703125 250 950 272.404296875 950 300 c 0

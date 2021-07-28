@@ -87,7 +87,8 @@
   nsfu_g.4 nsfu_g.5 nsfu_g.6
   pa_v.3 pa_v.5 pa_v.6
   nv_p.2 nv_p.3 nv_p.4 nv_p.5 nv_p.6
-  nv_r.4
+  pa_p.2 pa_p.3 pa_p.4 pa_p.5
+  nv_r.2 nv_r.4
   pa_r.2 pa_r.4
   nv_b.2 nv_b.3 nv_b.4 nv_b.5 nv_b.6
   pa_b.2 pa_b.3 pa_b.4 pa_b.5 pa_b.6
@@ -99,6 +100,7 @@
   pv_b.3 pv_b.5
   pu_b.3 pu_b.5 pu_b.6
   lfu_a.3 lfu_a.5 lfu_a.6
+  lav_a.3 lav_a.5
 ];
 @c_pointy_a_1 = [
   tv_a.7 tv_u.7
@@ -116,6 +118,7 @@
   pu_r.7 pv_r.7
   pu_a.7
   pu_b.7
+  pa_p.7
 
 ];
 @c_pointy_a_2 = [
