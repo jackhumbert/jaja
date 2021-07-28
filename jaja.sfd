@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1626979397
-ModificationTime: 1627490189
+ModificationTime: 1627490591
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -98,7 +98,7 @@ EndFPST
 ChainSub2: coverage "pointy_a_1 subtable" 0 0 0 1
  1 0 1
   Coverage: 10 av_p_c_f.b
-  FCoverage: 164 tv_a.7 tv_u.7 sfu_r.7 sfv_r.7 sfv_a.7 nsfu_b.7 nsfu_a.7 pu_g_m.7 nv_v.7 nv_r.7 pa_r.7 pa_a.7 nv_b.7 pa_b.7 pu_g_d.7 pa_u.7 pu_p.7 pu_r.7 pv_r.7 pu_a.7 pu_b.7 pa_p.7
+  FCoverage: 172 tv_a.7 tv_u.7 sfu_r.7 sfv_r.7 sfv_a.7 sfv_p.7 nsfu_b.7 nsfu_a.7 pu_g_m.7 nv_v.7 nv_r.7 pa_r.7 pa_a.7 nv_b.7 pa_b.7 pu_g_d.7 pa_u.7 pu_p.7 pu_r.7 pv_r.7 pu_a.7 pu_b.7 pa_p.7
  1
   SeqLookup: 0 "Single Substitution lookup 46"
 EndFPST
