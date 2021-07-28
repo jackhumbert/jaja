@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1626979397
-ModificationTime: 1627498637
+ModificationTime: 1627501602
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -306,7 +306,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 396 18 8
+WinInfo: 234 18 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -327,32 +327,34 @@ BeginChars: 529 515
 StartChar: tv_a
 Encoding: 0 -1 0
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 50 500<159.23 450 550 840.77> 650 100<159.23 840.77>
+VStem: 50 400<50 550> 50 100<-40.7701 40.7701 559.23 640.77> 550 400<50 550> 850 100<-40.7701 40.7701 559.23 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
 500 600 m 1
- 500 0 l 1025
+ 500 0 l 1025xe0
 200 0 m 1
  800 0 l 1025
 200 600 m 1
  800 600 l 1025
 800 650 m 0
  600 650 400 650 200 650 c 0
- 172.404296875 650 150 627.595703125 150 600 c 0
+ 172.404296875 650 150 627.595703125 150 600 c 0xea
  150 572.404296875 172.404296875 550 200 550 c 2
  450 550 l 1
- 450 50 l 1
+ 450 50 l 1xf0
  200 50 l 2
  172.404296875 50 150 27.595703125 150 -1.11022302463e-14 c 0
  150 -27.595703125 172.404296875 -50 200 -50 c 2
  800 -50 l 2
- 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0
+ 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0xea
  850 27.595703125 827.595703125 50 800 50 c 2
  550 50 l 1
- 550 550 l 1
+ 550 550 l 1xe4
  800 550 l 2
- 827.595703125 550 850 572.404296875 850 600 c 0
+ 827.595703125 550 850 572.404296875 850 600 c 0xe2
  850 627.595703125 827.595703125 650 800 650 c 0
 100 750 m 2
  900 750 l 2
@@ -381,7 +383,7 @@ EndChar
 StartChar: tv_a.1
 Encoding: 1 -1 1
 Width: 1000
-Flags: H
+HStem: -50 100<159.23 200 800 840.77> 550 100<159.23 200 800 840.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -410,7 +412,7 @@ EndChar
 StartChar: tv_a.2
 Encoding: 2 -1 2
 Width: 1000
-Flags: H
+HStem: -50 100<59.2299 100 500 540.77> 550 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -440,7 +442,7 @@ EndChar
 StartChar: tv_a.3
 Encoding: 3 -1 3
 Width: 1000
-Flags: H
+HStem: 250 100<159.23 200 800 840.77> 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -470,7 +472,7 @@ EndChar
 StartChar: tv_a.4
 Encoding: 4 -1 4
 Width: 1000
-Flags: H
+HStem: 250 100<59.2299 100 500 540.77> 650 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -500,7 +502,7 @@ EndChar
 StartChar: tv_a.5
 Encoding: 5 -1 5
 Width: 1000
-Flags: H
+HStem: 450 100<159.23 200 800 840.77> 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -530,7 +532,7 @@ EndChar
 StartChar: tv_a.6
 Encoding: 6 -1 6
 Width: 1000
-Flags: H
+HStem: 350 100<159.23 200 800 840.77> 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -560,7 +562,8 @@ EndChar
 StartChar: tv_a.7
 Encoding: 7 -1 7
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 800 840.77> 50 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -590,7 +593,8 @@ EndChar
 StartChar: tv_a.8
 Encoding: 8 -1 8
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 800 840.77> 150 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -620,27 +624,29 @@ EndChar
 StartChar: tv_u
 Encoding: 9 -1 9
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 50 500<159.23 300 400 600 700 840.77> 650 100<159.23 840.77>
+VStem: 50 250<50 550> 50 100<-40.7701 40.7701 559.23 640.77> 400 200<50 550> 700 250<50 550> 850 100<-40.7701 40.7701 559.23 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
-800 650 m 2
+800 650 m 2xe5
  200 650 l 2
- 172.404296875 650 150 627.595703125 150 600 c 0
+ 172.404296875 650 150 627.595703125 150 600 c 0xed
  150 572.404296875 172.404296875 550 200 550 c 2
  300 550 l 1
- 300 50 l 1
+ 300 50 l 1xf4
  200 50 l 2
  172.404296875 50 150 27.595703125 150 -1.11022302463e-14 c 0
  150 -27.595703125 172.404296875 -50 200 -50 c 2
  800 -50 l 2
- 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0
+ 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0xed
  850 27.595703125 827.595703125 50 800 50 c 2
  700 50 l 1
- 700 550 l 1
+ 700 550 l 1xe6
  800 550 l 2
  827.595703125 550 850 572.404296875 850 600 c 0
- 850 627.595703125 827.595703125 650 800 650 c 2
+ 850 627.595703125 827.595703125 650 800 650 c 2xe5
 100 750 m 2
  900 750 l 2
  927.594726562 749.997070312 949.997070312 727.594726562 950 700 c 2
@@ -673,7 +679,7 @@ EndChar
 StartChar: tv_u.1
 Encoding: 10 -1 10
 Width: 1000
-Flags: H
+HStem: -50 100<159.23 200 800 840.77> 550 100<159.23 200 800 840.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -709,7 +715,7 @@ EndChar
 StartChar: tv_u.2
 Encoding: 11 -1 11
 Width: 1000
-Flags: H
+HStem: -50 100<59.2299 100 500 540.77> 550 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -746,7 +752,7 @@ EndChar
 StartChar: tv_u.3
 Encoding: 12 -1 12
 Width: 1000
-Flags: H
+HStem: 250 100<159.23 200 800 840.77> 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -783,7 +789,7 @@ EndChar
 StartChar: tv_u.4
 Encoding: 13 -1 13
 Width: 1000
-Flags: H
+HStem: 250 100<59.2299 100 500 540.77> 650 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -820,7 +826,7 @@ EndChar
 StartChar: tv_u.5
 Encoding: 14 -1 14
 Width: 1000
-Flags: H
+HStem: 450 100<159.23 200 800 840.77> 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -857,7 +863,7 @@ EndChar
 StartChar: tv_u.6
 Encoding: 15 -1 15
 Width: 1000
-Flags: H
+HStem: 350 100<159.229 199.999 799.999 840.769> 650 100<159.229 199.999 799.999 840.769>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -894,7 +900,8 @@ EndChar
 StartChar: tv_u.7
 Encoding: 16 -1 16
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 800 840.77> 50 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -931,7 +938,8 @@ EndChar
 StartChar: tv_u.8
 Encoding: 17 -1 17
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 800 840.77> 150 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -968,7 +976,8 @@ EndChar
 StartChar: nsfu_p
 Encoding: 18 -1 18
 Width: 1000
-Flags: H
+HStem: -150 100<359.093 440.907 759.093 841.418> 650 100<158.582 240.907 559.093 640.907>
+VStem: 50 100<527.947 641.02> 850 100<-41.0195 72.0527>
 LayerCount: 2
 Fore
 SplineSet
@@ -1018,7 +1027,6 @@ EndChar
 StartChar: nsfu_p.1
 Encoding: 19 -1 19
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -1043,7 +1051,7 @@ EndChar
 StartChar: nsfu_p.2
 Encoding: 20 -1 20
 Width: 1000
-Flags: H
+VStem: 184.522 97.6211<-41.8921 20.6217> 317.856 97.6211<579.378 641.892>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1069,7 +1077,7 @@ EndChar
 StartChar: nv_p.6
 Encoding: 168 -1 21
 Width: 1000
-Flags: H
+VStem: 150 100<700 740.77> 750 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1093,7 +1101,9 @@ EndChar
 StartChar: nv_p.7
 Encoding: 169 -1 22
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300<159.23 240.77 759.23 840.77>
+VStem: 150 100<100 140.77> 750 100<100 140.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -1117,7 +1127,8 @@ EndChar
 StartChar: nv_p.8
 Encoding: 170 -1 23
 Width: 0
-Flags: HW
+Flags: W
+VStem: 150 100<200 240.77> 750 100<200 240.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -1141,7 +1152,8 @@ EndChar
 StartChar: pa_p
 Encoding: 171 -1 24
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 650 100<159.23 240.77 459.23 540.77 759.23 840.77>
+VStem: 50 100<-40.7701 640.77> 250 200<50 640.77> 550 200<50 640.77> 850 100<-40.7701 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -1196,7 +1208,8 @@ EndChar
 StartChar: pa_p.1
 Encoding: 172 -1 25
 Width: 1000
-Flags: H
+VStem: 150 100<600 640.77> 450 100<600 640.77> 750 100<600 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -1225,7 +1238,8 @@ EndChar
 StartChar: pa_p.2
 Encoding: 173 -1 26
 Width: 1000
-Flags: H
+VStem: 50 100<600 640.77> 250 100<600 640.77> 450 100<600 640.77>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1255,7 +1269,8 @@ EndChar
 StartChar: pa_p.3
 Encoding: 174 -1 27
 Width: 1000
-Flags: H
+VStem: 150 100<700 740.77> 450 100<700 740.77> 750 100<700 740.77>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1285,7 +1300,8 @@ EndChar
 StartChar: pa_p.4
 Encoding: 175 -1 28
 Width: 1000
-Flags: H
+VStem: 50 100<700 740.77> 250 100<700 740.77> 450 100<700 740.77>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1315,7 +1331,9 @@ EndChar
 StartChar: pa_p.5
 Encoding: 176 -1 29
 Width: 1000
-Flags: H
+HStem: 450 300<159.23 240.77 459.23 540.77 759.23 840.77>
+VStem: 150 100<700 740.77> 450 100<700 740.77> 750 100<700 740.77>
+CounterMasks: 1 70
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1345,7 +1363,8 @@ EndChar
 StartChar: pa_p.6
 Encoding: 177 -1 30
 Width: 1000
-Flags: H
+VStem: 150 100<700 740.77> 450 100<700 740.77> 750 100<700 740.77>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1375,7 +1394,10 @@ EndChar
 StartChar: pa_p.7
 Encoding: 178 -1 31
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300<159.23 240.77 459.23 540.77 759.23 840.77>
+VStem: 150 100<100 140.77> 450 100<100 140.77> 750 100<100 140.77>
+CounterMasks: 1 70
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -1405,7 +1427,9 @@ EndChar
 StartChar: pa_p.8
 Encoding: 179 -1 32
 Width: 0
-Flags: HW
+Flags: W
+VStem: 150 100<200 240.77> 450 100<200 240.77> 750 100<200 240.77>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -1435,7 +1459,6 @@ EndChar
 StartChar: nsfu_p.3
 Encoding: 21 -1 33
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1463,7 +1486,6 @@ EndChar
 StartChar: nsfu_p.4
 Encoding: 22 -1 34
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1489,7 +1511,7 @@ EndChar
 StartChar: nsfu_p.5
 Encoding: 23 -1 35
 Width: 1000
-Flags: H
+HStem: 450 300
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1517,7 +1539,6 @@ EndChar
 StartChar: nsfu_p.6
 Encoding: 24 -1 36
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1545,7 +1566,8 @@ EndChar
 StartChar: nsfu_p.7
 Encoding: 25 -1 37
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -1573,7 +1595,7 @@ EndChar
 StartChar: nsfu_p.8
 Encoding: 26 -1 38
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -1601,7 +1623,8 @@ EndChar
 StartChar: nsfu_v
 Encoding: 27 -1 39
 Width: 1000
-Flags: H
+HStem: -150 100<158.573 240.907 559.093 640.907> 650 100<359.093 440.907 759.093 841.427>
+VStem: 50 100<-41.0076 72.0527> 850 100<527.947 641.008>
 LayerCount: 2
 Fore
 SplineSet
@@ -1651,7 +1674,6 @@ EndChar
 StartChar: nsfu_v.1
 Encoding: 28 -1 40
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -1676,7 +1698,7 @@ EndChar
 StartChar: nsfu_v.2
 Encoding: 29 -1 41
 Width: 1000
-Flags: H
+VStem: 184.522 97.6211<579.378 641.892> 317.856 97.6211<-41.8921 20.6217>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1702,7 +1724,6 @@ EndChar
 StartChar: nsfu_v.3
 Encoding: 30 -1 42
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1730,7 +1751,6 @@ EndChar
 StartChar: nsfu_v.4
 Encoding: 31 -1 43
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1756,7 +1776,7 @@ EndChar
 StartChar: nsfu_v.5
 Encoding: 32 -1 44
 Width: 1000
-Flags: H
+HStem: 450 300
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1784,7 +1804,6 @@ EndChar
 StartChar: nsfu_v.6
 Encoding: 33 -1 45
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1812,7 +1831,8 @@ EndChar
 StartChar: nsfu_v.7
 Encoding: 34 -1 46
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -1840,7 +1860,7 @@ EndChar
 StartChar: nsfu_v.8
 Encoding: 35 -1 47
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -1868,7 +1888,8 @@ EndChar
 StartChar: sfu_p
 Encoding: 36 -1 48
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 650 100<159.23 241.275 758.725 840.77>
+VStem: 50 100<-40.7701 40.7701 544.707 640.77> 850 100<-40.7701 40.7701 544.707 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -1917,7 +1938,7 @@ EndChar
 StartChar: sfu_p.1
 Encoding: 37 -1 49
 Width: 1000
-Flags: H
+HStem: -50 100<159.23 200 800 840.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -1946,7 +1967,7 @@ EndChar
 StartChar: sfu_p.2
 Encoding: 38 -1 50
 Width: 1000
-Flags: H
+HStem: -50 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -1974,7 +1995,7 @@ EndChar
 StartChar: sfu_p.3
 Encoding: 39 -1 51
 Width: 1000
-Flags: H
+HStem: 250 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2004,7 +2025,7 @@ EndChar
 StartChar: sfu_p.4
 Encoding: 40 -1 52
 Width: 1000
-Flags: H
+HStem: 250 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2034,7 +2055,7 @@ EndChar
 StartChar: sfu_p.5
 Encoding: 41 -1 53
 Width: 1000
-Flags: H
+HStem: 450 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2063,7 +2084,7 @@ EndChar
 StartChar: sfu_p.6
 Encoding: 42 -1 54
 Width: 1000
-Flags: H
+HStem: 350 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2093,7 +2114,8 @@ EndChar
 StartChar: sfu_p.7
 Encoding: 43 -1 55
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -2122,7 +2144,8 @@ EndChar
 StartChar: sfu_p.8
 Encoding: 44 -1 56
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -2152,7 +2175,8 @@ EndChar
 StartChar: sfv_p
 Encoding: 45 -1 57
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 650 100<159.078 241.364 458.636 541.364 758.636 840.924>
+VStem: 50 100<-40.7701 40.7701 512.216 640.998> 850 100<-40.7701 40.7701 512.216 640.995>
 LayerCount: 2
 Fore
 SplineSet
@@ -2211,7 +2235,7 @@ EndChar
 StartChar: sfv_p.1
 Encoding: 46 -1 58
 Width: 1000
-Flags: H
+HStem: -50 100<159.23 200 800 840.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -2247,7 +2271,8 @@ EndChar
 StartChar: sfv_p.2
 Encoding: 47 -1 59
 Width: 1000
-Flags: H
+HStem: -50 100<59.2299 100 500 540.77>
+VStem: 250.682 98.6367<566.268 641.291>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2282,7 +2307,7 @@ EndChar
 StartChar: sfv_p.3
 Encoding: 48 -1 60
 Width: 1000
-Flags: H
+HStem: 250 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2317,7 +2342,7 @@ EndChar
 StartChar: sfv_p.4
 Encoding: 49 -1 61
 Width: 1000
-Flags: H
+HStem: 250 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2352,7 +2377,7 @@ EndChar
 StartChar: sfv_p.5
 Encoding: 50 -1 62
 Width: 1000
-Flags: H
+HStem: 450 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2389,7 +2414,7 @@ EndChar
 StartChar: sfv_p.6
 Encoding: 51 -1 63
 Width: 1000
-Flags: H
+HStem: 350 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2426,7 +2451,8 @@ EndChar
 StartChar: sfv_p.7
 Encoding: 52 -1 64
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -2463,7 +2489,8 @@ EndChar
 StartChar: sfv_p.8
 Encoding: 53 -1 65
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -2502,7 +2529,8 @@ EndChar
 StartChar: sfu_r
 Encoding: 54 -1 66
 Width: 1000
-Flags: H
+HStem: -150 100<458.725 541.275> 650 100<159.23 840.77>
+VStem: 50 100<549.562 640.77> 850 100<549.562 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -2547,7 +2575,6 @@ EndChar
 StartChar: sfu_r.1
 Encoding: 55 -1 67
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -2571,7 +2598,6 @@ EndChar
 StartChar: sfu_r.2
 Encoding: 56 -1 68
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2594,7 +2620,6 @@ EndChar
 StartChar: sfu_r.3
 Encoding: 57 -1 69
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2619,7 +2644,6 @@ EndChar
 StartChar: sfu_r.4
 Encoding: 58 -1 70
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2644,7 +2668,6 @@ EndChar
 StartChar: sfu_r.5
 Encoding: 59 -1 71
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2668,7 +2691,6 @@ EndChar
 StartChar: sfu_r.6
 Encoding: 60 -1 72
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2693,7 +2715,7 @@ EndChar
 StartChar: sfu_r.7
 Encoding: 61 -1 73
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -2717,7 +2739,7 @@ EndChar
 StartChar: sfu_r.8
 Encoding: 62 -1 74
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -2742,7 +2764,8 @@ EndChar
 StartChar: sfv_r
 Encoding: 63 -1 75
 Width: 1000
-Flags: H
+HStem: -150 100<308.636 391.364 608.636 691.364> 650 100<159.078 840.924>
+VStem: 50 100<512.852 640.998> 850 100<512.852 640.995>
 LayerCount: 2
 Fore
 SplineSet
@@ -2797,7 +2820,6 @@ EndChar
 StartChar: sfv_r.1
 Encoding: 64 -1 76
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -2827,7 +2849,7 @@ EndChar
 StartChar: sfv_r.2
 Encoding: 65 -1 77
 Width: 1000
-Flags: H
+VStem: 150.682 98.6367<-41.29 33.7334> 350.682 98.6367<-41.29 33.7334>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2858,7 +2880,7 @@ EndChar
 StartChar: sfv_r.3
 Encoding: 66 -1 78
 Width: 1000
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2889,7 +2911,6 @@ EndChar
 StartChar: sfv_r.4
 Encoding: 67 -1 79
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2920,7 +2941,6 @@ EndChar
 StartChar: sfv_r.5
 Encoding: 68 -1 80
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2953,7 +2973,6 @@ EndChar
 StartChar: sfv_r.6
 Encoding: 69 -1 81
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -2986,7 +3005,7 @@ EndChar
 StartChar: sfv_r.7
 Encoding: 70 -1 82
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -3019,7 +3038,7 @@ EndChar
 StartChar: sfv_r.8
 Encoding: 71 -1 83
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -3052,7 +3071,8 @@ EndChar
 StartChar: sfu_a
 Encoding: 72 -1 84
 Width: 1000
-Flags: H
+HStem: -150 100<458.725 541.275> 650 100<159.23 241.275 758.725 840.77>
+VStem: 50 100<549.562 640.77> 850 100<549.562 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -3096,7 +3116,6 @@ EndChar
 StartChar: sfu_a.1
 Encoding: 73 -1 85
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -3119,7 +3138,6 @@ EndChar
 StartChar: sfu_a.2
 Encoding: 74 -1 86
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3141,7 +3159,6 @@ EndChar
 StartChar: sfu_a.3
 Encoding: 75 -1 87
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3165,7 +3182,6 @@ EndChar
 StartChar: sfu_a.4
 Encoding: 76 -1 88
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3189,7 +3205,6 @@ EndChar
 StartChar: sfu_a.5
 Encoding: 77 -1 89
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3212,7 +3227,6 @@ EndChar
 StartChar: sfu_a.6
 Encoding: 78 -1 90
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3236,7 +3250,7 @@ EndChar
 StartChar: sfu_a.7
 Encoding: 79 -1 91
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -3259,7 +3273,7 @@ EndChar
 StartChar: sfu_a.8
 Encoding: 80 -1 92
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -3283,7 +3297,8 @@ EndChar
 StartChar: sfv_a
 Encoding: 81 -1 93
 Width: 1000
-Flags: H
+HStem: -150 100<308.636 391.364 608.636 691.364> 650 100<159.078 241.364 458.636 541.364 758.636 840.924>
+VStem: 50 100<512.852 640.998> 850 100<512.852 640.995>
 LayerCount: 2
 Fore
 SplineSet
@@ -3337,7 +3352,6 @@ EndChar
 StartChar: sfv_a.1
 Encoding: 82 -1 94
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -3366,7 +3380,8 @@ EndChar
 StartChar: sfv_a.2
 Encoding: 83 -1 95
 Width: 1000
-Flags: H
+VStem: 150.682 98.6367<-41.29 33.7334> 250.682 98.6367<566.267 641.29> 350.682 98.6367<-41.29 33.7334>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3396,7 +3411,6 @@ EndChar
 StartChar: sfv_a.3
 Encoding: 84 -1 96
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3426,7 +3440,6 @@ EndChar
 StartChar: sfv_a.4
 Encoding: 85 -1 97
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3456,7 +3469,7 @@ EndChar
 StartChar: sfv_a.5
 Encoding: 86 -1 98
 Width: 1000
-Flags: H
+HStem: 450 300
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3488,7 +3501,6 @@ EndChar
 StartChar: sfv_a.6
 Encoding: 87 -1 99
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3520,7 +3532,8 @@ EndChar
 StartChar: sfv_a.7
 Encoding: 88 -1 100
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -3552,7 +3565,7 @@ EndChar
 StartChar: sfv_a.8
 Encoding: 89 -1 101
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -3584,7 +3597,9 @@ EndChar
 StartChar: nsfu_b
 Encoding: 90 -1 102
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 50 500<159.23 750> 650 100<159.23 840.77>
+VStem: 50 100<-40.7701 40.7701 559.23 640.77> 850 100<-40.7701 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -3628,7 +3643,7 @@ EndChar
 StartChar: nsfu_b.1
 Encoding: 91 -1 103
 Width: 1000
-Flags: H
+HStem: -50 100<159.23 200> 550 100<159.23 200>
 LayerCount: 2
 Fore
 SplineSet
@@ -3651,7 +3666,7 @@ EndChar
 StartChar: nsfu_b.2
 Encoding: 92 -1 104
 Width: 1000
-Flags: H
+HStem: -50 100<59.2299 100> 550 100<59.2299 100>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3675,7 +3690,7 @@ EndChar
 StartChar: nsfu_b.3
 Encoding: 93 -1 105
 Width: 1000
-Flags: H
+HStem: 250 100<159.23 200> 650 100<159.23 200>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3699,7 +3714,7 @@ EndChar
 StartChar: nsfu_b.4
 Encoding: 94 -1 106
 Width: 1000
-Flags: H
+HStem: 250 100<59.2299 100> 650 100<59.2299 100>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3723,7 +3738,8 @@ EndChar
 StartChar: nsfu_b.5
 Encoding: 95 -1 107
 Width: 1000
-Flags: HW
+Flags: W
+HStem: 450 100<159.23 200> 650 100<159.23 200>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3747,7 +3763,7 @@ EndChar
 StartChar: nsfu_b.6
 Encoding: 96 -1 108
 Width: 1000
-Flags: H
+HStem: 350 100<159.23 200> 650 100<159.23 200>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3771,7 +3787,8 @@ EndChar
 StartChar: nsfu_b.7
 Encoding: 97 -1 109
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200> 50 100<159.23 200>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -3795,7 +3812,8 @@ EndChar
 StartChar: nsfu_b.8
 Encoding: 98 -1 110
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200> 150 100<159.23 200>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -3819,31 +3837,33 @@ EndChar
 StartChar: nsfv_b
 Encoding: 99 -1 111
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 440.77 559.23 840.77> 50 500<159.23 350 559.23 750> 650 100<159.23 440.77 559.23 840.77>
+VStem: 50 300<50 550> 50 100<-40.7701 40.7701 559.23 640.77> 450 300<50 550> 450 100<-40.7701 40.7701 559.23 640.77> 850 100<-40.7701 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
-800 650 m 2
+800 650 m 2xe3
  600 650 l 2
- 572.404296875 650 550 627.595703125 550 600 c 0
+ 572.404296875 650 550 627.595703125 550 600 c 0xe3
  550 572.404296875 572.404296875 550 600 550 c 2
  750 550 l 1
- 750 50 l 1
+ 750 50 l 1xe5
  600 50 l 2
  572.404296875 50 550 27.595703125 550 0 c 0
  550 -27.595703125 572.404296875 -50 600 -50 c 2
  800 -50 l 2
  827.595703125 -50 850 -27.595703125 850 0 c 2
  850 600 l 2
- 850 627.595703125 827.595703125 650 800 650 c 2
+ 850 627.595703125 827.595703125 650 800 650 c 2xe3
 400 650 m 2
  200 650 l 2
- 172.404296875 650 150 627.595703125 150 600 c 0
+ 172.404296875 650 150 627.595703125 150 600 c 0xeb
  150 572.404296875 172.404296875 550 200 550 c 2
  350 550 l 1
- 350 50 l 1
+ 350 50 l 1xf1
  200 50 l 2
- 172.404296875 50 150 27.595703125 150 -1.11022302463e-14 c 0
+ 172.404296875 50 150 27.595703125 150 -1.11022302463e-14 c 0xe9
  150 -27.595703125 172.404296875 -50 200 -50 c 2
  400 -50 l 2
  427.595703125 -50 450 -27.595703125 450 0 c 2
@@ -3876,7 +3896,7 @@ EndChar
 StartChar: nsfv_b.1
 Encoding: 100 -1 112
 Width: 1000
-Flags: H
+HStem: -50 100<159.23 200 559.23 600> 550 100<159.23 200 559.23 600>
 LayerCount: 2
 Fore
 SplineSet
@@ -3912,7 +3932,8 @@ EndChar
 StartChar: nsfv_b.2
 Encoding: 101 -1 113
 Width: 1000
-Flags: H
+HStem: -50 100<59.2299 100 359.23 400> 550 100<59.2299 100 359.23 400>
+VStem: 50 200<-40.7701 40.7701 559.23 640.77> 350 200<-40.7701 40.7701 559.23 640.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3949,7 +3970,7 @@ EndChar
 StartChar: nsfv_b.3
 Encoding: 102 -1 114
 Width: 1000
-Flags: H
+HStem: 250 100<159.23 200 559.23 600> 650 100<159.23 200 559.23 600>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -3986,7 +4007,8 @@ EndChar
 StartChar: nsfv_b.4
 Encoding: 103 -1 115
 Width: 1000
-Flags: H
+HStem: 250 100<59.2299 100 359.23 400> 650 100<59.2299 100 359.23 400>
+VStem: 50 200<259.23 340.77 659.23 740.77> 350 200<259.23 340.77 659.23 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4023,7 +4045,7 @@ EndChar
 StartChar: nsfv_b.5
 Encoding: 104 -1 116
 Width: 1000
-Flags: H
+HStem: 450 100<159.23 200 559.23 600> 650 100<159.23 200 559.23 600>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4060,7 +4082,7 @@ EndChar
 StartChar: nsfv_b.6
 Encoding: 105 -1 117
 Width: 1000
-Flags: H
+HStem: 350 100<159.23 200 559.23 600> 650 100<159.23 200 559.23 600>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4097,7 +4119,8 @@ EndChar
 StartChar: nsfv_b.7
 Encoding: 106 -1 118
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 559.23 600> 50 100<159.23 200 559.23 600>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -4134,7 +4157,8 @@ EndChar
 StartChar: nsfv_b.8
 Encoding: 107 -1 119
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<159.23 200 559.23 600> 150 100<159.23 200 559.23 600>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -4171,20 +4195,21 @@ EndChar
 StartChar: nsfu_a
 Encoding: 108 -1 120
 Width: 1000
-Flags: H
+HStem: -150 700<159.23 750> -150 100<759.23 840.77> 650 100<159.23 840.77>
+VStem: 50 700<-40.7701 550> 50 100<559.23 640.77> 850 100<-40.7701 640.77>
 LayerCount: 2
 Fore
 SplineSet
-800 650 m 2
+800 650 m 2x74
  200 650 l 2
- 172.404296875 650 150 627.595703125 150 600 c 0
+ 172.404296875 650 150 627.595703125 150 600 c 0x6c
  150 572.404296875 172.404296875 550 200 550 c 2
- 750 550 l 1
+ 750 550 l 1xb4
  750 0 l 2
  750 -27.595703125 772.404296875 -50 800 -50 c 0
  827.595703125 -50 850 -27.595703125 850 0 c 2
  850 600 l 2
- 850 627.595703125 827.595703125 650 800 650 c 2
+ 850 627.595703125 827.595703125 650 800 650 c 2x74
 100 750 m 2
  900 750 l 2
  927.594726562 749.997070312 949.997070312 727.594726562 950 700 c 2
@@ -4212,7 +4237,8 @@ EndChar
 StartChar: nsfu_a.1
 Encoding: 109 -1 121
 Width: 1000
-Flags: H
+HStem: 550 100<159.23 200>
+VStem: 750 100<-40.7701 0>
 LayerCount: 2
 Fore
 SplineSet
@@ -4232,7 +4258,8 @@ EndChar
 StartChar: nsfu_a.2
 Encoding: 110 -1 122
 Width: 1000
-Flags: H
+HStem: 550 100<59.2299 100>
+VStem: 450 100<-40.7701 0>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4253,7 +4280,8 @@ EndChar
 StartChar: nsfu_a.3
 Encoding: 111 -1 123
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200>
+VStem: 750 100<259.23 300>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4274,7 +4302,8 @@ EndChar
 StartChar: nsfu_a.4
 Encoding: 112 -1 124
 Width: 1000
-Flags: H
+HStem: 650 100<59.2299 100>
+VStem: 450 100<259.23 300>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4295,28 +4324,30 @@ EndChar
 StartChar: nsfu_a.5
 Encoding: 113 -1 125
 Width: 1000
-Flags: H
+HStem: 450 300<759.23 840.77> 650 100<159.23 200>
+VStem: 750 100<459.23 500>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-200 750 m 2
+200 750 m 2x60
  172.404296875 750 150 727.595703125 150 700 c 0
  150 672.404296875 172.404296875 650 200 650 c 2
- 750 650 l 1
+ 750 650 l 1x60
  750 500 l 2
  750 472.404296875 772.404296875 450 800 450 c 0
  827.595703125 450 850 472.404296875 850 500 c 2
  850 700 l 2
- 850 727.595703125 827.595703125 750 800 750 c 2
- 200 750 l 2
+ 850 727.595703125 827.595703125 750 800 750 c 2xa0
+ 200 750 l 2x60
 EndSplineSet
 EndChar
 
 StartChar: nsfu_a.6
 Encoding: 114 -1 126
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200>
+VStem: 750 100<359.23 400>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4337,28 +4368,32 @@ EndChar
 StartChar: nsfu_a.7
 Encoding: 115 -1 127
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300<759.23 840.77> 50 100<159.23 200>
+VStem: 750 100<-140.77 -100>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-200 150 m 2
+200 150 m 2x60
  172.404296875 150 150 127.595703125 150 100 c 0
  150 72.404296875 172.404296875 50 200 50 c 2
- 750 50 l 1
+ 750 50 l 1x60
  750 -100 l 2
  750 -127.595703125 772.404296875 -150 800 -150 c 0
  827.595703125 -150 850 -127.595703125 850 -100 c 2
  850 100 l 2
- 850 127.595703125 827.595703125 150 800 150 c 2
- 200 150 l 2
+ 850 127.595703125 827.595703125 150 800 150 c 2xa0
+ 200 150 l 2x60
 EndSplineSet
 EndChar
 
 StartChar: nsfu_a.8
 Encoding: 116 -1 128
 Width: 0
-Flags: HW
+Flags: W
+HStem: 150 100<159.23 200>
+VStem: 750 100<-140.77 -100>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -4379,28 +4414,29 @@ EndChar
 StartChar: av_a
 Encoding: 117 -1 129
 Width: 1000
-Flags: H
+HStem: -150 100<359.23 440.77 759.23 840.77> 650 100<159.23 440.77 559.23 840.77>
+VStem: 50 300<-40.7701 550> 50 100<559.23 640.77> 450 300<-40.7701 550> 450 100<559.23 640.77> 850 100<-40.7701 640.77>
 LayerCount: 2
 Fore
 SplineSet
-800 650 m 2
+800 650 m 2xca
  600 650 l 2
- 572.404296875 650 550 627.595703125 550 600 c 0
+ 572.404296875 650 550 627.595703125 550 600 c 0xc6
  550 572.404296875 572.404296875 550 600 550 c 2
  750 550 l 1
  750 0 l 2
  750 -27.595703125 772.404296875 -50 800 -50 c 0
  827.595703125 -50 850 -27.595703125 850 0 c 2
  850 600 l 2
- 850 627.595703125 827.595703125 650 800 650 c 2
+ 850 627.595703125 827.595703125 650 800 650 c 2xca
 400 650 m 2
  200 650 l 2
- 172.404296875 650 150 627.595703125 150 600 c 0
+ 172.404296875 650 150 627.595703125 150 600 c 0xd6
  150 572.404296875 172.404296875 550 200 550 c 2
  350 550 l 1
  350 0 l 2
  350 -27.595703125 372.404296875 -50 400 -50 c 0
- 427.595703125 -50 450 -27.595703125 450 0 c 2
+ 427.595703125 -50 450 -27.595703125 450 0 c 2xea
  450 600 l 2
  450 627.595703125 427.595703125 650 400 650 c 2
 100 750 m 2
@@ -4430,7 +4466,8 @@ EndChar
 StartChar: av_a.1
 Encoding: 118 -1 130
 Width: 1000
-Flags: H
+HStem: 550 100<159.23 200 559.23 600>
+VStem: 350 100<-40.7701 0> 750 100<-40.7701 0>
 LayerCount: 2
 Fore
 SplineSet
@@ -4460,7 +4497,8 @@ EndChar
 StartChar: av_a.2
 Encoding: 119 -1 131
 Width: 1000
-Flags: H
+HStem: 550 100<59.2299 100 359.23 400>
+VStem: 150 100<-40.7701 0> 450 100<-40.7701 0>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4491,7 +4529,8 @@ EndChar
 StartChar: av_a.3
 Encoding: 120 -1 132
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 559.23 600>
+VStem: 350 100<259.23 300> 750 100<259.23 300>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4522,7 +4561,8 @@ EndChar
 StartChar: av_a.4
 Encoding: 121 -1 133
 Width: 1000
-Flags: H
+HStem: 650 100<59.2299 100 359.23 400>
+VStem: 150 100<259.23 300> 450 100<259.23 300>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4553,7 +4593,8 @@ EndChar
 StartChar: av_a.5
 Encoding: 122 -1 134
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 559.23 600>
+VStem: 350 100<459.23 500> 750 100<459.23 500>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4584,7 +4625,8 @@ EndChar
 StartChar: av_a.6
 Encoding: 123 -1 135
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 559.23 600>
+VStem: 350 100<359.23 400> 750 100<359.23 400>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4615,7 +4657,9 @@ EndChar
 StartChar: av_a.7
 Encoding: 124 -1 136
 Width: 0
-Flags: HW
+Flags: W
+HStem: 50 100<159.23 200 559.23 600>
+VStem: 350 100<-140.77 -100> 750 100<-140.77 -100>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -4646,7 +4690,9 @@ EndChar
 StartChar: av_a.8
 Encoding: 125 -1 137
 Width: 0
-Flags: HW
+Flags: W
+HStem: 150 100<159.23 200 559.23 600>
+VStem: 350 100<-140.77 -100> 750 100<-140.77 -100>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -4677,7 +4723,9 @@ EndChar
 StartChar: pu_g_m
 Encoding: 126 -1 138
 Width: 1000
-Flags: H
+HStem: -150 100<379.671 620.329> 50 500<402.675 597.325> 650 100<379.671 620.329>
+VStem: 50 100<179.671 420.329> 250 500<202.675 397.325> 850 100<179.671 420.329>
+CounterMasks: 1 fc
 LayerCount: 2
 Fore
 SplineSet
@@ -4718,7 +4766,8 @@ EndChar
 StartChar: pu_g_m.1
 Encoding: 127 -1 139
 Width: 1000
-Flags: H
+HStem: -50 100<403.435 596.565> 550 100<403.435 596.565>
+VStem: 150 100<203.435 396.565> 750 100<203.435 396.565>
 LayerCount: 2
 Fore
 SplineSet
@@ -4738,7 +4787,9 @@ EndChar
 StartChar: pu_g_m.2
 Encoding: 128 -1 140
 Width: 1000
-Flags: HW
+Flags: W
+HStem: -50 100<240.542 359.458> 550 100<240.542 359.458>
+VStem: 50 100<175.494 424.51> 450 100<175.49 424.506>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4767,7 +4818,8 @@ EndChar
 StartChar: pu_g_m.3
 Encoding: 129 -1 141
 Width: 1000
-Flags: H
+HStem: 250 100<375.49 624.506> 650 100<375.494 624.51>
+VStem: 150 100<440.542 559.458> 750 100<440.542 559.458>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4796,7 +4848,8 @@ EndChar
 StartChar: pu_g_m.4
 Encoding: 130 -1 142
 Width: 1000
-Flags: H
+HStem: 250 100<223.937 376.063> 650 100<223.937 376.063>
+VStem: 50 100<423.937 576.063> 450 100<423.937 576.063>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4817,7 +4870,7 @@ EndChar
 StartChar: pu_g_m.5
 Encoding: 131 -1 143
 Width: 1000
-Flags: H
+HStem: 450 100<319.374 680.673> 650 100<319.327 680.626>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4856,7 +4909,8 @@ EndChar
 StartChar: pu_g_m.6
 Encoding: 132 -1 144
 Width: 1000
-Flags: H
+HStem: 350 100<351.783 648.104> 650 100<351.896 648.217>
+VStem: 150 100<514.161 585.839> 750 100<514.161 585.839>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -4891,7 +4945,8 @@ EndChar
 StartChar: pu_g_m.7
 Encoding: 133 -1 145
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<319.374 680.673> 50 100<319.327 680.626>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -4930,7 +4985,9 @@ EndChar
 StartChar: pu_g_m.8
 Encoding: 134 -1 146
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<351.783 648.104> 150 100<351.896 648.217>
+VStem: 150 100<14.1614 85.8386> 750 100<14.1614 85.8386>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -4965,7 +5022,8 @@ EndChar
 StartChar: nsfu_g
 Encoding: 135 -1 147
 Width: 1000
-Flags: H
+HStem: -150 100<279.133 422.181 577.813 720.867> 650 100<279.133 422.187 577.819 720.867>
+VStem: 50 100<138.695 461.305> 250 200<152.033 447.967> 550 200<152.033 447.967> 850 100<138.695 461.305>
 LayerCount: 2
 Fore
 SplineSet
@@ -5035,7 +5093,9 @@ EndChar
 StartChar: nsfu_g.1
 Encoding: 136 -1 148
 Width: 1000
-Flags: H
+HStem: -50 100<314.161 385.839 614.161 685.839> 550 100<314.161 385.839 614.161 685.839>
+VStem: 150 100<151.896 448.217> 450 100<152.009 447.991> 750 100<151.783 448.104>
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -5088,7 +5148,8 @@ EndChar
 StartChar: nsfu_g.2
 Encoding: 137 -1 149
 Width: 1000
-Flags: H
+VStem: 50 100<119.327 480.626> 250 100<119.423 480.577> 450 100<119.374 480.673>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5150,7 +5211,8 @@ EndChar
 StartChar: nsfu_g.3
 Encoding: 138 -1 150
 Width: 1000
-Flags: H
+VStem: 150 100<409.8 590.2> 450 100<408.89 591.11> 750 100<409.8 590.2>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5192,7 +5254,8 @@ EndChar
 StartChar: nsfu_g.4
 Encoding: 139 -1 151
 Width: 1000
-Flags: H
+VStem: 50 100<385.826 614.163> 250 100<385.604 614.396> 450 100<385.837 614.174>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5242,7 +5305,9 @@ EndChar
 StartChar: nsfu_g.5
 Encoding: 140 -1 152
 Width: 1000
-Flags: H
+HStem: 450 100<271.418 429.441 570.557 728.584> 650 100<271.416 429.443 570.559 728.582>
+VStem: 150 100<570.745 629.247> 450 100<570.779 629.221> 750 100<570.753 629.255>
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5284,7 +5349,9 @@ EndChar
 StartChar: nsfu_g.6
 Encoding: 141 -1 153
 Width: 1000
-Flags: H
+HStem: 350 100<289.393 411.637 588.363 710.607> 650 100<289.393 411.637 588.363 710.607>
+VStem: 150 100<489.393 610.607> 450 100<488.248 611.752> 750 100<489.393 610.607>
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5314,7 +5381,10 @@ EndChar
 StartChar: nsfu_g.7
 Encoding: 142 -1 154
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<271.418 429.441 570.557 728.584> 50 100<271.416 429.443 570.559 728.582>
+VStem: 150 100<-29.255 29.2472> 450 100<-29.2208 29.2208> 750 100<-29.2472 29.255>
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -5356,7 +5426,10 @@ EndChar
 StartChar: nsfu_g.8
 Encoding: 143 -1 155
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<289.393 411.637 588.363 710.607> 150 100<289.393 411.637 588.363 710.607>
+VStem: 150 100<-10.6071 110.607> 450 100<-11.7519 111.752> 750 100<-10.6071 110.607>
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -5386,7 +5459,8 @@ EndChar
 StartChar: nv_v
 Encoding: 144 -1 156
 Width: 1000
-Flags: H
+HStem: -150 100<459.964 540.036> 650 100<459.964 540.036>
+VStem: 50 100<259.964 340.036> 850 100<259.964 340.036>
 LayerCount: 2
 Fore
 SplineSet
@@ -5435,7 +5509,6 @@ EndChar
 StartChar: nv_v.1
 Encoding: 145 -1 157
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -5463,7 +5536,6 @@ EndChar
 StartChar: nv_v.2
 Encoding: 146 -1 158
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5490,7 +5562,6 @@ EndChar
 StartChar: nv_v.3
 Encoding: 147 -1 159
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5517,7 +5588,6 @@ EndChar
 StartChar: nv_v.4
 Encoding: 148 -1 160
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5546,7 +5616,6 @@ EndChar
 StartChar: nv_v.5
 Encoding: 149 -1 161
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5573,7 +5642,6 @@ EndChar
 StartChar: nv_v.6
 Encoding: 150 -1 162
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5600,7 +5668,7 @@ EndChar
 StartChar: nv_v.7
 Encoding: 151 -1 163
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -5627,7 +5695,7 @@ EndChar
 StartChar: nv_v.8
 Encoding: 152 -1 164
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -5654,7 +5722,7 @@ EndChar
 StartChar: pa_v
 Encoding: 153 -1 165
 Width: 1000
-Flags: H
+HStem: -150 100<308.725 391.275 608.725 691.275> 650 100<308.725 391.275 608.725 691.275>
 LayerCount: 2
 Fore
 SplineSet
@@ -5714,7 +5782,6 @@ EndChar
 StartChar: pa_v.1
 Encoding: 154 -1 166
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -5753,7 +5820,6 @@ EndChar
 StartChar: pa_v.2
 Encoding: 155 -1 167
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5793,7 +5859,6 @@ EndChar
 StartChar: pa_v.3
 Encoding: 156 -1 168
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5835,7 +5900,6 @@ EndChar
 StartChar: pa_v.4
 Encoding: 157 -1 169
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5875,7 +5939,6 @@ EndChar
 StartChar: pa_v.5
 Encoding: 158 -1 170
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5913,7 +5976,6 @@ EndChar
 StartChar: pa_v.6
 Encoding: 159 -1 171
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -5955,7 +6017,7 @@ EndChar
 StartChar: pa_v.7
 Encoding: 160 -1 172
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -5993,7 +6055,7 @@ EndChar
 StartChar: pa_v.8
 Encoding: 161 -1 173
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -6035,7 +6097,9 @@ EndChar
 StartChar: nv_p
 Encoding: 162 -1 174
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 650 100<159.23 240.77 759.23 840.77>
+VStem: 50 100<-40.7701 640.77> 250 500<50 640.77> 850 100<-40.7701 640.77>
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -6079,7 +6143,7 @@ EndChar
 StartChar: nv_p.1
 Encoding: 163 -1 175
 Width: 1000
-Flags: H
+VStem: 150 100<600 640.77> 750 100<600 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -6102,7 +6166,7 @@ EndChar
 StartChar: nv_p.2
 Encoding: 164 -1 176
 Width: 1000
-Flags: H
+VStem: 50 100<600 640.77> 450 100<600 640.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6126,7 +6190,7 @@ EndChar
 StartChar: nv_p.3
 Encoding: 165 -1 177
 Width: 1000
-Flags: H
+VStem: 150 100<700 740.77> 750 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6150,7 +6214,7 @@ EndChar
 StartChar: nv_p.4
 Encoding: 166 -1 178
 Width: 1000
-Flags: H
+VStem: 50 100<700 740.77> 450 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6174,7 +6238,8 @@ EndChar
 StartChar: nv_p.5
 Encoding: 167 -1 179
 Width: 1000
-Flags: H
+HStem: 450 300<159.23 240.77 759.23 840.77>
+VStem: 150 100<700 740.77> 750 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6198,7 +6263,9 @@ EndChar
 StartChar: nv_r
 Encoding: 180 -1 180
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 240.77 759.23 840.77> 650 100<159.23 840.77>
+VStem: 50 100<-40.7701 640.77> 250 500<-40.7701 550> 850 100<-40.7701 640.77>
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -6242,7 +6309,7 @@ EndChar
 StartChar: nv_r.1
 Encoding: 181 -1 181
 Width: 1000
-Flags: H
+VStem: 150 100<-40.7701 0> 750 100<-40.7701 0>
 LayerCount: 2
 Fore
 SplineSet
@@ -6265,7 +6332,7 @@ EndChar
 StartChar: nv_r.2
 Encoding: 182 -1 182
 Width: 1000
-Flags: H
+VStem: 50 100<-40.7701 0> 450 100<-40.7701 0>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6289,7 +6356,7 @@ EndChar
 StartChar: nv_r.3
 Encoding: 183 -1 183
 Width: 1000
-Flags: H
+VStem: 150 100<259.23 300> 750 100<259.23 300>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6313,7 +6380,7 @@ EndChar
 StartChar: nv_r.4
 Encoding: 184 -1 184
 Width: 1000
-Flags: H
+VStem: 50 100<259.23 300> 450 100<259.23 300>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6337,7 +6404,8 @@ EndChar
 StartChar: nv_r.5
 Encoding: 185 -1 185
 Width: 1000
-Flags: H
+HStem: 450 300<159.23 240.77 759.23 840.77>
+VStem: 150 100<459.23 500> 750 100<459.23 500>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6361,7 +6429,7 @@ EndChar
 StartChar: nv_r.6
 Encoding: 186 -1 186
 Width: 1000
-Flags: H
+VStem: 150 100<359.23 400> 750 100<359.23 400>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6385,7 +6453,9 @@ EndChar
 StartChar: nv_r.7
 Encoding: 187 -1 187
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300<159.23 240.77 759.23 840.77>
+VStem: 150 100<-140.77 -100> 750 100<-140.77 -100>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -6409,7 +6479,8 @@ EndChar
 StartChar: nv_r.8
 Encoding: 188 -1 188
 Width: 0
-Flags: HW
+Flags: W
+VStem: 150 100<-140.77 -100> 750 100<-140.77 -100>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -6433,7 +6504,8 @@ EndChar
 StartChar: pa_r
 Encoding: 189 -1 189
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 240.77 459.23 540.77 759.23 840.77> 650 100<159.23 840.77>
+VStem: 50 100<-40.7701 640.77> 250 200<-40.7701 550> 550 200<-40.7701 550> 850 100<-40.7701 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -6488,7 +6560,8 @@ EndChar
 StartChar: pa_r.1
 Encoding: 190 -1 190
 Width: 1000
-Flags: H
+VStem: 150 100<-40.7701 0> 450 100<-40.7701 0> 750 100<-40.7701 0>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -6517,7 +6590,8 @@ EndChar
 StartChar: pa_r.2
 Encoding: 191 -1 191
 Width: 1000
-Flags: H
+VStem: 50 100<-40.7701 0> 250 100<-40.7701 0> 450 100<-40.7701 0>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6547,7 +6621,8 @@ EndChar
 StartChar: pa_r.3
 Encoding: 192 -1 192
 Width: 1000
-Flags: H
+VStem: 150 100<259.23 300> 450 100<259.23 300> 750 100<259.23 300>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6577,7 +6652,8 @@ EndChar
 StartChar: pa_r.4
 Encoding: 193 -1 193
 Width: 1000
-Flags: H
+VStem: 50 100<259.23 300> 250 100<259.23 300> 450 100<259.23 300>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6607,7 +6683,9 @@ EndChar
 StartChar: pa_r.5
 Encoding: 194 -1 194
 Width: 1000
-Flags: H
+HStem: 450 300<159.23 240.77 459.23 540.77 759.23 840.77>
+VStem: 150 100<459.23 500> 450 100<459.23 500> 750 100<459.23 500>
+CounterMasks: 1 70
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6637,7 +6715,8 @@ EndChar
 StartChar: pa_r.6
 Encoding: 195 -1 195
 Width: 1000
-Flags: H
+VStem: 150 100<359.23 400> 450 100<359.23 400> 750 100<359.23 400>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6667,7 +6746,10 @@ EndChar
 StartChar: pa_r.7
 Encoding: 196 -1 196
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300<159.23 240.77 459.23 540.77 759.23 840.77>
+VStem: 150 100<-140.77 -100> 450 100<-140.77 -100> 750 100<-140.77 -100>
+CounterMasks: 1 70
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -6697,7 +6779,9 @@ EndChar
 StartChar: pa_r.8
 Encoding: 197 -1 197
 Width: 0
-Flags: HW
+Flags: W
+VStem: 150 100<-140.77 -100> 450 100<-140.77 -100> 750 100<-140.77 -100>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -6727,7 +6811,8 @@ EndChar
 StartChar: nv_a
 Encoding: 198 -1 198
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 239.484 760.516 840.77> 650 100<159.23 239.484 760.516 840.77>
+VStem: 50 100<-40.7701 39.4838 560.516 640.77> 850 100<-40.7701 39.4838 560.516 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -6783,7 +6868,6 @@ EndChar
 StartChar: nv_a.1
 Encoding: 199 -1 199
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -6814,7 +6898,6 @@ EndChar
 StartChar: nv_a.2
 Encoding: 200 -1 200
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6846,7 +6929,6 @@ EndChar
 StartChar: nv_a.3
 Encoding: 201 -1 201
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6878,7 +6960,6 @@ EndChar
 StartChar: nv_a.4
 Encoding: 202 -1 202
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6910,7 +6991,6 @@ EndChar
 StartChar: nv_a.5
 Encoding: 203 -1 203
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6938,7 +7018,7 @@ EndChar
 StartChar: nv_a.6
 Encoding: 204 -1 204
 Width: 1000
-Flags: H
+HStem: 350 94.75<159.23 177.688 822.312 840.77> 655.25 94.75<159.23 177.688 822.312 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -6970,7 +7050,7 @@ EndChar
 StartChar: nv_a.7
 Encoding: 205 -1 205
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -6998,7 +7078,8 @@ EndChar
 StartChar: nv_a.8
 Encoding: 206 -1 206
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 94.75<159.23 177.688 822.312 840.77> 155.25 94.75<159.23 177.688 822.312 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -7030,7 +7111,7 @@ EndChar
 StartChar: pa_a.1
 Encoding: 208 -1 207
 Width: 1000
-Flags: H
+VStem: 150 94.751<-40.7701 -22.3125 622.312 640.77> 755.249 94.751<-40.7701 -22.3125 622.312 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -7074,7 +7155,8 @@ EndChar
 StartChar: pa_a
 Encoding: 207 -1 208
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 241.275 458.725 541.275 758.725 840.77> 650 100<159.23 241.275 458.725 541.275 758.725 840.77>
+VStem: 50 100<-40.7701 52.6846 547.315 640.77> 850 100<-40.7701 52.6846 547.315 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -7139,7 +7221,6 @@ EndChar
 StartChar: pa_a.2
 Encoding: 209 -1 209
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7180,7 +7261,6 @@ EndChar
 StartChar: pa_a.3
 Encoding: 210 -1 210
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7225,7 +7305,7 @@ EndChar
 StartChar: pa_a.4
 Encoding: 211 -1 211
 Width: 1000
-Flags: H
+VStem: 50 94.751<259.23 277.688 722.312 740.77> 455.249 94.751<259.23 277.688 722.312 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7270,7 +7350,6 @@ EndChar
 StartChar: pa_a.5
 Encoding: 212 -1 212
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7313,7 +7392,6 @@ EndChar
 StartChar: pa_a.6
 Encoding: 213 -1 213
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7358,7 +7436,7 @@ EndChar
 StartChar: pa_a.7
 Encoding: 214 -1 214
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -7401,7 +7479,7 @@ EndChar
 StartChar: pa_a.8
 Encoding: 215 -1 215
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -7446,7 +7524,9 @@ EndChar
 StartChar: nv_b
 Encoding: 216 -1 216
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 50 500<250 750> 650 100<159.23 840.77>
+VStem: 50 100<-40.7701 640.77> 250 500<50 550> 850 100<-40.7701 640.77>
+CounterMasks: 1 fc
 LayerCount: 2
 Fore
 SplineSet
@@ -7491,7 +7571,6 @@ EndChar
 StartChar: nv_b.1
 Encoding: 217 -1 217
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -7515,7 +7594,6 @@ EndChar
 StartChar: nv_b.2
 Encoding: 218 -1 218
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7540,7 +7618,6 @@ EndChar
 StartChar: nv_b.3
 Encoding: 219 -1 219
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7565,7 +7642,6 @@ EndChar
 StartChar: nv_b.4
 Encoding: 220 -1 220
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7590,7 +7666,7 @@ EndChar
 StartChar: nv_b.5
 Encoding: 221 -1 221
 Width: 1000
-Flags: H
+HStem: 450 300<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7615,7 +7691,6 @@ EndChar
 StartChar: nv_b.6
 Encoding: 222 -1 222
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7640,7 +7715,8 @@ EndChar
 StartChar: nv_b.7
 Encoding: 223 -1 223
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -7665,7 +7741,7 @@ EndChar
 StartChar: nv_b.8
 Encoding: 224 -1 224
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -7690,7 +7766,9 @@ EndChar
 StartChar: pa_b
 Encoding: 225 -1 225
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 50 500<250 450 550 750> 650 100<159.23 840.77>
+VStem: 50 100<-40.7701 640.77> 250 200<50 550> 550 200<50 550> 850 100<-40.7701 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -7740,7 +7818,6 @@ EndChar
 StartChar: pa_b.1
 Encoding: 226 -1 226
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -7771,7 +7848,6 @@ EndChar
 StartChar: pa_b.2
 Encoding: 227 -1 227
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7803,7 +7879,6 @@ EndChar
 StartChar: pa_b.3
 Encoding: 228 -1 228
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7835,7 +7910,6 @@ EndChar
 StartChar: pa_b.4
 Encoding: 229 -1 229
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7867,7 +7941,7 @@ EndChar
 StartChar: pa_b.5
 Encoding: 230 -1 230
 Width: 1000
-Flags: H
+HStem: 450 300<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7899,7 +7973,6 @@ EndChar
 StartChar: pa_b.6
 Encoding: 231 -1 231
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -7931,7 +8004,8 @@ EndChar
 StartChar: pa_b.7
 Encoding: 232 -1 232
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -7963,7 +8037,7 @@ EndChar
 StartChar: pa_b.8
 Encoding: 233 -1 233
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -7995,7 +8069,8 @@ EndChar
 StartChar: pu_g_d
 Encoding: 234 -1 234
 Width: 1000
-Flags: H
+HStem: -150 100<379.71 620.29> 650 100<379.71 620.29>
+VStem: 50 100<179.71 420.29> 250 200<245.027 354.973> 550 200<245.027 354.973> 850 100<179.71 420.29>
 LayerCount: 2
 Fore
 SplineSet
@@ -8039,7 +8114,7 @@ EndChar
 StartChar: pu_g_d.1
 Encoding: 235 -1 235
 Width: 1000
-Flags: H
+VStem: 150 100<201.636 398.364> 750 100<201.636 398.364>
 LayerCount: 2
 Fore
 SplineSet
@@ -8062,7 +8137,7 @@ EndChar
 StartChar: pu_g_d.2
 Encoding: 236 -1 236
 Width: 1000
-Flags: H
+VStem: 50 100<175.494 424.51> 450 100<175.49 424.506>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8094,7 +8169,8 @@ EndChar
 StartChar: pu_g_d.3
 Encoding: 237 -1 237
 Width: 1000
-Flags: H
+HStem: 250 103.17<366.703 450 550 633.291> 646.826 103.174<366.709 450 550 633.297>
+VStem: 150 100<440.542 559.458> 750 100<440.542 559.458>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8126,7 +8202,7 @@ EndChar
 StartChar: pu_g_d.4
 Encoding: 238 -1 238
 Width: 1000
-Flags: H
+VStem: 50 100<423.82 576.18> 450 100<423.82 576.18>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8150,7 +8226,7 @@ EndChar
 StartChar: pu_g_d.5
 Encoding: 239 -1 239
 Width: 1000
-Flags: H
+HStem: 450 101.487<315.492 450 550 684.508> 648.5 101.5<315.492 450 550 684.508>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8192,7 +8268,8 @@ EndChar
 StartChar: pu_g_d.6
 Encoding: 240 -1 240
 Width: 1000
-Flags: H
+HStem: 350 102.288<346.495 450 550 653.505> 647.707 102.293<346.495 450 550 653.505>
+VStem: 150 100<514.161 585.839> 750 100<514.161 585.839>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8230,7 +8307,8 @@ EndChar
 StartChar: pu_g_d.7
 Encoding: 241 -1 241
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 101.487<315.492 450 550 684.508> 48.5001 101.5<315.492 450 550 684.508>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -8272,7 +8350,9 @@ EndChar
 StartChar: pu_g_d.8
 Encoding: 242 -1 242
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 102.288<346.495 450 550 653.505> 147.707 102.293<346.495 450 550 653.505>
+VStem: 150 100<14.1614 85.8386> 750 100<14.1614 85.8386>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -8310,7 +8390,8 @@ EndChar
 StartChar: pa_u
 Encoding: 243 -1 243
 Width: 1000
-Flags: H
+HStem: -150 100<459.964 540.036> 650 100<459.964 540.036>
+VStem: 50 100<259.964 340.036> 850 100<259.964 340.036>
 LayerCount: 2
 Fore
 SplineSet
@@ -8362,7 +8443,6 @@ EndChar
 StartChar: pa_u.1
 Encoding: 244 -1 244
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -8393,7 +8473,6 @@ EndChar
 StartChar: pa_u.2
 Encoding: 245 -1 245
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8423,7 +8502,6 @@ EndChar
 StartChar: pa_u.3
 Encoding: 246 -1 246
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8455,7 +8533,7 @@ EndChar
 StartChar: pa_u.4
 Encoding: 247 -1 247
 Width: 1000
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8487,7 +8565,6 @@ EndChar
 StartChar: pa_u.5
 Encoding: 248 -1 248
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8523,7 +8600,7 @@ EndChar
 StartChar: pa_u.6
 Encoding: 249 -1 249
 Width: 1000
-Flags: H
+HStem: 350 400<454.116 545.884>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8555,7 +8632,7 @@ EndChar
 StartChar: pa_u.7
 Encoding: 250 -1 250
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -8591,7 +8668,8 @@ EndChar
 StartChar: pa_u.8
 Encoding: 251 -1 251
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 400<454.116 545.884>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -8623,7 +8701,8 @@ EndChar
 StartChar: pu_u
 Encoding: 252 -1 252
 Width: 1000
-Flags: H
+HStem: -150 100<749.562 840.77> 650 100<749.562 840.77>
+VStem: 50 100<258.725 341.275> 850 100<-40.7701 41.2754 558.725 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -8667,7 +8746,6 @@ EndChar
 StartChar: pu_u.1
 Encoding: 253 -1 253
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -8690,7 +8768,6 @@ EndChar
 StartChar: pu_u.2
 Encoding: 254 -1 254
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8714,7 +8791,6 @@ EndChar
 StartChar: pu_u.3
 Encoding: 255 -1 255
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8736,7 +8812,6 @@ EndChar
 StartChar: pu_u.4
 Encoding: 256 -1 256
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8760,7 +8835,6 @@ EndChar
 StartChar: pu_u.5
 Encoding: 257 -1 257
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8782,7 +8856,6 @@ EndChar
 StartChar: pu_u.6
 Encoding: 258 -1 258
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8804,7 +8877,7 @@ EndChar
 StartChar: pu_u.7
 Encoding: 259 -1 259
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -8826,7 +8899,7 @@ EndChar
 StartChar: pu_u.8
 Encoding: 260 -1 260
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -8848,7 +8921,8 @@ EndChar
 StartChar: pv_u
 Encoding: 261 -1 261
 Width: 1000
-Flags: H
+HStem: -150 100<358.792 440.77 758.792 840.77> 650 100<358.792 440.77 758.792 840.77>
+VStem: 850 100<-40.7701 44.7043 555.296 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -8903,7 +8977,6 @@ EndChar
 StartChar: pv_u.1
 Encoding: 262 -1 262
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -8937,7 +9010,6 @@ EndChar
 StartChar: pv_u.2
 Encoding: 263 -1 263
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -8968,7 +9040,6 @@ EndChar
 StartChar: pv_u.3
 Encoding: 264 -1 264
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9005,7 +9076,7 @@ EndChar
 StartChar: pv_u.4
 Encoding: 265 -1 265
 Width: 1000
-Flags: H
+VStem: 155.249 94.751<259.23 277.688 722.312 740.77> 455.249 94.751<259.23 277.688 722.312 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9040,7 +9111,7 @@ EndChar
 StartChar: pv_u.5
 Encoding: 266 -1 266
 Width: 1000
-Flags: H
+HStem: 450 94.751<422.312 440.77 822.312 840.77> 655.249 94.751<422.312 440.77 822.312 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9077,7 +9148,6 @@ EndChar
 StartChar: pv_u.6
 Encoding: 267 -1 267
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9114,7 +9184,8 @@ EndChar
 StartChar: pv_u.7
 Encoding: 268 -1 268
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 94.751<422.312 440.77 822.312 840.77> 55.249 94.751<422.312 440.77 822.312 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -9151,7 +9222,7 @@ EndChar
 StartChar: pv_u.8
 Encoding: 269 -1 269
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -9188,7 +9259,8 @@ EndChar
 StartChar: pu_v
 Encoding: 270 -1 270
 Width: 1000
-Flags: H
+HStem: -150 100<159.236 250.443> 650 100<159.236 250.443>
+VStem: 50 100.006<-40.7701 41.2754 558.725 640.77> 850 100<258.674 341.326>
 LayerCount: 2
 Fore
 SplineSet
@@ -9233,7 +9305,6 @@ EndChar
 StartChar: pu_v.1
 Encoding: 271 -1 271
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -9256,7 +9327,6 @@ EndChar
 StartChar: pu_v.2
 Encoding: 272 -1 272
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9280,7 +9350,6 @@ EndChar
 StartChar: pu_v.3
 Encoding: 273 -1 273
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9302,7 +9371,6 @@ EndChar
 StartChar: pu_v.4
 Encoding: 274 -1 274
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9326,7 +9394,6 @@ EndChar
 StartChar: pu_v.5
 Encoding: 275 -1 275
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9348,7 +9415,6 @@ EndChar
 StartChar: pu_v.6
 Encoding: 276 -1 276
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9370,7 +9436,7 @@ EndChar
 StartChar: pu_v.7
 Encoding: 277 -1 277
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -9392,7 +9458,7 @@ EndChar
 StartChar: pu_v.8
 Encoding: 278 -1 278
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -9414,7 +9480,8 @@ EndChar
 StartChar: pv_v
 Encoding: 279 -1 279
 Width: 1000
-Flags: H
+HStem: -150 100<159.236 241.214 559.23 641.208> 650 100<159.236 241.214 559.23 641.208>
+VStem: 50 100.006<-40.7701 44.7034 555.297 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -9469,7 +9536,6 @@ EndChar
 StartChar: pv_v.1
 Encoding: 280 -1 280
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -9503,7 +9569,6 @@ EndChar
 StartChar: pv_v.2
 Encoding: 281 -1 281
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9534,7 +9599,6 @@ EndChar
 StartChar: pv_v.3
 Encoding: 282 -1 282
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9571,7 +9635,7 @@ EndChar
 StartChar: pv_v.4
 Encoding: 283 -1 283
 Width: 1000
-Flags: H
+VStem: 50 94.751<259.23 277.688 722.312 740.77> 350 94.751<259.23 277.688 722.312 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9606,7 +9670,7 @@ EndChar
 StartChar: pv_v.5
 Encoding: 284 -1 284
 Width: 1000
-Flags: H
+HStem: 450 94.75<159.23 177.688 559.23 577.688> 655.25 94.75<159.23 177.688 559.23 577.688>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9643,7 +9707,7 @@ EndChar
 StartChar: pv_v.6
 Encoding: 285 -1 285
 Width: 1000
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9680,7 +9744,8 @@ EndChar
 StartChar: pv_v.7
 Encoding: 286 -1 286
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 94.75<159.23 177.688 559.23 577.688> 55.25 94.75<159.23 177.688 559.23 577.688>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -9717,7 +9782,7 @@ EndChar
 StartChar: pv_v.8
 Encoding: 287 -1 287
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -9754,7 +9819,8 @@ EndChar
 StartChar: pu_p
 Encoding: 288 -1 288
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 650 100<458.725 541.275>
+VStem: 50 100<-40.7701 50.4375> 850 100<-40.7701 50.4375>
 LayerCount: 2
 Fore
 SplineSet
@@ -9799,7 +9865,6 @@ EndChar
 StartChar: pu_p.1
 Encoding: 289 -1 289
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -9823,7 +9888,6 @@ EndChar
 StartChar: pu_p.2
 Encoding: 290 -1 290
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9846,7 +9910,6 @@ EndChar
 StartChar: pu_p.3
 Encoding: 291 -1 291
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9871,7 +9934,6 @@ EndChar
 StartChar: pu_p.4
 Encoding: 292 -1 292
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9896,7 +9958,6 @@ EndChar
 StartChar: pu_p.5
 Encoding: 293 -1 293
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9920,7 +9981,6 @@ EndChar
 StartChar: pu_p.6
 Encoding: 294 -1 294
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -9945,7 +10005,7 @@ EndChar
 StartChar: pu_p.7
 Encoding: 295 -1 295
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -9969,7 +10029,7 @@ EndChar
 StartChar: pu_p.8
 Encoding: 296 -1 296
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -9994,7 +10054,8 @@ EndChar
 StartChar: pv_p
 Encoding: 297 -1 297
 Width: 1000
-Flags: H
+HStem: -150 100.016<159.076 840.922> 650 100<309.028 390.972 609.028 690.972>
+VStem: 50 100<-40.9797 87.1641> 850 100<-40.9823 87.1641>
 LayerCount: 2
 Fore
 SplineSet
@@ -10051,7 +10112,6 @@ EndChar
 StartChar: pv_p.1
 Encoding: 298 -1 298
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -10081,7 +10141,7 @@ EndChar
 StartChar: pv_p.2
 Encoding: 299 -1 299
 Width: 1000
-Flags: H
+VStem: 150.682 98.6367<566.267 641.29> 350.682 98.6367<566.267 641.29>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10112,7 +10172,6 @@ EndChar
 StartChar: pv_p.3
 Encoding: 300 -1 300
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10143,7 +10202,6 @@ EndChar
 StartChar: pv_p.4
 Encoding: 301 -1 301
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10174,7 +10232,6 @@ EndChar
 StartChar: pv_p.5
 Encoding: 302 -1 302
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10207,7 +10264,6 @@ EndChar
 StartChar: pv_p.6
 Encoding: 303 -1 303
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10240,7 +10296,7 @@ EndChar
 StartChar: pv_p.7
 Encoding: 304 -1 304
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -10273,7 +10329,7 @@ EndChar
 StartChar: pv_p.8
 Encoding: 305 -1 305
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -10306,7 +10362,8 @@ EndChar
 StartChar: pu_r
 Encoding: 306 -1 306
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 241.275 758.725 840.77> 650 100<159.23 840.77>
+VStem: 50 100<-40.7701 55.293 559.23 640.77> 850 100<-40.7701 55.293 559.23 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -10355,7 +10412,7 @@ EndChar
 StartChar: pu_r.1
 Encoding: 307 -1 307
 Width: 1000
-Flags: H
+HStem: 550 100<159.23 200 800 840.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -10384,7 +10441,7 @@ EndChar
 StartChar: pu_r.2
 Encoding: 308 -1 308
 Width: 1000
-Flags: H
+HStem: 550 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10412,7 +10469,7 @@ EndChar
 StartChar: pu_r.3
 Encoding: 309 -1 309
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10442,7 +10499,7 @@ EndChar
 StartChar: pu_r.4
 Encoding: 310 -1 310
 Width: 1000
-Flags: H
+HStem: 650 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10472,7 +10529,7 @@ EndChar
 StartChar: pu_r.5
 Encoding: 311 -1 311
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10501,7 +10558,7 @@ EndChar
 StartChar: pu_r.6
 Encoding: 312 -1 312
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10531,7 +10588,8 @@ EndChar
 StartChar: pu_r.7
 Encoding: 313 -1 313
 Width: 0
-Flags: HW
+Flags: W
+HStem: 50 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -10560,7 +10618,8 @@ EndChar
 StartChar: pu_r.8
 Encoding: 314 -1 314
 Width: 0
-Flags: HW
+Flags: W
+HStem: 150 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -10590,7 +10649,8 @@ EndChar
 StartChar: pv_r
 Encoding: 315 -1 315
 Width: 1000
-Flags: H
+HStem: -150 100<159.076 241.364 458.636 541.364 758.636 840.922> 650 100<159.23 840.77>
+VStem: 50 100<-40.9953 87.7838 559.23 640.77> 850 100<-40.998 87.7838 559.23 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -10649,7 +10709,7 @@ EndChar
 StartChar: pv_r.1
 Encoding: 316 -1 316
 Width: 1000
-Flags: H
+HStem: 550 100<159.23 200 800 840.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -10685,7 +10745,8 @@ EndChar
 StartChar: pv_r.2
 Encoding: 317 -1 317
 Width: 1000
-Flags: H
+HStem: 550 100<59.2299 100 500 540.77>
+VStem: 250.682 98.6367<-41.29 33.7334>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10722,7 +10783,7 @@ EndChar
 StartChar: pv_r.3
 Encoding: 318 -1 318
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10759,7 +10820,7 @@ EndChar
 StartChar: pv_r.4
 Encoding: 319 -1 319
 Width: 1000
-Flags: H
+HStem: 650 100<59.2299 100 500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10796,7 +10857,7 @@ EndChar
 StartChar: pv_r.5
 Encoding: 320 -1 320
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10835,7 +10896,7 @@ EndChar
 StartChar: pv_r.6
 Encoding: 321 -1 321
 Width: 1000
-Flags: H
+HStem: 650 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -10874,7 +10935,8 @@ EndChar
 StartChar: pv_r.7
 Encoding: 322 -1 322
 Width: 0
-Flags: HW
+Flags: WO
+HStem: 50 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -10886,8 +10948,6 @@ SplineSet
 800 50 m 2
  827.595703125 50 850 72.404296875 850 100 c 0
  850 127.595703125 827.595703125 150 800 150 c 2
- 650 150 l 1
- 350.000000556 150 l 1
  200 150 l 2
  172.404296875 150 150 127.595703125 150 100 c 0
  150 72.404296875 172.404296875 50 200 50 c 2
@@ -10913,7 +10973,8 @@ EndChar
 StartChar: pv_r.8
 Encoding: 323 -1 323
 Width: 0
-Flags: HW
+Flags: W
+HStem: 150 100<159.23 200 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -10952,7 +11013,8 @@ EndChar
 StartChar: pu_a
 Encoding: 324 -1 324
 Width: 1000
-Flags: H
+HStem: -150 100.006<159.23 241.275 758.725 840.77> 650 100<458.674 541.326>
+VStem: 50 100<-40.7642 50.4434> 850 100<-40.7642 50.4434>
 LayerCount: 2
 Fore
 SplineSet
@@ -10997,7 +11059,7 @@ EndChar
 StartChar: pu_a.1
 Encoding: 325 -1 325
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11020,7 +11082,6 @@ EndChar
 StartChar: pu_a.2
 Encoding: 326 -1 326
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11042,7 +11103,6 @@ EndChar
 StartChar: pu_a.3
 Encoding: 327 -1 327
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11066,7 +11126,6 @@ EndChar
 StartChar: pu_a.4
 Encoding: 328 -1 328
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11090,7 +11149,6 @@ EndChar
 StartChar: pu_a.5
 Encoding: 329 -1 329
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11113,7 +11171,6 @@ EndChar
 StartChar: pu_a.6
 Encoding: 330 -1 330
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11137,7 +11194,7 @@ EndChar
 StartChar: pu_a.7
 Encoding: 331 -1 331
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -11160,7 +11217,7 @@ EndChar
 StartChar: pu_a.8
 Encoding: 332 -1 332
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -11184,7 +11241,8 @@ EndChar
 StartChar: pv_a
 Encoding: 333 -1 333
 Width: 1000
-Flags: H
+HStem: -150 100<159.076 241.364 458.636 541.364 758.636 840.922> 650 100<308.636 391.364 608.636 691.364>
+VStem: 50 100<-40.9953 87.1484> 850 100<-40.998 87.1484>
 LayerCount: 2
 Fore
 SplineSet
@@ -11238,7 +11296,6 @@ EndChar
 StartChar: pv_a.1
 Encoding: 334 -1 334
 Width: 1000
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -11267,7 +11324,8 @@ EndChar
 StartChar: pv_a.2
 Encoding: 335 -1 335
 Width: 1000
-Flags: H
+VStem: 150.682 98.6367<566.267 641.29> 250.682 98.6367<-41.29 33.7334> 350.682 98.6367<566.267 641.29>
+CounterMasks: 1 e0
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11297,7 +11355,6 @@ EndChar
 StartChar: pv_a.3
 Encoding: 336 -1 336
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11327,7 +11384,7 @@ EndChar
 StartChar: pv_a.4
 Encoding: 337 -1 337
 Width: 1000
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11357,7 +11414,7 @@ EndChar
 StartChar: pv_a.5
 Encoding: 338 -1 338
 Width: 1000
-Flags: H
+HStem: 450 300
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11389,7 +11446,6 @@ EndChar
 StartChar: pv_a.6
 Encoding: 339 -1 339
 Width: 1000
-Flags: H
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11421,7 +11477,8 @@ EndChar
 StartChar: pv_a.7
 Encoding: 340 -1 340
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -11453,7 +11510,7 @@ EndChar
 StartChar: pv_a.8
 Encoding: 341 -1 341
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -11485,7 +11542,9 @@ EndChar
 StartChar: pu_b
 Encoding: 342 -1 342
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 50 500<250 840.77> 650 100<159.23 840.77>
+VStem: 50 100<-40.7701 640.77> 850 100<-40.7701 40.7701 559.23 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -11529,7 +11588,7 @@ EndChar
 StartChar: pu_b.1
 Encoding: 343 -1 343
 Width: 1000
-Flags: H
+HStem: -50 100<800 840.77> 550 100<800 840.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -11552,7 +11611,7 @@ EndChar
 StartChar: pu_b.2
 Encoding: 344 -1 344
 Width: 1000
-Flags: H
+HStem: -50 100<500 540.77> 550 100<500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11576,7 +11635,7 @@ EndChar
 StartChar: pu_b.3
 Encoding: 345 -1 345
 Width: 1000
-Flags: H
+HStem: 250 100<800 840.77> 650 100<800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11600,7 +11659,7 @@ EndChar
 StartChar: pu_b.4
 Encoding: 346 -1 346
 Width: 1000
-Flags: H
+HStem: 250 100<500 540.77> 650 100<500 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11624,7 +11683,7 @@ EndChar
 StartChar: pu_b.5
 Encoding: 347 -1 347
 Width: 1000
-Flags: H
+HStem: 450 100<800 840.77> 650 100<800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11648,7 +11707,7 @@ EndChar
 StartChar: pu_b.6
 Encoding: 348 -1 348
 Width: 1000
-Flags: H
+HStem: 350 100<800 840.77> 650 100<800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11672,7 +11731,8 @@ EndChar
 StartChar: pu_b.7
 Encoding: 349 -1 349
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<800 840.77> 50 100<800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -11696,7 +11756,8 @@ EndChar
 StartChar: pu_b.8
 Encoding: 350 -1 350
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<800 840.77> 150 100<800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -11720,31 +11781,33 @@ EndChar
 StartChar: pv_b
 Encoding: 351 -1 351
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 440.77 559.23 840.77> 50 500<250 440.77 650 840.77> 650 100<159.23 440.77 559.23 840.77>
+VStem: 50 100<-40.7701 640.77> 250 300<50 550> 450 100<-40.7701 40.7701 559.23 640.77> 650 300<50 550> 850 100<-40.7701 40.7701 559.23 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
-200 -50 m 2
+200 -50 m 2xf4
  400 -50 l 2
- 427.595703125 -50 450 -27.595703125 450 0 c 0
+ 427.595703125 -50 450 -27.595703125 450 0 c 0xf4
  450 27.595703125 427.595703125 50 400 50 c 2
  250 50 l 1
- 250 550 l 1
+ 250 550 l 1xf8
  400 550 l 2
  427.595703125 550 450 572.404296875 450 600 c 0
  450 627.595703125 427.595703125 650 400 650 c 2
  200 650 l 2
  172.404296875 650 150 627.595703125 150 600 c 2
  150 -1.11022302463e-14 l 2
- 150 -27.595703125 172.404296875 -50 200 -50 c 2
+ 150 -27.595703125 172.404296875 -50 200 -50 c 2xf4
 600 -50 m 2
  800 -50 l 2
- 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0
+ 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0xf5
  850 27.595703125 827.595703125 50 800 50 c 2
  650 50 l 1
- 650 550 l 1
+ 650 550 l 1xf2
  800 550 l 2
- 827.595703125 550 850 572.404296875 850 600 c 0
+ 827.595703125 550 850 572.404296875 850 600 c 0xf1
  850 627.595703125 827.595703125 650 800 650 c 2
  600 650 l 2
  572.404296875 650 550 627.595703125 550 600 c 2
@@ -11777,7 +11840,7 @@ EndChar
 StartChar: pv_b.1
 Encoding: 352 -1 352
 Width: 1000
-Flags: H
+HStem: -50 100<400 440.77 800 840.77> 550 100<400 440.77 800 840.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -11813,7 +11876,8 @@ EndChar
 StartChar: pv_b.2
 Encoding: 353 -1 353
 Width: 1000
-Flags: H
+HStem: -50 100<200 240.77 500 540.77> 550 100<200 240.77 500 540.77>
+VStem: 50 200<-40.7701 40.7701 559.23 640.77> 350 200<-40.7701 40.7701 559.23 640.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11850,7 +11914,7 @@ EndChar
 StartChar: pv_b.3
 Encoding: 354 -1 354
 Width: 1000
-Flags: H
+HStem: 250 100<400 440.77 800 840.77> 650 100<400 440.77 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11887,7 +11951,8 @@ EndChar
 StartChar: pv_b.4
 Encoding: 355 -1 355
 Width: 1000
-Flags: H
+HStem: 250 100<200 240.77 500 540.77> 650 100<200 240.77 500 540.77>
+VStem: 50 200<259.23 340.77 659.23 740.77> 350 200<259.23 340.77 659.23 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11924,7 +11989,7 @@ EndChar
 StartChar: pv_b.5
 Encoding: 356 -1 356
 Width: 1000
-Flags: H
+HStem: 450 100<400 440.77 800 840.77> 650 100<400 440.77 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11961,7 +12026,7 @@ EndChar
 StartChar: pv_b.6
 Encoding: 357 -1 357
 Width: 1000
-Flags: H
+HStem: 350 100<400 440.77 800 840.77> 650 100<400 440.77 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -11998,7 +12063,8 @@ EndChar
 StartChar: pv_b.7
 Encoding: 358 -1 358
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<400 440.77 800 840.77> 50 100<400 440.77 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12035,7 +12101,8 @@ EndChar
 StartChar: pv_b.8
 Encoding: 359 -1 359
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<400 440.77 800 840.77> 150 100<400 440.77 800 840.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12072,20 +12139,21 @@ EndChar
 StartChar: lfu_a
 Encoding: 360 -1 360
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 840.77> 50 700<250 840.77> 650 100<159.23 240.77>
+VStem: 50 100<-40.7701 640.77> 250 700<50 640.77> 850 100<-40.7701 40.7701>
 LayerCount: 2
 Fore
 SplineSet
-200 -50 m 2
+200 -50 m 2xb8
  800 -50 l 2
- 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0
+ 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0xb4
  850 27.595703125 827.595703125 50 800 50 c 2
- 250 50 l 1
+ 250 50 l 1xd8
  250 600 l 2
  250 627.595703125 227.595703125 650 200 650 c 0
  172.404296875 650 150 627.595703125 150 600 c 2
  150 -1.11022302463e-14 l 2
- 150 -27.595703125 172.404296875 -50 200 -50 c 2
+ 150 -27.595703125 172.404296875 -50 200 -50 c 2xb8
 900 -150 m 2
  100 -150 l 2
  72.4052734375 -149.997070312 50.0029296875 -127.594726562 50 -100 c 2
@@ -12113,7 +12181,9 @@ EndChar
 StartChar: lfu_a.1
 Encoding: 361 -1 361
 Width: 1000
-Flags: HW
+Flags: W
+HStem: -50 100<800 840.77>
+VStem: 150 100<600 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -12133,7 +12203,8 @@ EndChar
 StartChar: lfu_a.2
 Encoding: 362 -1 362
 Width: 1000
-Flags: H
+HStem: -50 100<500 540.77>
+VStem: 50 100<600 640.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12154,7 +12225,8 @@ EndChar
 StartChar: lfu_a.3
 Encoding: 363 -1 363
 Width: 1000
-Flags: H
+HStem: 250 100<800 840.77>
+VStem: 150 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12175,7 +12247,8 @@ EndChar
 StartChar: lfu_a.4
 Encoding: 364 -1 364
 Width: 1000
-Flags: H
+HStem: 250 100<500 540.77>
+VStem: 50 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12196,28 +12269,30 @@ EndChar
 StartChar: lfu_a.5
 Encoding: 365 -1 365
 Width: 1000
-Flags: H
+HStem: 450 300<159.23 240.77> 450 100<800 840.77>
+VStem: 150 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-800 450 m 2
+800 450 m 2x60
  827.595703125 450 850 472.404296875 850 500 c 0
  850 527.595703125 827.595703125 550 800 550 c 2
- 250 550 l 1
+ 250 550 l 1x60
  250 700 l 2
  250 727.595703125 227.595703125 750 200 750 c 0
  172.404296875 750 150 727.595703125 150 700 c 2
  150 500 l 2
- 150 472.404296875 172.404296875 450 200 450 c 2
- 800 450 l 2
+ 150 472.404296875 172.404296875 450 200 450 c 2xa0
+ 800 450 l 2x60
 EndSplineSet
 EndChar
 
 StartChar: lfu_a.6
 Encoding: 366 -1 366
 Width: 1000
-Flags: H
+HStem: 350 100<800 840.77>
+VStem: 150 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12238,28 +12313,32 @@ EndChar
 StartChar: lfu_a.7
 Encoding: 367 -1 367
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 300<159.23 240.77> -150 100<800 840.77>
+VStem: 150 100<100 140.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-800 -150 m 2
+800 -150 m 2x60
  827.595703125 -150 850 -127.595703125 850 -100 c 0
  850 -72.404296875 827.595703125 -50 800 -50 c 2
- 250 -50 l 1
+ 250 -50 l 1x60
  250 100 l 2
  250 127.595703125 227.595703125 150 200 150 c 0
  172.404296875 150 150 127.595703125 150 100 c 2
  150 -100 l 2
- 150 -127.595703125 172.404296875 -150 200 -150 c 2
- 800 -150 l 2
+ 150 -127.595703125 172.404296875 -150 200 -150 c 2xa0
+ 800 -150 l 2x60
 EndSplineSet
 EndChar
 
 StartChar: lfu_a.8
 Encoding: 368 -1 368
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<800 840.77>
+VStem: 150 100<200 240.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12280,28 +12359,29 @@ EndChar
 StartChar: lav_a
 Encoding: 369 -1 369
 Width: 1000
-Flags: H
+HStem: -150 100<159.23 440.77 559.23 840.77> 650 100<159.23 240.77 559.23 640.77>
+VStem: 50 100<-40.7701 640.77> 250 300<50 640.77> 450 100<-40.7701 40.7701> 650 300<50 640.77> 850 100<-40.7701 40.7701>
 LayerCount: 2
 Fore
 SplineSet
-200 -50 m 2
+200 -50 m 2xf0
  400 -50 l 2
- 427.595703125 -50 450 -27.595703125 450 0 c 0
+ 427.595703125 -50 450 -27.595703125 450 0 c 0xe8
  450 27.595703125 427.595703125 50 400 50 c 2
  250 50 l 1
  250 600 l 2
  250 627.595703125 227.595703125 650 200 650 c 0
  172.404296875 650 150 627.595703125 150 600 c 2
  150 -1.11022302463e-14 l 2
- 150 -27.595703125 172.404296875 -50 200 -50 c 2
+ 150 -27.595703125 172.404296875 -50 200 -50 c 2xf0
 600 -50 m 2
  800 -50 l 2
- 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0
+ 827.595703125 -50 850 -27.595703125 850 -1.38777878078e-15 c 0xea
  850 27.595703125 827.595703125 50 800 50 c 2
  650 50 l 1
  650 600 l 2
  650 627.595703125 627.595703125 650 600 650 c 0
- 572.404296875 650 550 627.595703125 550 600 c 2
+ 572.404296875 650 550 627.595703125 550 600 c 2xf4
  550 0 l 2
  550 -27.595703125 572.404296875 -50 600 -50 c 2
 900 -150 m 2
@@ -12331,7 +12411,8 @@ EndChar
 StartChar: lav_a.1
 Encoding: 370 -1 370
 Width: 1000
-Flags: H
+HStem: -50 100<400 440.77 800 840.77>
+VStem: 150 100<600 640.77> 550 100<600 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -12361,7 +12442,8 @@ EndChar
 StartChar: lav_a.2
 Encoding: 371 -1 371
 Width: 1000
-Flags: H
+HStem: -50 100<200 240.77 500 540.77>
+VStem: 50 100<600 640.77> 350 100<600 640.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12392,7 +12474,8 @@ EndChar
 StartChar: lav_a.3
 Encoding: 372 -1 372
 Width: 1000
-Flags: H
+HStem: 250 100<400 440.77 800 840.77>
+VStem: 150 100<700 740.77> 550 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12423,7 +12506,8 @@ EndChar
 StartChar: lav_a.4
 Encoding: 373 -1 373
 Width: 1000
-Flags: H
+HStem: 250 100<200 240.77 500 540.77>
+VStem: 50 100<700 740.77> 350 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12454,7 +12538,8 @@ EndChar
 StartChar: lav_a.5
 Encoding: 374 -1 374
 Width: 1000
-Flags: H
+HStem: 450 100<400 440.77 800 840.77>
+VStem: 150 100<700 740.77> 550 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12485,7 +12570,8 @@ EndChar
 StartChar: lav_a.6
 Encoding: 375 -1 375
 Width: 1000
-Flags: H
+HStem: 350 100<400 440.77 800 840.77>
+VStem: 150 100<700 740.77> 550 100<700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 basechar 0
 LayerCount: 2
 Fore
@@ -12516,7 +12602,9 @@ EndChar
 StartChar: lav_a.7
 Encoding: 376 -1 376
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<400 440.77 800 840.77>
+VStem: 150 100<100 140.77> 550 100<100 140.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12547,7 +12635,9 @@ EndChar
 StartChar: lav_a.8
 Encoding: 377 -1 377
 Width: 0
-Flags: HW
+Flags: W
+HStem: -150 100<400 440.77 800 840.77>
+VStem: 150 100<200 240.77> 550 100<200 240.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12578,7 +12668,8 @@ EndChar
 StartChar: o_c
 Encoding: 378 -1 378
 Width: 1000
-Flags: H
+HStem: -150 900<59.2315 450 550 940.769>
+VStem: 50 900<-140.769 250 350 740.769>
 LayerCount: 2
 Fore
 SplineSet
@@ -12605,7 +12696,9 @@ EndChar
 StartChar: o_c.a
 Encoding: 379 -1 379
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<759.23 840.77>
+VStem: 750 100<259.23 340.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12621,7 +12714,9 @@ EndChar
 StartChar: o_c.b
 Encoding: 380 -1 380
 Width: 0
-Flags: HW
+Flags: W
+HStem: 450 100<759.23 840.77>
+VStem: 750 100<459.23 540.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12637,7 +12732,8 @@ EndChar
 StartChar: m_c
 Encoding: 381 -1 381
 Width: 1000
-Flags: H
+HStem: -150 250<459.23 540.77> 200 200<459.23 540.77> 500 250<459.23 540.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -12670,7 +12766,9 @@ EndChar
 StartChar: m_c.a
 Encoding: 382 -1 382
 Width: 0
-Flags: HW
+Flags: W
+HStem: 100 100<759.23 840.77> 400 100<759.23 840.77>
+VStem: 750 100<109.23 190.77 409.23 490.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12691,7 +12789,9 @@ EndChar
 StartChar: m_c.b
 Encoding: 383 -1 383
 Width: 0
-Flags: HW
+Flags: W
+HStem: 350 100<759.23 840.77> 550 100<759.23 840.77>
+VStem: 750 100<359.23 440.77 559.23 640.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12712,7 +12812,8 @@ EndChar
 StartChar: c_f
 Encoding: 384 -1 384
 Width: 1000
-Flags: H
+HStem: -150 100<359.23 440.77> 650 100<359.23 440.77>
+VStem: 50 300<-40.7701 640.77> 450 500<-40.7701 250 350 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -12749,7 +12850,9 @@ EndChar
 StartChar: c_f.a
 Encoding: 385 -1 385
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<900 940.77>
+VStem: 650 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12773,7 +12876,9 @@ EndChar
 StartChar: c_f.b
 Encoding: 386 -1 386
 Width: 0
-Flags: HW
+Flags: W
+HStem: 450 100<900 940.77>
+VStem: 650 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12797,7 +12902,9 @@ EndChar
 StartChar: c_b
 Encoding: 387 -1 387
 Width: 1000
-Flags: H
+HStem: -150 100<359.23 440.77> 250 100<450 640.77> 650 100<359.23 440.77>
+VStem: 50 300<-40.7701 640.77> 450 500<-40.7701 150 250 350 450 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -12835,7 +12942,9 @@ EndChar
 StartChar: c_b.a
 Encoding: 388 -1 388
 Width: 0
-Flags: HW
+Flags: W
+HStem: 100 100<900 940.77> 400 100<900 940.77>
+VStem: 650 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12865,7 +12974,9 @@ EndChar
 StartChar: c_b.b
 Encoding: 389 -1 389
 Width: 0
-Flags: HW
+Flags: W
+HStem: 350 100<900 940.77> 550 100<900 940.77>
+VStem: 650 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12895,7 +13006,8 @@ EndChar
 StartChar: m_f
 Encoding: 390 -1 390
 Width: 1000
-Flags: H
+HStem: -150 100<559.23 640.77> 650 100<559.23 640.77>
+VStem: 50 500<-40.7701 250 350 640.77> 650 300<-40.7701 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -12932,7 +13044,9 @@ EndChar
 StartChar: m_f.a
 Encoding: 391 -1 391
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<559.23 600>
+VStem: 750 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12957,7 +13071,9 @@ EndChar
 StartChar: m_f.b
 Encoding: 392 -1 392
 Width: 0
-Flags: HW
+Flags: W
+HStem: 450 100<559.23 600>
+VStem: 750 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -12982,7 +13098,9 @@ EndChar
 StartChar: m_b
 Encoding: 393 -1 393
 Width: 1000
-Flags: H
+HStem: -150 100<559.23 640.77> 250 100<359.23 550> 650 100<559.23 640.77>
+VStem: 50 500<-40.7701 150 250 350 450 640.77> 650 300<-40.7701 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -13026,7 +13144,9 @@ EndChar
 StartChar: m_b.a
 Encoding: 394 -1 394
 Width: 0
-Flags: HW
+Flags: W
+HStem: 100 100<559.23 600> 400 100<559.23 600>
+VStem: 750 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13057,7 +13177,9 @@ EndChar
 StartChar: m_b.b
 Encoding: 395 -1 395
 Width: 0
-Flags: HW
+Flags: W
+HStem: 350 100<559.23 600> 550 100<559.23 600>
+VStem: 750 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13088,7 +13210,8 @@ EndChar
 StartChar: av_p_o_c
 Encoding: 396 -1 396
 Width: 1000
-Flags: H
+HStem: -150 900<59.2315 450 550 940.769>
+VStem: 50 900<-140.769 250 350 740.769>
 LayerCount: 2
 Fore
 SplineSet
@@ -13115,7 +13238,9 @@ EndChar
 StartChar: av_p_o_c.a
 Encoding: 397 -1 397
 Width: 0
-Flags: HW
+Flags: W
+HStem: -50 100<459.23 540.77>
+VStem: 450 100<-40.7701 40.7701>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13131,7 +13256,9 @@ EndChar
 StartChar: av_p_o_c.b
 Encoding: 398 -1 398
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<459.23 540.77>
+VStem: 450 100<259.23 340.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13147,7 +13274,8 @@ EndChar
 StartChar: av_p_m_c
 Encoding: 399 -1 399
 Width: 1000
-Flags: H
+VStem: 50 250<259.23 340.77> 400 200<259.23 340.77> 700 250<259.23 340.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -13180,7 +13308,9 @@ EndChar
 StartChar: av_p_m_c.a
 Encoding: 400 -1 400
 Width: 0
-Flags: HW
+Flags: W
+HStem: -50 100<309.23 390.77 609.23 690.77>
+VStem: 300 100<-40.7701 40.7701> 600 100<-40.7701 40.7701>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13201,7 +13331,9 @@ EndChar
 StartChar: av_p_m_c.b
 Encoding: 401 -1 401
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<309.23 390.77 609.23 690.77>
+VStem: 300 100<259.23 340.77> 600 100<259.23 340.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13222,7 +13354,8 @@ EndChar
 StartChar: av_p_c_f
 Encoding: 402 -1 402
 Width: 1000
-Flags: H
+HStem: -150 500<159.23 450 550 840.77> 450 300<159.23 840.77>
+VStem: 50 100<359.23 440.77> 850 100<359.23 440.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -13259,7 +13392,9 @@ EndChar
 StartChar: av_p_c_f.a
 Encoding: 403 -1 403
 Width: 0
-Flags: HW
+Flags: W
+HStem: 50 100<59.2299 100 900 940.77>
+VStem: 450 100<-140.77 -100>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13283,7 +13418,9 @@ EndChar
 StartChar: av_p_c_f.b
 Encoding: 404 -1 404
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<59.2299 100 900 940.77>
+VStem: 450 100<159.23 200>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13308,20 +13445,21 @@ EndChar
 StartChar: av_p_c_b
 Encoding: 405 -1 405
 Width: 1000
-Flags: H
+HStem: -150 500<159.23 300 400 600 700 840.77> 450 300<159.23 840.77>
+VStem: 50 250<159.23 350> 50 100<359.23 440.77> 400 200<159.23 350> 700 250<159.23 350> 850 100<359.23 440.77>
 LayerCount: 2
 Fore
 SplineSet
 650 400 m 1
- 650 200 l 1025
+ 650 200 l 1025xc8
 800 400 m 1
  200 400 l 1025
 350 400 m 1
  350 200 l 1025
-850 400 m 0
+850 400 m 0xca
  850 427.595703125 827.595703125 450 800 450 c 2
  200 450 l 2
- 172.404296875 450 150 427.595703125 150 400 c 0
+ 172.404296875 450 150 427.595703125 150 400 c 0xda
  150 372.404296875 172.404296875 350 200 350 c 2
  300 350 l 1
  300 200 l 2
@@ -13332,9 +13470,9 @@ SplineSet
  600 200 l 2
  600 172.404296875 622.404296875 150 650 150 c 0
  677.595703125 150 700 172.404296875 700 200 c 2
- 700 350 l 1
+ 700 350 l 1xec
  800 350 l 2
- 827.595703125 350 850 372.404296875 850 400 c 0
+ 827.595703125 350 850 372.404296875 850 400 c 0xca
 100 750 m 2
  900 750 l 2
  927.594726562 749.997070312 949.997070312 727.594726562 950 700 c 2
@@ -13352,7 +13490,9 @@ EndChar
 StartChar: av_p_c_b.a
 Encoding: 406 -1 406
 Width: 0
-Flags: HW
+Flags: W
+HStem: 50 100<59.2299 100 900 940.77>
+VStem: 300 100<-140.77 -100> 600 100<-140.77 -100>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13382,30 +13522,32 @@ EndChar
 StartChar: av_p_c_b.b
 Encoding: 407 -1 407
 Width: 0
-Flags: HW
+Flags: W
+HStem: 150 200<309.23 390.77 609.23 690.77> 250 100<59.2299 100 900 940.77>
+VStem: 300 100<159.23 200> 600 100<159.23 200>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-100 350 m 2
+100 350 m 2x70
  72.404296875 350 50 327.595703125 50 300 c 0
  50 272.404296875 72.404296875 250 100 250 c 2
- 300 250 l 1
+ 300 250 l 1x70
  300 200 l 2
- 300 172.404296875 322.404296875 150 350 150 c 0
+ 300 172.404296875 322.404296875 150 350 150 c 0xb0
  377.595703125 150 400 172.404296875 400 200 c 2
  400 250 l 1
- 600 250 l 1
+ 600 250 l 1x70
  600 200 l 2
- 600 172.404296875 622.404296875 150 650 150 c 0
+ 600 172.404296875 622.404296875 150 650 150 c 0xb0
  677.595703125 150 700 172.404296875 700 200 c 2
  700 250 l 1
  900 250 l 2
  927.595703125 250 950 272.404296875 950 300 c 0
- 950 327.595703125 927.595703125 350 900 350 c 2
+ 950 327.595703125 927.595703125 350 900 350 c 2x70
  650 350 l 1
- 350 350 l 1
- 100 350 l 2
+ 350 350 l 1xb0
+ 100 350 l 2x70
 EndSplineSet
 Substitution2: "Single Substitution lookup 48 subtable" av_p_c_b.b.e
 EndChar
@@ -13413,7 +13555,8 @@ EndChar
 StartChar: av_p_m_f
 Encoding: 408 -1 408
 Width: 1000
-Flags: H
+HStem: -150 300<159.23 840.77> 250 500<159.23 450 550 840.77>
+VStem: 50 100<159.23 240.77> 850 100<159.23 240.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -13450,7 +13593,9 @@ EndChar
 StartChar: av_p_m_f.a
 Encoding: 409 -1 409
 Width: 0
-Flags: HW
+Flags: W
+HStem: -50 100<59.2299 100 900 940.77>
+VStem: 450 100<200 240.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13475,7 +13620,9 @@ EndChar
 StartChar: av_p_m_f.b
 Encoding: 410 -1 410
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<59.2299 100 900 940.77>
+VStem: 450 100<400 440.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13500,12 +13647,13 @@ EndChar
 StartChar: av_p_m_b
 Encoding: 411 -1 411
 Width: 1000
-Flags: H
+HStem: -150 300<159.23 840.77> 250 500<159.23 300 400 600 700 840.77>
+VStem: 50 250<250 440.77> 50 100<159.23 240.77> 400 200<250 440.77> 700 250<250 440.77> 850 100<159.23 240.77>
 LayerCount: 2
 Fore
 SplineSet
 650 400 m 1
- 650 200 l 1025
+ 650 200 l 1025xc8
 800 200 m 1
  200 200 l 1025
 350 400 m 1
@@ -13517,20 +13665,20 @@ SplineSet
  949.997070312 -127.594726562 927.594726562 -149.997070312 900 -150 c 2
  100 -150 l 2
  72.4052734375 -149.997070312 50.0029296875 -127.594726562 50 -100 c 2
- 50 700 l 2
+ 50 700 l 2xda
  50.0029296875 727.594726562 72.4052734375 750 100 750 c 2
 400 400 m 2
  400 427.595703125 377.595703125 450 350 450 c 0
  322.404296875 450 300 427.595703125 300 400 c 2
- 300 250 l 1
+ 300 250 l 1xec
  200 250 l 2
  172.404296875 250 150 227.595703125 150 200 c 0
  150 172.404296875 172.404296875 150 200 150 c 2
  800 150 l 2
- 827.595703125 150 850 172.404296875 850 200 c 0
+ 827.595703125 150 850 172.404296875 850 200 c 0xda
  850 227.595703125 827.595703125 250 800 250 c 2
  700 250 l 1
- 700 400 l 2
+ 700 400 l 2xcc
  700 427.595703125 677.595703125 450 650 450 c 0
  622.404296875 450 600 427.595703125 600 400 c 2
  600 250 l 1
@@ -13544,7 +13692,9 @@ EndChar
 StartChar: av_p_m_b.a
 Encoding: 412 -1 412
 Width: 0
-Flags: HW
+Flags: W
+HStem: -50 100<59.2299 100 900 940.77>
+VStem: 300 100<200 240.77> 600 100<200 240.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13575,30 +13725,32 @@ EndChar
 StartChar: av_p_m_b.b
 Encoding: 413 -1 413
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 200<309.23 390.77 609.23 690.77> 250 100<59.2299 100 900 940.77>
+VStem: 300 100<400 440.77> 600 100<400 440.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-700 400 m 2
- 700 427.595703125 677.595703125 450 650 450 c 0
+700 400 m 2x70
+ 700 427.595703125 677.595703125 450 650 450 c 0xb0
  622.404296875 450 600 427.595703125 600 400 c 2
  600 350 l 1
- 400 350 l 1
+ 400 350 l 1x70
  400 400 l 2
- 400 427.595703125 377.595703125 450 350 450 c 0
+ 400 427.595703125 377.595703125 450 350 450 c 0xb0
  322.404296875 450 300 427.595703125 300 400 c 2
  300 350 l 1
  100 350 l 2
  72.404296875 350 50 327.595703125 50 300 c 0
- 50 272.404296875 72.404296875 250 100 250 c 2
+ 50 272.404296875 72.404296875 250 100 250 c 2x70
  350 250 l 1
- 650 250 l 1
+ 650 250 l 1xb0
  900 250 l 2
  927.595703125 250 950 272.404296875 950 300 c 0
  950 327.595703125 927.595703125 350 900 350 c 2
  700 350 l 1
- 700 400 l 2
+ 700 400 l 2x70
 EndSplineSet
 Substitution2: "Single Substitution lookup 44 subtable" av_p_m_b.b.e
 EndChar
@@ -13606,7 +13758,8 @@ EndChar
 StartChar: av_v_o_c
 Encoding: 414 -1 414
 Width: 1000
-Flags: H
+HStem: -150 100<459.23 540.77> 650 100<459.23 540.77>
+VStem: 50 400<-40.7701 640.77> 550 400<-40.7701 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -13636,7 +13789,8 @@ EndChar
 StartChar: av_v_o_c.a
 Encoding: 415 -1 415
 Width: 0
-Flags: HW
+Flags: W
+VStem: 750 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13654,7 +13808,8 @@ EndChar
 StartChar: av_v_o_c.b
 Encoding: 416 -1 416
 Width: 0
-Flags: HW
+Flags: W
+VStem: 750 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13672,7 +13827,9 @@ EndChar
 StartChar: av_v_m_c
 Encoding: 417 -1 417
 Width: 1000
-Flags: H
+HStem: -150 100<359.23 440.77 559.23 640.77> 650 100<359.23 440.77 559.23 640.77>
+VStem: 50 300<-40.7701 640.77> 450 100<-40.7701 640.77> 650 300<-40.7701 640.77>
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -13711,7 +13868,8 @@ EndChar
 StartChar: av_v_m_c.a
 Encoding: 418 -1 418
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<-140.77 -100 700 740.77> 850 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13736,7 +13894,8 @@ EndChar
 StartChar: av_v_m_c.b
 Encoding: 419 -1 419
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<259.23 300 700 740.77> 850 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13761,7 +13920,9 @@ EndChar
 StartChar: av_v_c_f
 Encoding: 420 -1 420
 Width: 1000
-Flags: H
+HStem: -150 100<359.23 440.77 559.23 640.77> 650 100<359.23 440.77 559.23 640.77>
+VStem: 50 300<-40.7701 640.77> 450 100<-40.7701 250 350 640.77> 650 300<-40.7701 640.77>
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -13805,7 +13966,8 @@ EndChar
 StartChar: av_v_c_f.a
 Encoding: 421 -1 421
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<-140.77 -100 700 740.77> 850 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13835,7 +13997,8 @@ EndChar
 StartChar: av_v_c_f.b
 Encoding: 422 -1 422
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<259.23 300 700 740.77> 850 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13865,7 +14028,9 @@ EndChar
 StartChar: av_v_c_b
 Encoding: 423 -1 423
 Width: 1000
-Flags: H
+HStem: -150 100<359.23 440.77 559.23 640.77> 260 90<450 550> 650 100<359.23 440.77 559.23 640.77>
+VStem: 50 300<-40.7701 640.77> 450 100<-40.7701 160 260 350 450 640.77> 650 300<-40.7701 640.77>
+CounterMasks: 1 1c
 LayerCount: 2
 Fore
 SplineSet
@@ -13908,7 +14073,8 @@ EndChar
 StartChar: av_v_c_b.a
 Encoding: 424 -1 424
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<-140.77 -100 700 740.77> 850 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13945,7 +14111,8 @@ EndChar
 StartChar: av_v_c_b.b
 Encoding: 425 -1 425
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<259.23 300 700 740.77> 850 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -13982,7 +14149,8 @@ EndChar
 StartChar: av_v_m_f
 Encoding: 426 -1 426
 Width: 1000
-Flags: H
+HStem: -150 100<459.23 540.77 659.23 740.77> 650 100<459.23 540.77 659.23 740.77>
+VStem: 50 400<-40.7701 250 350 640.77> 550 100<-40.7701 640.77> 750 200<-40.7701 640.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -14028,7 +14196,9 @@ EndChar
 StartChar: av_v_m_f.a
 Encoding: 427 -1 427
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<559.23 600>
+VStem: 650 100<-140.77 -100 700 740.77> 850 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14060,7 +14230,9 @@ EndChar
 StartChar: av_v_m_f.b
 Encoding: 428 -1 428
 Width: 0
-Flags: HW
+Flags: W
+HStem: 450 100<559.23 600>
+VStem: 650 100<259.23 300 700 740.77> 850 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14092,17 +14264,19 @@ EndChar
 StartChar: av_v_m_b
 Encoding: 429 -1 429
 Width: 1000
-Flags: H
+HStem: -150 100<459.23 540.77 659.23 740.77> 250 100<259.23 450> 650 100<459.23 540.77 659.23 740.77>
+VStem: 50 400<-40.7701 150 250 350 450 640.77> 50 200<159.23 240.77 359.23 440.77> 550 100<-40.7701 640.77> 750 200<-40.7701 640.77>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
-700 650 m 0
+700 650 m 0xe6
  672.404296875 650 650 627.595703125 650 600 c 2
  650 0 l 2
  650 -27.595703125 672.404296875 -50 700 -50 c 0
  727.595703125 -50 750 -27.595703125 750 0 c 2
  750 600 l 2
- 750 627.595703125 727.595703125 650 700 650 c 0
+ 750 627.595703125 727.595703125 650 700 650 c 0xe6
 100 750 m 2
  900 750 l 2
  927.594726562 749.997070312 949.997070312 727.594726562 950 700 c 2
@@ -14110,15 +14284,15 @@ SplineSet
  949.997070312 -127.594726562 927.594726562 -149.997070312 900 -150 c 2
  100 -150 l 2
  72.4052734375 -149.997070312 50.0029296875 -127.594726562 50 -100 c 2
- 50 700 l 2
+ 50 700 l 2xee
  50.0029296875 727.594726562 72.4052734375 750 100 750 c 2
 300 450 m 2
- 272.404296875 450 250 427.595703125 250 400 c 0
+ 272.404296875 450 250 427.595703125 250 400 c 0xee
  250 372.404296875 272.404296875 350 300 350 c 2
  450 350 l 1
- 450 250 l 1
+ 450 250 l 1xf6
  300 250 l 2
- 272.404296875 250 250 227.595703125 250 200 c 0
+ 272.404296875 250 250 227.595703125 250 200 c 0xee
  250 172.404296875 272.404296875 150 300 150 c 2
  450 150 l 1
  450 0 l 2
@@ -14127,7 +14301,7 @@ SplineSet
  550 600 l 2
  550 627.595703125 527.595703125 650 500 650 c 0
  472.404296875 650 450 627.595703125 450 600 c 2
- 450 450 l 1
+ 450 450 l 1xf6
  300 450 l 2
 EndSplineSet
 Substitution2: "Single Substitution lookup 28 subtable" av_v_m_b.a
@@ -14137,30 +14311,32 @@ EndChar
 StartChar: av_v_m_b.a
 Encoding: 430 -1 430
 Width: 0
-Flags: HW
+Flags: W
+HStem: 100 100<559.23 600> 400 100<559.23 600>
+VStem: 550 200<109.23 190.77 409.23 490.77> 650 100<-140.77 -100 700 740.77> 850 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-600 200 m 6
- 572.404296875 200 550 177.595703125 550 150 c 4
+600 200 m 6xd8
+ 572.404296875 200 550 177.595703125 550 150 c 4xe8
  550 122.404296875 572.404296875 100 600 100 c 6
  650 100 l 5
  650 -100 l 2
  650 -127.595703125 672.404296875 -150 700 -150 c 0
- 727.595703125 -150 750 -127.595703125 750 -100 c 2
+ 727.595703125 -150 750 -127.595703125 750 -100 c 2xd8
  750 150 l 5
- 750 450 l 1
+ 750 450 l 1xe8
  750 700 l 2
  750 727.595703125 727.595703125 750 700 750 c 0
  672.404296875 750 650 727.595703125 650 700 c 2
- 650 500 l 1
+ 650 500 l 1xd8
  600 500 l 2
- 572.404296875 500 550 477.595703125 550 450 c 0
+ 572.404296875 500 550 477.595703125 550 450 c 0xe8
  550 422.404296875 572.404296875 400 600 400 c 2
  650 400 l 1
  650 200 l 5
- 600 200 l 6
+ 600 200 l 6xd8
 950 700 m 2
  950 727.595703125 927.595703125 750 900 750 c 0
  872.404296875 750 850 727.595703125 850 700 c 2
@@ -14175,30 +14351,32 @@ EndChar
 StartChar: av_v_m_b.b
 Encoding: 431 -1 431
 Width: 0
-Flags: HW
+Flags: W
+HStem: 350 100<559.23 600> 550 100<559.23 600>
+VStem: 550 200<359.23 440.77 559.23 640.77> 650 100<259.23 300 700 740.77> 850 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-600 450 m 2
- 572.404296875 450 550 427.595703125 550 400 c 0
+600 450 m 2xd8
+ 572.404296875 450 550 427.595703125 550 400 c 0xe8
  550 372.404296875 572.404296875 350 600 350 c 2
  650 350 l 1
  650 300 l 2
  650 272.404296875 672.404296875 250 700 250 c 0
- 727.595703125 250 750 272.404296875 750 300 c 2
+ 727.595703125 250 750 272.404296875 750 300 c 2xd8
  750 400 l 1
- 750 600 l 1
+ 750 600 l 1xe8
  750 700 l 2
  750 727.595703125 727.595703125 750 700 750 c 0
  672.404296875 750 650 727.595703125 650 700 c 2
- 650 650 l 1
+ 650 650 l 1xd8
  600 650 l 2
- 572.404296875 650 550 627.595703125 550 600 c 0
+ 572.404296875 650 550 627.595703125 550 600 c 0xe8
  550 572.404296875 572.404296875 550 600 550 c 2
  650 550 l 1
  650 450 l 1
- 600 450 l 2
+ 600 450 l 2xd8
 950 700 m 2
  950 727.595703125 927.595703125 750 900 750 c 0
  872.404296875 750 850 727.595703125 850 700 c 2
@@ -14213,7 +14391,8 @@ EndChar
 StartChar: vn
 Encoding: 432 -1 432
 Width: 1000
-Flags: H
+HStem: -150 400<159.23 840.77> 350 400<159.23 840.77>
+VStem: 50 100<259.23 340.77> 850 100<259.23 340.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -14243,7 +14422,8 @@ EndChar
 StartChar: vn.a
 Encoding: 433 -1 433
 Width: 0
-Flags: HW
+Flags: W
+HStem: -50 100<59.2299 100 900 940.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14261,7 +14441,8 @@ EndChar
 StartChar: vn.b
 Encoding: 434 -1 434
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<59.2299 100 900 940.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14279,7 +14460,7 @@ EndChar
 StartChar: vb
 Encoding: 435 -1 435
 Width: 1000
-Flags: H
+VStem: 50 100<259.23 340.77> 250 200<259.23 340.77> 550 200<259.23 340.77> 850 100<259.23 340.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -14318,14 +14499,14 @@ EndChar
 StartChar: jj_space
 Encoding: 436 -1 436
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: q
 Encoding: 437 113 437
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" tv_a
 EndChar
@@ -14333,7 +14514,7 @@ EndChar
 StartChar: Q
 Encoding: 438 81 438
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" tv_u
 EndChar
@@ -14341,7 +14522,7 @@ EndChar
 StartChar: w
 Encoding: 439 119 439
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nsfu_p
 EndChar
@@ -14349,7 +14530,7 @@ EndChar
 StartChar: W
 Encoding: 440 87 440
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nsfu_v
 EndChar
@@ -14357,7 +14538,7 @@ EndChar
 StartChar: e
 Encoding: 441 101 441
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" sfu_p
 EndChar
@@ -14365,7 +14546,7 @@ EndChar
 StartChar: E
 Encoding: 442 69 442
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" sfv_p
 EndChar
@@ -14373,7 +14554,7 @@ EndChar
 StartChar: r
 Encoding: 443 114 443
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" sfu_r
 EndChar
@@ -14381,7 +14562,7 @@ EndChar
 StartChar: R
 Encoding: 444 82 444
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" sfv_r
 EndChar
@@ -14389,7 +14570,7 @@ EndChar
 StartChar: t
 Encoding: 445 116 445
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" sfu_a
 EndChar
@@ -14397,7 +14578,7 @@ EndChar
 StartChar: T
 Encoding: 446 84 446
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" sfv_a
 EndChar
@@ -14405,7 +14586,7 @@ EndChar
 StartChar: y
 Encoding: 447 121 447
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nsfu_b
 EndChar
@@ -14413,7 +14594,7 @@ EndChar
 StartChar: Y
 Encoding: 448 89 448
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nsfv_b
 EndChar
@@ -14421,7 +14602,7 @@ EndChar
 StartChar: u
 Encoding: 449 117 449
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nsfu_a
 EndChar
@@ -14429,7 +14610,7 @@ EndChar
 StartChar: U
 Encoding: 450 85 450
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_a
 EndChar
@@ -14437,7 +14618,7 @@ EndChar
 StartChar: i
 Encoding: 451 105 451
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_v_o_c
 EndChar
@@ -14445,7 +14626,7 @@ EndChar
 StartChar: I
 Encoding: 452 73 452
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_v_m_c
 EndChar
@@ -14453,7 +14634,7 @@ EndChar
 StartChar: o
 Encoding: 453 111 453
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_v_c_f
 EndChar
@@ -14461,7 +14642,7 @@ EndChar
 StartChar: O
 Encoding: 454 79 454
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_v_c_b
 EndChar
@@ -14469,7 +14650,7 @@ EndChar
 StartChar: p
 Encoding: 455 112 455
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_v_m_f
 EndChar
@@ -14477,7 +14658,7 @@ EndChar
 StartChar: P
 Encoding: 456 80 456
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_v_m_b
 EndChar
@@ -14485,7 +14666,7 @@ EndChar
 StartChar: a
 Encoding: 457 97 457
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pu_g_m
 EndChar
@@ -14493,7 +14674,7 @@ EndChar
 StartChar: A
 Encoding: 458 65 458
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nsfu_g
 EndChar
@@ -14501,7 +14682,7 @@ EndChar
 StartChar: s
 Encoding: 459 115 459
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nv_v
 EndChar
@@ -14509,7 +14690,7 @@ EndChar
 StartChar: S
 Encoding: 460 83 460
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pa_v
 EndChar
@@ -14517,7 +14698,7 @@ EndChar
 StartChar: d
 Encoding: 461 100 461
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nv_p
 EndChar
@@ -14525,7 +14706,7 @@ EndChar
 StartChar: D
 Encoding: 462 68 462
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pa_p
 EndChar
@@ -14533,7 +14714,7 @@ EndChar
 StartChar: f
 Encoding: 463 102 463
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nv_r
 EndChar
@@ -14541,7 +14722,7 @@ EndChar
 StartChar: F
 Encoding: 464 70 464
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pa_r
 EndChar
@@ -14549,7 +14730,7 @@ EndChar
 StartChar: g
 Encoding: 465 103 465
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nv_a
 EndChar
@@ -14557,7 +14738,7 @@ EndChar
 StartChar: G
 Encoding: 466 71 466
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pa_a
 EndChar
@@ -14565,7 +14746,7 @@ EndChar
 StartChar: h
 Encoding: 467 104 467
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" nv_b
 EndChar
@@ -14573,7 +14754,7 @@ EndChar
 StartChar: H
 Encoding: 468 72 468
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pa_b
 EndChar
@@ -14581,7 +14762,7 @@ EndChar
 StartChar: j
 Encoding: 469 106 469
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" vn
 EndChar
@@ -14589,7 +14770,7 @@ EndChar
 StartChar: J
 Encoding: 470 74 470
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pa_u
 EndChar
@@ -14597,7 +14778,7 @@ EndChar
 StartChar: l
 Encoding: 471 108 471
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" c_f
 EndChar
@@ -14605,7 +14786,7 @@ EndChar
 StartChar: L
 Encoding: 472 76 472
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" c_b
 EndChar
@@ -14613,7 +14794,7 @@ EndChar
 StartChar: k
 Encoding: 473 107 473
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" o_c
 EndChar
@@ -14621,7 +14802,7 @@ EndChar
 StartChar: K
 Encoding: 474 75 474
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" m_c
 EndChar
@@ -14629,7 +14810,7 @@ EndChar
 StartChar: z
 Encoding: 475 122 475
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pu_u
 EndChar
@@ -14637,7 +14818,7 @@ EndChar
 StartChar: Z
 Encoding: 476 90 476
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pv_u
 EndChar
@@ -14645,7 +14826,7 @@ EndChar
 StartChar: x
 Encoding: 477 120 477
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pu_v
 EndChar
@@ -14653,7 +14834,7 @@ EndChar
 StartChar: X
 Encoding: 478 88 478
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pv_v
 EndChar
@@ -14661,7 +14842,7 @@ EndChar
 StartChar: c
 Encoding: 479 99 479
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pu_p
 EndChar
@@ -14669,7 +14850,7 @@ EndChar
 StartChar: C
 Encoding: 480 67 480
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pv_p
 EndChar
@@ -14677,7 +14858,7 @@ EndChar
 StartChar: v
 Encoding: 481 118 481
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pu_r
 EndChar
@@ -14685,7 +14866,7 @@ EndChar
 StartChar: V
 Encoding: 482 86 482
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pv_r
 EndChar
@@ -14693,7 +14874,7 @@ EndChar
 StartChar: b
 Encoding: 483 98 483
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pu_a
 EndChar
@@ -14701,7 +14882,7 @@ EndChar
 StartChar: B
 Encoding: 484 66 484
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pv_a
 EndChar
@@ -14709,7 +14890,7 @@ EndChar
 StartChar: n
 Encoding: 485 110 485
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pu_b
 EndChar
@@ -14717,7 +14898,7 @@ EndChar
 StartChar: N
 Encoding: 486 78 486
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pv_b
 EndChar
@@ -14725,7 +14906,7 @@ EndChar
 StartChar: m
 Encoding: 487 109 487
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" lfu_a
 EndChar
@@ -14733,7 +14914,7 @@ EndChar
 StartChar: M
 Encoding: 488 77 488
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" lav_a
 EndChar
@@ -14741,7 +14922,7 @@ EndChar
 StartChar: zero
 Encoding: 489 48 489
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" m_f
 EndChar
@@ -14749,7 +14930,7 @@ EndChar
 StartChar: one
 Encoding: 490 49 490
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" m_b
 EndChar
@@ -14757,7 +14938,7 @@ EndChar
 StartChar: two
 Encoding: 491 50 491
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_p_o_c
 EndChar
@@ -14765,7 +14946,7 @@ EndChar
 StartChar: three
 Encoding: 492 51 492
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_p_m_c
 EndChar
@@ -14773,7 +14954,7 @@ EndChar
 StartChar: four
 Encoding: 493 52 493
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_p_c_f
 EndChar
@@ -14781,7 +14962,7 @@ EndChar
 StartChar: five
 Encoding: 494 53 494
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_p_c_b
 EndChar
@@ -14789,7 +14970,7 @@ EndChar
 StartChar: six
 Encoding: 495 54 495
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_p_m_f
 EndChar
@@ -14797,7 +14978,7 @@ EndChar
 StartChar: seven
 Encoding: 496 55 496
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" av_p_m_b
 EndChar
@@ -14805,7 +14986,7 @@ EndChar
 StartChar: eight
 Encoding: 497 56 497
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" vb
 EndChar
@@ -14813,7 +14994,7 @@ EndChar
 StartChar: nine
 Encoding: 498 57 498
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" pu_g_d
 EndChar
@@ -14821,7 +15002,7 @@ EndChar
 StartChar: space
 Encoding: 499 32 499
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Substitution2: "ascii_input subtable" jj_space
 EndChar
@@ -14829,7 +15010,7 @@ EndChar
 StartChar: vb.empty
 Encoding: 500 -1 500
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 EndChar
@@ -14837,7 +15018,8 @@ EndChar
 StartChar: av_v_m_b.b.e
 Encoding: 517 -1 501
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<259.23 300 700 740.77> 850 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14872,7 +15054,8 @@ EndChar
 StartChar: m_f.a.e
 Encoding: 504 -1 502
 Width: 0
-Flags: HW
+Flags: W
+VStem: 750 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14895,7 +15078,8 @@ EndChar
 StartChar: m_f.b.e
 Encoding: 505 -1 503
 Width: 0
-Flags: HW
+Flags: W
+VStem: 750 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14918,7 +15102,8 @@ EndChar
 StartChar: m_b.a.e
 Encoding: 506 -1 504
 Width: 0
-Flags: HW
+Flags: W
+VStem: 750 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14946,7 +15131,8 @@ EndChar
 StartChar: m_b.b.e
 Encoding: 507 -1 505
 Width: 0
-Flags: HW
+Flags: W
+VStem: 750 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14974,7 +15160,8 @@ EndChar
 StartChar: av_p_c_f.b.e
 Encoding: 508 -1 506
 Width: 0
-Flags: HWO
+Flags: W
+HStem: 250 100<59.2299 100 900 940.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -14997,7 +15184,8 @@ EndChar
 StartChar: av_p_c_b.b.e
 Encoding: 509 -1 507
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<59.2299 100 900 940.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -15025,7 +15213,8 @@ EndChar
 StartChar: av_p_m_f.a.e
 Encoding: 510 -1 508
 Width: 0
-Flags: HW
+Flags: W
+HStem: -50 100<59.2299 100 900 940.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -15048,7 +15237,8 @@ EndChar
 StartChar: av_p_m_f.b.e
 Encoding: 511 -1 509
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<59.2299 100 900 940.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -15071,7 +15261,8 @@ EndChar
 StartChar: av_p_m_b.a.e
 Encoding: 512 -1 510
 Width: 0
-Flags: HW
+Flags: W
+HStem: -50 100<59.2299 100 900 940.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -15099,7 +15290,8 @@ EndChar
 StartChar: av_p_m_b.b.e
 Encoding: 513 -1 511
 Width: 0
-Flags: HW
+Flags: W
+HStem: 250 100<59.2299 100 900 940.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -15127,7 +15319,8 @@ EndChar
 StartChar: av_v_m_f.a.e
 Encoding: 514 -1 512
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<-140.77 -100 700 740.77> 850 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -15157,7 +15350,8 @@ EndChar
 StartChar: av_v_m_f.b.e
 Encoding: 515 -1 513
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<259.23 300 700 740.77> 850 100<259.23 300 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
@@ -15187,7 +15381,8 @@ EndChar
 StartChar: av_v_m_b.a.e
 Encoding: 516 -1 514
 Width: 0
-Flags: HW
+Flags: W
+VStem: 650 100<-140.77 -100 700 740.77> 850 100<-140.77 -100 700 740.77>
 AnchorPoint: "MarkBaseSet" 0 0 mark 0
 LayerCount: 2
 Fore
