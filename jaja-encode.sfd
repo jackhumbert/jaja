@@ -23,13 +23,12 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1626979397
-ModificationTime: 1627594858
+ModificationTime: 1627593361
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 90
 VLineGap: 90
-Panose: 2 1 6 0 3 0 0 0 0 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,7 +43,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-OS2CodePages: 00020000.00000000
+OS2CodePages: 00100000.00000000
 Lookup: 1 0 0 "ascii_input" { "ascii_input subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "cvc_3v_c1" { "cvc_3v_c1 contextual 0"  "cvc_3v_c1 contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2 subtable"  } []
@@ -311,13 +310,13 @@ ChainSub2: coverage "cvc_3v_c1 contextual 0" 0 0 0 1
 EndFPST
 LangName: 1033
 GaspTable: 4 7 10 10 5 59 15 65535 15 1
-Encoding: Custom
-UnicodeInterp: none
+Encoding: UnicodeBmp
+UnicodeInterp: tradchinese
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 324 18 9
+WinInfo: 65556 18 9
 BeginPrivate: 2
 StdHW 5 [100]
 StdVW 5 [100]
@@ -361,10 +360,10 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 0 0 0 0 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "MarkBaseSet" "'mark' Mark Positioning in Latin lookup 0-1"
-BeginChars: 529 521
+BeginChars: 65988 521
 
 StartChar: tv_a
-Encoding: 0 -1 0
+Encoding: 65536 -1 0
 Width: 1000
 HStem: -100 100<109.23 790.77> 100 500<109.23 400 500 790.77> 700 100<109.23 790.77>
 VStem: 0 400<100 600> 0 100<9.2299 90.7701 609.23 690.77> 500 400<100 600> 800 100<9.2299 90.7701 609.23 690.77>
@@ -414,7 +413,7 @@ Substitution2: "Single Substitution lookup 2 subtable" tv_a.5
 EndChar
 
 StartChar: tv_a.1
-Encoding: 1 -1 1
+Encoding: 65537 -1 1
 Width: 1000
 HStem: 0 100<109.23 400 500 790.77> 600 100<109.23 400 500 790.77>
 VStem: 400 100<100 600>
@@ -442,7 +441,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_a.2
-Encoding: 2 -1 2
+Encoding: 65538 -1 2
 Width: 1000
 HStem: 0 100<9.2299 200 300 490.77> 600 100<9.2299 200 300 490.77>
 VStem: 200 100<100 600>
@@ -471,7 +470,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_a.3
-Encoding: 3 -1 3
+Encoding: 65539 -1 3
 Width: 1000
 HStem: 300 100<109.23 400 500 790.77> 700 100<109.23 400 500 790.77>
 VStem: 400 100<400 700>
@@ -500,7 +499,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_a.4
-Encoding: 4 -1 4
+Encoding: 65540 -1 4
 Width: 1000
 HStem: 300 100<9.2299 200 300 490.77> 700 100<9.2299 200 300 490.77>
 VStem: 200 100<400 700>
@@ -529,7 +528,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_a.5
-Encoding: 5 -1 5
+Encoding: 65541 -1 5
 Width: 1000
 HStem: 500 100<109.23 400 500 790.77> 700 100<109.23 400 500 790.77>
 VStem: 400 100<600 700>
@@ -558,7 +557,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_a.6
-Encoding: 6 -1 6
+Encoding: 65542 -1 6
 Width: 1000
 HStem: 400 100<109.23 400 500 790.77> 700 100<109.23 400 500 790.77>
 VStem: 400 100<500 700>
@@ -587,7 +586,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_a.7
-Encoding: 7 -1 7
+Encoding: 65543 -1 7
 Width: 0
 Flags: W
 HStem: -100 100<109.23 400 500 790.77> 100 100<109.23 400 500 790.77>
@@ -617,7 +616,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_a.8
-Encoding: 8 -1 8
+Encoding: 65544 -1 8
 Width: 0
 Flags: W
 HStem: -100 100<109.23 400 500 790.77> 200 100<109.23 400 500 790.77>
@@ -647,7 +646,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_u
-Encoding: 9 -1 9
+Encoding: 65545 -1 9
 Width: 1000
 HStem: -100 100<109.23 790.77> 100 500<109.23 250 350 550 650 790.77> 700 100<109.23 790.77>
 VStem: 0 250<100 600> 0 100<9.2299 90.7701 609.23 690.77> 350 200<100 600> 650 250<100 600> 800 100<9.2299 90.7701 609.23 690.77>
@@ -702,7 +701,7 @@ Substitution2: "Single Substitution lookup 2 subtable" tv_u.5
 EndChar
 
 StartChar: tv_u.1
-Encoding: 10 -1 10
+Encoding: 65546 -1 10
 Width: 1000
 HStem: 0 100<109.23 250 350 550 650 790.77> 600 100<109.23 250 350 550 650 790.77>
 VStem: 250 100<100 600> 550 100<100 600>
@@ -735,7 +734,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_u.2
-Encoding: 11 -1 11
+Encoding: 65547 -1 11
 Width: 1000
 HStem: 0 100<9.2299 100 200 300 400 490.77> 600 100<9.2299 100 200 300 400 490.77>
 VStem: 100 100<100 600> 300 100<100 600>
@@ -769,7 +768,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_u.3
-Encoding: 12 -1 12
+Encoding: 65548 -1 12
 Width: 1000
 HStem: 300 100<109.23 250 350 550 650 790.77> 700 100<109.23 250 350 550 650 790.77>
 VStem: 250 100<400 700> 550 100<400 700>
@@ -803,7 +802,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_u.4
-Encoding: 13 -1 13
+Encoding: 65549 -1 13
 Width: 1000
 HStem: 300 100<9.2299 100 200 300 400 490.77> 700 100<9.2299 100 200 300 400 490.77>
 VStem: 100 100<400 700> 300 100<400 700>
@@ -837,7 +836,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_u.5
-Encoding: 14 -1 14
+Encoding: 65550 -1 14
 Width: 1000
 HStem: 500 100<109.23 250 350 550 650 790.77> 700 100<109.23 250 350 550 650 790.77>
 VStem: 250 100<600 700> 550 100<600 700>
@@ -871,7 +870,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_u.6
-Encoding: 15 -1 15
+Encoding: 65551 -1 15
 Width: 1000
 HStem: 400 100<109.229 249.999 349.999 549.999 649.999 790.769> 700 100<109.229 249.999 349.999 549.999 649.999 790.769>
 VStem: 249.999 100<500 700> 549.999 100<500 700>
@@ -905,7 +904,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_u.7
-Encoding: 16 -1 16
+Encoding: 65552 -1 16
 Width: 0
 Flags: W
 HStem: -100 100<109.23 250 350 550 650 790.77> 100 100<109.23 250 350 550 650 790.77>
@@ -940,7 +939,7 @@ EndSplineSet
 EndChar
 
 StartChar: tv_u.8
-Encoding: 17 -1 17
+Encoding: 65553 -1 17
 Width: 0
 Flags: W
 HStem: -100 100<109.23 250 350 550 650 790.77> 200 100<109.23 250 350 550 650 790.77>
@@ -975,7 +974,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_p
-Encoding: 18 -1 18
+Encoding: 65554 -1 18
 Width: 1000
 HStem: -100 100<309.093 390.907 709.093 791.418> 700 100<108.582 190.907 509.093 590.907>
 VStem: 0 100<577.947 691.02> 800 100<8.98038 122.053>
@@ -1026,7 +1025,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nsfu_p.5
 EndChar
 
 StartChar: nsfu_p.1
-Encoding: 19 -1 19
+Encoding: 65555 -1 19
 Width: 1000
 HStem: 0 21G<338.963 361.037 738.963 763.455>
 LayerCount: 2
@@ -1053,7 +1052,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_p.2
-Encoding: 20 -1 20
+Encoding: 65556 -1 20
 Width: 1000
 HStem: 0 21G<171.403 195.263 438.07 463.397>
 VStem: 134.522 97.6211<8.10788 70.6217> 267.856 97.6211<629.378 691.892>
@@ -1082,7 +1081,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_p.6
-Encoding: 168 -1 21
+Encoding: 65557 -1 21
 Width: 1000
 HStem: 400 100<200 700>
 VStem: 100 100<500 790.77> 700 100<500 790.77>
@@ -1107,7 +1106,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_p.7
-Encoding: 169 -1 22
+Encoding: 65558 -1 22
 Width: 0
 Flags: W
 HStem: -100 100<200 700>
@@ -1133,7 +1132,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_p.8
-Encoding: 170 -1 23
+Encoding: 65559 -1 23
 Width: 0
 Flags: W
 HStem: -100 100<200 700>
@@ -1159,7 +1158,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_p
-Encoding: 171 -1 24
+Encoding: 65560 -1 24
 Width: 1000
 HStem: -100 100<109.23 790.77> 700 100<109.23 190.77 409.23 490.77 709.23 790.77>
 VStem: 0 100<9.2299 690.77> 200 200<100 690.77> 500 200<100 690.77> 800 100<9.2299 690.77>
@@ -1209,7 +1208,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pa_p.5
 EndChar
 
 StartChar: pa_p.1
-Encoding: 172 -1 25
+Encoding: 65561 -1 25
 Width: 1000
 HStem: 0 100<200 400 500 700>
 VStem: 100 100<100 690.77> 400 100<100 690.77> 700 100<100 690.77>
@@ -1239,7 +1238,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_p.2
-Encoding: 173 -1 26
+Encoding: 65562 -1 26
 Width: 1000
 HStem: 0 100<100 200 300 400>
 VStem: 0 100<100 690.77> 200 100<100 690.77> 400 100<100 690.77>
@@ -1270,7 +1269,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_p.3
-Encoding: 174 -1 27
+Encoding: 65563 -1 27
 Width: 1000
 HStem: 300 100<200 400 500 700>
 VStem: 100 100<400 790.77> 400 100<400 790.77> 700 100<400 790.77>
@@ -1301,7 +1300,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_p.4
-Encoding: 175 -1 28
+Encoding: 65564 -1 28
 Width: 1000
 HStem: 300 100<100 200 300 400>
 VStem: 0 100<400 790.77> 200 100<400 790.77> 400 100<400 790.77>
@@ -1332,7 +1331,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_p.5
-Encoding: 176 -1 29
+Encoding: 65565 -1 29
 Width: 1000
 HStem: 500 300<109.23 190.77 409.23 490.77 709.23 790.77> 500 100<200 400 500 700>
 VStem: 100 100<600 790.77> 400 100<600 790.77> 700 100<600 790.77>
@@ -1363,7 +1362,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_p.6
-Encoding: 177 -1 30
+Encoding: 65566 -1 30
 Width: 1000
 HStem: 400 100<200 400 500 700>
 VStem: 100 100<500 790.77> 400 100<500 790.77> 700 100<500 790.77>
@@ -1394,7 +1393,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_p.7
-Encoding: 178 -1 31
+Encoding: 65567 -1 31
 Width: 0
 Flags: W
 HStem: -100 300<109.23 190.77 409.23 490.77 709.23 790.77> -100 100<200 400 500 700>
@@ -1426,7 +1425,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_p.8
-Encoding: 179 -1 32
+Encoding: 65568 -1 32
 Width: 0
 Flags: W
 HStem: -100 100<200 400 500 700>
@@ -1458,7 +1457,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_p.3
-Encoding: 21 -1 33
+Encoding: 65569 -1 33
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1485,7 +1484,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_p.4
-Encoding: 22 -1 34
+Encoding: 65570 -1 34
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1512,7 +1511,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_p.5
-Encoding: 23 -1 35
+Encoding: 65571 -1 35
 Width: 1000
 HStem: 500 300
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -1540,7 +1539,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_p.6
-Encoding: 24 -1 36
+Encoding: 65572 -1 36
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1567,7 +1566,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_p.7
-Encoding: 25 -1 37
+Encoding: 65573 -1 37
 Width: 0
 Flags: W
 HStem: -100 300
@@ -1596,7 +1595,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_p.8
-Encoding: 26 -1 38
+Encoding: 65574 -1 38
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -1624,7 +1623,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_v
-Encoding: 27 -1 39
+Encoding: 65575 -1 39
 Width: 1000
 HStem: -100 100<108.573 190.907 509.093 590.907> 700 100<309.093 390.907 709.093 791.427>
 VStem: 0 100<8.99244 122.053> 800 100<577.947 691.008>
@@ -1675,7 +1674,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nsfu_v.5
 EndChar
 
 StartChar: nsfu_v.1
-Encoding: 28 -1 40
+Encoding: 65576 -1 40
 Width: 1000
 HStem: 0 21G<136.545 161.037 538.963 561.037>
 LayerCount: 2
@@ -1702,7 +1701,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_v.2
-Encoding: 29 -1 41
+Encoding: 65577 -1 41
 Width: 1000
 HStem: 0 21G<36.6057 61.9302 304.737 328.597>
 VStem: 134.522 97.6211<629.378 691.892> 267.856 97.6211<8.10788 70.6217>
@@ -1731,7 +1730,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_v.3
-Encoding: 30 -1 42
+Encoding: 65578 -1 42
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1758,7 +1757,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_v.4
-Encoding: 31 -1 43
+Encoding: 65579 -1 43
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1785,7 +1784,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_v.5
-Encoding: 32 -1 44
+Encoding: 65580 -1 44
 Width: 1000
 HStem: 500 300
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -1813,7 +1812,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_v.6
-Encoding: 33 -1 45
+Encoding: 65581 -1 45
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1840,7 +1839,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_v.7
-Encoding: 34 -1 46
+Encoding: 65582 -1 46
 Width: 0
 Flags: W
 HStem: -100 300
@@ -1869,7 +1868,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_v.8
-Encoding: 35 -1 47
+Encoding: 65583 -1 47
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -1897,7 +1896,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_p
-Encoding: 36 -1 48
+Encoding: 65584 -1 48
 Width: 1000
 HStem: -100 100<109.23 790.77> 700 100<109.23 191.275 708.725 790.77>
 VStem: 0 100<9.2299 90.7701 594.707 690.77> 800 100<9.2299 90.7701 594.707 690.77>
@@ -1947,7 +1946,7 @@ Substitution2: "Single Substitution lookup 2 subtable" sfu_p.5
 EndChar
 
 StartChar: sfu_p.1
-Encoding: 37 -1 49
+Encoding: 65585 -1 49
 Width: 1000
 HStem: 0 100<109.23 369.093 530.907 790.77>
 LayerCount: 2
@@ -1975,7 +1974,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_p.2
-Encoding: 38 -1 50
+Encoding: 65586 -1 50
 Width: 1000
 HStem: 0 100<9.2299 180.618 319.382 490.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2004,7 +2003,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_p.3
-Encoding: 39 -1 51
+Encoding: 65587 -1 51
 Width: 1000
 HStem: 300 100<109.23 350.008 549.992 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2033,7 +2032,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_p.4
-Encoding: 40 -1 52
+Encoding: 65588 -1 52
 Width: 1000
 HStem: 300 100<9.2299 169.094 330.906 490.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2062,7 +2061,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_p.5
-Encoding: 41 -1 53
+Encoding: 65589 -1 53
 Width: 1000
 HStem: 500 100<109.23 284.866 615.134 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2091,7 +2090,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_p.6
-Encoding: 42 -1 54
+Encoding: 65590 -1 54
 Width: 1000
 HStem: 400 100<109.23 329.303 570.697 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2120,7 +2119,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_p.7
-Encoding: 43 -1 55
+Encoding: 65591 -1 55
 Width: 0
 Flags: W
 HStem: -100 100<109.23 284.866 615.134 790.77>
@@ -2150,7 +2149,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_p.8
-Encoding: 44 -1 56
+Encoding: 65592 -1 56
 Width: 0
 Flags: W
 HStem: -100 100<109.23 329.303 570.697 790.77>
@@ -2180,7 +2179,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_p
-Encoding: 45 -1 57
+Encoding: 65593 -1 57
 Width: 1000
 HStem: -100 100<109.23 790.77> 700 100<109.078 191.364 408.636 491.364 708.636 790.924>
 VStem: 0 100<9.2299 90.7701 562.216 690.998> 800 100<9.2299 90.7701 562.216 690.995>
@@ -2240,7 +2239,7 @@ Substitution2: "Single Substitution lookup 2 subtable" sfv_p.5
 EndChar
 
 StartChar: sfv_p.1
-Encoding: 46 -1 58
+Encoding: 65594 -1 58
 Width: 1000
 HStem: 0 100<109.23 235.952 364.048 535.952 664.048 790.77>
 VStem: 99.8996 98.6112<634.149 691.004> 701.489 98.6107<634.149 691.003>
@@ -2277,7 +2276,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_p.2
-Encoding: 47 -1 59
+Encoding: 65595 -1 59
 Width: 1000
 HStem: 0 100<9.2299 90.9707 209.029 290.971 409.029 490.77>
 VStem: -0.0467918 99.3652<616.268 691.052> 200.682 98.6367<616.268 691.291> 400.682 99.3652<616.268 691.054>
@@ -2315,7 +2314,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_p.3
-Encoding: 48 -1 60
+Encoding: 65596 -1 60
 Width: 1000
 HStem: 300 100<109.23 227.841 372.159 527.841 672.159 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2352,7 +2351,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_p.4
-Encoding: 49 -1 61
+Encoding: 65597 -1 61
 Width: 1000
 HStem: 300 100<9.2299 85.9521 214.048 285.952 414.048 490.77>
 VStem: -0.100426 98.6112<734.149 791.004> 401.489 98.6107<734.149 791.003>
@@ -2390,7 +2389,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_p.5
-Encoding: 50 -1 62
+Encoding: 65598 -1 62
 Width: 1000
 HStem: 500 100<109.23 200.009 399.991 500.009 699.991 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2427,7 +2426,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_p.6
-Encoding: 51 -1 63
+Encoding: 65599 -1 63
 Width: 1000
 HStem: 400 100<109.23 219.094 380.906 519.094 680.906 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2464,7 +2463,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_p.7
-Encoding: 52 -1 64
+Encoding: 65600 -1 64
 Width: 0
 Flags: W
 HStem: -100 100<109.23 200.009 399.991 500.009 699.991 790.77>
@@ -2502,7 +2501,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_p.8
-Encoding: 53 -1 65
+Encoding: 65601 -1 65
 Width: 0
 Flags: W
 HStem: -100 100<109.23 219.094 380.906 519.094 680.906 790.77>
@@ -2540,7 +2539,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_r
-Encoding: 54 -1 66
+Encoding: 65602 -1 66
 Width: 1000
 HStem: -100 100<408.725 491.275> 700 100<109.23 790.77>
 VStem: 0 100<599.562 690.77> 800 100<599.562 690.77>
@@ -2586,7 +2585,7 @@ Substitution2: "Single Substitution lookup 2 subtable" sfu_r.5
 EndChar
 
 StartChar: sfu_r.1
-Encoding: 55 -1 67
+Encoding: 65603 -1 67
 Width: 1000
 HStem: 0 21G<440.21 459.79> 600 100<230.906 669.094>
 LayerCount: 2
@@ -2610,7 +2609,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_r.2
-Encoding: 56 -1 68
+Encoding: 65604 -1 68
 Width: 1000
 HStem: 0 21G<238.963 261.037> 600 100<119.381 380.619>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2635,7 +2634,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_r.3
-Encoding: 57 -1 69
+Encoding: 65605 -1 69
 Width: 1000
 HStem: 700 100<249.992 650.008>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2660,7 +2659,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_r.4
-Encoding: 58 -1 70
+Encoding: 65606 -1 70
 Width: 1000
 HStem: 700 100<130.906 369.094>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2685,7 +2684,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_r.5
-Encoding: 59 -1 71
+Encoding: 65607 -1 71
 Width: 1000
 HStem: 700 100<315.133 584.867>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2710,7 +2709,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_r.6
-Encoding: 60 -1 72
+Encoding: 65608 -1 72
 Width: 1000
 HStem: 700 100<270.696 629.304>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2735,7 +2734,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_r.7
-Encoding: 61 -1 73
+Encoding: 65609 -1 73
 Width: 0
 Flags: W
 HStem: 100 100<315.133 584.867>
@@ -2761,7 +2760,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_r.8
-Encoding: 62 -1 74
+Encoding: 65610 -1 74
 Width: 0
 Flags: W
 HStem: 200 100<270.696 629.304>
@@ -2787,7 +2786,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_r
-Encoding: 63 -1 75
+Encoding: 65611 -1 75
 Width: 1000
 HStem: -100 100<258.636 341.364 558.636 641.364> 700 100<109.078 790.924>
 VStem: 0 100<562.852 690.998> 800 100<562.852 690.995>
@@ -2843,7 +2842,7 @@ Substitution2: "Single Substitution lookup 2 subtable" sfv_r.5
 EndChar
 
 StartChar: sfv_r.1
-Encoding: 64 -1 76
+Encoding: 65612 -1 76
 Width: 1000
 HStem: 0 21G<288.297 311.703 588.297 611.703> 600 100<214.049 385.951 514.049 685.951>
 LayerCount: 2
@@ -2875,7 +2874,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_r.2
-Encoding: 65 -1 77
+Encoding: 65613 -1 77
 Width: 1000
 HStem: 0 21G<137.61 162.39 337.61 362.39> 600 100<109.029 190.971 309.029 390.971>
 VStem: 100.682 98.6367<8.71 83.7334> 300.682 98.6367<8.71 83.7334>
@@ -2909,7 +2908,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_r.3
-Encoding: 66 -1 78
+Encoding: 65614 -1 78
 Width: 1000
 Flags: W
 HStem: 700 100<222.159 377.841 522.159 677.841>
@@ -2943,7 +2942,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_r.4
-Encoding: 67 -1 79
+Encoding: 65615 -1 79
 Width: 1000
 HStem: 700 100<114.049 185.951 314.049 385.951>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -2976,7 +2975,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_r.5
-Encoding: 68 -1 80
+Encoding: 65616 -1 80
 Width: 1000
 HStem: 700 100<249.992 350.008 549.992 650.008>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -3009,7 +3008,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_r.6
-Encoding: 69 -1 81
+Encoding: 65617 -1 81
 Width: 1000
 HStem: 700 100<230.906 369.094 530.906 669.094>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -3042,7 +3041,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_r.7
-Encoding: 70 -1 82
+Encoding: 65618 -1 82
 Width: 0
 Flags: W
 HStem: 100 100<249.992 350.008 549.992 650.008>
@@ -3076,7 +3075,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_r.8
-Encoding: 71 -1 83
+Encoding: 65619 -1 83
 Width: 0
 Flags: W
 HStem: 200 100<230.906 369.094 530.906 669.094>
@@ -3110,7 +3109,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_a
-Encoding: 72 -1 84
+Encoding: 65620 -1 84
 Width: 1000
 HStem: -100 100<408.725 491.275> 700 100<109.23 191.275 708.725 790.77>
 VStem: 0 100<599.562 690.77> 800 100<599.562 690.77>
@@ -3155,7 +3154,7 @@ Substitution2: "Single Substitution lookup 2 subtable" sfu_a.5
 EndChar
 
 StartChar: sfu_a.1
-Encoding: 73 -1 85
+Encoding: 65621 -1 85
 Width: 1000
 HStem: 0 21G<440.21 459.79>
 LayerCount: 2
@@ -3178,7 +3177,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_a.2
-Encoding: 74 -1 86
+Encoding: 65622 -1 86
 Width: 1000
 HStem: 0 21G<238.963 261.037>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -3202,7 +3201,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_a.3
-Encoding: 75 -1 87
+Encoding: 65623 -1 87
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -3225,7 +3224,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_a.4
-Encoding: 76 -1 88
+Encoding: 65624 -1 88
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -3248,7 +3247,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_a.5
-Encoding: 77 -1 89
+Encoding: 65625 -1 89
 Width: 1000
 HStem: 500.222 299.778
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -3272,7 +3271,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_a.6
-Encoding: 78 -1 90
+Encoding: 65626 -1 90
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -3295,7 +3294,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_a.7
-Encoding: 79 -1 91
+Encoding: 65627 -1 91
 Width: 0
 Flags: W
 HStem: -99.7784 299.778
@@ -3320,7 +3319,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfu_a.8
-Encoding: 80 -1 92
+Encoding: 65628 -1 92
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -3344,7 +3343,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_a
-Encoding: 81 -1 93
+Encoding: 65629 -1 93
 Width: 1000
 HStem: -100 100<258.636 341.364 558.636 641.364> 700 100<109.078 191.364 408.636 491.364 708.636 790.924>
 VStem: 0 100<562.852 690.998> 800 100<562.852 690.995>
@@ -3399,7 +3398,7 @@ Substitution2: "Single Substitution lookup 2 subtable" sfv_a.5
 EndChar
 
 StartChar: sfv_a.1
-Encoding: 82 -1 94
+Encoding: 65630 -1 94
 Width: 1000
 HStem: 0 21G<288.297 311.703 588.297 611.703>
 VStem: 99.8996 98.6112<634.149 691.004> 701.489 98.6107<634.149 691.003>
@@ -3431,7 +3430,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_a.2
-Encoding: 83 -1 95
+Encoding: 65631 -1 95
 Width: 1000
 HStem: 0 21G<137.61 162.39 337.61 362.39>
 VStem: -0.0467918 99.3652<616.267 691.051> 100.682 98.6367<8.71 83.7334> 200.682 98.6367<616.267 691.29> 300.682 98.6367<8.71 83.7334> 400.682 99.3652<616.267 691.053>
@@ -3464,7 +3463,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_a.3
-Encoding: 84 -1 96
+Encoding: 65632 -1 96
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -3495,7 +3494,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_a.4
-Encoding: 85 -1 97
+Encoding: 65633 -1 97
 Width: 1000
 VStem: -0.100426 98.6112<734.149 791.004> 401.489 98.6107<734.149 791.003>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -3527,7 +3526,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_a.5
-Encoding: 86 -1 98
+Encoding: 65634 -1 98
 Width: 1000
 HStem: 500 300
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -3559,7 +3558,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_a.6
-Encoding: 87 -1 99
+Encoding: 65635 -1 99
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -3590,7 +3589,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_a.7
-Encoding: 88 -1 100
+Encoding: 65636 -1 100
 Width: 0
 Flags: W
 HStem: -100 300
@@ -3623,7 +3622,7 @@ EndSplineSet
 EndChar
 
 StartChar: sfv_a.8
-Encoding: 89 -1 101
+Encoding: 65637 -1 101
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -3655,7 +3654,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_b
-Encoding: 90 -1 102
+Encoding: 65638 -1 102
 Width: 1000
 HStem: -100 100<109.23 790.77> 100 500<109.23 700> 700 100<109.23 790.77>
 VStem: 0 100<9.2299 90.7701 609.23 690.77> 800 100<9.2299 690.77>
@@ -3701,7 +3700,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nsfu_b.5
 EndChar
 
 StartChar: nsfu_b.1
-Encoding: 91 -1 103
+Encoding: 65639 -1 103
 Width: 1000
 HStem: 0 100<109.23 700> 600 100<109.23 700>
 VStem: 700 100<100 600>
@@ -3725,7 +3724,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_b.2
-Encoding: 92 -1 104
+Encoding: 65640 -1 104
 Width: 1000
 HStem: 0 100<9.2299 400> 600 100<9.2299 400>
 VStem: 400 100<100 600>
@@ -3750,7 +3749,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_b.3
-Encoding: 93 -1 105
+Encoding: 65641 -1 105
 Width: 1000
 HStem: 300 100<109.23 700> 700 100<109.23 700>
 VStem: 700 100<400 700>
@@ -3775,7 +3774,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_b.4
-Encoding: 94 -1 106
+Encoding: 65642 -1 106
 Width: 1000
 HStem: 300 100<9.2299 400> 700 100<9.2299 400>
 VStem: 400 100<400 700>
@@ -3800,7 +3799,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_b.5
-Encoding: 95 -1 107
+Encoding: 65643 -1 107
 Width: 1000
 Flags: W
 HStem: 500 100<109.23 700> 700 100<109.23 700>
@@ -3826,7 +3825,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_b.6
-Encoding: 96 -1 108
+Encoding: 65644 -1 108
 Width: 1000
 HStem: 400 100<109.23 700> 700 100<109.23 700>
 VStem: 700 100<500 700>
@@ -3851,7 +3850,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_b.7
-Encoding: 97 -1 109
+Encoding: 65645 -1 109
 Width: 0
 Flags: W
 HStem: -100 100<109.23 700> 100 100<109.23 700>
@@ -3877,7 +3876,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_b.8
-Encoding: 98 -1 110
+Encoding: 65646 -1 110
 Width: 0
 Flags: W
 HStem: -100 100<109.23 700> 200 100<109.23 700>
@@ -3903,7 +3902,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfv_b
-Encoding: 99 -1 111
+Encoding: 65647 -1 111
 Width: 1000
 HStem: -100 100<109.23 390.77 509.23 790.77> 100 500<109.23 300 509.23 700> 700 100<109.23 390.77 509.23 790.77>
 VStem: 0 300<100 600> 0 100<9.2299 90.7701 609.23 690.77> 400 300<100 600> 400 100<9.2299 90.7701 609.23 690.77> 800 100<9.2299 690.77>
@@ -3962,7 +3961,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nsfv_b.5
 EndChar
 
 StartChar: nsfv_b.1
-Encoding: 100 -1 112
+Encoding: 65648 -1 112
 Width: 1000
 HStem: 0 100<109.23 300 509.23 700> 600 100<109.23 300 509.23 700>
 VStem: 300 100<100 600> 700 100<100 600>
@@ -3999,7 +3998,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfv_b.2
-Encoding: 101 -1 113
+Encoding: 65649 -1 113
 Width: 1000
 HStem: 0 100<9.2299 100 309.23 400> 600 100<9.2299 100 309.23 400>
 VStem: 0 200<9.2299 90.7701 609.23 690.77> 300 200<9.2299 90.7701 609.23 690.77>
@@ -4037,7 +4036,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfv_b.3
-Encoding: 102 -1 114
+Encoding: 65650 -1 114
 Width: 1000
 HStem: 300 100<109.23 300 509.23 700> 700 100<109.23 300 509.23 700>
 VStem: 300 100<400 700> 700 100<400 700>
@@ -4075,7 +4074,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfv_b.4
-Encoding: 103 -1 115
+Encoding: 65651 -1 115
 Width: 1000
 HStem: 300 100<9.2299 100 309.23 400> 700 100<9.2299 100 309.23 400>
 VStem: 0 200<309.23 390.77 709.23 790.77> 300 200<309.23 390.77 709.23 790.77>
@@ -4113,7 +4112,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfv_b.5
-Encoding: 104 -1 116
+Encoding: 65652 -1 116
 Width: 1000
 HStem: 500 100<109.23 300 509.23 700> 700 100<109.23 300 509.23 700>
 VStem: 300 100<600 700> 700 100<600 700>
@@ -4151,7 +4150,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfv_b.6
-Encoding: 105 -1 117
+Encoding: 65653 -1 117
 Width: 1000
 HStem: 400 100<109.23 300 509.23 700> 700 100<109.23 300 509.23 700>
 VStem: 300 100<500 700> 700 100<500 700>
@@ -4189,7 +4188,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfv_b.7
-Encoding: 106 -1 118
+Encoding: 65654 -1 118
 Width: 0
 Flags: W
 HStem: -100 100<109.23 300 509.23 700> 100 100<109.23 300 509.23 700>
@@ -4228,7 +4227,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfv_b.8
-Encoding: 107 -1 119
+Encoding: 65655 -1 119
 Width: 0
 Flags: W
 HStem: -100 100<109.23 300 509.23 700> 200 100<109.23 300 509.23 700>
@@ -4267,7 +4266,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_a
-Encoding: 108 -1 120
+Encoding: 65656 -1 120
 Width: 1000
 HStem: -100 700<109.23 700> -100 100<709.23 790.77> 700 100<109.23 790.77>
 VStem: 0 700<9.2299 600> 0 100<609.23 690.77> 800 100<9.2299 690.77>
@@ -4309,7 +4308,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nsfu_a.5
 EndChar
 
 StartChar: nsfu_a.1
-Encoding: 109 -1 121
+Encoding: 65657 -1 121
 Width: 1000
 HStem: 0 21G<736.202 763.798> 600 100<109.23 700>
 VStem: 700 100<9.2299 600>
@@ -4330,7 +4329,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_a.2
-Encoding: 110 -1 122
+Encoding: 65658 -1 122
 Width: 1000
 HStem: 0 21G<436.202 463.798> 600 100<9.2299 400>
 VStem: 400 100<9.2299 600>
@@ -4352,7 +4351,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_a.3
-Encoding: 111 -1 123
+Encoding: 65659 -1 123
 Width: 1000
 HStem: 700 100<109.23 700>
 VStem: 700 100<309.23 700>
@@ -4374,7 +4373,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_a.4
-Encoding: 112 -1 124
+Encoding: 65660 -1 124
 Width: 1000
 HStem: 700 100<9.2299 400>
 VStem: 400 100<309.23 700>
@@ -4396,7 +4395,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_a.5
-Encoding: 113 -1 125
+Encoding: 65661 -1 125
 Width: 1000
 HStem: 500 300<709.23 790.77> 700 100<109.23 700>
 VStem: 700 100<509.23 700>
@@ -4418,7 +4417,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_a.6
-Encoding: 114 -1 126
+Encoding: 65662 -1 126
 Width: 1000
 HStem: 700 100<109.23 700>
 VStem: 700 100<409.23 700>
@@ -4440,7 +4439,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_a.7
-Encoding: 115 -1 127
+Encoding: 65663 -1 127
 Width: 0
 Flags: W
 HStem: -100 300<709.23 790.77> 100 100<109.23 700>
@@ -4463,7 +4462,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_a.8
-Encoding: 116 -1 128
+Encoding: 65664 -1 128
 Width: 0
 Flags: W
 HStem: 200 100<109.23 700>
@@ -4486,7 +4485,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_a
-Encoding: 117 -1 129
+Encoding: 65665 -1 129
 Width: 1000
 HStem: -100 100<309.23 390.77 709.23 790.77> 700 100<109.23 390.77 509.23 790.77>
 VStem: 0 300<9.2299 600> 0 100<609.23 690.77> 400 300<9.2299 600> 400 100<609.23 690.77> 800 100<9.2299 690.77>
@@ -4538,7 +4537,7 @@ Substitution2: "Single Substitution lookup 2 subtable" av_a.5
 EndChar
 
 StartChar: av_a.1
-Encoding: 118 -1 130
+Encoding: 65666 -1 130
 Width: 1000
 HStem: 0 21G<336.202 363.798 736.202 763.798> 600 100<109.23 300 509.23 700>
 VStem: 300 100<9.2299 600> 700 100<9.2299 600>
@@ -4569,7 +4568,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_a.2
-Encoding: 119 -1 131
+Encoding: 65667 -1 131
 Width: 1000
 HStem: 0 21G<136.202 163.798 436.202 463.798> 600 100<9.2299 100 309.23 400>
 VStem: 100 100<9.2299 600> 400 100<9.2299 600>
@@ -4601,7 +4600,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_a.3
-Encoding: 120 -1 132
+Encoding: 65668 -1 132
 Width: 1000
 HStem: 700 100<109.23 300 509.23 700>
 VStem: 300 100<309.23 700> 700 100<309.23 700>
@@ -4633,7 +4632,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_a.4
-Encoding: 121 -1 133
+Encoding: 65669 -1 133
 Width: 1000
 HStem: 700 100<9.2299 100 309.23 400>
 VStem: 100 100<309.23 700> 400 100<309.23 700>
@@ -4665,7 +4664,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_a.5
-Encoding: 122 -1 134
+Encoding: 65670 -1 134
 Width: 1000
 HStem: 700 100<109.23 300 509.23 700>
 VStem: 300 100<509.23 700> 700 100<509.23 700>
@@ -4697,7 +4696,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_a.6
-Encoding: 123 -1 135
+Encoding: 65671 -1 135
 Width: 1000
 HStem: 700 100<109.23 300 509.23 700>
 VStem: 300 100<409.23 700> 700 100<409.23 700>
@@ -4729,7 +4728,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_a.7
-Encoding: 124 -1 136
+Encoding: 65672 -1 136
 Width: 0
 Flags: W
 HStem: 100 100<109.23 300 509.23 700>
@@ -4762,7 +4761,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_a.8
-Encoding: 125 -1 137
+Encoding: 65673 -1 137
 Width: 0
 Flags: W
 HStem: 200 100<109.23 300 509.23 700>
@@ -4795,7 +4794,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_m
-Encoding: 126 -1 138
+Encoding: 65674 -1 138
 Width: 1000
 HStem: -100 100<329.671 570.329> 100 500<352.675 547.325> 700 100<329.671 570.329>
 VStem: 0 100<229.671 470.329> 200 500<252.675 447.325> 800 100<229.671 470.329>
@@ -4838,7 +4837,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pu_g_m.5
 EndChar
 
 StartChar: pu_g_m.1
-Encoding: 127 -1 139
+Encoding: 65675 -1 139
 Width: 1000
 HStem: 0 100<353.435 546.565> 600 100<353.435 546.565>
 VStem: 100 100<253.435 446.565> 700 100<253.435 446.565>
@@ -4859,7 +4858,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_m.2
-Encoding: 128 -1 140
+Encoding: 65676 -1 140
 Width: 1000
 Flags: W
 HStem: 0 100<190.542 309.458> 600 100<190.542 309.458>
@@ -4890,7 +4889,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_m.3
-Encoding: 129 -1 141
+Encoding: 65677 -1 141
 Width: 1000
 HStem: 300 100<325.49 574.506> 700 100<325.494 574.51>
 VStem: 100 100<490.542 609.458> 700 100<490.542 609.458>
@@ -4920,7 +4919,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_m.4
-Encoding: 130 -1 142
+Encoding: 65678 -1 142
 Width: 1000
 HStem: 300 100<173.937 326.063> 700 100<173.937 326.063>
 VStem: 0 100<473.937 626.063> 400 100<473.937 626.063>
@@ -4942,7 +4941,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_m.5
-Encoding: 131 -1 143
+Encoding: 65679 -1 143
 Width: 1000
 HStem: 500 100<268.687 630.1> 700 100<269.9 631.313>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -4971,7 +4970,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_m.6
-Encoding: 132 -1 144
+Encoding: 65680 -1 144
 Width: 1000
 HStem: 400 100<302.537 597.469> 700 100<302.531 597.463>
 VStem: 100 100<564.161 635.839> 700 100<564.161 635.839>
@@ -5001,7 +5000,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_m.7
-Encoding: 133 -1 145
+Encoding: 65681 -1 145
 Width: 0
 Flags: W
 HStem: -100 100<268.687 630.1> 100 100<269.9 631.313>
@@ -5031,7 +5030,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_m.8
-Encoding: 134 -1 146
+Encoding: 65682 -1 146
 Width: 0
 Flags: W
 HStem: -100 100<302.537 597.469> 200 100<302.531 597.463>
@@ -5062,7 +5061,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_g
-Encoding: 135 -1 147
+Encoding: 65683 -1 147
 Width: 1000
 HStem: -100 100<229.133 372.181 527.813 670.867> 700 100<229.133 372.187 527.819 670.867>
 VStem: 0 100<188.798 511.198> 200 200<202.042 497.958> 500 200<202.042 497.958> 800 100<188.802 511.202>
@@ -5125,7 +5124,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nsfu_g.5
 EndChar
 
 StartChar: nsfu_g.1
-Encoding: 136 -1 148
+Encoding: 65684 -1 148
 Width: 1000
 HStem: 0 100<264.161 335.817 564.179 635.839> 600 100<264.161 335.821 564.183 635.839>
 VStem: 100 100<202.531 497.463> 400 100<202.017 497.983> 700 100<202.537 497.469>
@@ -5168,7 +5167,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_g.2
-Encoding: 137 -1 149
+Encoding: 65685 -1 149
 Width: 1000
 HStem: 0 21G<125.821 176.719 323.275 374.167>
 VStem: 0 100<169.9 531.313> 200 100<170.034 529.966> 400 100<168.687 530.1>
@@ -5212,7 +5211,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_g.3
-Encoding: 138 -1 150
+Encoding: 65686 -1 150
 Width: 1000
 HStem: 300 99.8627<249.631 350.161 549.833 650.369> 700.137 99.8627<249.631 350.167 549.839 650.369>
 VStem: 100 100<459.8 640.2> 400 100<458.89 641.11> 700 100<459.8 640.2>
@@ -5256,7 +5255,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_g.4
-Encoding: 139 -1 151
+Encoding: 65687 -1 151
 Width: 1000
 VStem: 0 100<436.139 663.849> 200 100<435.604 664.396> 400 100<436.151 663.861>
 CounterMasks: 1 e0
@@ -5299,7 +5298,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_g.5
-Encoding: 140 -1 152
+Encoding: 65688 -1 152
 Width: 1000
 HStem: 500 100<221.418 379.441 520.557 678.584> 700 100<221.416 379.443 520.559 678.582>
 VStem: 100 100<620.745 679.247> 400 100<620.779 679.221> 700 100<620.753 679.255>
@@ -5343,7 +5342,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_g.6
-Encoding: 141 -1 153
+Encoding: 65689 -1 153
 Width: 1000
 HStem: 400 100<239.393 361.637 538.363 660.607> 700 100<239.393 361.637 538.363 660.607>
 VStem: 100 100<539.393 660.607> 400 100<538.248 661.752> 700 100<539.393 660.607>
@@ -5375,7 +5374,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_g.7
-Encoding: 142 -1 154
+Encoding: 65690 -1 154
 Width: 0
 Flags: W
 HStem: -100 100<221.418 379.441 520.557 678.584> 100 100<221.416 379.443 520.559 678.582>
@@ -5420,7 +5419,7 @@ EndSplineSet
 EndChar
 
 StartChar: nsfu_g.8
-Encoding: 143 -1 155
+Encoding: 65691 -1 155
 Width: 0
 Flags: W
 HStem: -100 100<239.393 361.637 538.363 660.607> 200 100<239.393 361.637 538.363 660.607>
@@ -5453,7 +5452,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_v
-Encoding: 144 -1 156
+Encoding: 65692 -1 156
 Width: 1000
 HStem: -100 100<409.964 490.036> 700 100<409.964 490.036>
 VStem: 0 100<309.964 390.036> 800 100<309.964 390.036>
@@ -5503,7 +5502,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nv_v.5
 EndChar
 
 StartChar: nv_v.1
-Encoding: 145 -1 157
+Encoding: 65693 -1 157
 Width: 1000
 HStem: 0 21G<443.101 456.899>
 LayerCount: 2
@@ -5531,7 +5530,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_v.2
-Encoding: 146 -1 158
+Encoding: 65694 -1 158
 Width: 1000
 HStem: 0 21G<241.32 258.68>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -5560,7 +5559,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_v.3
-Encoding: 147 -1 159
+Encoding: 65695 -1 159
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -5588,7 +5587,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_v.4
-Encoding: 148 -1 160
+Encoding: 65696 -1 160
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -5616,7 +5615,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_v.5
-Encoding: 149 -1 161
+Encoding: 65697 -1 161
 Width: 1000
 HStem: 500.062 299.875<444.589 455.411>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -5645,7 +5644,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_v.6
-Encoding: 150 -1 162
+Encoding: 65698 -1 162
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -5673,7 +5672,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_v.7
-Encoding: 151 -1 163
+Encoding: 65699 -1 163
 Width: 0
 Flags: W
 HStem: -99.9375 299.875<444.589 455.411>
@@ -5703,7 +5702,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_v.8
-Encoding: 152 -1 164
+Encoding: 65700 -1 164
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -5732,7 +5731,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_v
-Encoding: 153 -1 165
+Encoding: 65701 -1 165
 Width: 1000
 HStem: -100 100<258.725 341.275 558.725 641.275> 700 100<258.725 341.275 558.725 641.275>
 VStem: 0 100.139<294.875 405.125> 799.861 100.139<294.875 405.125>
@@ -5795,7 +5794,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pa_v.5
 EndChar
 
 StartChar: pa_v.1
-Encoding: 154 -1 166
+Encoding: 65702 -1 166
 Width: 1000
 HStem: 0 21G<290.21 309.79 590.21 609.79>
 LayerCount: 2
@@ -5836,7 +5835,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_v.2
-Encoding: 155 -1 167
+Encoding: 65703 -1 167
 Width: 1000
 HStem: 0 21G<138.963 161.037 338.963 361.037>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -5878,7 +5877,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_v.3
-Encoding: 156 -1 168
+Encoding: 65704 -1 168
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -5919,7 +5918,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_v.4
-Encoding: 157 -1 169
+Encoding: 65705 -1 169
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -5960,7 +5959,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_v.5
-Encoding: 158 -1 170
+Encoding: 65706 -1 170
 Width: 1000
 HStem: 500.222 299.557<290.231 309.769 590.231 609.769>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -6002,7 +6001,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_v.6
-Encoding: 159 -1 171
+Encoding: 65707 -1 171
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6043,7 +6042,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_v.7
-Encoding: 160 -1 172
+Encoding: 65708 -1 172
 Width: 0
 Flags: W
 HStem: -99.7784 299.557<290.231 309.769 590.231 609.769>
@@ -6086,7 +6085,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_v.8
-Encoding: 161 -1 173
+Encoding: 65709 -1 173
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -6128,7 +6127,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_p
-Encoding: 162 -1 174
+Encoding: 65710 -1 174
 Width: 1000
 HStem: -100 100<109.23 790.77> 700 100<109.23 190.77 709.23 790.77>
 VStem: 0 100<9.2299 690.77> 200 500<100 690.77> 800 100<9.2299 690.77>
@@ -6174,7 +6173,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nv_p.5
 EndChar
 
 StartChar: nv_p.1
-Encoding: 163 -1 175
+Encoding: 65711 -1 175
 Width: 1000
 HStem: 0 100<200 700>
 VStem: 100 100<100 690.77> 700 100<100 690.77>
@@ -6198,7 +6197,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_p.2
-Encoding: 164 -1 176
+Encoding: 65712 -1 176
 Width: 1000
 HStem: 0 100<100 400>
 VStem: 0 100<100 690.77> 400 100<100 690.77>
@@ -6223,7 +6222,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_p.3
-Encoding: 165 -1 177
+Encoding: 65713 -1 177
 Width: 1000
 HStem: 300 100<200 700>
 VStem: 100 100<400 790.77> 700 100<400 790.77>
@@ -6248,7 +6247,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_p.4
-Encoding: 166 -1 178
+Encoding: 65714 -1 178
 Width: 1000
 HStem: 300 100<100 400>
 VStem: 0 100<400 790.77> 400 100<400 790.77>
@@ -6273,7 +6272,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_p.5
-Encoding: 167 -1 179
+Encoding: 65715 -1 179
 Width: 1000
 HStem: 500 100<200 700>
 VStem: 100 100<600 790.77> 700 100<600 790.77>
@@ -6298,7 +6297,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_r
-Encoding: 180 -1 180
+Encoding: 65716 -1 180
 Width: 1000
 HStem: -100 100<109.23 190.77 709.23 790.77> 700 100<109.23 790.77>
 VStem: 0 100<9.2299 690.77> 200 500<9.2299 600> 800 100<9.2299 690.77>
@@ -6344,7 +6343,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nv_r.5
 EndChar
 
 StartChar: nv_r.1
-Encoding: 181 -1 181
+Encoding: 65717 -1 181
 Width: 1000
 HStem: 0 21G<136.202 163.798 736.202 763.798> 600 100<200 700>
 VStem: 100 100<9.2299 600> 700 100<9.2299 600>
@@ -6368,7 +6367,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_r.2
-Encoding: 182 -1 182
+Encoding: 65718 -1 182
 Width: 1000
 HStem: 0 21G<36.2021 63.7979 436.202 463.798> 600 100<100 400>
 VStem: 0 100<9.2299 600> 400 100<9.2299 600>
@@ -6393,7 +6392,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_r.3
-Encoding: 183 -1 183
+Encoding: 65719 -1 183
 Width: 1000
 HStem: 700 100<200 700>
 VStem: 100 100<309.23 700> 700 100<309.23 700>
@@ -6418,7 +6417,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_r.4
-Encoding: 184 -1 184
+Encoding: 65720 -1 184
 Width: 1000
 HStem: 700 100<100 400>
 VStem: 0 100<309.23 700> 400 100<309.23 700>
@@ -6443,7 +6442,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_r.5
-Encoding: 185 -1 185
+Encoding: 65721 -1 185
 Width: 1000
 HStem: 700 100<200 700>
 VStem: 100 100<509.23 700> 700 100<509.23 700>
@@ -6468,7 +6467,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_r.6
-Encoding: 186 -1 186
+Encoding: 65722 -1 186
 Width: 1000
 HStem: 700 100<200 700>
 VStem: 100 100<409.23 700> 700 100<409.23 700>
@@ -6493,7 +6492,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_r.7
-Encoding: 187 -1 187
+Encoding: 65723 -1 187
 Width: 0
 Flags: W
 HStem: 100 100<200 700>
@@ -6519,7 +6518,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_r.8
-Encoding: 188 -1 188
+Encoding: 65724 -1 188
 Width: 0
 Flags: W
 HStem: 200 100<200 700>
@@ -6545,7 +6544,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_r
-Encoding: 189 -1 189
+Encoding: 65725 -1 189
 Width: 1000
 HStem: -100 100<109.23 190.77 409.23 490.77 709.23 790.77> 700 100<109.23 790.77>
 VStem: 0 100<9.2299 690.77> 200 200<9.2299 600> 500 200<9.2299 600> 800 100<9.2299 690.77>
@@ -6595,7 +6594,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pa_r.5
 EndChar
 
 StartChar: pa_r.1
-Encoding: 190 -1 190
+Encoding: 65726 -1 190
 Width: 1000
 HStem: 0 21G<136.202 163.798 436.202 463.798 736.202 763.798> 600 100<200 400 500 700>
 VStem: 100 100<9.2299 600> 400 100<9.2299 600> 700 100<9.2299 600>
@@ -6625,7 +6624,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_r.2
-Encoding: 191 -1 191
+Encoding: 65727 -1 191
 Width: 1000
 HStem: 0 21G<36.2021 63.7979 236.202 263.798 436.202 463.798> 600 100<100 200 300 400>
 VStem: 0 100<9.2299 600> 200 100<9.2299 600> 400 100<9.2299 600>
@@ -6656,7 +6655,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_r.3
-Encoding: 192 -1 192
+Encoding: 65728 -1 192
 Width: 1000
 HStem: 700 100<200 400 500 700>
 VStem: 100 100<309.23 700> 400 100<309.23 700> 700 100<309.23 700>
@@ -6687,7 +6686,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_r.4
-Encoding: 193 -1 193
+Encoding: 65729 -1 193
 Width: 1000
 HStem: 700 100<100 200 300 400>
 VStem: 0 100<309.23 700> 200 100<309.23 700> 400 100<309.23 700>
@@ -6718,7 +6717,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_r.5
-Encoding: 194 -1 194
+Encoding: 65730 -1 194
 Width: 1000
 HStem: 500 300<109.23 190.77 409.23 490.77 709.23 790.77> 700 100<200 400 500 700>
 VStem: 100 100<509.23 700> 400 100<509.23 700> 700 100<509.23 700>
@@ -6749,7 +6748,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_r.6
-Encoding: 195 -1 195
+Encoding: 65731 -1 195
 Width: 1000
 HStem: 700 100<200 400 500 700>
 VStem: 100 100<409.23 700> 400 100<409.23 700> 700 100<409.23 700>
@@ -6780,7 +6779,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_r.7
-Encoding: 196 -1 196
+Encoding: 65732 -1 196
 Width: 0
 Flags: W
 HStem: -100 300<109.23 190.77 409.23 490.77 709.23 790.77> 100 100<200 400 500 700>
@@ -6812,7 +6811,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_r.8
-Encoding: 197 -1 197
+Encoding: 65733 -1 197
 Width: 0
 Flags: W
 HStem: 200 100<200 400 500 700>
@@ -6844,7 +6843,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_a
-Encoding: 198 -1 198
+Encoding: 65734 -1 198
 Width: 1000
 HStem: -100 100<109.23 189.484 710.516 790.77> 700 100<109.23 189.484 710.516 790.77>
 VStem: 0 100<9.2299 89.4838 610.516 690.77> 800 100<9.2299 89.4838 610.516 690.77>
@@ -6897,7 +6896,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nv_a.5
 EndChar
 
 StartChar: nv_a.1
-Encoding: 199 -1 199
+Encoding: 65735 -1 199
 Width: 1000
 HStem: 0 21G<136.202 156.899 743.101 763.798>
 LayerCount: 2
@@ -6928,7 +6927,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_a.2
-Encoding: 200 -1 200
+Encoding: 65736 -1 200
 Width: 1000
 HStem: 0 21G<36.2021 58.6802 441.32 463.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -6960,7 +6959,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_a.3
-Encoding: 201 -1 201
+Encoding: 65737 -1 201
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6991,7 +6990,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_a.4
-Encoding: 202 -1 202
+Encoding: 65738 -1 202
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -7022,7 +7021,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_a.5
-Encoding: 203 -1 203
+Encoding: 65739 -1 203
 Width: 1000
 HStem: 499.854 97.5935<109.118 134.197 765.803 790.877> 702.553 97.5914<109.123 134.197 765.803 790.882>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -7054,7 +7053,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_a.6
-Encoding: 204 -1 204
+Encoding: 65740 -1 204
 Width: 1000
 HStem: 400 94.75<109.23 127.688 772.312 790.77> 705.25 94.75<109.23 127.688 772.312 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -7086,7 +7085,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_a.7
-Encoding: 205 -1 205
+Encoding: 65741 -1 205
 Width: 0
 Flags: W
 HStem: -100.146 97.5935<109.118 134.197 765.803 790.877> 102.553 97.5914<109.123 134.197 765.803 790.882>
@@ -7119,7 +7118,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_a.8
-Encoding: 206 -1 206
+Encoding: 65742 -1 206
 Width: 0
 Flags: W
 HStem: -100 94.75<109.23 127.688 772.312 790.77> 205.25 94.75<109.23 127.688 772.312 790.77>
@@ -7152,7 +7151,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_a.1
-Encoding: 208 -1 207
+Encoding: 65743 -1 207
 Width: 1000
 HStem: 0 21G<136.202 159.79 440.21 459.79 740.21 763.798>
 VStem: 100 94.751<9.2299 27.6875 672.312 690.77> 705.249 94.751<9.2299 27.6875 672.312 690.77>
@@ -7197,7 +7196,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_a
-Encoding: 207 -1 208
+Encoding: 65744 -1 208
 Width: 1000
 HStem: -100 100<109.23 191.275 408.725 491.275 708.725 790.77> 700 100<109.23 191.275 408.725 491.275 708.725 790.77>
 VStem: 0 100<9.2299 102.685 597.315 690.77> 800 100<9.2299 102.685 597.315 690.77>
@@ -7263,7 +7262,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pa_a.5
 EndChar
 
 StartChar: pa_a.2
-Encoding: 209 -1 209
+Encoding: 65745 -1 209
 Width: 1000
 HStem: 0 21G<36.5446 61.0371 238.963 261.037 438.963 463.455>
 VStem: -0.144135 97.5914<9.12306 34.1973 665.803 690.882> 402.553 97.5938<9.11804 34.1973 665.803 690.877>
@@ -7309,7 +7308,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_a.3
-Encoding: 210 -1 210
+Encoding: 65746 -1 210
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -7353,7 +7352,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_a.4
-Encoding: 211 -1 211
+Encoding: 65747 -1 211
 Width: 1000
 VStem: 0 94.751<309.23 327.688 772.312 790.77> 405.249 94.751<309.23 327.688 772.312 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -7398,7 +7397,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_a.5
-Encoding: 212 -1 212
+Encoding: 65748 -1 212
 Width: 1000
 HStem: 500 300<122.404 160.235 440.231 459.769 739.765 777.596>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -7443,7 +7442,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_a.6
-Encoding: 213 -1 213
+Encoding: 65749 -1 213
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -7487,7 +7486,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_a.7
-Encoding: 214 -1 214
+Encoding: 65750 -1 214
 Width: 0
 Flags: W
 HStem: -100 300<122.404 160.235 440.231 459.769 739.765 777.596>
@@ -7533,7 +7532,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_a.8
-Encoding: 215 -1 215
+Encoding: 65751 -1 215
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -7578,7 +7577,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_b
-Encoding: 216 -1 216
+Encoding: 65752 -1 216
 Width: 1000
 HStem: -100 100<109.23 790.77> 100 500<200 700> 700 100<109.23 790.77>
 VStem: 0 100<9.2299 690.77> 200 500<100 600> 800 100<9.2299 690.77>
@@ -7625,7 +7624,7 @@ Substitution2: "Single Substitution lookup 2 subtable" nv_b.5
 EndChar
 
 StartChar: nv_b.1
-Encoding: 217 -1 217
+Encoding: 65753 -1 217
 Width: 1000
 HStem: 0 100<200 700> 600 100<200 700>
 VStem: 100 100<100 600> 700 100<100 600>
@@ -7650,7 +7649,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_b.2
-Encoding: 218 -1 218
+Encoding: 65754 -1 218
 Width: 1000
 HStem: 0 100<100 400> 600 100<100 400>
 VStem: 0 100<100 600> 400 100<100 600>
@@ -7676,7 +7675,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_b.3
-Encoding: 219 -1 219
+Encoding: 65755 -1 219
 Width: 1000
 HStem: 300 100<200 700> 700 100<200 700>
 VStem: 100 100<400 700> 700 100<400 700>
@@ -7702,7 +7701,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_b.4
-Encoding: 220 -1 220
+Encoding: 65756 -1 220
 Width: 1000
 HStem: 300 100<100 400> 700 100<100 400>
 VStem: 0 100<400 700> 400 100<400 700>
@@ -7728,7 +7727,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_b.5
-Encoding: 221 -1 221
+Encoding: 65757 -1 221
 Width: 1000
 HStem: 500 100<200 700> 700 100<200 700>
 VStem: 100 100<600 700> 700 100<600 700>
@@ -7754,7 +7753,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_b.6
-Encoding: 222 -1 222
+Encoding: 65758 -1 222
 Width: 1000
 HStem: 400 100<200 700> 700 100<200 700>
 VStem: 100 100<500 700> 700 100<500 700>
@@ -7780,7 +7779,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_b.7
-Encoding: 223 -1 223
+Encoding: 65759 -1 223
 Width: 0
 Flags: W
 HStem: -100 100<200 700> 100 100<200 700>
@@ -7807,7 +7806,7 @@ EndSplineSet
 EndChar
 
 StartChar: nv_b.8
-Encoding: 224 -1 224
+Encoding: 65760 -1 224
 Width: 0
 Flags: W
 HStem: -100 100<200 700> 200 100<200 700>
@@ -7834,7 +7833,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_b
-Encoding: 225 -1 225
+Encoding: 65761 -1 225
 Width: 1000
 HStem: -100 100<109.23 790.77> 100 500<200 400 500 700> 700 100<109.23 790.77>
 VStem: 0 100<9.2299 690.77> 200 200<100 600> 500 200<100 600> 800 100<9.2299 690.77>
@@ -7886,7 +7885,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pa_b.5
 EndChar
 
 StartChar: pa_b.1
-Encoding: 226 -1 226
+Encoding: 65762 -1 226
 Width: 1000
 HStem: 0 100<200 400 500 700> 600 100<200 400 500 700>
 VStem: 100 100<100 600> 400 100<100 600> 700 100<100 600>
@@ -7917,7 +7916,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_b.2
-Encoding: 227 -1 227
+Encoding: 65763 -1 227
 Width: 1000
 HStem: 0 100<100 200 300 400> 600 100<100 200 300 400>
 VStem: 0 100<100 600> 200 100<100 600> 400 100<100 600>
@@ -7949,7 +7948,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_b.3
-Encoding: 228 -1 228
+Encoding: 65764 -1 228
 Width: 1000
 HStem: 300 100<200 400 500 700> 700 100<200 400 500 700>
 VStem: 100 100<400 700> 400 100<400 700> 700 100<400 700>
@@ -7981,7 +7980,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_b.4
-Encoding: 229 -1 229
+Encoding: 65765 -1 229
 Width: 1000
 HStem: 300 100<100 200 300 400> 700 100<100 200 300 400>
 VStem: 0 100<400 700> 200 100<400 700> 400 100<400 700>
@@ -8013,7 +8012,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_b.5
-Encoding: 230 -1 230
+Encoding: 65766 -1 230
 Width: 1000
 HStem: 500 100<200 400 500 700> 700 100<200 400 500 700>
 VStem: 100 100<600 700> 400 100<600 700> 700 100<600 700>
@@ -8045,7 +8044,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_b.6
-Encoding: 231 -1 231
+Encoding: 65767 -1 231
 Width: 1000
 HStem: 400 100<200 400 500 700> 700 100<200 400 500 700>
 VStem: 100 100<500 700> 400 100<500 700> 700 100<500 700>
@@ -8077,7 +8076,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_b.7
-Encoding: 232 -1 232
+Encoding: 65768 -1 232
 Width: 0
 Flags: W
 HStem: -100 100<200 400 500 700> 100 100<200 400 500 700>
@@ -8110,7 +8109,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_b.8
-Encoding: 233 -1 233
+Encoding: 65769 -1 233
 Width: 0
 Flags: W
 HStem: -100 100<200 400 500 700> 200 100<200 400 500 700>
@@ -8143,7 +8142,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_d
-Encoding: 234 -1 234
+Encoding: 65770 -1 234
 Width: 1000
 HStem: -100 100<329.71 570.29> 700 100<329.71 570.29>
 VStem: 0 100<229.71 470.29> 200 200<295.027 404.973> 500 200<295.027 404.973> 800 100<229.71 470.29>
@@ -8188,7 +8187,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pu_g_d.5
 EndChar
 
 StartChar: pu_g_d.1
-Encoding: 235 -1 235
+Encoding: 65771 -1 235
 Width: 1000
 HStem: 0 21G<353.366 546.634>
 VStem: 100 100<251.636 448.364> 400 100<104.998 595.002> 700 100<251.636 448.364>
@@ -8213,7 +8212,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_d.2
-Encoding: 236 -1 236
+Encoding: 65772 -1 236
 Width: 1000
 HStem: 0 21G<224.566 275.434>
 VStem: 0 100<223.133 476.873> 200 100<115.089 584.911> 400 100<223.127 476.867>
@@ -8243,7 +8242,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_d.3
-Encoding: 237 -1 237
+Encoding: 65773 -1 237
 Width: 1000
 HStem: 300 103.17<316.703 400 500 583.291> 696.826 103.174<316.709 400 500 583.297>
 VStem: 100 100<490.542 609.458> 400 100<403.174 696.826> 700 100<490.542 609.458>
@@ -8277,7 +8276,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_d.4
-Encoding: 238 -1 238
+Encoding: 65774 -1 238
 Width: 1000
 VStem: 0 100<473.82 626.18> 200 100<408.527 691.473> 400 100<473.82 626.18>
 CounterMasks: 1 e0
@@ -8302,7 +8301,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_d.5
-Encoding: 239 -1 239
+Encoding: 65775 -1 239
 Width: 1000
 HStem: 500 101.487<266.113 400 500 633.888> 698.5 101.5<266.112 400 500 633.887>
 VStem: 400 100<601.5 698.5>
@@ -8335,7 +8334,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_d.6
-Encoding: 240 -1 240
+Encoding: 65776 -1 240
 Width: 1000
 HStem: 400 102.288<298.256 400 500 601.747> 697.707 102.293<298.253 400 500 601.744>
 VStem: 100 100<564.161 635.839> 400 100<502.293 697.707> 700 100<564.161 635.839>
@@ -8369,7 +8368,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_d.7
-Encoding: 241 -1 241
+Encoding: 65777 -1 241
 Width: 0
 Flags: W
 HStem: -100 101.487<266.113 400 500 633.888> 98.5 101.5<266.112 400 500 633.887>
@@ -8403,7 +8402,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_g_d.8
-Encoding: 242 -1 242
+Encoding: 65778 -1 242
 Width: 0
 Flags: W
 HStem: -100 102.288<298.256 400 500 601.747> 197.707 102.293<298.253 400 500 601.744>
@@ -8438,7 +8437,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_u
-Encoding: 243 -1 243
+Encoding: 65779 -1 243
 Width: 1000
 HStem: -100 100<409.964 490.036> 700 100<409.964 490.036>
 VStem: 0 100<309.964 390.036> 800 100<309.964 390.036>
@@ -8491,7 +8490,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pa_u.5
 EndChar
 
 StartChar: pa_u.1
-Encoding: 244 -1 244
+Encoding: 65780 -1 244
 Width: 1000
 HStem: 0 21G<443.101 456.899>
 VStem: 400 100<170.697 529.303>
@@ -8523,7 +8522,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_u.2
-Encoding: 245 -1 245
+Encoding: 65781 -1 245
 Width: 1000
 HStem: 0 21G<241.286 258.714>
 VStem: 200 100<215.133 484.867>
@@ -8556,7 +8555,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_u.3
-Encoding: 246 -1 246
+Encoding: 65782 -1 246
 Width: 1000
 VStem: 400 100<443.422 656.578>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -8588,7 +8587,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_u.4
-Encoding: 247 -1 247
+Encoding: 65783 -1 247
 Width: 1000
 Flags: W
 VStem: 200 100<470.697 629.303>
@@ -8621,7 +8620,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_u.5
-Encoding: 248 -1 248
+Encoding: 65784 -1 248
 Width: 1000
 HStem: 500 297.527<401.385 498.615>
 VStem: 400 100<619.382 680.618>
@@ -8655,7 +8654,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_u.6
-Encoding: 249 -1 249
+Encoding: 65785 -1 249
 Width: 1000
 HStem: 400 400<404.116 495.884>
 VStem: 400 100<530.906 669.094>
@@ -8688,7 +8687,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_u.7
-Encoding: 250 -1 250
+Encoding: 65786 -1 250
 Width: 0
 Flags: W
 HStem: -100 297.527<401.385 498.615>
@@ -8723,7 +8722,7 @@ EndSplineSet
 EndChar
 
 StartChar: pa_u.8
-Encoding: 251 -1 251
+Encoding: 65787 -1 251
 Width: 0
 Flags: W
 HStem: -100 400<404.116 495.884>
@@ -8757,7 +8756,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_u
-Encoding: 252 -1 252
+Encoding: 65788 -1 252
 Width: 1000
 HStem: -100 100<699.562 790.77> 700 100<699.562 790.77>
 VStem: 0 100<308.725 391.275> 800 100<9.2299 91.2754 608.725 690.77>
@@ -8802,7 +8801,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pu_u.5
 EndChar
 
 StartChar: pu_u.1
-Encoding: 253 -1 253
+Encoding: 65789 -1 253
 Width: 1000
 HStem: 0 21G<745.992 763.798>
 LayerCount: 2
@@ -8825,7 +8824,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_u.2
-Encoding: 254 -1 254
+Encoding: 65790 -1 254
 Width: 1000
 HStem: 0 21G<444.383 463.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -8849,7 +8848,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_u.3
-Encoding: 255 -1 255
+Encoding: 65791 -1 255
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -8872,7 +8871,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_u.4
-Encoding: 256 -1 256
+Encoding: 65792 -1 256
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -8895,7 +8894,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_u.5
-Encoding: 257 -1 257
+Encoding: 65793 -1 257
 Width: 1000
 HStem: 499.953 300.094<747.591 778.513>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -8919,7 +8918,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_u.6
-Encoding: 258 -1 258
+Encoding: 65794 -1 258
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -8942,7 +8941,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_u.7
-Encoding: 259 -1 259
+Encoding: 65795 -1 259
 Width: 0
 Flags: W
 HStem: -100.047 300.094<747.591 778.513>
@@ -8967,7 +8966,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_u.8
-Encoding: 260 -1 260
+Encoding: 65796 -1 260
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -8991,7 +8990,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_u
-Encoding: 261 -1 261
+Encoding: 65797 -1 261
 Width: 1000
 HStem: -100 100<308.792 390.77 708.792 790.77> 700 100<308.792 390.77 708.792 790.77>
 VStem: 0 100.222<303.565 396.435> 800 100<9.2299 94.7043 605.296 690.77>
@@ -9049,7 +9048,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pv_u.5
 EndChar
 
 StartChar: pv_u.1
-Encoding: 262 -1 262
+Encoding: 65798 -1 262
 Width: 1000
 HStem: 0 21G<341.32 363.798 741.32 763.798>
 LayerCount: 2
@@ -9085,7 +9084,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_u.2
-Encoding: 263 -1 263
+Encoding: 65799 -1 263
 Width: 1000
 HStem: 0 21G<138.963 163.455 438.963 463.455>
 VStem: 102.554 97.5919<9.11817 34.1973 665.803 690.877> 402.554 97.5919<9.11817 34.1973 665.803 690.877>
@@ -9123,7 +9122,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_u.3
-Encoding: 264 -1 264
+Encoding: 65800 -1 264
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9159,7 +9158,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_u.4
-Encoding: 265 -1 265
+Encoding: 65801 -1 265
 Width: 1000
 VStem: 105.249 94.751<309.23 327.688 772.312 790.77> 405.249 94.751<309.23 327.688 772.312 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -9196,7 +9195,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_u.5
-Encoding: 266 -1 266
+Encoding: 65802 -1 266
 Width: 1000
 HStem: 500 94.751<372.312 390.77 772.312 790.77> 705.249 94.751<372.312 390.77 772.312 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -9233,7 +9232,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_u.6
-Encoding: 267 -1 267
+Encoding: 65803 -1 267
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9269,7 +9268,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_u.7
-Encoding: 268 -1 268
+Encoding: 65804 -1 268
 Width: 0
 Flags: W
 HStem: -100 94.751<372.312 390.77 772.312 790.77> 105.249 94.751<372.312 390.77 772.312 790.77>
@@ -9307,7 +9306,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_u.8
-Encoding: 269 -1 269
+Encoding: 65805 -1 269
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -9344,7 +9343,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_v
-Encoding: 270 -1 270
+Encoding: 65806 -1 270
 Width: 1000
 HStem: -100 100<109.236 200.443> 700 100<109.236 200.443>
 VStem: 0 100.006<9.2299 91.2754 608.725 690.77> 800 100<308.674 391.326>
@@ -9390,7 +9389,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pu_v.5
 EndChar
 
 StartChar: pu_v.1
-Encoding: 271 -1 271
+Encoding: 65807 -1 271
 Width: 1000
 HStem: 0 21G<136.208 154.014>
 LayerCount: 2
@@ -9413,7 +9412,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_v.2
-Encoding: 272 -1 272
+Encoding: 65808 -1 272
 Width: 1000
 HStem: 0 21G<36.2021 55.6167>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -9437,7 +9436,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_v.3
-Encoding: 273 -1 273
+Encoding: 65809 -1 273
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9460,7 +9459,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_v.4
-Encoding: 274 -1 274
+Encoding: 65810 -1 274
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9483,7 +9482,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_v.5
-Encoding: 275 -1 275
+Encoding: 65811 -1 275
 Width: 1000
 HStem: 499.953 300.094<121.487 152.409>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -9507,7 +9506,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_v.6
-Encoding: 276 -1 276
+Encoding: 65812 -1 276
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9530,7 +9529,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_v.7
-Encoding: 277 -1 277
+Encoding: 65813 -1 277
 Width: 0
 Flags: W
 HStem: -100.047 300.094<121.487 152.409>
@@ -9555,7 +9554,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_v.8
-Encoding: 278 -1 278
+Encoding: 65814 -1 278
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -9579,7 +9578,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_v
-Encoding: 279 -1 279
+Encoding: 65815 -1 279
 Width: 1000
 HStem: -100 100<109.236 191.214 509.23 591.208> 700 100<109.236 191.214 509.23 591.208>
 VStem: 0 100.006<9.2299 94.7034 605.297 690.77> 799.772 100.228<303.566 396.434>
@@ -9637,7 +9636,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pv_v.5
 EndChar
 
 StartChar: pv_v.1
-Encoding: 280 -1 280
+Encoding: 65816 -1 280
 Width: 1000
 HStem: 0 21G<136.208 158.687 536.208 558.687>
 LayerCount: 2
@@ -9673,7 +9672,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_v.2
-Encoding: 281 -1 281
+Encoding: 65817 -1 281
 Width: 1000
 HStem: 0 21G<36.5446 61.0371 336.545 361.037>
 VStem: -0.144135 97.5914<9.12306 34.1973 665.803 690.882> 299.856 97.5914<9.12306 34.1973 665.803 690.882>
@@ -9711,7 +9710,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_v.3
-Encoding: 282 -1 282
+Encoding: 65818 -1 282
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9747,7 +9746,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_v.4
-Encoding: 283 -1 283
+Encoding: 65819 -1 283
 Width: 1000
 VStem: 0 94.751<309.23 327.688 772.312 790.77> 300 94.751<309.23 327.688 772.312 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -9784,7 +9783,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_v.5
-Encoding: 284 -1 284
+Encoding: 65820 -1 284
 Width: 1000
 HStem: 500 94.75<109.23 127.688 509.23 527.688> 705.25 94.75<109.23 127.688 509.23 527.688>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -9821,7 +9820,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_v.6
-Encoding: 285 -1 285
+Encoding: 65821 -1 285
 Width: 1000
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -9858,7 +9857,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_v.7
-Encoding: 286 -1 286
+Encoding: 65822 -1 286
 Width: 0
 Flags: W
 HStem: -100 94.75<109.23 127.688 509.23 527.688> 105.25 94.75<109.23 127.688 509.23 527.688>
@@ -9896,7 +9895,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_v.8
-Encoding: 287 -1 287
+Encoding: 65823 -1 287
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -9933,7 +9932,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_p
-Encoding: 288 -1 288
+Encoding: 65824 -1 288
 Width: 1000
 HStem: -100 100<109.23 790.77> 700 100<408.725 491.275>
 VStem: 0 100<9.2299 100.438> 800 100<9.2299 100.438>
@@ -9979,7 +9978,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pu_p.5
 EndChar
 
 StartChar: pu_p.1
-Encoding: 289 -1 289
+Encoding: 65825 -1 289
 Width: 1000
 HStem: 0.00585938 100<230.906 669.094>
 LayerCount: 2
@@ -10003,7 +10002,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_p.2
-Encoding: 290 -1 290
+Encoding: 65826 -1 290
 Width: 1000
 HStem: 0 100<119.381 380.619>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10028,7 +10027,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_p.3
-Encoding: 291 -1 291
+Encoding: 65827 -1 291
 Width: 1000
 HStem: 300 100<249.992 650.008>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10053,7 +10052,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_p.4
-Encoding: 292 -1 292
+Encoding: 65828 -1 292
 Width: 1000
 HStem: 300 100<130.906 369.094>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10078,7 +10077,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_p.5
-Encoding: 293 -1 293
+Encoding: 65829 -1 293
 Width: 1000
 HStem: 500 100<315.133 584.867>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10103,7 +10102,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_p.6
-Encoding: 294 -1 294
+Encoding: 65830 -1 294
 Width: 1000
 HStem: 400 100<270.696 629.304>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10128,7 +10127,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_p.7
-Encoding: 295 -1 295
+Encoding: 65831 -1 295
 Width: 0
 Flags: W
 HStem: -100 100<315.133 584.867>
@@ -10154,7 +10153,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_p.8
-Encoding: 296 -1 296
+Encoding: 65832 -1 296
 Width: 0
 Flags: W
 HStem: -100 100<270.696 629.304>
@@ -10180,7 +10179,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_p
-Encoding: 297 -1 297
+Encoding: 65833 -1 297
 Width: 1000
 HStem: -100 100.016<109.076 790.922> 700 100<259.028 340.972 559.028 640.972>
 VStem: 0 100<9.02034 137.164> 800 100<9.01761 137.164>
@@ -10238,7 +10237,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pv_p.5
 EndChar
 
 StartChar: pv_p.1
-Encoding: 298 -1 298
+Encoding: 65834 -1 298
 Width: 1000
 HStem: 0.015625 100<214.049 385.951 514.049 685.951>
 LayerCount: 2
@@ -10270,7 +10269,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_p.2
-Encoding: 299 -1 299
+Encoding: 65835 -1 299
 Width: 1000
 HStem: 0 100<109.029 190.971 309.029 390.971>
 VStem: 100.682 98.6367<616.267 691.29> 300.682 98.6367<616.267 691.29>
@@ -10304,7 +10303,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_p.3
-Encoding: 300 -1 300
+Encoding: 65836 -1 300
 Width: 1000
 HStem: 300 100<222.159 377.841 522.159 677.841>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10337,7 +10336,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_p.4
-Encoding: 301 -1 301
+Encoding: 65837 -1 301
 Width: 1000
 HStem: 300 100<114.049 185.951 314.049 385.951>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10370,7 +10369,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_p.5
-Encoding: 302 -1 302
+Encoding: 65838 -1 302
 Width: 1000
 HStem: 500 100<249.992 350.008 549.992 650.008>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10403,7 +10402,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_p.6
-Encoding: 303 -1 303
+Encoding: 65839 -1 303
 Width: 1000
 HStem: 400 100<230.906 369.094 530.906 669.094>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10436,7 +10435,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_p.7
-Encoding: 304 -1 304
+Encoding: 65840 -1 304
 Width: 0
 Flags: W
 HStem: -100 100<249.992 350.008 549.992 650.008>
@@ -10470,7 +10469,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_p.8
-Encoding: 305 -1 305
+Encoding: 65841 -1 305
 Width: 0
 Flags: W
 HStem: -100 100<230.906 369.094 530.906 669.094>
@@ -10504,7 +10503,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_r
-Encoding: 306 -1 306
+Encoding: 65842 -1 306
 Width: 1000
 HStem: -100 100<109.23 191.275 708.725 790.77> 700 100<109.23 790.77>
 VStem: 0 100<9.2299 105.293 609.23 690.77> 800 100<9.2299 105.293 609.23 690.77>
@@ -10554,7 +10553,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pu_r.5
 EndChar
 
 StartChar: pu_r.1
-Encoding: 307 -1 307
+Encoding: 65843 -1 307
 Width: 1000
 HStem: 0 21G<136.202 159.79 740.21 763.798> 600 100<109.23 369.093 530.907 790.77>
 LayerCount: 2
@@ -10582,7 +10581,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_r.2
-Encoding: 308 -1 308
+Encoding: 65844 -1 308
 Width: 1000
 HStem: 0 21G<36.5446 61.0371 438.963 463.455> 600 100<9.2299 180.618 319.382 490.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10611,7 +10610,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_r.3
-Encoding: 309 -1 309
+Encoding: 65845 -1 309
 Width: 1000
 HStem: 700 100<109.23 350.008 549.992 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10640,7 +10639,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_r.4
-Encoding: 310 -1 310
+Encoding: 65846 -1 310
 Width: 1000
 HStem: 700 100<9.2299 169.093 330.907 490.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10669,7 +10668,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_r.5
-Encoding: 311 -1 311
+Encoding: 65847 -1 311
 Width: 1000
 HStem: 700 100<109.23 284.866 615.134 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10698,7 +10697,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_r.6
-Encoding: 312 -1 312
+Encoding: 65848 -1 312
 Width: 1000
 HStem: 700 100<109.23 329.303 570.697 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10727,7 +10726,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_r.7
-Encoding: 313 -1 313
+Encoding: 65849 -1 313
 Width: 0
 Flags: W
 HStem: 100 100<109.23 284.866 615.134 790.77>
@@ -10757,7 +10756,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_r.8
-Encoding: 314 -1 314
+Encoding: 65850 -1 314
 Width: 0
 Flags: W
 HStem: 200 100<109.23 329.303 570.697 790.77>
@@ -10787,7 +10786,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_r
-Encoding: 315 -1 315
+Encoding: 65851 -1 315
 Width: 1000
 HStem: -100 100<109.076 191.364 408.636 491.364 708.636 790.922> 700 100<109.23 790.77>
 VStem: 0 100<9.00471 137.784 609.23 690.77> 800 100<9.00198 137.784 609.23 690.77>
@@ -10847,7 +10846,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pv_r.5
 EndChar
 
 StartChar: pv_r.1
-Encoding: 316 -1 316
+Encoding: 65852 -1 316
 Width: 1000
 HStem: 0 21G<136.605 161.703 438.297 461.703 738.297 763.397> 600 100<109.23 235.952 364.048 535.952 664.048 790.77>
 VStem: 99.9001 98.6107<8.99665 65.8514> 701.489 98.6112<8.99571 65.8514>
@@ -10884,7 +10883,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_r.2
-Encoding: 317 -1 317
+Encoding: 65853 -1 317
 Width: 1000
 HStem: 0 21G<36.5744 62.3901 237.61 262.39 437.61 463.429> 600 100<9.2299 90.9707 209.029 290.971 409.029 490.77>
 VStem: -0.0468569 99.3652<8.94651 83.7334> 200.682 98.6367<8.71 83.7334> 400.682 99.3652<8.94875 83.7334>
@@ -10922,7 +10921,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_r.3
-Encoding: 318 -1 318
+Encoding: 65854 -1 318
 Width: 1000
 HStem: 700 100<109.23 227.841 372.159 527.841 672.159 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -10959,7 +10958,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_r.4
-Encoding: 319 -1 319
+Encoding: 65855 -1 319
 Width: 1000
 HStem: 700 100<9.2299 85.9521 214.048 285.952 414.048 490.77>
 VStem: -0.0999287 98.6107<308.997 365.851> 401.489 98.6112<308.996 365.851>
@@ -10997,7 +10996,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_r.5
-Encoding: 320 -1 320
+Encoding: 65856 -1 320
 Width: 1000
 HStem: 700 100<109.23 200.008 399.992 500.008 699.992 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -11034,7 +11033,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_r.6
-Encoding: 321 -1 321
+Encoding: 65857 -1 321
 Width: 1000
 HStem: 700 100<109.23 219.094 380.906 519.094 680.906 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -11071,7 +11070,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_r.7
-Encoding: 322 -1 322
+Encoding: 65858 -1 322
 Width: 0
 Flags: W
 HStem: 100 100<109.23 200.008 399.992 500.008 699.992 790.77>
@@ -11109,7 +11108,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_r.8
-Encoding: 323 -1 323
+Encoding: 65859 -1 323
 Width: 0
 Flags: W
 HStem: 200 100<109.23 219.094 380.906 519.094 680.906 790.77>
@@ -11147,7 +11146,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_a
-Encoding: 324 -1 324
+Encoding: 65860 -1 324
 Width: 1000
 HStem: -100 100.006<109.23 191.275 708.725 790.77> 700 100<408.674 491.326>
 VStem: 0 100<9.23576 100.443> 800 100<9.23576 100.443>
@@ -11193,7 +11192,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pu_a.5
 EndChar
 
 StartChar: pu_a.1
-Encoding: 325 -1 325
+Encoding: 65861 -1 325
 Width: 1000
 Flags: W
 HStem: 0.00585938 21G<136.202 159.79 740.21 763.798>
@@ -11217,7 +11216,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_a.2
-Encoding: 326 -1 326
+Encoding: 65862 -1 326
 Width: 1000
 HStem: 0 21G<36.5446 61.0371 438.963 463.455>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -11241,7 +11240,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_a.3
-Encoding: 327 -1 327
+Encoding: 65863 -1 327
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -11264,7 +11263,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_a.4
-Encoding: 328 -1 328
+Encoding: 65864 -1 328
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -11287,7 +11286,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_a.5
-Encoding: 329 -1 329
+Encoding: 65865 -1 329
 Width: 1000
 HStem: 500 299.778
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -11311,7 +11310,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_a.6
-Encoding: 330 -1 330
+Encoding: 65866 -1 330
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -11334,7 +11333,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_a.7
-Encoding: 331 -1 331
+Encoding: 65867 -1 331
 Width: 0
 Flags: W
 HStem: -100 299.778
@@ -11359,7 +11358,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_a.8
-Encoding: 332 -1 332
+Encoding: 65868 -1 332
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -11383,7 +11382,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_a
-Encoding: 333 -1 333
+Encoding: 65869 -1 333
 Width: 1000
 HStem: -100 100<109.076 191.364 408.636 491.364 708.636 790.922> 700 100<258.636 341.364 558.636 641.364>
 VStem: 0 100<9.00471 137.148> 800 100<9.00198 137.148>
@@ -11438,7 +11437,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pv_a.5
 EndChar
 
 StartChar: pv_a.1
-Encoding: 334 -1 334
+Encoding: 65870 -1 334
 Width: 1000
 HStem: 0 21G<136.605 161.703 438.297 461.703 738.297 763.397>
 VStem: 99.9001 98.6107<8.99665 65.8514> 701.489 98.6112<8.99571 65.8514>
@@ -11470,7 +11469,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_a.2
-Encoding: 335 -1 335
+Encoding: 65871 -1 335
 Width: 1000
 HStem: 0 21G<36.5744 62.3901 237.61 262.39 437.61 463.429>
 VStem: -0.0468569 99.3652<8.94651 83.7334> 100.682 98.6367<616.267 691.29> 200.682 98.6367<8.71 83.7334> 300.682 98.6367<616.267 691.29> 400.682 99.3652<8.94875 83.7334>
@@ -11503,7 +11502,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_a.3
-Encoding: 336 -1 336
+Encoding: 65872 -1 336
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -11534,7 +11533,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_a.4
-Encoding: 337 -1 337
+Encoding: 65873 -1 337
 Width: 1000
 Flags: W
 VStem: -0.0999287 98.6107<308.997 365.851> 401.489 98.6112<308.996 365.851>
@@ -11567,7 +11566,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_a.5
-Encoding: 338 -1 338
+Encoding: 65874 -1 338
 Width: 1000
 HStem: 500 300
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
@@ -11599,7 +11598,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_a.6
-Encoding: 339 -1 339
+Encoding: 65875 -1 339
 Width: 1000
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -11630,7 +11629,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_a.7
-Encoding: 340 -1 340
+Encoding: 65876 -1 340
 Width: 0
 Flags: W
 HStem: -100 300
@@ -11663,7 +11662,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_a.8
-Encoding: 341 -1 341
+Encoding: 65877 -1 341
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -11695,7 +11694,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_b
-Encoding: 342 -1 342
+Encoding: 65878 -1 342
 Width: 1000
 HStem: -100 100<109.23 790.77> 100 500<200 790.77> 700 100<109.23 790.77>
 VStem: 0 100<9.2299 690.77> 800 100<9.2299 90.7701 609.23 690.77>
@@ -11741,7 +11740,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pu_b.5
 EndChar
 
 StartChar: pu_b.1
-Encoding: 343 -1 343
+Encoding: 65879 -1 343
 Width: 1000
 HStem: 0 100<200 790.77> 600 100<200 790.77>
 VStem: 100 100<100 600>
@@ -11765,7 +11764,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_b.2
-Encoding: 344 -1 344
+Encoding: 65880 -1 344
 Width: 1000
 HStem: 0 100<100 490.77> 600 100<100 490.77>
 VStem: 0 100<100 600>
@@ -11790,7 +11789,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_b.3
-Encoding: 345 -1 345
+Encoding: 65881 -1 345
 Width: 1000
 HStem: 300 100<200 790.77> 700 100<200 790.77>
 VStem: 100 100<400 700>
@@ -11815,7 +11814,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_b.4
-Encoding: 346 -1 346
+Encoding: 65882 -1 346
 Width: 1000
 HStem: 300 100<100 490.77> 700 100<100 490.77>
 VStem: 0 100<400 700>
@@ -11840,7 +11839,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_b.5
-Encoding: 347 -1 347
+Encoding: 65883 -1 347
 Width: 1000
 HStem: 500 100<200 790.77> 700 100<200 790.77>
 VStem: 100 100<600 700>
@@ -11865,7 +11864,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_b.6
-Encoding: 348 -1 348
+Encoding: 65884 -1 348
 Width: 1000
 HStem: 400 100<200 790.77> 700 100<200 790.77>
 VStem: 100 100<500 700>
@@ -11890,7 +11889,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_b.7
-Encoding: 349 -1 349
+Encoding: 65885 -1 349
 Width: 0
 Flags: W
 HStem: -100 100<200 790.77> 100 100<200 790.77>
@@ -11916,7 +11915,7 @@ EndSplineSet
 EndChar
 
 StartChar: pu_b.8
-Encoding: 350 -1 350
+Encoding: 65886 -1 350
 Width: 0
 Flags: W
 HStem: -100 100<200 790.77> 200 100<200 790.77>
@@ -11942,7 +11941,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_b
-Encoding: 351 -1 351
+Encoding: 65887 -1 351
 Width: 1000
 HStem: -100 100<109.23 390.77 509.23 790.77> 100 500<200 390.77 600 790.77> 700 100<109.23 390.77 509.23 790.77>
 VStem: 0 100<9.2299 690.77> 200 300<100 600> 400 100<9.2299 90.7701 609.23 690.77> 600 300<100 600> 800 100<9.2299 90.7701 609.23 690.77>
@@ -12001,7 +12000,7 @@ Substitution2: "Single Substitution lookup 2 subtable" pv_b.5
 EndChar
 
 StartChar: pv_b.1
-Encoding: 352 -1 352
+Encoding: 65888 -1 352
 Width: 1000
 HStem: 0 100<200 390.77 600 790.77> 600 100<200 390.77 600 790.77>
 VStem: 100 100<100 600> 500 100<100 600>
@@ -12038,7 +12037,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_b.2
-Encoding: 353 -1 353
+Encoding: 65889 -1 353
 Width: 1000
 HStem: 0 100<100 190.77 400 490.77> 600 100<100 190.77 400 490.77>
 VStem: 0 200<9.2299 90.7701 609.23 690.77> 300 200<9.2299 90.7701 609.23 690.77>
@@ -12076,7 +12075,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_b.3
-Encoding: 354 -1 354
+Encoding: 65890 -1 354
 Width: 1000
 HStem: 300 100<200 390.77 600 790.77> 700 100<200 390.77 600 790.77>
 VStem: 100 100<400 700> 500 100<400 700>
@@ -12114,7 +12113,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_b.4
-Encoding: 355 -1 355
+Encoding: 65891 -1 355
 Width: 1000
 HStem: 300 100<100 190.77 400 490.77> 700 100<100 190.77 400 490.77>
 VStem: 0 200<309.23 390.77 709.23 790.77> 300 200<309.23 390.77 709.23 790.77>
@@ -12152,7 +12151,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_b.5
-Encoding: 356 -1 356
+Encoding: 65892 -1 356
 Width: 1000
 HStem: 500 100<200 390.77 600 790.77> 700 100<200 390.77 600 790.77>
 VStem: 100 100<600 700> 500 100<600 700>
@@ -12190,7 +12189,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_b.6
-Encoding: 357 -1 357
+Encoding: 65893 -1 357
 Width: 1000
 HStem: 400 100<200 390.77 600 790.77> 700 100<200 390.77 600 790.77>
 VStem: 100 100<500 700> 500 100<500 700>
@@ -12228,7 +12227,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_b.7
-Encoding: 358 -1 358
+Encoding: 65894 -1 358
 Width: 0
 Flags: W
 HStem: -100 100<200 390.77 600 790.77> 100 100<200 390.77 600 790.77>
@@ -12267,7 +12266,7 @@ EndSplineSet
 EndChar
 
 StartChar: pv_b.8
-Encoding: 359 -1 359
+Encoding: 65895 -1 359
 Width: 0
 Flags: W
 HStem: -100 100<200 390.77 600 790.77> 200 100<200 390.77 600 790.77>
@@ -12306,7 +12305,7 @@ EndSplineSet
 EndChar
 
 StartChar: lfu_a
-Encoding: 360 -1 360
+Encoding: 65896 -1 360
 Width: 1000
 HStem: -100 100<109.23 790.77> 100 700<200 790.77> 700 100<109.23 190.77>
 VStem: 0 100<9.2299 690.77> 200 700<100 690.77> 800 100<9.2299 90.7701>
@@ -12348,7 +12347,7 @@ Substitution2: "Single Substitution lookup 2 subtable" lfu_a.5
 EndChar
 
 StartChar: lfu_a.1
-Encoding: 361 -1 361
+Encoding: 65897 -1 361
 Width: 1000
 Flags: W
 HStem: 0 100<200 790.77>
@@ -12370,7 +12369,7 @@ EndSplineSet
 EndChar
 
 StartChar: lfu_a.2
-Encoding: 362 -1 362
+Encoding: 65898 -1 362
 Width: 1000
 HStem: 0 100<100 490.77>
 VStem: 0 100<100 690.77>
@@ -12392,7 +12391,7 @@ EndSplineSet
 EndChar
 
 StartChar: lfu_a.3
-Encoding: 363 -1 363
+Encoding: 65899 -1 363
 Width: 1000
 HStem: 300 100<200 790.77>
 VStem: 100 100<400 790.77>
@@ -12414,7 +12413,7 @@ EndSplineSet
 EndChar
 
 StartChar: lfu_a.4
-Encoding: 364 -1 364
+Encoding: 65900 -1 364
 Width: 1000
 HStem: 300 100<100 490.77>
 VStem: 0 100<400 790.77>
@@ -12436,7 +12435,7 @@ EndSplineSet
 EndChar
 
 StartChar: lfu_a.5
-Encoding: 365 -1 365
+Encoding: 65901 -1 365
 Width: 1000
 HStem: 500 300<109.23 190.77> 500 100<200 790.77>
 VStem: 100 100<600 790.77>
@@ -12458,7 +12457,7 @@ EndSplineSet
 EndChar
 
 StartChar: lfu_a.6
-Encoding: 366 -1 366
+Encoding: 65902 -1 366
 Width: 1000
 HStem: 400 100<200 790.77>
 VStem: 100 100<500 790.77>
@@ -12480,7 +12479,7 @@ EndSplineSet
 EndChar
 
 StartChar: lfu_a.7
-Encoding: 367 -1 367
+Encoding: 65903 -1 367
 Width: 0
 Flags: W
 HStem: -100 300<109.23 190.77> -100 100<200 790.77>
@@ -12503,7 +12502,7 @@ EndSplineSet
 EndChar
 
 StartChar: lfu_a.8
-Encoding: 368 -1 368
+Encoding: 65904 -1 368
 Width: 0
 Flags: W
 HStem: -100 100<200 790.77>
@@ -12526,7 +12525,7 @@ EndSplineSet
 EndChar
 
 StartChar: lav_a
-Encoding: 369 -1 369
+Encoding: 65905 -1 369
 Width: 1000
 HStem: -100 100<109.23 390.77 509.23 790.77> 700 100<109.23 190.77 509.23 590.77>
 VStem: 0 100<9.2299 690.77> 200 300<100 690.77> 400 100<9.2299 90.7701> 600 300<100 690.77> 800 100<9.2299 90.7701>
@@ -12578,7 +12577,7 @@ Substitution2: "Single Substitution lookup 2 subtable" lav_a.5
 EndChar
 
 StartChar: lav_a.1
-Encoding: 370 -1 370
+Encoding: 65906 -1 370
 Width: 1000
 HStem: 0 100<200 390.77 600 790.77>
 VStem: 100 100<100 690.77> 500 100<100 690.77>
@@ -12609,7 +12608,7 @@ EndSplineSet
 EndChar
 
 StartChar: lav_a.2
-Encoding: 371 -1 371
+Encoding: 65907 -1 371
 Width: 1000
 HStem: 0 100<100 190.77 400 490.77>
 VStem: 0 100<100 690.77> 300 100<100 690.77>
@@ -12641,7 +12640,7 @@ EndSplineSet
 EndChar
 
 StartChar: lav_a.3
-Encoding: 372 -1 372
+Encoding: 65908 -1 372
 Width: 1000
 HStem: 300 100<200 390.77 600 790.77>
 VStem: 100 100<400 790.77> 500 100<400 790.77>
@@ -12673,7 +12672,7 @@ EndSplineSet
 EndChar
 
 StartChar: lav_a.4
-Encoding: 373 -1 373
+Encoding: 65909 -1 373
 Width: 1000
 HStem: 300 100<100 190.77 400 490.77>
 VStem: 0 100<400 790.77> 300 100<400 790.77>
@@ -12705,7 +12704,7 @@ EndSplineSet
 EndChar
 
 StartChar: lav_a.5
-Encoding: 374 -1 374
+Encoding: 65910 -1 374
 Width: 1000
 HStem: 500 100<200 390.77 600 790.77>
 VStem: 100 100<600 790.77> 500 100<600 790.77>
@@ -12737,7 +12736,7 @@ EndSplineSet
 EndChar
 
 StartChar: lav_a.6
-Encoding: 375 -1 375
+Encoding: 65911 -1 375
 Width: 1000
 HStem: 400 100<200 390.77 600 790.77>
 VStem: 100 100<500 790.77> 500 100<500 790.77>
@@ -12769,7 +12768,7 @@ EndSplineSet
 EndChar
 
 StartChar: lav_a.7
-Encoding: 376 -1 376
+Encoding: 65912 -1 376
 Width: 0
 Flags: W
 HStem: -100 100<200 390.77 600 790.77>
@@ -12802,7 +12801,7 @@ EndSplineSet
 EndChar
 
 StartChar: lav_a.8
-Encoding: 377 -1 377
+Encoding: 65913 -1 377
 Width: 0
 Flags: W
 HStem: -100 100<200 390.77 600 790.77>
@@ -12835,7 +12834,7 @@ EndSplineSet
 EndChar
 
 StartChar: o_c
-Encoding: 378 -1 378
+Encoding: 65914 -1 378
 Width: 1000
 HStem: -100 900<9.23145 400 500 890.769>
 VStem: 0 900<-90.7685 300 400 790.769>
@@ -12863,7 +12862,7 @@ Substitution2: "Single Substitution lookup 10 subtable" o_c.b
 EndChar
 
 StartChar: o_c.a
-Encoding: 379 -1 379
+Encoding: 65915 -1 379
 Width: 0
 Flags: W
 HStem: 300 100<709.23 790.77>
@@ -12881,7 +12880,7 @@ EndSplineSet
 EndChar
 
 StartChar: o_c.b
-Encoding: 380 -1 380
+Encoding: 65916 -1 380
 Width: 0
 Flags: W
 HStem: 500 100<709.23 790.77>
@@ -12899,7 +12898,7 @@ EndSplineSet
 EndChar
 
 StartChar: m_c
-Encoding: 381 -1 381
+Encoding: 65917 -1 381
 Width: 1000
 HStem: -100 250<409.23 490.77> 250 200<409.23 490.77> 550 250<409.23 490.77>
 CounterMasks: 1 e0
@@ -12933,30 +12932,30 @@ Substitution2: "Single Substitution lookup 10 subtable" m_c.b
 EndChar
 
 StartChar: m_c.a
-Encoding: 382 -1 382
+Encoding: 65918 -1 382
 Width: 0
 Flags: W
-HStem: 150 100<709.23 790.77> 450 100<709.23 790.77>
-VStem: 700 100<159.23 240.77 459.23 540.77>
+HStem: 200 100<709.23 790.77> 400 100<709.23 790.77>
+VStem: 700 100<209.23 290.77 409.23 490.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-750 550 m 0
- 777.595703125 550 800 527.595703125 800 500 c 0
- 800 472.404296875 777.595703125 450 750 450 c 0
- 722.404296875 450 700 472.404296875 700 500 c 0
- 700 527.595703125 722.404296875 550 750 550 c 0
-750 250 m 0
- 777.595703125 250 800 227.595703125 800 200 c 0
- 800 172.404296875 777.595703125 150 750 150 c 0
- 722.404296875 150 700 172.404296875 700 200 c 0
- 700 227.595703125 722.404296875 250 750 250 c 0
+750 500 m 0
+ 777.595703125 500 800 477.595703125 800 450 c 0
+ 800 422.404296875 777.595703125 400 750 400 c 0
+ 722.404296875 400 700 422.404296875 700 450 c 0
+ 700 477.595703125 722.404296875 500 750 500 c 0
+750 300 m 0
+ 777.595703125 300 800 277.595703125 800 250 c 0
+ 800 222.404296875 777.595703125 200 750 200 c 0
+ 722.404296875 200 700 222.404296875 700 250 c 0
+ 700 277.595703125 722.404296875 300 750 300 c 0
 EndSplineSet
 EndChar
 
 StartChar: m_c.b
-Encoding: 383 -1 383
+Encoding: 65919 -1 383
 Width: 0
 Flags: W
 HStem: 400 100<709.23 790.77> 600 100<709.23 790.77>
@@ -12979,7 +12978,7 @@ EndSplineSet
 EndChar
 
 StartChar: c_f
-Encoding: 384 -1 384
+Encoding: 65920 -1 384
 Width: 1000
 HStem: -100 100<309.23 390.77> 700 100<309.23 390.77>
 VStem: 0 300<9.2299 690.77> 400 500<9.2299 300 400 690.77>
@@ -13013,7 +13012,7 @@ Substitution2: "Single Substitution lookup 10 subtable" c_f.b
 EndChar
 
 StartChar: c_f.a
-Encoding: 385 -1 385
+Encoding: 65921 -1 385
 Width: 0
 Flags: W
 HStem: 300 100<700 890.77>
@@ -13038,7 +13037,7 @@ EndSplineSet
 EndChar
 
 StartChar: c_f.b
-Encoding: 386 -1 386
+Encoding: 65922 -1 386
 Width: 0
 Flags: W
 HStem: 500 100<700 890.77>
@@ -13063,7 +13062,7 @@ EndSplineSet
 EndChar
 
 StartChar: c_b
-Encoding: 387 -1 387
+Encoding: 65923 -1 387
 Width: 1000
 HStem: -100 100<309.23 390.77> 300 100<400 590.77> 700 100<309.23 390.77>
 VStem: 0 300<9.2299 690.77> 400 500<9.2299 200 300 400 500 690.77>
@@ -13103,7 +13102,7 @@ Substitution2: "Single Substitution lookup 10 subtable" c_b.b
 EndChar
 
 StartChar: c_b.a
-Encoding: 388 -1 388
+Encoding: 65924 -1 388
 Width: 0
 Flags: W
 HStem: 150 100<700 890.77> 450 100<700 890.77>
@@ -13133,7 +13132,7 @@ EndSplineSet
 EndChar
 
 StartChar: c_b.b
-Encoding: 389 -1 389
+Encoding: 65925 -1 389
 Width: 0
 Flags: W
 HStem: 400 100<700 890.77> 600 100<700 890.77>
@@ -13163,7 +13162,7 @@ EndSplineSet
 EndChar
 
 StartChar: m_f
-Encoding: 390 -1 390
+Encoding: 65926 -1 390
 Width: 1000
 HStem: -100 100<509.23 590.77> 700 100<509.23 590.77>
 VStem: 0 500<9.2299 300 400 690.77> 600 300<9.2299 690.77>
@@ -13197,7 +13196,7 @@ Substitution2: "Single Substitution lookup 10 subtable" m_f.b
 EndChar
 
 StartChar: m_f.a
-Encoding: 391 -1 391
+Encoding: 65927 -1 391
 Width: 0
 Flags: W
 HStem: 300 100<509.23 700>
@@ -13223,7 +13222,7 @@ Substitution2: "Single Substitution lookup 42 subtable" m_f.a.e
 EndChar
 
 StartChar: m_f.b
-Encoding: 392 -1 392
+Encoding: 65928 -1 392
 Width: 0
 Flags: W
 HStem: 500 100<509.23 700>
@@ -13249,7 +13248,7 @@ Substitution2: "Single Substitution lookup 42 subtable" m_f.b.e
 EndChar
 
 StartChar: m_b
-Encoding: 393 -1 393
+Encoding: 65929 -1 393
 Width: 1000
 HStem: -100 100<509.23 590.77> 300 100<309.23 500> 700 100<509.23 590.77>
 VStem: 0 500<9.2299 200 300 400 500 690.77> 600 300<9.2299 690.77>
@@ -13289,7 +13288,7 @@ Substitution2: "Single Substitution lookup 10 subtable" m_b.b
 EndChar
 
 StartChar: m_b.a
-Encoding: 394 -1 394
+Encoding: 65930 -1 394
 Width: 0
 Flags: W
 HStem: 150 100<509.23 700> 450 100<509.23 700>
@@ -13320,7 +13319,7 @@ Substitution2: "Single Substitution lookup 44 subtable" m_b.a.e
 EndChar
 
 StartChar: m_b.b
-Encoding: 395 -1 395
+Encoding: 65931 -1 395
 Width: 0
 Flags: W
 HStem: 400 100<509.23 700> 600 100<509.23 700>
@@ -13351,7 +13350,7 @@ Substitution2: "Single Substitution lookup 44 subtable" m_b.b.e
 EndChar
 
 StartChar: av_p_o_c
-Encoding: 396 -1 396
+Encoding: 65932 -1 396
 Width: 1000
 HStem: -100 900<9.23145 400 500 890.769>
 VStem: 0 900<-90.7685 300 400 790.769>
@@ -13379,7 +13378,7 @@ Substitution2: "Single Substitution lookup 4 subtable" av_p_o_c.b
 EndChar
 
 StartChar: av_p_o_c.a
-Encoding: 397 -1 397
+Encoding: 65933 -1 397
 Width: 0
 Flags: W
 HStem: 0 100<409.23 490.77>
@@ -13397,7 +13396,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_o_c.b
-Encoding: 398 -1 398
+Encoding: 65934 -1 398
 Width: 0
 Flags: W
 HStem: 300 100<409.23 490.77>
@@ -13415,7 +13414,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_m_c
-Encoding: 399 -1 399
+Encoding: 65935 -1 399
 Width: 1000
 VStem: 0 250<309.23 390.77> 350 200<309.23 390.77> 650 250<309.23 390.77>
 CounterMasks: 1 e0
@@ -13449,7 +13448,7 @@ Substitution2: "Single Substitution lookup 4 subtable" av_p_m_c.b
 EndChar
 
 StartChar: av_p_m_c.a
-Encoding: 400 -1 400
+Encoding: 65936 -1 400
 Width: 0
 Flags: W
 HStem: 0 100<259.23 340.77 559.23 640.77>
@@ -13463,16 +13462,16 @@ SplineSet
  350 22.404296875 327.595703125 0 300 0 c 0
  272.404296875 0 250 22.404296875 250 50 c 0
  250 77.595703125 272.404296875 100 300 100 c 0
-600 100 m 0
- 627.595703125 100 650 77.595703125 650 50 c 0
- 650 22.404296875 627.595703125 0 600 0 c 0
- 572.404296875 0 550 22.404296875 550 50 c 0
- 550 77.595703125 572.404296875 100 600 100 c 0
+600 100 m 4
+ 627.595703125 100 650 77.595703125 650 50 c 4
+ 650 22.404296875 627.595703125 0 600 0 c 4
+ 572.404296875 0 550 22.404296875 550 50 c 4
+ 550 77.595703125 572.404296875 100 600 100 c 4
 EndSplineSet
 EndChar
 
 StartChar: av_p_m_c.b
-Encoding: 401 -1 401
+Encoding: 65937 -1 401
 Width: 0
 Flags: W
 HStem: 300 100<259.23 340.77 559.23 640.77>
@@ -13495,7 +13494,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_c_f
-Encoding: 402 -1 402
+Encoding: 65938 -1 402
 Width: 1000
 HStem: -100 500<109.23 400 500 790.77> 500 300<109.23 790.77>
 VStem: 0 100<409.23 490.77> 800 100<409.23 490.77>
@@ -13529,7 +13528,7 @@ Substitution2: "Single Substitution lookup 4 subtable" av_p_c_f.b
 EndChar
 
 StartChar: av_p_c_f.a
-Encoding: 403 -1 403
+Encoding: 65939 -1 403
 Width: 0
 Flags: W
 HStem: 100 100<9.2299 400 500 890.77>
@@ -13554,7 +13553,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_c_f.b
-Encoding: 404 -1 404
+Encoding: 65940 -1 404
 Width: 0
 Flags: W
 HStem: 300 100<9.2299 400 500 890.77>
@@ -13580,7 +13579,7 @@ Substitution2: "Single Substitution lookup 46 subtable" av_p_c_f.b.e
 EndChar
 
 StartChar: av_p_c_b
-Encoding: 405 -1 405
+Encoding: 65941 -1 405
 Width: 1000
 HStem: -100 500<109.23 250 350 550 650 790.77> 500 300<109.23 790.77>
 VStem: 0 250<209.23 400> 0 100<409.23 490.77> 350 200<209.23 400> 650 250<209.23 400> 800 100<409.23 490.77>
@@ -13619,7 +13618,7 @@ Substitution2: "Single Substitution lookup 4 subtable" av_p_c_b.b
 EndChar
 
 StartChar: av_p_c_b.a
-Encoding: 406 -1 406
+Encoding: 65942 -1 406
 Width: 0
 Flags: W
 HStem: 100 100<9.2299 250 350 550 650 890.77>
@@ -13649,7 +13648,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_c_b.b
-Encoding: 407 -1 407
+Encoding: 65943 -1 407
 Width: 0
 Flags: W
 HStem: 200 200<259.23 340.77 559.23 640.77> 300 100<9.2299 250 350 550 650 890.77>
@@ -13680,7 +13679,7 @@ Substitution2: "Single Substitution lookup 48 subtable" av_p_c_b.b.e
 EndChar
 
 StartChar: av_p_m_f
-Encoding: 408 -1 408
+Encoding: 65944 -1 408
 Width: 1000
 HStem: -100 300<109.23 790.77> 300 500<109.23 400 500 790.77>
 VStem: 0 100<209.23 290.77> 800 100<209.23 290.77>
@@ -13714,7 +13713,7 @@ Substitution2: "Single Substitution lookup 4 subtable" av_p_m_f.b
 EndChar
 
 StartChar: av_p_m_f.a
-Encoding: 409 -1 409
+Encoding: 65945 -1 409
 Width: 0
 Flags: W
 HStem: 0 100<9.2299 400 500 890.77>
@@ -13740,7 +13739,7 @@ Substitution2: "Single Substitution lookup 42 subtable" av_p_m_f.a.e
 EndChar
 
 StartChar: av_p_m_f.b
-Encoding: 410 -1 410
+Encoding: 65946 -1 410
 Width: 0
 Flags: W
 HStem: 300 100<9.2299 400 500 890.77>
@@ -13766,7 +13765,7 @@ Substitution2: "Single Substitution lookup 42 subtable" av_p_m_f.b.e
 EndChar
 
 StartChar: av_p_m_b
-Encoding: 411 -1 411
+Encoding: 65947 -1 411
 Width: 1000
 HStem: -100 300<109.23 790.77> 300 500<109.23 250 350 550 650 790.77>
 VStem: 0 250<300 490.77> 0 100<209.23 290.77> 350 200<300 490.77> 650 250<300 490.77> 800 100<209.23 290.77>
@@ -13805,7 +13804,7 @@ Substitution2: "Single Substitution lookup 4 subtable" av_p_m_b.b
 EndChar
 
 StartChar: av_p_m_b.a
-Encoding: 412 -1 412
+Encoding: 65948 -1 412
 Width: 0
 Flags: W
 HStem: 0 100<9.2299 250 350 550 650 890.77>
@@ -13836,7 +13835,7 @@ Substitution2: "Single Substitution lookup 44 subtable" av_p_m_b.a.e
 EndChar
 
 StartChar: av_p_m_b.b
-Encoding: 413 -1 413
+Encoding: 65949 -1 413
 Width: 0
 Flags: W
 HStem: 300 200<259.23 340.77 559.23 640.77> 300 100<9.2299 250 350 550 650 890.77>
@@ -13867,7 +13866,7 @@ Substitution2: "Single Substitution lookup 44 subtable" av_p_m_b.b.e
 EndChar
 
 StartChar: av_v_o_c
-Encoding: 414 -1 414
+Encoding: 65950 -1 414
 Width: 1000
 HStem: -100 100<409.23 490.77> 700 100<409.23 490.77>
 VStem: 0 400<9.2299 690.77> 500 400<9.2299 690.77>
@@ -13896,7 +13895,7 @@ Substitution2: "Single Substitution lookup 10 subtable" av_v_o_c.b
 EndChar
 
 StartChar: av_v_o_c.a
-Encoding: 415 -1 415
+Encoding: 65951 -1 415
 Width: 0
 Flags: W
 VStem: 700 100<-90.7701 790.77>
@@ -13915,7 +13914,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_o_c.b
-Encoding: 416 -1 416
+Encoding: 65952 -1 416
 Width: 0
 Flags: W
 VStem: 700 100<309.23 790.77>
@@ -13934,7 +13933,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_m_c
-Encoding: 417 -1 417
+Encoding: 65953 -1 417
 Width: 1000
 HStem: -100 100<309.23 390.77 509.23 590.77> 700 100<309.23 390.77 509.23 590.77>
 VStem: 0 300<9.2299 690.77> 400 100<9.2299 690.77> 600 300<9.2299 690.77>
@@ -13971,7 +13970,7 @@ Substitution2: "Single Substitution lookup 10 subtable" av_v_m_c.b
 EndChar
 
 StartChar: av_v_m_c.a
-Encoding: 418 -1 418
+Encoding: 65954 -1 418
 Width: 0
 Flags: W
 VStem: 600 100<-90.7701 790.77> 800 100<-90.7701 790.77>
@@ -13997,7 +13996,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_m_c.b
-Encoding: 419 -1 419
+Encoding: 65955 -1 419
 Width: 0
 Flags: W
 VStem: 600 100<309.23 790.77> 800 100<309.23 790.77>
@@ -14023,7 +14022,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_c_f
-Encoding: 420 -1 420
+Encoding: 65956 -1 420
 Width: 1000
 HStem: -100 100<309.23 390.77 509.23 590.77> 700 100<309.23 390.77 509.23 590.77>
 VStem: 0 300<9.2299 690.77> 400 100<9.2299 300 400 690.77> 600 300<9.2299 690.77>
@@ -14063,7 +14062,7 @@ Substitution2: "Single Substitution lookup 10 subtable" av_v_c_f.b
 EndChar
 
 StartChar: av_v_c_f.a
-Encoding: 421 -1 421
+Encoding: 65957 -1 421
 Width: 0
 Flags: W
 HStem: 300 100<700 800>
@@ -14093,7 +14092,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_c_f.b
-Encoding: 422 -1 422
+Encoding: 65958 -1 422
 Width: 0
 Flags: W
 HStem: 500 100<700 800>
@@ -14123,7 +14122,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_c_b
-Encoding: 423 -1 423
+Encoding: 65959 -1 423
 Width: 1000
 HStem: -100 100<309.23 390.77 509.23 590.77> 310 90<400 500> 700 100<309.23 390.77 509.23 590.77>
 VStem: 0 300<9.2299 690.77> 400 100<9.2299 210 310 400 500 690.77> 600 300<9.2299 690.77>
@@ -14168,7 +14167,7 @@ Substitution2: "Single Substitution lookup 10 subtable" av_v_c_b.b
 EndChar
 
 StartChar: av_v_c_b.a
-Encoding: 424 -1 424
+Encoding: 65960 -1 424
 Width: 0
 Flags: W
 HStem: 150 100<700 800> 450 100<700 800>
@@ -14203,7 +14202,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_c_b.b
-Encoding: 425 -1 425
+Encoding: 65961 -1 425
 Width: 0
 Flags: W
 HStem: 400 100<700 800> 600 100<700 800>
@@ -14238,7 +14237,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_m_f
-Encoding: 426 -1 426
+Encoding: 65962 -1 426
 Width: 1000
 HStem: -100 100<409.23 490.77 609.23 690.77> 700 100<409.23 490.77 609.23 690.77>
 VStem: 0 400<9.2299 300 400 690.77> 500 100<9.2299 690.77> 700 200<9.2299 690.77>
@@ -14279,7 +14278,7 @@ Substitution2: "Single Substitution lookup 10 subtable" av_v_m_f.b
 EndChar
 
 StartChar: av_v_m_f.a
-Encoding: 427 -1 427
+Encoding: 65963 -1 427
 Width: 0
 Flags: W
 HStem: 300 100<509.23 600>
@@ -14312,7 +14311,7 @@ Substitution2: "Single Substitution lookup 42 subtable" av_v_m_f.a.e
 EndChar
 
 StartChar: av_v_m_f.b
-Encoding: 428 -1 428
+Encoding: 65964 -1 428
 Width: 0
 Flags: W
 HStem: 500 100<509.23 600>
@@ -14345,7 +14344,7 @@ Substitution2: "Single Substitution lookup 42 subtable" av_v_m_f.b.e
 EndChar
 
 StartChar: av_v_m_b
-Encoding: 429 -1 429
+Encoding: 65965 -1 429
 Width: 1000
 HStem: -100 100<409.23 490.77 609.23 690.77> 300 100<209.23 400> 700 100<409.23 490.77 609.23 690.77>
 VStem: 0 400<9.2299 200 300 400 500 690.77> 0 200<209.23 290.77 409.23 490.77> 500 100<9.2299 690.77> 700 200<9.2299 690.77>
@@ -14392,32 +14391,32 @@ Substitution2: "Single Substitution lookup 10 subtable" av_v_m_b.b
 EndChar
 
 StartChar: av_v_m_b.a
-Encoding: 430 -1 430
+Encoding: 65966 -1 430
 Width: 0
 Flags: W
-HStem: 150 100<509.23 600> 450 100<509.23 600>
-VStem: 500 200<159.23 240.77 459.23 540.77> 600 100<-90.7701 150 250 450 550 790.77> 800 100<-90.7701 790.77>
+HStem: 200 100<509.23 600> 400 100<509.23 600>
+VStem: 500 200<209.23 290.77 409.23 490.77> 600 100<-90.7701 200 300 400 500 790.77> 800 100<-90.7701 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-550 250 m 2xe8
- 600 250 l 1
- 600 450 l 1xd8
- 550 450 l 2
- 522.404296875 450 500 472.404296875 500 500 c 0xe8
- 500 527.595703125 522.404296875 550 550 550 c 2
- 600 550 l 1
+550 300 m 2xe8
+ 600 300 l 1
+ 600 400 l 1xd8
+ 550 400 l 2
+ 522.404296875 400 500 422.404296875 500 450 c 0xe8
+ 500 477.595703125 522.404296875 500 550 500 c 2
+ 600 500 l 1
  600 750 l 2
  600 777.595703125 622.404296875 800 650 800 c 0
  677.595703125 800 700 777.595703125 700 750 c 2
  700 -50 l 2
  700 -77.595703125 677.595703125 -100 650 -100 c 0
  622.404296875 -100 600 -77.595703125 600 -50 c 2
- 600 150 l 1xd8
- 550 150 l 2
- 522.404296875 150 500 172.404296875 500 200 c 0
- 500 227.595703125 522.404296875 250 550 250 c 2xe8
+ 600 200 l 1xd8
+ 550 200 l 2
+ 522.404296875 200 500 222.404296875 500 250 c 0
+ 500 277.595703125 522.404296875 300 550 300 c 2xe8
 900 750 m 2
  900 -50 l 2
  900 -77.595703125 877.595703125 -100 850 -100 c 0
@@ -14430,7 +14429,7 @@ Substitution2: "Single Substitution lookup 44 subtable" av_v_m_b.a.e
 EndChar
 
 StartChar: av_v_m_b.b
-Encoding: 431 -1 431
+Encoding: 65967 -1 431
 Width: 0
 Flags: W
 HStem: 400 100<509.23 600> 600 100<509.23 600>
@@ -14468,7 +14467,7 @@ Substitution2: "Single Substitution lookup 44 subtable" av_v_m_b.b.e
 EndChar
 
 StartChar: vn
-Encoding: 432 -1 432
+Encoding: 65968 -1 432
 Width: 1000
 HStem: -100 400<109.23 790.77> 400 400<109.23 790.77>
 VStem: 0 100<309.23 390.77> 800 100<309.23 390.77>
@@ -14499,7 +14498,7 @@ Substitution2: "Single Substitution lookup 22 subtable" vn.b
 EndChar
 
 StartChar: vn.a
-Encoding: 433 -1 433
+Encoding: 65969 -1 433
 Width: 0
 Flags: W
 HStem: 0 100<9.2299 890.77>
@@ -14518,7 +14517,7 @@ EndSplineSet
 EndChar
 
 StartChar: vn.b
-Encoding: 434 -1 434
+Encoding: 65970 -1 434
 Width: 0
 Flags: W
 HStem: 300 100<9.2299 890.77>
@@ -14537,7 +14536,7 @@ EndSplineSet
 EndChar
 
 StartChar: vb
-Encoding: 435 -1 435
+Encoding: 65971 -1 435
 Width: 1000
 VStem: 0 100<309.23 390.77> 200 200<309.23 390.77> 500 200<309.23 390.77> 800 100<309.23 390.77>
 LayerCount: 2
@@ -14576,14 +14575,14 @@ Substitution2: "Single Substitution lookup 16 subtable" vb.empty
 EndChar
 
 StartChar: jj_space
-Encoding: 436 -1 436
+Encoding: 65972 -1 436
 Width: 1000
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: q
-Encoding: 437 113 437
+Encoding: 113 113 437
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14591,7 +14590,7 @@ Substitution2: "ascii_input subtable" tv_a
 EndChar
 
 StartChar: Q
-Encoding: 438 81 438
+Encoding: 81 81 438
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14599,7 +14598,7 @@ Substitution2: "ascii_input subtable" tv_u
 EndChar
 
 StartChar: w
-Encoding: 439 119 439
+Encoding: 119 119 439
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14607,7 +14606,7 @@ Substitution2: "ascii_input subtable" nsfu_p
 EndChar
 
 StartChar: W
-Encoding: 440 87 440
+Encoding: 87 87 440
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14615,7 +14614,7 @@ Substitution2: "ascii_input subtable" nsfu_v
 EndChar
 
 StartChar: e
-Encoding: 441 101 441
+Encoding: 101 101 441
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14623,7 +14622,7 @@ Substitution2: "ascii_input subtable" sfu_p
 EndChar
 
 StartChar: E
-Encoding: 442 69 442
+Encoding: 69 69 442
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14631,7 +14630,7 @@ Substitution2: "ascii_input subtable" sfv_p
 EndChar
 
 StartChar: r
-Encoding: 443 114 443
+Encoding: 114 114 443
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14639,7 +14638,7 @@ Substitution2: "ascii_input subtable" sfu_r
 EndChar
 
 StartChar: R
-Encoding: 444 82 444
+Encoding: 82 82 444
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14647,7 +14646,7 @@ Substitution2: "ascii_input subtable" sfv_r
 EndChar
 
 StartChar: t
-Encoding: 445 116 445
+Encoding: 116 116 445
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14655,7 +14654,7 @@ Substitution2: "ascii_input subtable" sfu_a
 EndChar
 
 StartChar: T
-Encoding: 446 84 446
+Encoding: 84 84 446
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14663,7 +14662,7 @@ Substitution2: "ascii_input subtable" sfv_a
 EndChar
 
 StartChar: y
-Encoding: 447 121 447
+Encoding: 121 121 447
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14671,7 +14670,7 @@ Substitution2: "ascii_input subtable" nsfu_b
 EndChar
 
 StartChar: Y
-Encoding: 448 89 448
+Encoding: 89 89 448
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14679,7 +14678,7 @@ Substitution2: "ascii_input subtable" nsfv_b
 EndChar
 
 StartChar: u
-Encoding: 449 117 449
+Encoding: 117 117 449
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14687,7 +14686,7 @@ Substitution2: "ascii_input subtable" nsfu_a
 EndChar
 
 StartChar: U
-Encoding: 450 85 450
+Encoding: 85 85 450
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14695,7 +14694,7 @@ Substitution2: "ascii_input subtable" av_a
 EndChar
 
 StartChar: i
-Encoding: 451 105 451
+Encoding: 105 105 451
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14703,7 +14702,7 @@ Substitution2: "ascii_input subtable" av_v_o_c
 EndChar
 
 StartChar: I
-Encoding: 452 73 452
+Encoding: 73 73 452
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14711,7 +14710,7 @@ Substitution2: "ascii_input subtable" av_v_m_c
 EndChar
 
 StartChar: o
-Encoding: 453 111 453
+Encoding: 111 111 453
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14719,7 +14718,7 @@ Substitution2: "ascii_input subtable" av_v_c_f
 EndChar
 
 StartChar: O
-Encoding: 454 79 454
+Encoding: 79 79 454
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14727,7 +14726,7 @@ Substitution2: "ascii_input subtable" av_v_c_b
 EndChar
 
 StartChar: p
-Encoding: 455 112 455
+Encoding: 112 112 455
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14735,7 +14734,7 @@ Substitution2: "ascii_input subtable" av_v_m_f
 EndChar
 
 StartChar: P
-Encoding: 456 80 456
+Encoding: 80 80 456
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14743,7 +14742,7 @@ Substitution2: "ascii_input subtable" av_v_m_b
 EndChar
 
 StartChar: a
-Encoding: 457 97 457
+Encoding: 97 97 457
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14751,7 +14750,7 @@ Substitution2: "ascii_input subtable" pu_g_m
 EndChar
 
 StartChar: A
-Encoding: 458 65 458
+Encoding: 65 65 458
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14759,7 +14758,7 @@ Substitution2: "ascii_input subtable" nsfu_g
 EndChar
 
 StartChar: s
-Encoding: 459 115 459
+Encoding: 115 115 459
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14767,7 +14766,7 @@ Substitution2: "ascii_input subtable" nv_v
 EndChar
 
 StartChar: S
-Encoding: 460 83 460
+Encoding: 83 83 460
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14775,7 +14774,7 @@ Substitution2: "ascii_input subtable" pa_v
 EndChar
 
 StartChar: d
-Encoding: 461 100 461
+Encoding: 100 100 461
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14783,7 +14782,7 @@ Substitution2: "ascii_input subtable" nv_p
 EndChar
 
 StartChar: D
-Encoding: 462 68 462
+Encoding: 68 68 462
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14791,7 +14790,7 @@ Substitution2: "ascii_input subtable" pa_p
 EndChar
 
 StartChar: f
-Encoding: 463 102 463
+Encoding: 102 102 463
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14799,7 +14798,7 @@ Substitution2: "ascii_input subtable" nv_r
 EndChar
 
 StartChar: F
-Encoding: 464 70 464
+Encoding: 70 70 464
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14807,7 +14806,7 @@ Substitution2: "ascii_input subtable" pa_r
 EndChar
 
 StartChar: g
-Encoding: 465 103 465
+Encoding: 103 103 465
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14815,7 +14814,7 @@ Substitution2: "ascii_input subtable" nv_a
 EndChar
 
 StartChar: G
-Encoding: 466 71 466
+Encoding: 71 71 466
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14823,7 +14822,7 @@ Substitution2: "ascii_input subtable" pa_a
 EndChar
 
 StartChar: h
-Encoding: 467 104 467
+Encoding: 104 104 467
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14831,7 +14830,7 @@ Substitution2: "ascii_input subtable" nv_b
 EndChar
 
 StartChar: H
-Encoding: 468 72 468
+Encoding: 72 72 468
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14839,7 +14838,7 @@ Substitution2: "ascii_input subtable" pa_b
 EndChar
 
 StartChar: j
-Encoding: 469 106 469
+Encoding: 106 106 469
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14847,7 +14846,7 @@ Substitution2: "ascii_input subtable" vn
 EndChar
 
 StartChar: J
-Encoding: 470 74 470
+Encoding: 74 74 470
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14855,7 +14854,7 @@ Substitution2: "ascii_input subtable" pa_u
 EndChar
 
 StartChar: l
-Encoding: 471 108 471
+Encoding: 108 108 471
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14863,7 +14862,7 @@ Substitution2: "ascii_input subtable" c_f
 EndChar
 
 StartChar: L
-Encoding: 472 76 472
+Encoding: 76 76 472
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14871,7 +14870,7 @@ Substitution2: "ascii_input subtable" c_b
 EndChar
 
 StartChar: k
-Encoding: 473 107 473
+Encoding: 107 107 473
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14879,7 +14878,7 @@ Substitution2: "ascii_input subtable" o_c
 EndChar
 
 StartChar: K
-Encoding: 474 75 474
+Encoding: 75 75 474
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14887,7 +14886,7 @@ Substitution2: "ascii_input subtable" m_c
 EndChar
 
 StartChar: z
-Encoding: 475 122 475
+Encoding: 122 122 475
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14895,7 +14894,7 @@ Substitution2: "ascii_input subtable" pu_u
 EndChar
 
 StartChar: Z
-Encoding: 476 90 476
+Encoding: 90 90 476
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14903,7 +14902,7 @@ Substitution2: "ascii_input subtable" pv_u
 EndChar
 
 StartChar: x
-Encoding: 477 120 477
+Encoding: 120 120 477
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14911,7 +14910,7 @@ Substitution2: "ascii_input subtable" pu_v
 EndChar
 
 StartChar: X
-Encoding: 478 88 478
+Encoding: 88 88 478
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14919,7 +14918,7 @@ Substitution2: "ascii_input subtable" pv_v
 EndChar
 
 StartChar: c
-Encoding: 479 99 479
+Encoding: 99 99 479
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14927,7 +14926,7 @@ Substitution2: "ascii_input subtable" pu_p
 EndChar
 
 StartChar: C
-Encoding: 480 67 480
+Encoding: 67 67 480
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14935,7 +14934,7 @@ Substitution2: "ascii_input subtable" pv_p
 EndChar
 
 StartChar: v
-Encoding: 481 118 481
+Encoding: 118 118 481
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14943,7 +14942,7 @@ Substitution2: "ascii_input subtable" pu_r
 EndChar
 
 StartChar: V
-Encoding: 482 86 482
+Encoding: 86 86 482
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14951,7 +14950,7 @@ Substitution2: "ascii_input subtable" pv_r
 EndChar
 
 StartChar: b
-Encoding: 483 98 483
+Encoding: 98 98 483
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14959,7 +14958,7 @@ Substitution2: "ascii_input subtable" pu_a
 EndChar
 
 StartChar: B
-Encoding: 484 66 484
+Encoding: 66 66 484
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14967,7 +14966,7 @@ Substitution2: "ascii_input subtable" pv_a
 EndChar
 
 StartChar: n
-Encoding: 485 110 485
+Encoding: 110 110 485
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14975,7 +14974,7 @@ Substitution2: "ascii_input subtable" pu_b
 EndChar
 
 StartChar: N
-Encoding: 486 78 486
+Encoding: 78 78 486
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14983,7 +14982,7 @@ Substitution2: "ascii_input subtable" pv_b
 EndChar
 
 StartChar: m
-Encoding: 487 109 487
+Encoding: 109 109 487
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14991,7 +14990,7 @@ Substitution2: "ascii_input subtable" lfu_a
 EndChar
 
 StartChar: M
-Encoding: 488 77 488
+Encoding: 77 77 488
 Width: 0
 Flags: W
 LayerCount: 2
@@ -14999,7 +14998,7 @@ Substitution2: "ascii_input subtable" lav_a
 EndChar
 
 StartChar: zero
-Encoding: 489 48 489
+Encoding: 48 48 489
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15007,7 +15006,7 @@ Substitution2: "ascii_input subtable" m_f
 EndChar
 
 StartChar: one
-Encoding: 490 49 490
+Encoding: 49 49 490
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15015,7 +15014,7 @@ Substitution2: "ascii_input subtable" m_b
 EndChar
 
 StartChar: two
-Encoding: 491 50 491
+Encoding: 50 50 491
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15023,7 +15022,7 @@ Substitution2: "ascii_input subtable" av_p_o_c
 EndChar
 
 StartChar: three
-Encoding: 492 51 492
+Encoding: 51 51 492
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15031,7 +15030,7 @@ Substitution2: "ascii_input subtable" av_p_m_c
 EndChar
 
 StartChar: four
-Encoding: 493 52 493
+Encoding: 52 52 493
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15039,7 +15038,7 @@ Substitution2: "ascii_input subtable" av_p_c_f
 EndChar
 
 StartChar: five
-Encoding: 494 53 494
+Encoding: 53 53 494
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15047,7 +15046,7 @@ Substitution2: "ascii_input subtable" av_p_c_b
 EndChar
 
 StartChar: six
-Encoding: 495 54 495
+Encoding: 54 54 495
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15055,7 +15054,7 @@ Substitution2: "ascii_input subtable" av_p_m_f
 EndChar
 
 StartChar: seven
-Encoding: 496 55 496
+Encoding: 55 55 496
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15063,7 +15062,7 @@ Substitution2: "ascii_input subtable" av_p_m_b
 EndChar
 
 StartChar: eight
-Encoding: 497 56 497
+Encoding: 56 56 497
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15071,7 +15070,7 @@ Substitution2: "ascii_input subtable" vb
 EndChar
 
 StartChar: nine
-Encoding: 498 57 498
+Encoding: 57 57 498
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15079,7 +15078,7 @@ Substitution2: "ascii_input subtable" pu_g_d
 EndChar
 
 StartChar: space
-Encoding: 499 32 499
+Encoding: 32 32 499
 Width: 0
 Flags: W
 LayerCount: 2
@@ -15087,7 +15086,7 @@ Substitution2: "ascii_input subtable" jj_space
 EndChar
 
 StartChar: vb.empty
-Encoding: 500 -1 500
+Encoding: 65973 -1 500
 Width: 0
 Flags: W
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
@@ -15095,7 +15094,7 @@ LayerCount: 2
 EndChar
 
 StartChar: av_v_m_b.b.e
-Encoding: 517 -1 501
+Encoding: 65974 -1 501
 Width: 0
 Flags: W
 HStem: 400 100<430 600> 600 100<430 600>
@@ -15130,7 +15129,7 @@ EndSplineSet
 EndChar
 
 StartChar: m_f.a.e
-Encoding: 504 -1 502
+Encoding: 65975 -1 502
 Width: 0
 Flags: W
 HStem: 300 100<470 700>
@@ -15154,7 +15153,7 @@ EndSplineSet
 EndChar
 
 StartChar: m_f.b.e
-Encoding: 505 -1 503
+Encoding: 65976 -1 503
 Width: 0
 Flags: W
 HStem: 500 100<470 700>
@@ -15178,7 +15177,7 @@ EndSplineSet
 EndChar
 
 StartChar: m_b.a.e
-Encoding: 506 -1 504
+Encoding: 65977 -1 504
 Width: 0
 Flags: W
 HStem: 150 100<430 700> 450 100<430 700>
@@ -15206,7 +15205,7 @@ EndSplineSet
 EndChar
 
 StartChar: m_b.b.e
-Encoding: 507 -1 505
+Encoding: 65978 -1 505
 Width: 0
 Flags: W
 HStem: 400 100<440 700> 600 100<440 700>
@@ -15234,7 +15233,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_c_f.b.e
-Encoding: 508 -1 506
+Encoding: 65979 -1 506
 Width: 0
 Flags: W
 HStem: 300 100<9.2299 400 500 890.77>
@@ -15258,7 +15257,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_c_b.b.e
-Encoding: 509 -1 507
+Encoding: 65980 -1 507
 Width: 0
 Flags: W
 HStem: 170 230<250 350 550 650> 300 100<9.2299 250 350 550 650 890.77>
@@ -15286,7 +15285,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_m_f.a.e
-Encoding: 510 -1 508
+Encoding: 65981 -1 508
 Width: 0
 Flags: W
 HStem: 0 100<9.2299 400 500 890.77>
@@ -15310,7 +15309,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_m_f.b.e
-Encoding: 511 -1 509
+Encoding: 65982 -1 509
 Width: 0
 Flags: W
 HStem: 300 100<9.2299 400 500 890.77>
@@ -15334,7 +15333,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_m_b.a.e
-Encoding: 512 -1 510
+Encoding: 65983 -1 510
 Width: 0
 Flags: W
 HStem: 0 100<9.2299 250 350 550 650 890.77>
@@ -15362,7 +15361,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_p_m_b.b.e
-Encoding: 513 -1 511
+Encoding: 65984 -1 511
 Width: 0
 Flags: W
 HStem: 300 250<240 340 550 650> 300 100<9.2299 240 340 550 650 890.77>
@@ -15390,7 +15389,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_m_f.a.e
-Encoding: 514 -1 512
+Encoding: 65985 -1 512
 Width: 0
 Flags: W
 HStem: 300 100<470 600>
@@ -15421,7 +15420,7 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_m_f.b.e
-Encoding: 515 -1 513
+Encoding: 65986 -1 513
 Width: 0
 Flags: W
 HStem: 500 100<470 600>
@@ -15452,30 +15451,30 @@ EndSplineSet
 EndChar
 
 StartChar: av_v_m_b.a.e
-Encoding: 516 -1 514
+Encoding: 65987 -1 514
 Width: 0
 Flags: W
-HStem: 150 100<420 600> 450 100<420 600>
-VStem: 420 280<150 250 450 550> 600 100<-90.7701 150 250 450 550 790.77> 800 100<-90.7701 790.77>
+HStem: 100 100<420 600> 500 100<420 600>
+VStem: 420 280<100 200 500 600> 600 100<-90.7701 100 200 500 600 790.77> 800 100<-90.7701 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-420 250 m 5xe8
- 600 250 l 5
- 600 450 l 1xd8
- 420 450 l 1
- 420 550 l 1xe8
- 600 550 l 1
+420 200 m 1xe8
+ 600 200 l 1
+ 600 500 l 1xd8
+ 420 500 l 1
+ 420 600 l 1xe8
+ 600 600 l 1
  600 750 l 2
  600 777.595703125 622.404296875 800 650 800 c 0
  677.595703125 800 700 777.595703125 700 750 c 2
  700 -50 l 2
  700 -77.595703125 677.595703125 -100 650 -100 c 0
  622.404296875 -100 600 -77.595703125 600 -50 c 2
- 600 150 l 5xd8
- 420 150 l 5
- 420 250 l 5xe8
+ 600 100 l 1xd8
+ 420 100 l 1
+ 420 200 l 1xe8
 900 750 m 2
  900 -50 l 2
  900 -77.595703125 877.595703125 -100 850 -100 c 0
@@ -15487,1077 +15486,1077 @@ EndSplineSet
 EndChar
 
 StartChar: uni3044
-Encoding: 522 12356 515
+Encoding: 12356 12356 515
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni3046
-Encoding: 523 12358 516
+Encoding: 12358 12358 516
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni304b
-Encoding: 524 12363 517
+Encoding: 12363 12363 517
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni3057
-Encoding: 525 12375 518
+Encoding: 12375 12375 518
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni306e
-Encoding: 526 12398 519
+Encoding: 12398 12398 519
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni3093
-Encoding: 527 12435 520
+Encoding: 12435 12435 520
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 EndChars
 BitmapFont: 10 522 8 2 1
-BDFChar: 0 0 10 0 8 -1 7
+BDFChar: 0 65536 10 0 8 -1 7
 s+#WMpON!gpON!gpOIdEs*t(L
-BDFChar: 1 1 10 1 7 0 6
+BDFChar: 1 65537 10 1 7 0 6
 rX]VP&.ng@
-BDFChar: 2 2 10 0 4 0 6
+BDFChar: 2 65538 10 0 4 0 6
 p`L\%+<^FZ
-BDFChar: 3 3 10 1 7 3 7
+BDFChar: 3 65539 10 1 7 3 7
 rX]VPrVuou
-BDFChar: 4 4 10 0 4 3 7
+BDFChar: 4 65540 10 0 4 3 7
 p`L\%p](9o
-BDFChar: 5 5 10 1 7 5 7
+BDFChar: 5 65541 10 1 7 5 7
 rXf&/
-BDFChar: 6 6 10 1 7 4 7
+BDFChar: 6 65542 10 1 7 4 7
 rX]Y?
-BDFChar: 7 7 0 1 7 -1 1
+BDFChar: 7 65543 0 1 7 -1 1
 rXf&/
-BDFChar: 8 8 0 1 7 -1 2
+BDFChar: 8 65544 0 1 7 -1 2
 rX]Y?
-BDFChar: 9 9 10 0 8 -1 7
+BDFChar: 9 65545 10 0 8 -1 7
 s+#WMgOS%/gOS%/gOOg)s*t(L
-BDFChar: 10 10 10 1 7 0 6
+BDFChar: 10 65546 10 1 7 0 6
 r^]RN84`^[
-BDFChar: 11 11 10 0 4 0 6
+BDFChar: 11 65547 10 0 4 0 6
 peXd`:f-oe
-BDFChar: 12 12 10 1 7 3 7
+BDFChar: 12 65548 10 1 7 3 7
 r^]RNrVuou
-BDFChar: 13 13 10 0 4 3 7
+BDFChar: 13 65549 10 0 4 3 7
 peXd`p](9o
-BDFChar: 14 14 10 1 7 5 7
+BDFChar: 14 65550 10 1 7 5 7
 r^d"g
-BDFChar: 15 15 10 1 7 4 7
+BDFChar: 15 65551 10 1 7 4 7
 r^]TZ
-BDFChar: 16 16 0 1 7 -1 1
+BDFChar: 16 65552 0 1 7 -1 1
 r^d"g
-BDFChar: 17 17 0 1 7 -1 2
+BDFChar: 17 65553 0 1 7 -1 2
 r^]TZ
-BDFChar: 18 18 10 0 8 -1 7
+BDFChar: 18 65554 10 0 8 -1 7
 s+%_3]7AF^eUZ2#mXX_Us*t(L
-BDFChar: 19 19 10 1 7 0 6
+BDFChar: 19 65555 10 1 7 0 6
 Lko#0<$ELd
-BDFChar: 20 20 10 0 4 0 6
+BDFChar: 20 65556 10 0 4 0 6
 OKbs.BP9p:
-BDFChar: 21 168 10 1 7 4 7
+BDFChar: 21 65557 10 1 7 4 7
 JqAUR
-BDFChar: 22 169 0 1 7 -1 1
+BDFChar: 22 65558 0 1 7 -1 1
 JqEt%
-BDFChar: 23 170 0 1 7 -1 2
+BDFChar: 23 65559 0 1 7 -1 2
 JqAUR
-BDFChar: 24 171 10 0 8 -1 7
+BDFChar: 24 65560 10 0 8 -1 7
 s+%P.[Xbf:[Xbf:[X`mYs*t(L
-BDFChar: 25 172 10 1 7 0 6
+BDFChar: 25 65561 10 1 7 0 6
 P*1ukP*5eE
-BDFChar: 26 173 10 0 4 0 6
+BDFChar: 26 65562 10 0 4 0 6
 W2QYnW2TIk
-BDFChar: 27 174 10 1 7 3 7
+BDFChar: 27 65563 10 1 7 3 7
 P*1ukrVuou
-BDFChar: 28 175 10 0 4 3 7
+BDFChar: 28 65564 10 0 4 3 7
 W2QYnp](9o
-BDFChar: 29 176 10 1 7 5 7
+BDFChar: 29 65565 10 1 7 5 7
 P*5eE
-BDFChar: 30 177 10 1 7 4 7
+BDFChar: 30 65566 10 1 7 4 7
 P*2"-
-BDFChar: 31 178 0 1 7 -1 1
+BDFChar: 31 65567 0 1 7 -1 1
 P*5eE
-BDFChar: 32 179 0 1 7 -1 2
+BDFChar: 32 65568 0 1 7 -1 2
 P*2"-
-BDFChar: 33 21 10 1 7 3 7
+BDFChar: 33 65569 10 1 7 3 7
 LtksQ+ohTC
-BDFChar: 34 22 10 0 4 3 7
+BDFChar: 34 65570 10 0 4 3 7
 OK`\;8,rVi
-BDFChar: 35 23 10 1 7 5 7
+BDFChar: 35 65571 10 1 7 5 7
 Lf>Pu
-BDFChar: 36 24 10 1 7 4 7
+BDFChar: 36 65572 10 1 7 4 7
 Lf@=t
-BDFChar: 37 25 0 1 7 -1 1
+BDFChar: 37 65573 0 1 7 -1 1
 Lf>Pu
-BDFChar: 38 26 0 1 7 -1 2
+BDFChar: 38 65574 0 1 7 -1 2
 Lf@=t
-BDFChar: 39 27 10 0 8 -1 7
+BDFChar: 39 65575 10 0 8 -1 7
 s+'NfmXWi<eUZ2#]7@MDs*t(L
-BDFChar: 40 28 10 1 7 0 6
+BDFChar: 40 65576 10 1 7 0 6
 +sKuc</?>1
-BDFChar: 41 29 10 0 4 0 6
+BDFChar: 41 65577 10 0 4 0 6
 88)[UYcs2h
-BDFChar: 42 30 10 1 7 3 7
+BDFChar: 42 65578 10 1 7 3 7
 ,'Hr@L]@DT
-BDFChar: 43 31 10 0 4 3 7
+BDFChar: 43 65579 10 0 4 3 7
 88)tHO8o7\
-BDFChar: 44 32 10 1 7 5 7
+BDFChar: 44 65580 10 1 7 5 7
 ,#j?u
-BDFChar: 45 33 10 1 7 4 7
+BDFChar: 45 65581 10 1 7 4 7
 ,#hNt
-BDFChar: 46 34 0 1 7 -1 1
+BDFChar: 46 65582 0 1 7 -1 1
 ,#j?u
-BDFChar: 47 35 0 1 7 -1 2
+BDFChar: 47 65583 0 1 7 -1 2
 ,#hNt
-BDFChar: 48 36 10 0 8 -1 7
+BDFChar: 48 65584 10 0 8 -1 7
 s+%h6S:KFGaai]-j+)Z1s*t(L
-BDFChar: 49 37 10 1 7 0 6
+BDFChar: 49 65585 10 1 7 0 6
 K#U2p-oh2+
-BDFChar: 50 38 10 0 4 0 6
+BDFChar: 50 65586 10 0 4 0 6
 Lknl(:a#N5
-BDFChar: 51 39 10 1 7 3 7
+BDFChar: 51 65587 10 1 7 3 7
 JjaE'rVuou
-BDFChar: 52 40 10 0 4 3 7
+BDFChar: 52 65588 10 0 4 3 7
 LtGOCp](9o
-BDFChar: 53 41 10 1 7 5 7
+BDFChar: 53 65589 10 1 7 5 7
 Jo(Dd
-BDFChar: 54 42 10 1 7 4 7
+BDFChar: 54 65590 10 1 7 4 7
 Jj_$d
-BDFChar: 55 43 0 1 7 -1 1
+BDFChar: 55 65591 0 1 7 -1 1
 Jo(Dd
-BDFChar: 56 44 0 1 7 -1 2
+BDFChar: 56 65592 0 1 7 -1 2
 Jj_$d
-BDFChar: 57 45 10 0 8 -1 7
+BDFChar: 57 65593 10 0 8 -1 7
 s+%P.[Xb0(aahK`aaenls*t(L
-BDFChar: 58 46 10 1 7 0 6
+BDFChar: 58 65594 10 1 7 0 6
 P*37iCi'(N
-BDFChar: 59 47 10 0 4 0 6
+BDFChar: 59 65595 10 0 4 0 6
 W2QZa:f-oe
-BDFChar: 60 48 10 1 7 3 7
+BDFChar: 60 65596 10 1 7 3 7
 P*0WtrVuou
-BDFChar: 61 49 10 0 4 3 7
+BDFChar: 61 65597 10 0 4 3 7
 W2TJfp](9o
-BDFChar: 62 50 10 1 7 5 7
+BDFChar: 62 65598 10 1 7 5 7
 P&1*t
-BDFChar: 63 51 10 1 7 4 7
+BDFChar: 63 65599 10 1 7 4 7
 P5]:s
-BDFChar: 64 52 0 1 7 -1 1
+BDFChar: 64 65600 0 1 7 -1 1
 P&1*t
-BDFChar: 65 53 0 1 7 -1 2
+BDFChar: 65 65601 0 1 7 -1 2
 P5]:s
-BDFChar: 66 54 10 0 8 -1 7
+BDFChar: 66 65602 10 0 8 -1 7
 s+#WMS:KFGaai]-j+-lSs*t(L
-BDFChar: 67 55 10 1 7 0 6
+BDFChar: 67 65603 10 1 7 0 6
 rl.?B-o_b<
-BDFChar: 68 56 10 0 4 0 6
+BDFChar: 68 65604 10 0 4 0 6
 pkVaC:`pk\
-BDFChar: 69 57 10 1 7 3 7
+BDFChar: 69 65605 10 1 7 3 7
 r^:QN&-)\1
-BDFChar: 70 58 10 0 4 3 7
+BDFChar: 70 65606 10 0 4 3 7
 pt/D^+92BA
-BDFChar: 71 59 10 1 7 5 7
+BDFChar: 71 65607 10 1 7 5 7
 rbN,G
-BDFChar: 72 60 10 1 7 4 7
+BDFChar: 72 65608 10 1 7 4 7
 r^8.G
-BDFChar: 73 61 0 1 7 -1 1
+BDFChar: 73 65609 0 1 7 -1 1
 rbN,G
-BDFChar: 74 62 0 1 7 -1 2
+BDFChar: 74 65610 0 1 7 -1 2
 r^8.G
-BDFChar: 75 63 10 0 8 -1 7
+BDFChar: 75 65611 10 0 8 -1 7
 s+#WM[Xb3)aahK`aahQbs*t(L
-BDFChar: 76 64 10 1 7 0 6
+BDFChar: 76 65612 10 1 7 0 6
 rfX^+Ci!nf
-BDFChar: 77 65 10 0 4 0 6
+BDFChar: 77 65613 10 0 4 0 6
 po(.d:f'sg
-BDFChar: 78 66 10 1 7 3 7
+BDFChar: 78 65614 10 1 7 3 7
 rfV)6C]FG8
-BDFChar: 79 67 10 0 4 3 7
+BDFChar: 79 65615 10 0 4 3 7
 po*sa:]LIq
-BDFChar: 80 68 10 1 7 5 7
+BDFChar: 80 65616 10 1 7 5 7
 rbQBN
-BDFChar: 81 69 10 1 7 4 7
+BDFChar: 81 65617 10 1 7 4 7
 rr-_M
-BDFChar: 82 70 0 1 7 -1 1
+BDFChar: 82 65618 0 1 7 -1 1
 ri/?d
-BDFChar: 83 71 0 1 7 -1 2
+BDFChar: 83 65619 0 1 7 -1 2
 rr-_M
-BDFChar: 84 72 10 0 8 -1 7
+BDFChar: 84 65620 10 0 8 -1 7
 s+%h6S:KFGaai]-j+-lSs*t(L
-BDFChar: 85 73 10 1 7 0 6
+BDFChar: 85 65621 10 1 7 0 6
 K#U2p-o_b<
-BDFChar: 86 74 10 0 4 0 6
+BDFChar: 86 65622 10 0 4 0 6
 Lkpj`:`pk\
-BDFChar: 87 75 10 1 7 3 7
+BDFChar: 87 65623 10 1 7 3 7
 JjaE'&-)\1
-BDFChar: 88 76 10 0 4 3 7
+BDFChar: 88 65624 10 0 4 3 7
 LtGOC+92BA
-BDFChar: 89 77 10 1 7 5 7
+BDFChar: 89 65625 10 1 7 5 7
 Jnttu
-BDFChar: 90 78 10 1 7 4 7
+BDFChar: 90 65626 10 1 7 4 7
 Jj_!u
-BDFChar: 91 79 0 1 7 -1 1
+BDFChar: 91 65627 0 1 7 -1 1
 Jnttu
-BDFChar: 92 80 0 1 7 -1 2
+BDFChar: 92 65628 0 1 7 -1 2
 Jj_!u
-BDFChar: 93 81 10 0 8 -1 7
+BDFChar: 93 65629 10 0 8 -1 7
 s+%P.[Xb3)aahK`aahQbs*t(L
-BDFChar: 94 82 10 1 7 0 6
+BDFChar: 94 65630 10 1 7 0 6
 P*37iCi!nf
-BDFChar: 95 83 10 0 4 0 6
+BDFChar: 95 65631 10 0 4 0 6
 W2QZi:f'sg
-BDFChar: 96 84 10 1 7 3 7
+BDFChar: 96 65632 10 1 7 3 7
 P*0WtC]FG8
-BDFChar: 97 85 10 0 4 3 7
+BDFChar: 97 65633 10 0 4 3 7
 W2TJf:]LIq
-BDFChar: 98 86 10 1 7 5 7
+BDFChar: 98 65634 10 1 7 5 7
 P&+q7
-BDFChar: 99 87 10 1 7 4 7
+BDFChar: 99 65635 10 1 7 4 7
 P5]96
-BDFChar: 100 88 0 1 7 -1 1
+BDFChar: 100 65636 0 1 7 -1 1
 P&+q7
-BDFChar: 101 89 0 1 7 -1 2
+BDFChar: 101 65637 0 1 7 -1 2
 P5]96
-BDFChar: 102 90 10 0 8 -1 7
+BDFChar: 102 65638 10 0 8 -1 7
 s+#WMrdauurdauurd]NLs*t(L
-BDFChar: 103 91 10 1 7 0 6
+BDFChar: 103 65639 10 1 7 0 6
 rW3-&!Wr?$
-BDFChar: 104 92 10 0 4 0 6
+BDFChar: 104 65640 10 0 4 0 6
 p]q-2#RL2*
-BDFChar: 105 93 10 1 7 3 7
+BDFChar: 105 65641 10 1 7 3 7
 rW3-&rVuou
-BDFChar: 106 94 10 0 4 3 7
+BDFChar: 106 65642 10 0 4 3 7
 p]q-2p](9o
-BDFChar: 107 95 10 1 7 5 7
+BDFChar: 107 65643 10 1 7 5 7
 rW<'!
-BDFChar: 108 96 10 1 7 4 7
+BDFChar: 108 65644 10 1 7 4 7
 rW30#
-BDFChar: 109 97 0 1 7 -1 1
+BDFChar: 109 65645 0 1 7 -1 1
 rW<'!
-BDFChar: 110 98 0 1 7 -1 2
+BDFChar: 110 65646 0 1 7 -1 2
 rW30#
-BDFChar: 111 99 10 0 8 -1 7
+BDFChar: 111 65647 10 0 8 -1 7
 s+#oUmXX_UmXX_UmXU+Ds*t(L
-BDFChar: 112 100 10 1 7 0 6
+BDFChar: 112 65648 10 1 7 0 6
 mNNi!+sQFT
-BDFChar: 113 101 10 0 4 0 6
+BDFChar: 113 65649 10 0 4 0 6
 fLSP(84_A5
-BDFChar: 114 102 10 1 7 3 7
+BDFChar: 114 65650 10 1 7 3 7
 mNNi!mJm4e
-BDFChar: 115 103 10 0 4 3 7
+BDFChar: 115 65651 10 0 4 3 7
 fLSP(fDkmO
-BDFChar: 116 104 10 1 7 5 7
+BDFChar: 116 65652 10 1 7 5 7
 mNV'!
-BDFChar: 117 105 10 1 7 4 7
+BDFChar: 117 65653 10 1 7 4 7
 mNNkC
-BDFChar: 118 106 0 1 7 -1 1
+BDFChar: 118 65654 0 1 7 -1 1
 mNV'!
-BDFChar: 119 107 0 1 7 -1 2
+BDFChar: 119 65655 0 1 7 -1 2
 mNNkC
-BDFChar: 120 108 10 0 8 -1 7
+BDFChar: 120 65656 10 0 8 -1 7
 s+#WMrdauurdauurdauus*t(L
-BDFChar: 121 109 10 1 7 0 6
+BDFChar: 121 65657 10 1 7 0 6
 rW3-&!WiE'
-BDFChar: 122 110 10 0 4 0 6
+BDFChar: 122 65658 10 0 4 0 6
 p]q-2#RC\9
-BDFChar: 123 111 10 1 7 3 7
+BDFChar: 123 65659 10 1 7 3 7
 rW3-&!WW3#
-BDFChar: 124 112 10 0 4 3 7
+BDFChar: 124 65660 10 0 4 3 7
 p]q-2#QOi)
-BDFChar: 125 113 10 1 7 5 7
+BDFChar: 125 65661 10 1 7 5 7
 rW3-$
-BDFChar: 126 114 10 1 7 4 7
+BDFChar: 126 65662 10 1 7 4 7
 rW3-&
-BDFChar: 127 115 0 1 7 -1 1
+BDFChar: 127 65663 0 1 7 -1 1
 rW3-$
-BDFChar: 128 116 0 1 7 -1 2
+BDFChar: 128 65664 0 1 7 -1 2
 rW3-&
-BDFChar: 129 117 10 0 8 -1 7
+BDFChar: 129 65665 10 0 8 -1 7
 s+#oUmXX_UmXX_UmXX_Us*t(L
-BDFChar: 130 118 10 1 7 0 6
+BDFChar: 130 65666 10 1 7 0 6
 mNNi!+sJ32
-BDFChar: 131 119 10 0 4 0 6
+BDFChar: 131 65667 10 0 4 0 6
 fLSP(84Z8O
-BDFChar: 132 120 10 1 7 3 7
+BDFChar: 132 65668 10 1 7 3 7
 mNNi!+ohTC
-BDFChar: 133 121 10 0 4 3 7
+BDFChar: 133 65669 10 0 4 3 7
 fLSP(8,rVi
-BDFChar: 134 122 10 1 7 5 7
+BDFChar: 134 65670 10 1 7 5 7
 mNNhT
-BDFChar: 135 123 10 1 7 4 7
+BDFChar: 135 65671 10 1 7 4 7
 mNNi!
-BDFChar: 136 124 0 1 7 -1 1
+BDFChar: 136 65672 0 1 7 -1 1
 mNNhT
-BDFChar: 137 125 0 1 7 -1 2
+BDFChar: 137 65673 0 1 7 -1 2
 mNNi!
-BDFChar: 138 126 10 0 8 -1 7
+BDFChar: 138 65674 10 0 8 -1 7
 s+'-[h134i^4<qJh14O9s*t(L
-BDFChar: 139 127 10 1 7 0 6
+BDFChar: 139 65675 10 1 7 0 6
 3(/@MJj_Qu
-BDFChar: 140 128 10 0 4 0 6
+BDFChar: 140 65676 10 0 4 0 6
 E7fu&LtHYH
-BDFChar: 141 129 10 1 7 3 7
+BDFChar: 141 65677 10 1 7 3 7
 I)^cXHiO-H
-BDFChar: 142 130 10 0 4 3 7
+BDFChar: 142 65678 10 0 4 3 7
 E/9=+Du]k<
-BDFChar: 143 131 10 1 7 5 7
+BDFChar: 143 65679 10 1 7 5 7
 I"H_G
-BDFChar: 144 132 10 1 7 4 7
+BDFChar: 144 65680 10 1 7 4 7
 I"Hrt
-BDFChar: 145 133 0 1 7 -1 1
+BDFChar: 145 65681 0 1 7 -1 1
 I"H_G
-BDFChar: 146 134 0 1 7 -1 2
+BDFChar: 146 65682 0 1 7 -1 2
 I"Hrt
-BDFChar: 147 135 10 0 8 -1 7
+BDFChar: 147 65683 10 0 8 -1 7
 s+&4A[Xbf:[Xbf:[XcJMs*t(L
-BDFChar: 148 136 10 1 7 0 6
+BDFChar: 148 65684 10 1 7 0 6
 Cm'sEP*0V]
-BDFChar: 149 137 10 0 4 0 6
+BDFChar: 149 65685 10 0 4 0 6
 :oL=kW2NMm
-BDFChar: 150 138 10 1 7 3 7
+BDFChar: 150 65686 10 1 7 3 7
 Cm'sEC]FG8
-BDFChar: 151 139 10 0 4 3 7
+BDFChar: 151 65687 10 0 4 3 7
 :oL=k:]LIq
-BDFChar: 152 140 10 1 7 5 7
+BDFChar: 152 65688 10 1 7 5 7
 r0%$Z
-BDFChar: 153 141 10 1 7 4 7
+BDFChar: 153 65689 10 1 7 4 7
 Cm'rt
-BDFChar: 154 142 0 1 7 -1 1
+BDFChar: 154 65690 0 1 7 -1 1
 r0%$Z
-BDFChar: 155 143 0 1 7 -1 2
+BDFChar: 155 65691 0 1 7 -1 2
 Cm'rt
-BDFChar: 156 144 10 0 8 -1 7
+BDFChar: 156 65692 10 0 8 -1 7
 s+'iol[[fA^4>$il[\_[s*t(L
-BDFChar: 157 145 10 1 7 0 6
+BDFChar: 157 65693 10 1 7 0 6
 &1Bqu6mrTH
-BDFChar: 158 146 10 0 4 0 6
+BDFChar: 158 65694 10 0 4 0 6
 +Abmj:f&87
-BDFChar: 159 147 10 1 7 3 7
+BDFChar: 159 65695 10 1 7 3 7
 &8Zr7&-)\1
-BDFChar: 160 148 10 0 4 3 7
+BDFChar: 160 65696 10 0 4 3 7
 +Adkj+92BA
-BDFChar: 161 149 10 1 7 5 7
+BDFChar: 161 65697 10 1 7 5 7
 36!oX
-BDFChar: 162 150 10 1 7 4 7
+BDFChar: 162 65698 10 1 7 4 7
 3:?2o
-BDFChar: 163 151 0 1 7 -1 1
+BDFChar: 163 65699 0 1 7 -1 1
 36!oX
-BDFChar: 164 152 0 1 7 -1 2
+BDFChar: 164 65700 0 1 7 -1 2
 3:?2o
-BDFChar: 165 153 10 0 8 -1 7
+BDFChar: 165 65701 10 0 8 -1 7
 s+&4Aaag1;[Xb0(aahK`s*t(L
-BDFChar: 166 154 10 1 7 0 6
+BDFChar: 166 65702 10 1 7 0 6
 Ci'*6rbQBN
-BDFChar: 167 155 10 0 4 0 6
+BDFChar: 167 65703 10 0 4 0 6
 :f+*hW)-:j
-BDFChar: 168 156 10 1 7 3 7
+BDFChar: 168 65704 10 1 7 3 7
 Ci#8NC]FG8
-BDFChar: 169 157 10 0 4 3 7
+BDFChar: 169 65705 10 0 4 3 7
 ;#%!a:]LIq
-BDFChar: 170 158 10 1 7 5 7
+BDFChar: 170 65706 10 1 7 5 7
 Cm&T7
-BDFChar: 171 159 10 1 7 4 7
+BDFChar: 171 65707 10 1 7 4 7
 D#XEM
-BDFChar: 172 160 0 1 7 -1 1
+BDFChar: 172 65708 0 1 7 -1 1
 Cm&T7
-BDFChar: 173 161 0 1 7 -1 2
+BDFChar: 173 65709 0 1 7 -1 2
 D#XEM
-BDFChar: 174 162 10 0 8 -1 7
+BDFChar: 174 65710 10 0 8 -1 7
 s+%h6^4<qJ^4<qJ^4:`as*t(L
-BDFChar: 175 163 10 1 7 0 6
+BDFChar: 175 65711 10 1 7 0 6
 JqAT+JqEt%
-BDFChar: 176 164 10 0 4 0 6
+BDFChar: 176 65712 10 0 4 0 6
 LkpkCLktg+
-BDFChar: 177 165 10 1 7 3 7
+BDFChar: 177 65713 10 1 7 3 7
 JqAT+rVuou
-BDFChar: 178 166 10 0 4 3 7
+BDFChar: 178 65714 10 0 4 3 7
 LkpkCp](9o
-BDFChar: 179 167 10 1 7 5 7
+BDFChar: 179 65715 10 1 7 5 7
 JqEt%
-BDFChar: 180 180 10 0 8 -1 7
+BDFChar: 180 65716 10 0 8 -1 7
 s+#WM^4<qJ^4<qJ^4<qJs*t(L
-BDFChar: 181 181 10 1 7 0 6
+BDFChar: 181 65717 10 1 7 0 6
 rdo`RJqARS
-BDFChar: 182 182 10 0 4 0 6
+BDFChar: 182 65718 10 0 4 0 6
 pkX`^Lkpie
-BDFChar: 183 183 10 1 7 3 7
+BDFChar: 183 65719 10 1 7 3 7
 rdo`RJcGcN
-BDFChar: 184 184 10 0 4 3 7
+BDFChar: 184 65720 10 0 4 3 7
 pkX`^L]@DT
-BDFChar: 185 185 10 1 7 5 7
+BDFChar: 185 65721 10 1 7 5 7
 rdo_%
-BDFChar: 186 186 10 1 7 4 7
+BDFChar: 186 65722 10 1 7 4 7
 rdo`R
-BDFChar: 187 187 0 1 7 -1 1
+BDFChar: 187 65723 0 1 7 -1 1
 rdo_%
-BDFChar: 188 188 0 1 7 -1 2
+BDFChar: 188 65724 0 1 7 -1 2
 rdo`R
-BDFChar: 189 189 10 0 8 -1 7
+BDFChar: 189 65725 10 0 8 -1 7
 s+#WM[Xbf:[Xbf:[Xbf:s*t(L
-BDFChar: 190 190 10 1 7 0 6
+BDFChar: 190 65726 10 1 7 0 6
 rfWG-P*1t.
-BDFChar: 191 191 10 0 4 0 6
+BDFChar: 191 65727 10 0 4 0 6
 po(-iW2QWp
-BDFChar: 192 192 10 1 7 3 7
+BDFChar: 192 65728 10 1 7 3 7
 rfWG-OoPI^
-BDFChar: 193 193 10 0 4 3 7
+BDFChar: 193 65729 10 0 4 3 7
 po(-iVuQet
-BDFChar: 194 194 10 1 7 5 7
+BDFChar: 194 65730 10 1 7 5 7
 rfWEE
-BDFChar: 195 195 10 1 7 4 7
+BDFChar: 195 65731 10 1 7 4 7
 rfWG-
-BDFChar: 196 196 0 1 7 -1 1
+BDFChar: 196 65732 0 1 7 -1 1
 rfWEE
-BDFChar: 197 197 0 1 7 -1 2
+BDFChar: 197 65733 0 1 7 -1 2
 rfWG-
-BDFChar: 198 198 10 0 8 -1 7
+BDFChar: 198 65734 10 0 8 -1 7
 s+%h6h14gApOMR[h134is*t(L
-BDFChar: 199 199 10 1 7 0 6
+BDFChar: 199 65735 10 1 7 0 6
 Jj_!u-q&Xe
-BDFChar: 200 200 10 0 4 0 6
+BDFChar: 200 65736 10 0 4 0 6
 Lepnj:f)rJ
-BDFChar: 201 201 10 1 7 3 7
+BDFChar: 201 65737 10 1 7 3 7
 Jnu!7JcGcN
-BDFChar: 202 202 10 0 4 3 7
+BDFChar: 202 65738 10 0 4 3 7
 Leo3jL]@DT
-BDFChar: 203 203 10 1 7 5 7
+BDFChar: 203 65739 10 1 7 5 7
 `]1s<
-BDFChar: 204 204 10 1 7 4 7
+BDFChar: 204 65740 10 1 7 4 7
 `dE0R
-BDFChar: 205 205 0 1 7 -1 1
+BDFChar: 205 65741 0 1 7 -1 1
 `]1s<
-BDFChar: 206 206 0 1 7 -1 2
+BDFChar: 206 65742 0 1 7 -1 2
 `dE0R
-BDFChar: 207 208 10 1 7 0 6
+BDFChar: 207 65743 10 1 7 0 6
 P5]96D#TRt
-BDFChar: 208 207 10 0 8 -1 7
+BDFChar: 208 65744 10 0 8 -1 7
 s+%P.Uk$R;aahK`Uk#n(s*t(L
-BDFChar: 209 209 10 0 4 0 6
+BDFChar: 209 65745 10 0 4 0 6
 W2NNh:oL;m
-BDFChar: 210 210 10 1 7 3 7
+BDFChar: 210 65746 10 1 7 3 7
 P&+rNOoPI^
-BDFChar: 211 211 10 0 4 3 7
+BDFChar: 211 65747 10 0 4 3 7
 W;'3aVuQet
-BDFChar: 212 212 10 1 7 5 7
+BDFChar: 212 65748 10 1 7 5 7
 P&-9]
-BDFChar: 213 213 10 1 7 4 7
+BDFChar: 213 65749 10 1 7 4 7
 P&+rt
-BDFChar: 214 214 0 1 7 -1 1
+BDFChar: 214 65750 0 1 7 -1 1
 P&-9]
-BDFChar: 215 215 0 1 7 -1 2
+BDFChar: 215 65751 0 1 7 -1 2
 P&+rt
-BDFChar: 216 216 10 0 8 -1 7
+BDFChar: 216 65752 10 0 8 -1 7
 s+#WM^4<qJ^4<qJ^4:`as*t(L
-BDFChar: 217 217 10 1 7 0 6
+BDFChar: 217 65753 10 1 7 0 6
 rdo`RJqEt%
-BDFChar: 218 218 10 0 4 0 6
+BDFChar: 218 65754 10 0 4 0 6
 pkX`^Lktg+
-BDFChar: 219 219 10 1 7 3 7
+BDFChar: 219 65755 10 1 7 3 7
 rdo`RrVuou
-BDFChar: 220 220 10 0 4 3 7
+BDFChar: 220 65756 10 0 4 3 7
 pkX`^p](9o
-BDFChar: 221 221 10 1 7 5 7
+BDFChar: 221 65757 10 1 7 5 7
 rdt+L
-BDFChar: 222 222 10 1 7 4 7
+BDFChar: 222 65758 10 1 7 4 7
 rdob$
-BDFChar: 223 223 0 1 7 -1 1
+BDFChar: 223 65759 0 1 7 -1 1
 rdt+L
-BDFChar: 224 224 0 1 7 -1 2
+BDFChar: 224 65760 0 1 7 -1 2
 rdob$
-BDFChar: 225 225 10 0 8 -1 7
+BDFChar: 225 65761 10 0 8 -1 7
 s+#WM[Xbf:[Xbf:[X`mYs*t(L
-BDFChar: 226 226 10 1 7 0 6
+BDFChar: 226 65762 10 1 7 0 6
 rfWG-P*5eE
-BDFChar: 227 227 10 0 4 0 6
+BDFChar: 227 65763 10 0 4 0 6
 po(-iW2TIk
-BDFChar: 228 228 10 1 7 3 7
+BDFChar: 228 65764 10 1 7 3 7
 rfWG-rVuou
-BDFChar: 229 229 10 0 4 3 7
+BDFChar: 229 65765 10 0 4 3 7
 po(-ip](9o
-BDFChar: 230 230 10 1 7 5 7
+BDFChar: 230 65766 10 1 7 5 7
 rf[6\
-BDFChar: 231 231 10 1 7 4 7
+BDFChar: 231 65767 10 1 7 4 7
 rfWHD
-BDFChar: 232 232 0 1 7 -1 1
+BDFChar: 232 65768 0 1 7 -1 1
 rf[6\
-BDFChar: 233 233 0 1 7 -1 2
+BDFChar: 233 65769 0 1 7 -1 2
 rfWHD
-BDFChar: 234 234 10 0 8 -1 7
+BDFChar: 234 65770 10 0 8 -1 7
 s+'-[eUY)Y[Xbf:eUZ\1s*t(L
-BDFChar: 235 235 10 1 7 0 6
+BDFChar: 235 65771 10 1 7 0 6
 3)l'(P#OC@
-BDFChar: 236 236 10 0 4 0 6
+BDFChar: 236 65772 10 0 4 0 6
 E;6B1W;(<3
-BDFChar: 237 237 10 1 7 3 7
+BDFChar: 237 65773 10 1 7 3 7
 I+FJ3HiO-H
-BDFChar: 238 238 10 0 4 3 7
+BDFChar: 238 65774 10 0 4 3 7
 E2]_6Du]k<
-BDFChar: 239 239 10 1 7 5 7
+BDFChar: 239 65775 10 1 7 5 7
 I$/jW
-BDFChar: 240 240 10 1 7 4 7
+BDFChar: 240 65776 10 1 7 4 7
 I$0Y?
-BDFChar: 241 241 0 1 7 -1 1
+BDFChar: 241 65777 0 1 7 -1 1
 I$/jW
-BDFChar: 242 242 0 1 7 -1 2
+BDFChar: 242 65778 0 1 7 -1 2
 I$0Y?
-BDFChar: 243 243 10 0 8 -1 7
+BDFChar: 243 65779 10 0 8 -1 7
 s+'ioj+,[1[XcnYj+-lSs*t(L
-BDFChar: 244 244 10 1 7 0 6
+BDFChar: 244 65780 10 1 7 0 6
 &3*XP<&bEh
-BDFChar: 245 245 10 0 4 0 6
+BDFChar: 245 65781 10 0 4 0 6
 +E2:uE,Zp"
-BDFChar: 246 246 10 1 7 3 7
+BDFChar: 246 65782 10 1 7 3 7
 &:BXg&-)\1
-BDFChar: 247 247 10 0 4 3 7
+BDFChar: 247 65783 10 0 4 3 7
 +E48u+92BA
-BDFChar: 248 248 10 1 7 5 7
+BDFChar: 248 65784 10 1 7 5 7
 37^%h
-BDFChar: 249 249 10 1 7 4 7
+BDFChar: 249 65785 10 1 7 4 7
 3<&n:
-BDFChar: 250 250 0 1 7 -1 1
+BDFChar: 250 65786 0 1 7 -1 1
 37^%h
-BDFChar: 251 251 0 1 7 -1 2
+BDFChar: 251 65787 0 1 7 -1 2
 3<&n:
-BDFChar: 252 252 10 0 8 -1 7
+BDFChar: 252 65788 10 0 8 -1 7
 s+(#tnUSZ1T7Ft4nUUOfs*t(L
-BDFChar: 253 253 10 1 7 0 6
+BDFChar: 253 65789 10 1 7 0 6
 "rqTtE#]&^
-BDFChar: 254 254 10 0 4 0 6
+BDFChar: 254 65790 10 0 4 0 6
 #V]Y:?n_id
-BDFChar: 255 255 10 1 7 3 7
+BDFChar: 255 65791 10 1 7 3 7
 "usCX"onW'
-BDFChar: 256 256 10 0 4 3 7
+BDFChar: 256 65792 10 0 4 3 7
 (i[90(]XO9
-BDFChar: 257 257 10 1 7 5 7
+BDFChar: 257 65793 10 1 7 5 7
 *q13N
-BDFChar: 258 258 10 1 7 4 7
+BDFChar: 258 65794 10 1 7 4 7
 %f#N'
-BDFChar: 259 259 0 1 7 -1 1
+BDFChar: 259 65795 0 1 7 -1 1
 *q13N
-BDFChar: 260 260 0 1 7 -1 2
+BDFChar: 260 65796 0 1 7 -1 2
 %f#f/
-BDFChar: 261 261 10 0 8 -1 7
+BDFChar: 261 65797 10 0 8 -1 7
 s+'Nfh14=3]7A^fh14pDs*t(L
-BDFChar: 262 262 10 1 7 0 6
+BDFChar: 262 65798 10 1 7 0 6
 ,"+hT6pr4!
-BDFChar: 263 263 10 0 4 0 6
+BDFChar: 263 65799 10 0 4 0 6
 84\i(O@VnB
-BDFChar: 264 264 10 1 7 3 7
+BDFChar: 264 65800 10 1 7 3 7
 ,".5T+ohTC
-BDFChar: 265 265 10 0 4 3 7
+BDFChar: 265 65801 10 0 4 3 7
 8D'$V8,rVi
-BDFChar: 266 266 10 1 7 5 7
+BDFChar: 266 65802 10 1 7 5 7
 B$=ie
-BDFChar: 267 267 10 1 7 4 7
+BDFChar: 267 65803 10 1 7 4 7
 ,0\7T
-BDFChar: 268 268 0 1 7 -1 1
+BDFChar: 268 65804 0 1 7 -1 1
 B$=ie
-BDFChar: 269 269 0 1 7 -1 2
+BDFChar: 269 65805 0 1 7 -1 2
 ,0\7T
-BDFChar: 270 270 10 0 8 -1 7
+BDFChar: 270 65806 10 0 8 -1 7
 s+$_la+3]1r.+<fa+0e4s*t(L
-BDFChar: 271 271 10 1 7 0 6
+BDFChar: 271 65807 10 1 7 0 6
 ^i17t*,r[n
-BDFChar: 272 272 10 0 4 0 6
+BDFChar: 272 65808 10 0 4 0 6
 J7(&:0OTD2
-BDFChar: 273 273 10 1 7 3 7
+BDFChar: 273 65809 10 1 7 3 7
 ^c2NX^]4?7
-BDFChar: 274 274 10 0 4 3 7
+BDFChar: 274 65810 10 0 4 3 7
 ^i1-0^]4?7
-BDFChar: 275 275 10 1 7 5 7
+BDFChar: 275 65811 10 1 7 5 7
 i#_@f
-BDFChar: 276 276 10 1 7 4 7
+BDFChar: 276 65812 10 1 7 4 7
 ^cXg=
-BDFChar: 277 277 0 1 7 -1 1
+BDFChar: 277 65813 0 1 7 -1 1
 i#_@f
-BDFChar: 278 278 0 1 7 -1 2
+BDFChar: 278 65814 0 1 7 -1 2
 ^cXg=
-BDFChar: 279 279 10 0 8 -1 7
+BDFChar: 279 65815 10 0 8 -1 7
 s+%_3h14=3mXX,Dh13+fs*t(L
-BDFChar: 280 280 10 1 7 0 6
+BDFChar: 280 65816 10 1 7 0 6
 LdXWT6puh2
-BDFChar: 281 281 10 0 4 0 6
+BDFChar: 281 65817 10 0 4 0 6
 OH<"(8<Ao5
-BDFChar: 282 282 10 1 7 3 7
+BDFChar: 282 65818 10 1 7 3 7
 LdWFTL]@DT
-BDFChar: 283 283 10 0 4 3 7
+BDFChar: 283 65819 10 0 4 3 7
 OP!+VO8o7\
-BDFChar: 284 284 10 1 7 5 7
+BDFChar: 284 65820 10 1 7 5 7
 b\#'!
-BDFChar: 285 285 10 1 7 4 7
+BDFChar: 285 65821 10 1 7 4 7
 Lh:7T
-BDFChar: 286 286 0 1 7 -1 1
+BDFChar: 286 65822 0 1 7 -1 1
 b\#'!
-BDFChar: 287 287 0 1 7 -1 2
+BDFChar: 287 65823 0 1 7 -1 2
 Lh:7T
-BDFChar: 288 288 10 0 8 -1 7
+BDFChar: 288 65824 10 0 8 -1 7
 s+'ioj+-HGaai2tS:H-?s*t(L
-BDFChar: 289 289 10 1 7 0 6
+BDFChar: 289 65825 10 1 7 0 6
 &3)(S7)o3+
-BDFChar: 290 290 10 0 4 0 6
+BDFChar: 290 65826 10 0 4 0 6
 +<XKW:l+lH
-BDFChar: 291 291 10 1 7 3 7
+BDFChar: 291 65827 10 1 7 3 7
 &1D?_rVuou
-BDFChar: 292 292 10 0 4 3 7
+BDFChar: 292 65828 10 0 4 3 7
 +E100p](9o
-BDFChar: 293 293 10 1 7 5 7
+BDFChar: 293 65829 10 1 7 5 7
 &8_=G
-BDFChar: 294 294 10 1 7 4 7
+BDFChar: 294 65830 10 1 7 4 7
 &1BsG
-BDFChar: 295 295 0 1 7 -1 1
+BDFChar: 295 65831 0 1 7 -1 1
 &8_=G
-BDFChar: 296 296 0 1 7 -1 2
+BDFChar: 296 65832 0 1 7 -1 2
 &1BsG
-BDFChar: 297 297 10 0 8 -1 7
+BDFChar: 297 65833 10 0 8 -1 7
 s+&jSaahK`aag4<[X`mYs*t(L
-BDFChar: 298 298 10 1 7 0 6
+BDFChar: 298 65834 10 1 7 0 6
 88N*Yr0%$Z
-BDFChar: 299 299 10 0 4 0 6
+BDFChar: 299 65835 10 0 4 0 6
 :f(!XW2TIk
-BDFChar: 300 300 10 1 7 3 7
+BDFChar: 300 65836 10 1 7 3 7
 Ci!pNrVuou
-BDFChar: 301 301 10 0 4 3 7
+BDFChar: 301 65837 10 0 4 3 7
 :f-Y[p](9o
-BDFChar: 302 302 10 1 7 5 7
+BDFChar: 302 65838 10 1 7 5 7
 Ci'(N
-BDFChar: 303 303 10 1 7 4 7
+BDFChar: 303 65839 10 1 7 4 7
 Ci'+M
-BDFChar: 304 304 0 1 7 -1 1
+BDFChar: 304 65840 0 1 7 -1 1
 Ci'(N
-BDFChar: 305 305 0 1 7 -1 2
+BDFChar: 305 65841 0 1 7 -1 2
 Ci'+M
-BDFChar: 306 306 10 0 8 -1 7
+BDFChar: 306 65842 10 0 8 -1 7
 s+#WMj+-HGaai2tS:J>(s*t(L
-BDFChar: 307 307 10 1 7 0 6
+BDFChar: 307 65843 10 1 7 0 6
 r\u<B7)jfY
-BDFChar: 308 308 10 0 4 0 6
+BDFChar: 308 65844 10 0 4 0 6
 p`NC0:l'o-
-BDFChar: 309 309 10 1 7 3 7
+BDFChar: 309 65845 10 1 7 3 7
 r[;SNJcGcN
-BDFChar: 310 310 10 0 4 3 7
+BDFChar: 310 65846 10 0 4 3 7
 pi''^L]@DT
-BDFChar: 311 311 10 1 7 5 7
+BDFChar: 311 65847 10 1 7 5 7
 rbR/d
-BDFChar: 312 312 10 1 7 4 7
+BDFChar: 312 65848 10 1 7 4 7
 r[:0d
-BDFChar: 313 313 0 1 7 -1 1
+BDFChar: 313 65849 0 1 7 -1 1
 rbR/d
-BDFChar: 314 314 0 1 7 -1 2
+BDFChar: 314 65850 0 1 7 -1 2
 r[:0d
-BDFChar: 315 315 10 0 8 -1 7
+BDFChar: 315 65851 10 0 8 -1 7
 s+#WMaahK`aag4<[Xbf:s*t(L
-BDFChar: 316 316 10 1 7 0 6
+BDFChar: 316 65852 10 1 7 0 6
 rbQCer0!3C
-BDFChar: 317 317 10 0 4 0 6
+BDFChar: 317 65853 10 0 4 0 6
 peXfVW2QWp
-BDFChar: 318 318 10 1 7 3 7
+BDFChar: 318 65854 10 1 7 3 7
 rbQD6OoPI^
-BDFChar: 319 319 10 0 4 3 7
+BDFChar: 319 65855 10 0 4 3 7
 pe^IYVuQet
-BDFChar: 320 320 10 1 7 5 7
+BDFChar: 320 65856 10 1 7 5 7
 rbR_t
-BDFChar: 321 321 10 1 7 4 7
+BDFChar: 321 65857 10 1 7 4 7
 rbVRs
-BDFChar: 322 322 0 1 7 -1 1
+BDFChar: 322 65858 0 1 7 -1 1
 rbR_t
-BDFChar: 323 323 0 1 7 -1 2
+BDFChar: 323 65859 0 1 7 -1 2
 rbVRs
-BDFChar: 324 324 10 0 8 -1 7
+BDFChar: 324 65860 10 0 8 -1 7
 s+'ioj+-HGaai2tS:J>(s*t(L
-BDFChar: 325 325 10 1 7 0 6
+BDFChar: 325 65861 10 1 7 0 6
 &3)(S7)jfY
-BDFChar: 326 326 10 0 4 0 6
+BDFChar: 326 65862 10 0 4 0 6
 +<XKW:l'o-
-BDFChar: 327 327 10 1 7 3 7
+BDFChar: 327 65863 10 1 7 3 7
 &1D?_JcGcN
-BDFChar: 328 328 10 0 4 3 7
+BDFChar: 328 65864 10 0 4 3 7
 +E100L]@DT
-BDFChar: 329 329 10 1 7 5 7
+BDFChar: 329 65865 10 1 7 5 7
 &8Zpu
-BDFChar: 330 330 10 1 7 4 7
+BDFChar: 330 65866 10 1 7 4 7
 &1Bqu
-BDFChar: 331 331 0 1 7 -1 1
+BDFChar: 331 65867 0 1 7 -1 1
 &8Zpu
-BDFChar: 332 332 0 1 7 -1 2
+BDFChar: 332 65868 0 1 7 -1 2
 &1Bqu
-BDFChar: 333 333 10 0 8 -1 7
+BDFChar: 333 65869 10 0 8 -1 7
 s+&jSaahK`aag4<[Xbf:s*t(L
-BDFChar: 334 334 10 1 7 0 6
+BDFChar: 334 65870 10 1 7 0 6
 88N*Yr0!3C
-BDFChar: 335 335 10 0 4 0 6
+BDFChar: 335 65871 10 0 4 0 6
 :f(!XW2QWp
-BDFChar: 336 336 10 1 7 3 7
+BDFChar: 336 65872 10 1 7 3 7
 Ci!pNOoPI^
-BDFChar: 337 337 10 0 4 3 7
+BDFChar: 337 65873 10 0 4 3 7
 :f-Y[VuQet
-BDFChar: 338 338 10 1 7 5 7
+BDFChar: 338 65874 10 1 7 5 7
 Ci#77
-BDFChar: 339 339 10 1 7 4 7
+BDFChar: 339 65875 10 1 7 4 7
 Ci'*6
-BDFChar: 340 340 0 1 7 -1 1
+BDFChar: 340 65876 0 1 7 -1 1
 Ci#77
-BDFChar: 341 341 0 1 7 -1 2
+BDFChar: 341 65877 0 1 7 -1 2
 Ci'*6
-BDFChar: 342 342 10 0 8 -1 7
+BDFChar: 342 65878 10 0 8 -1 7
 s+#WM^OX(L^OX(L^OUibs*t(L
-BDFChar: 343 343 10 1 7 0 6
+BDFChar: 343 65879 10 1 7 0 6
 rd]NLJ:RV!
-BDFChar: 344 344 10 0 4 0 6
+BDFChar: 344 65880 10 0 4 0 6
 pjdmFJ:RCp
-BDFChar: 345 345 10 1 7 3 7
+BDFChar: 345 65881 10 1 7 3 7
 rd]NLrVuou
-BDFChar: 346 346 10 0 4 3 7
+BDFChar: 346 65882 10 0 4 3 7
 pjdmFp](9o
-BDFChar: 347 347 10 1 7 5 7
+BDFChar: 347 65883 10 1 7 5 7
 rdatJ
-BDFChar: 348 348 10 1 7 4 7
+BDFChar: 348 65884 10 1 7 4 7
 rd]Ou
-BDFChar: 349 349 0 1 7 -1 1
+BDFChar: 349 65885 0 1 7 -1 1
 rdatJ
-BDFChar: 350 350 0 1 7 -1 2
+BDFChar: 350 65886 0 1 7 -1 2
 rd]Ou
-BDFChar: 351 351 10 0 8 -1 7
+BDFChar: 351 65887 10 0 8 -1 7
 s+#oU]7@MD]7@MD]7>]fs*t(L
-BDFChar: 352 352 10 1 7 0 6
+BDFChar: 352 65888 10 1 7 0 6
 mYH[TLktI!
-BDFChar: 353 353 10 0 4 0 6
+BDFChar: 353 65889 10 0 4 0 6
 fT;2VOHA)p
-BDFChar: 354 354 10 1 7 3 7
+BDFChar: 354 65890 10 1 7 3 7
 mYH[TmJm4e
-BDFChar: 355 355 10 0 4 3 7
+BDFChar: 355 65891 10 0 4 3 7
 fT;2VfDkmO
-BDFChar: 356 356 10 1 7 5 7
+BDFChar: 356 65892 10 1 7 5 7
 mYL92
-BDFChar: 357 357 10 1 7 4 7
+BDFChar: 357 65893 10 1 7 4 7
 mYH\e
-BDFChar: 358 358 0 1 7 -1 1
+BDFChar: 358 65894 0 1 7 -1 1
 mYL92
-BDFChar: 359 359 0 1 7 -1 2
+BDFChar: 359 65895 0 1 7 -1 2
 mYH\e
-BDFChar: 360 360 10 0 8 -1 7
+BDFChar: 360 65896 10 0 8 -1 7
 s+%k7^OX(L^OX(L^OUibs*t(L
-BDFChar: 361 361 10 1 7 0 6
+BDFChar: 361 65897 10 1 7 0 6
 J:N0#J:RV!
-BDFChar: 362 362 10 0 4 0 6
+BDFChar: 362 65898 10 0 4 0 6
 J:N0#J:RCp
-BDFChar: 363 363 10 1 7 3 7
+BDFChar: 363 65899 10 1 7 3 7
 J:N0#rVuou
-BDFChar: 364 364 10 0 4 3 7
+BDFChar: 364 65900 10 0 4 3 7
 J:N0#p](9o
-BDFChar: 365 365 10 1 7 5 7
+BDFChar: 365 65901 10 1 7 5 7
 J:RV!
-BDFChar: 366 366 10 1 7 4 7
+BDFChar: 366 65902 10 1 7 4 7
 J:N1L
-BDFChar: 367 367 0 1 7 -1 1
+BDFChar: 367 65903 0 1 7 -1 1
 J:RV!
-BDFChar: 368 368 0 1 7 -1 2
+BDFChar: 368 65904 0 1 7 -1 2
 J:N1L
-BDFChar: 369 369 10 0 8 -1 7
+BDFChar: 369 65905 10 0 8 -1 7
 s+%_3]7@MD]7@MD]7>]fs*t(L
-BDFChar: 370 370 10 1 7 0 6
+BDFChar: 370 65906 10 1 7 0 6
 LkpkCLktI!
-BDFChar: 371 371 10 0 4 0 6
+BDFChar: 371 65907 10 0 4 0 6
 OH>QcOHA)p
-BDFChar: 372 372 10 1 7 3 7
+BDFChar: 372 65908 10 1 7 3 7
 LkpkCmJm4e
-BDFChar: 373 373 10 0 4 3 7
+BDFChar: 373 65909 10 0 4 3 7
 OH>QcfDkmO
-BDFChar: 374 374 10 1 7 5 7
+BDFChar: 374 65910 10 1 7 5 7
 LktI!
-BDFChar: 375 375 10 1 7 4 7
+BDFChar: 375 65911 10 1 7 4 7
 LkplT
-BDFChar: 376 376 0 1 7 -1 1
+BDFChar: 376 65912 0 1 7 -1 1
 LktI!
-BDFChar: 377 377 0 1 7 -1 2
+BDFChar: 377 65913 0 1 7 -1 2
 LkplT
-BDFChar: 378 378 10 0 8 -1 7
+BDFChar: 378 65914 10 0 8 -1 7
 s+(-"s+(-"pON9os+(-"s*t(L
-BDFChar: 379 379 0 7 7 3 3
+BDFChar: 379 65915 0 7 7 3 3
 J,fQL
-BDFChar: 380 380 0 7 7 5 5
+BDFChar: 380 65916 0 7 7 5 5
 J,fQL
-BDFChar: 381 381 10 0 8 -1 7
+BDFChar: 381 65917 10 0 8 -1 7
 s+(-"s+'ios+(-"pON9os*t(L
-BDFChar: 382 382 0 7 7 1 4
+BDFChar: 382 65918 0 7 7 1 4
 J,fS"
-BDFChar: 383 383 0 7 7 4 6
+BDFChar: 383 65919 0 7 7 4 6
 J,k*"
-BDFChar: 384 384 10 0 8 -1 7
+BDFChar: 384 65920 10 0 8 -1 7
 s+'QgmsskWj+-TKmsskWs*t(L
-BDFChar: 385 385 0 6 8 -1 7
+BDFChar: 385 65921 0 6 8 -1 7
 J:N0#i.-?.J,fQL
-BDFChar: 386 386 0 6 8 3 7
+BDFChar: 386 65922 0 6 8 3 7
 J:QR.J,fQL
-BDFChar: 387 387 10 0 8 -1 7
+BDFChar: 387 65923 10 0 8 -1 7
 s+'QgmssGKmssGKmsskWs*t(L
-BDFChar: 388 388 0 6 8 -1 6
+BDFChar: 388 65924 0 6 8 -1 6
 J:QR.JDbs.
-BDFChar: 389 389 0 6 8 3 7
+BDFChar: 389 65925 0 6 8 3 7
 JDbt9J,fQL
-BDFChar: 390 390 10 0 8 -1 7
+BDFChar: 390 65926 10 0 8 -1 7
 s+'usqgeQoj+.#WqgeQos*t(L
-BDFChar: 391 391 0 5 7 -1 7
+BDFChar: 391 65927 0 5 7 -1 7
 +<VdLi#j-b+92BA
-BDFChar: 392 392 0 5 7 3 7
+BDFChar: 392 65928 0 5 7 3 7
 +<]Sb+92BA
-BDFChar: 393 393 10 0 8 -1 7
+BDFChar: 393 65929 10 0 8 -1 7
 s+'usqgd^Wqgd^WqgeQos*t(L
-BDFChar: 394 394 0 5 7 -1 6
+BDFChar: 394 65930 0 5 7 -1 6
 +<]Sb+Q+@b
-BDFChar: 395 395 0 5 7 3 7
+BDFChar: 395 65931 0 5 7 3 7
 +Q+C#+92BA
-BDFChar: 396 396 10 0 8 -1 7
+BDFChar: 396 65932 10 0 8 -1 7
 s+(-"s+(-"pON9os+(-"s*t(L
-BDFChar: 397 397 0 4 4 0 0
+BDFChar: 397 65933 0 4 4 0 0
 J,fQL
-BDFChar: 398 398 0 4 4 3 3
+BDFChar: 398 65934 0 4 4 3 3
 J,fQL
-BDFChar: 399 399 10 0 8 -1 7
+BDFChar: 399 65935 10 0 8 -1 7
 s+(-"s+(-"gOT<Ss+(-"s*t(L
-BDFChar: 400 400 0 2 5 0 0
+BDFChar: 400 65936 0 2 5 0 0
 O8o7\
-BDFChar: 401 401 0 2 5 3 3
+BDFChar: 401 65937 0 2 5 3 3
 O8o7\
-BDFChar: 402 402 10 0 8 -1 7
+BDFChar: 402 65938 10 0 8 -1 7
 s+(-"s+#WMpON!gs+(-"s*t(L
-BDFChar: 403 403 0 0 8 -1 1
+BDFChar: 403 65939 0 0 8 -1 1
 s*t@T#QOi)
-BDFChar: 404 404 0 0 8 2 3
+BDFChar: 404 65940 0 0 8 2 3
 s*t@T
-BDFChar: 405 405 10 0 8 -1 7
+BDFChar: 405 65941 10 0 8 -1 7
 s+(-"s+#WMgOS%/s+(-"s*t(L
-BDFChar: 406 406 0 0 8 -1 1
+BDFChar: 406 65942 0 0 8 -1 1
 s*u?p,QIfE
-BDFChar: 407 407 0 0 8 2 3
+BDFChar: 407 65943 0 0 8 2 3
 s*u?p
-BDFChar: 408 408 10 0 8 -1 7
+BDFChar: 408 65944 10 0 8 -1 7
 s+(-"s+'iopOIdEs+(-"s*t(L
-BDFChar: 409 409 0 0 8 0 2
+BDFChar: 409 65945 0 0 8 0 2
 #QP,1s*t(L
-BDFChar: 410 410 0 0 8 3 4
+BDFChar: 410 65946 0 0 8 3 4
 #QXmT
-BDFChar: 411 411 10 0 8 -1 7
+BDFChar: 411 65947 10 0 8 -1 7
 s+(-"s+&jSgOOg)s+(-"s*t(L
-BDFChar: 412 412 0 0 8 0 2
+BDFChar: 412 65948 0 0 8 0 2
 ,QK(is*t(L
-BDFChar: 413 413 0 0 8 3 4
+BDFChar: 413 65949 0 0 8 3 4
 ,QRjp
-BDFChar: 414 414 10 0 8 -1 7
+BDFChar: 414 65950 10 0 8 -1 7
 s+'iopON!gpON!gpON!gs*t(L
-BDFChar: 415 415 0 7 7 -1 7
+BDFChar: 415 65951 0 7 7 -1 7
 J:N0#J:N0#J,fQL
-BDFChar: 416 416 0 7 7 3 7
+BDFChar: 416 65952 0 7 7 3 7
 J:N0#J,fQL
-BDFChar: 417 417 10 0 8 -1 7
+BDFChar: 417 65953 10 0 8 -1 7
 s+'Ecl[\;Ol[\;Ol[\;Os*t(L
-BDFChar: 418 418 0 6 8 -1 7
+BDFChar: 418 65954 0 6 8 -1 7
 TV.sNTV.sNTE"rl
-BDFChar: 419 419 0 6 8 3 7
+BDFChar: 419 65955 0 6 8 3 7
 TV.sNTE"rl
-BDFChar: 420 420 10 0 8 -1 7
+BDFChar: 420 65956 10 0 8 -1 7
 s+'Ecl[\;Oj+-HGl[\;Os*t(L
-BDFChar: 421 421 0 6 8 -1 7
+BDFChar: 421 65957 0 6 8 -1 7
 TV.sNi1Qa9TE"rl
-BDFChar: 422 422 0 6 8 3 7
+BDFChar: 422 65958 0 6 8 3 7
 TV159TE"rl
-BDFChar: 423 423 10 0 8 -1 7
+BDFChar: 423 65959 10 0 8 -1 7
 s+'Ecl[\#Gl[\#Gl[\;Os*t(L
-BDFChar: 424 424 0 6 8 -1 6
+BDFChar: 424 65960 0 6 8 -1 6
 TV159T\uK9
-BDFChar: 425 425 0 6 8 3 7
+BDFChar: 425 65961 0 6 8 3 7
 T\uL$TE"rl
-BDFChar: 426 426 10 0 8 -1 7
+BDFChar: 426 65962 10 0 8 -1 7
 s+'cmoml^c`IRW3oml^cs*t(L
-BDFChar: 427 427 0 5 8 -1 7
+BDFChar: 427 65963 0 5 8 -1 7
 :f'tbcqmP8:]LIq
-BDFChar: 428 428 0 5 8 3 7
+BDFChar: 428 65964 0 5 8 3 7
 :f,M8:]LIq
-BDFChar: 429 429 10 0 8 -1 7
+BDFChar: 429 65965 10 0 8 -1 7
 s+'cmomk#3omk#3oml^cs*t(L
-BDFChar: 430 430 0 5 8 -1 7
-:f,M8:f,M8:]LIq
-BDFChar: 431 431 0 5 8 3 7
+BDFChar: 430 65966 0 5 8 -1 7
+:f(!8:s`$8:]LIq
+BDFChar: 431 65967 0 5 8 3 7
 :s`%c:]LIq
-BDFChar: 432 432 10 0 8 -1 7
+BDFChar: 432 65968 10 0 8 -1 7
 s+(-"s+(-"J:RZMs+(-"s*t(L
-BDFChar: 433 433 0 0 8 0 0
+BDFChar: 433 65969 0 0 8 0 0
 s*t(L
-BDFChar: 434 434 0 0 8 3 3
+BDFChar: 434 65970 0 0 8 3 3
 s*t(L
-BDFChar: 435 435 10 0 8 -1 7
+BDFChar: 435 65971 10 0 8 -1 7
 s+(-"s+(-"[XeC.s+(-"s*t(L
-BDFChar: 436 436 10 0 0 0 0
+BDFChar: 436 65972 10 0 0 0 0
 z
-BDFChar: 437 437 0 0 0 0 0
+BDFChar: 437 113 0 0 0 0 0
 z
-BDFChar: 438 438 0 0 0 0 0
+BDFChar: 438 81 0 0 0 0 0
 z
-BDFChar: 439 439 0 0 0 0 0
+BDFChar: 439 119 0 0 0 0 0
 z
-BDFChar: 440 440 0 0 0 0 0
+BDFChar: 440 87 0 0 0 0 0
 z
-BDFChar: 441 441 0 0 0 0 0
+BDFChar: 441 101 0 0 0 0 0
 z
-BDFChar: 442 442 0 0 0 0 0
+BDFChar: 442 69 0 0 0 0 0
 z
-BDFChar: 443 443 0 0 0 0 0
+BDFChar: 443 114 0 0 0 0 0
 z
-BDFChar: 444 444 0 0 0 0 0
+BDFChar: 444 82 0 0 0 0 0
 z
-BDFChar: 445 445 0 0 0 0 0
+BDFChar: 445 116 0 0 0 0 0
 z
-BDFChar: 446 446 0 0 0 0 0
+BDFChar: 446 84 0 0 0 0 0
 z
-BDFChar: 447 447 0 0 0 0 0
+BDFChar: 447 121 0 0 0 0 0
 z
-BDFChar: 448 448 0 0 0 0 0
+BDFChar: 448 89 0 0 0 0 0
 z
-BDFChar: 449 449 0 0 0 0 0
+BDFChar: 449 117 0 0 0 0 0
 z
-BDFChar: 450 450 0 0 0 0 0
+BDFChar: 450 85 0 0 0 0 0
 z
-BDFChar: 451 451 0 0 0 0 0
+BDFChar: 451 105 0 0 0 0 0
 z
-BDFChar: 452 452 0 0 0 0 0
+BDFChar: 452 73 0 0 0 0 0
 z
-BDFChar: 453 453 0 0 0 0 0
+BDFChar: 453 111 0 0 0 0 0
 z
-BDFChar: 454 454 0 0 0 0 0
+BDFChar: 454 79 0 0 0 0 0
 z
-BDFChar: 455 455 0 0 0 0 0
+BDFChar: 455 112 0 0 0 0 0
 z
-BDFChar: 456 456 0 0 0 0 0
+BDFChar: 456 80 0 0 0 0 0
 z
-BDFChar: 457 457 0 0 0 0 0
+BDFChar: 457 97 0 0 0 0 0
 z
-BDFChar: 458 458 0 0 0 0 0
+BDFChar: 458 65 0 0 0 0 0
 z
-BDFChar: 459 459 0 0 0 0 0
+BDFChar: 459 115 0 0 0 0 0
 z
-BDFChar: 460 460 0 0 0 0 0
+BDFChar: 460 83 0 0 0 0 0
 z
-BDFChar: 461 461 0 0 0 0 0
+BDFChar: 461 100 0 0 0 0 0
 z
-BDFChar: 462 462 0 0 0 0 0
+BDFChar: 462 68 0 0 0 0 0
 z
-BDFChar: 463 463 0 0 0 0 0
+BDFChar: 463 102 0 0 0 0 0
 z
-BDFChar: 464 464 0 0 0 0 0
+BDFChar: 464 70 0 0 0 0 0
 z
-BDFChar: 465 465 0 0 0 0 0
+BDFChar: 465 103 0 0 0 0 0
 z
-BDFChar: 466 466 0 0 0 0 0
+BDFChar: 466 71 0 0 0 0 0
 z
-BDFChar: 467 467 0 0 0 0 0
+BDFChar: 467 104 0 0 0 0 0
 z
-BDFChar: 468 468 0 0 0 0 0
+BDFChar: 468 72 0 0 0 0 0
 z
-BDFChar: 469 469 0 0 0 0 0
+BDFChar: 469 106 0 0 0 0 0
 z
-BDFChar: 470 470 0 0 0 0 0
+BDFChar: 470 74 0 0 0 0 0
 z
-BDFChar: 471 471 0 0 0 0 0
+BDFChar: 471 108 0 0 0 0 0
 z
-BDFChar: 472 472 0 0 0 0 0
+BDFChar: 472 76 0 0 0 0 0
 z
-BDFChar: 473 473 0 0 0 0 0
+BDFChar: 473 107 0 0 0 0 0
 z
-BDFChar: 474 474 0 0 0 0 0
+BDFChar: 474 75 0 0 0 0 0
 z
-BDFChar: 475 475 0 0 0 0 0
+BDFChar: 475 122 0 0 0 0 0
 z
-BDFChar: 476 476 0 0 0 0 0
+BDFChar: 476 90 0 0 0 0 0
 z
-BDFChar: 477 477 0 0 0 0 0
+BDFChar: 477 120 0 0 0 0 0
 z
-BDFChar: 478 478 0 0 0 0 0
+BDFChar: 478 88 0 0 0 0 0
 z
-BDFChar: 479 479 0 0 0 0 0
+BDFChar: 479 99 0 0 0 0 0
 z
-BDFChar: 480 480 0 0 0 0 0
+BDFChar: 480 67 0 0 0 0 0
 z
-BDFChar: 481 481 0 0 0 0 0
+BDFChar: 481 118 0 0 0 0 0
 z
-BDFChar: 482 482 0 0 0 0 0
+BDFChar: 482 86 0 0 0 0 0
 z
-BDFChar: 483 483 0 0 0 0 0
+BDFChar: 483 98 0 0 0 0 0
 z
-BDFChar: 484 484 0 0 0 0 0
+BDFChar: 484 66 0 0 0 0 0
 z
-BDFChar: 485 485 0 0 0 0 0
+BDFChar: 485 110 0 0 0 0 0
 z
-BDFChar: 486 486 0 0 0 0 0
+BDFChar: 486 78 0 0 0 0 0
 z
-BDFChar: 487 487 0 0 0 0 0
+BDFChar: 487 109 0 0 0 0 0
 z
-BDFChar: 488 488 0 0 0 0 0
+BDFChar: 488 77 0 0 0 0 0
 z
-BDFChar: 489 489 0 0 0 0 0
+BDFChar: 489 48 0 0 0 0 0
 z
-BDFChar: 490 490 0 0 0 0 0
+BDFChar: 490 49 0 0 0 0 0
 z
-BDFChar: 491 491 0 0 0 0 0
+BDFChar: 491 50 0 0 0 0 0
 z
-BDFChar: 492 492 0 0 0 0 0
+BDFChar: 492 51 0 0 0 0 0
 z
-BDFChar: 493 493 0 0 0 0 0
+BDFChar: 493 52 0 0 0 0 0
 z
-BDFChar: 494 494 0 0 0 0 0
+BDFChar: 494 53 0 0 0 0 0
 z
-BDFChar: 495 495 0 0 0 0 0
+BDFChar: 495 54 0 0 0 0 0
 z
-BDFChar: 496 496 0 0 0 0 0
+BDFChar: 496 55 0 0 0 0 0
 z
-BDFChar: 497 497 0 0 0 0 0
+BDFChar: 497 56 0 0 0 0 0
 z
-BDFChar: 498 498 0 0 0 0 0
+BDFChar: 498 57 0 0 0 0 0
 z
-BDFChar: 499 499 0 0 0 0 0
+BDFChar: 499 32 0 0 0 0 0
 z
-BDFChar: 500 500 0 0 0 0 0
+BDFChar: 500 65973 0 0 0 0 0
 z
-BDFChar: 501 517 0 4 8 3 7
+BDFChar: 501 65974 0 4 8 3 7
 .-N)C-ia5I
-BDFChar: 502 504 0 5 7 -1 7
+BDFChar: 502 65975 0 5 7 -1 7
 +<VdLi#j-b+92BA
-BDFChar: 503 505 0 5 7 3 7
+BDFChar: 503 65976 0 5 7 3 7
 +<]Sb+92BA
-BDFChar: 504 506 0 4 7 -1 7
-&.n=B&.n=B&-)\1
-BDFChar: 505 507 0 4 7 3 7
+BDFChar: 504 65977 0 4 7 -1 6
+&.n=B&F^5B
+BDFChar: 505 65978 0 4 7 3 7
 &F^8#&-)\1
-BDFChar: 506 508 0 0 8 2 3
+BDFChar: 506 65979 0 0 8 2 3
 s*t@T
-BDFChar: 507 509 0 0 8 2 3
+BDFChar: 507 65980 0 0 8 2 3
 s*u?p
-BDFChar: 508 510 0 0 8 0 2
+BDFChar: 508 65981 0 0 8 0 2
 #QP,1s*t(L
-BDFChar: 509 511 0 0 8 3 4
+BDFChar: 509 65982 0 0 8 3 4
 #QXmT
-BDFChar: 510 512 0 0 8 0 3
+BDFChar: 510 65983 0 0 8 0 3
 ,QK(i,QRjp
-BDFChar: 511 513 0 0 8 3 4
+BDFChar: 511 65984 0 0 8 3 4
 ,QRjp
-BDFChar: 512 514 0 5 8 -1 7
+BDFChar: 512 65985 0 5 8 -1 7
 :f'tbcqmP8:]LIq
-BDFChar: 513 515 0 5 8 3 7
+BDFChar: 513 65986 0 5 8 3 7
 :f,M8:]LIq
-BDFChar: 514 516 0 4 8 -1 7
+BDFChar: 514 65987 0 4 8 -1 7
 -n+:--n+:--ia5I
 EndBitmapFont
 EndSplineFont
