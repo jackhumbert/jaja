@@ -317,7 +317,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 324 18 9
+WinInfo: 0 18 9
 BeginPrivate: 2
 StdHW 5 [100]
 StdVW 5 [100]
