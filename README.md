@@ -2,6 +2,7 @@
 
 Needs for bitmap to work:
 
+* Have more than one bitmap size??
 * .ttf export with settings in [this image](export_settings_for_bitmap.png)
 * Grid Fitting > Uncheck "Optimized For ClearType"
 * OS/2 > Charsets > MS Code Pages

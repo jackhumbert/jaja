@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1626979397
-ModificationTime: 1627683685
+ModificationTime: 1627844604
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -310,17 +310,19 @@ ChainSub2: coverage "cvc_3v_c1 contextual 0" 0 0 0 1
  0
 EndFPST
 LangName: 1033
-GaspTable: 4 7 10 16 5 59 15 65535 15 1
+GaspTable: 5 7 10 10 4 11 15 59 15 65535 15 1
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 162 18 9
-BeginPrivate: 2
+WinInfo: 0 18 7
+BeginPrivate: 4
 StdHW 5 [100]
 StdVW 5 [100]
+BlueValues 37 [0 0 200 200 400 400 700 700 800 800]
+OtherBlues 35 [-100 -100 150 150 300 300 450 450]
 EndPrivate
 Grid
 -1000 -100 m 0
@@ -361,7 +363,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 0 0 0 0 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "MarkBaseSet" "'mark' Mark Positioning in Latin lookup 0-1"
-BeginChars: 529 521
+BeginChars: 534 521
 
 StartChar: tv_a
 Encoding: 0 -1 0
@@ -1047,7 +1049,7 @@ EndChar
 StartChar: nsfu_p.1
 Encoding: 19 -1 19
 Width: 1000
-HStem: 0 21G<338.963 361.037 738.963 763.455>
+HStem: 0 21G<338.963 361.037 738.963 763.455> 680 20G<136.545 161.037 538.963 561.037>
 LayerCount: 2
 Fore
 SplineSet
@@ -1075,7 +1077,7 @@ EndChar
 StartChar: nsfu_p.2
 Encoding: 20 -1 20
 Width: 1000
-HStem: 0 21G<171.403 195.263 438.07 463.397>
+HStem: 0 21G<171.403 195.263 438.07 463.397> 680 20G<36.6032 61.9302 304.737 328.597>
 VStem: 134.522 97.6211<8.10788 70.6217> 267.856 97.6211<629.378 691.892>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1105,7 +1107,7 @@ EndChar
 StartChar: nv_p.6
 Encoding: 168 -1 21
 Width: 1000
-HStem: 400 100<200 700>
+HStem: 400 100<200 700> 780 20G<136.202 163.798 736.202 763.798>
 VStem: 100 100<500 790.77> 700 100<500 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1132,7 +1134,7 @@ StartChar: nv_p.7
 Encoding: 169 -1 22
 Width: 0
 Flags: W
-HStem: -100 100<200 700>
+HStem: -100 100<200 700> 180 20G<136.202 163.798 736.202 763.798>
 VStem: 100 100<0 190.77> 700 100<0 190.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -1159,7 +1161,7 @@ StartChar: nv_p.8
 Encoding: 170 -1 23
 Width: 0
 Flags: W
-HStem: -100 100<200 700>
+HStem: -100 100<200 700> 280 20G<136.202 163.798 736.202 763.798>
 VStem: 100 100<0 290.77> 700 100<0 290.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -1236,9 +1238,9 @@ EndChar
 StartChar: pa_p.1
 Encoding: 172 -1 25
 Width: 1000
-HStem: 0 100<200 400 500 700>
+HStem: 0 100<200 400 500 700> 680 20G<136.202 163.798 436.202 463.798 736.202 763.798>
 VStem: 100 100<100 690.77> 400 100<100 690.77> 700 100<100 690.77>
-CounterMasks: 1 70
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -1267,9 +1269,9 @@ EndChar
 StartChar: pa_p.2
 Encoding: 173 -1 26
 Width: 1000
-HStem: 0 100<100 200 300 400>
+HStem: 0 100<100 200 300 400> 680 20G<36.2021 63.7979 236.202 263.798 436.202 463.798>
 VStem: 0 100<100 690.77> 200 100<100 690.77> 400 100<100 690.77>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1299,9 +1301,9 @@ EndChar
 StartChar: pa_p.3
 Encoding: 174 -1 27
 Width: 1000
-HStem: 300 100<200 400 500 700>
+HStem: 300 100<200 400 500 700> 780 20G<136.202 163.798 436.202 463.798 736.202 763.798>
 VStem: 100 100<400 790.77> 400 100<400 790.77> 700 100<400 790.77>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1331,9 +1333,9 @@ EndChar
 StartChar: pa_p.4
 Encoding: 175 -1 28
 Width: 1000
-HStem: 300 100<100 200 300 400>
+HStem: 300 100<100 200 300 400> 780 20G<36.2021 63.7979 236.202 263.798 436.202 463.798>
 VStem: 0 100<400 790.77> 200 100<400 790.77> 400 100<400 790.77>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1395,9 +1397,9 @@ EndChar
 StartChar: pa_p.6
 Encoding: 177 -1 30
 Width: 1000
-HStem: 400 100<200 400 500 700>
+HStem: 400 100<200 400 500 700> 780 20G<136.202 163.798 436.202 463.798 736.202 763.798>
 VStem: 100 100<500 790.77> 400 100<500 790.77> 700 100<500 790.77>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1428,16 +1430,16 @@ StartChar: pa_p.7
 Encoding: 178 -1 31
 Width: 0
 Flags: W
-HStem: -100 300<109.23 190.77 409.23 490.77 709.23 790.77> -100 100<200 400 500 700>
+HStem: -100 100<200 400 500 700> 180 20G<136.202 163.798 436.202 463.798 736.202 763.798>
 VStem: 100 100<0 190.77> 400 100<0 190.77> 700 100<0 190.77>
 CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-500 150 m 2xb8
+500 150 m 2
  500 0 l 1
- 700 0 l 1x78
+ 700 0 l 1
  700 150 l 2
  700 177.595703125 722.404296875 200 750 200 c 0
  777.595703125 200 800 177.595703125 800 150 c 2
@@ -1446,13 +1448,13 @@ SplineSet
  550 -100 350 -100 150 -100 c 0
  122.404296875 -100 100 -77.595703125 100 -50 c 2
  100 150 l 2
- 100 177.595703125 122.404296875 200 150 200 c 0xb8
+ 100 177.595703125 122.404296875 200 150 200 c 0
  177.595703125 200 200 177.595703125 200 150 c 2
  200 0 l 1
- 400 0 l 1x78
+ 400 0 l 1
  400 150 l 2
  400 177.595703125 422.404296875 200 450 200 c 0
- 477.595703125 200 500 177.595703125 500 150 c 2xb8
+ 477.595703125 200 500 177.595703125 500 150 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -1461,9 +1463,9 @@ StartChar: pa_p.8
 Encoding: 179 -1 32
 Width: 0
 Flags: W
-HStem: -100 100<200 400 500 700>
+HStem: -100 100<200 400 500 700> 280 20G<136.202 163.798 436.202 463.798 736.202 763.798>
 VStem: 100 100<0 290.77> 400 100<0 290.77> 700 100<0 290.77>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -1493,6 +1495,7 @@ EndChar
 StartChar: nsfu_p.3
 Encoding: 21 -1 33
 Width: 1000
+HStem: 300 21G<340.21 359.79 740.21 763.798> 780 20G<136.202 159.79 540.21 559.79>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1521,6 +1524,7 @@ EndChar
 StartChar: nsfu_p.4
 Encoding: 22 -1 34
 Width: 1000
+HStem: 300 21G<172.296 194.37 438.963 463.455> 780 20G<36.5446 61.0371 305.63 327.704>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1578,6 +1582,7 @@ EndChar
 StartChar: nsfu_p.6
 Encoding: 24 -1 36
 Width: 1000
+HStem: 400 21G<341.32 358.68 741.32 763.798> 780 20G<136.202 158.68 541.32 558.68>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1607,7 +1612,7 @@ StartChar: nsfu_p.7
 Encoding: 25 -1 37
 Width: 0
 Flags: W
-HStem: -100 300
+HStem: -100 21G<343.101 356.899 743.101 763.798> 180 20G<136.202 156.899 543.101 556.899>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -1637,6 +1642,7 @@ StartChar: nsfu_p.8
 Encoding: 26 -1 38
 Width: 0
 Flags: W
+HStem: -100 21G<341.32 358.68 741.32 763.798> 280 20G<136.202 158.68 541.32 558.68>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -1717,7 +1723,7 @@ EndChar
 StartChar: nsfu_v.1
 Encoding: 28 -1 40
 Width: 1000
-HStem: 0 21G<136.545 161.037 538.963 561.037>
+HStem: 0 21G<136.545 161.037 538.963 561.037> 680 20G<338.963 361.037 738.963 763.455>
 LayerCount: 2
 Fore
 SplineSet
@@ -1745,7 +1751,7 @@ EndChar
 StartChar: nsfu_v.2
 Encoding: 29 -1 41
 Width: 1000
-HStem: 0 21G<36.6057 61.9302 304.737 328.597>
+HStem: 0 21G<36.6057 61.9302 304.737 328.597> 680 20G<171.403 195.263 438.07 463.394>
 VStem: 134.522 97.6211<629.378 691.892> 267.856 97.6211<8.10788 70.6217>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -1775,6 +1781,7 @@ EndChar
 StartChar: nsfu_v.3
 Encoding: 30 -1 42
 Width: 1000
+HStem: 300 21G<136.202 159.79 540.21 559.79> 780 20G<340.21 359.79 740.21 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1803,6 +1810,7 @@ EndChar
 StartChar: nsfu_v.4
 Encoding: 31 -1 43
 Width: 1000
+HStem: 300 21G<36.5446 61.0371 305.63 327.704> 780 20G<172.296 194.37 438.963 463.455>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1860,6 +1868,7 @@ EndChar
 StartChar: nsfu_v.6
 Encoding: 33 -1 45
 Width: 1000
+HStem: 400 21G<136.202 158.68 541.32 558.68> 780 20G<341.32 358.68 741.32 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -1889,7 +1898,7 @@ StartChar: nsfu_v.7
 Encoding: 34 -1 46
 Width: 0
 Flags: W
-HStem: -100 300
+HStem: -100 21G<136.202 156.899 543.101 556.899> 180 20G<343.101 356.899 743.101 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -1919,6 +1928,7 @@ StartChar: nsfu_v.8
 Encoding: 35 -1 47
 Width: 0
 Flags: W
+HStem: -100 21G<136.202 158.68 541.32 558.68> 280 20G<341.32 358.68 741.32 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -1998,7 +2008,7 @@ EndChar
 StartChar: sfu_p.1
 Encoding: 37 -1 49
 Width: 1000
-HStem: 0 100<109.23 369.093 530.907 790.77>
+HStem: 0 100<109.23 369.093 530.907 790.77> 680 20G<136.202 159.79 740.21 763.798>
 LayerCount: 2
 Fore
 SplineSet
@@ -2027,7 +2037,7 @@ EndChar
 StartChar: sfu_p.2
 Encoding: 38 -1 50
 Width: 1000
-HStem: 0 100<9.2299 180.618 319.382 490.77>
+HStem: 0 100<9.2299 180.618 319.382 490.77> 680 20G<36.545 61.0371 438.963 463.455>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2057,7 +2067,7 @@ EndChar
 StartChar: sfu_p.3
 Encoding: 39 -1 51
 Width: 1000
-HStem: 300 100<109.23 350.008 549.992 790.77>
+HStem: 300 100<109.23 350.008 549.992 790.77> 780 20G<136.202 158.181 741.819 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2087,7 +2097,7 @@ EndChar
 StartChar: sfu_p.4
 Encoding: 40 -1 52
 Width: 1000
-HStem: 300 100<9.2299 169.094 330.906 490.77>
+HStem: 300 100<9.2299 169.094 330.906 490.77> 780 20G<36.2021 59.79 440.21 463.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2117,7 +2127,7 @@ EndChar
 StartChar: sfu_p.5
 Encoding: 41 -1 53
 Width: 1000
-HStem: 500 100<109.23 284.866 615.134 790.77>
+HStem: 500 100<109.23 284.866 615.134 790.77> 780 20G<136.202 155.118 744.882 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2147,7 +2157,7 @@ EndChar
 StartChar: sfu_p.6
 Encoding: 42 -1 54
 Width: 1000
-HStem: 400 100<109.23 329.303 570.697 790.77>
+HStem: 400 100<109.23 329.303 570.697 790.77> 780 20G<136.202 156.899 743.101 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2178,7 +2188,7 @@ StartChar: sfu_p.7
 Encoding: 43 -1 55
 Width: 0
 Flags: W
-HStem: -100 100<109.23 284.866 615.134 790.77>
+HStem: -100 100<109.23 284.866 615.134 790.77> 180 20G<136.202 155.118 744.882 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -2209,7 +2219,7 @@ StartChar: sfu_p.8
 Encoding: 44 -1 56
 Width: 0
 Flags: W
-HStem: -100 100<109.23 329.303 570.697 790.77>
+HStem: -100 100<109.23 329.303 570.697 790.77> 280 20G<136.202 156.899 743.101 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -2300,7 +2310,7 @@ EndChar
 StartChar: sfv_p.1
 Encoding: 46 -1 58
 Width: 1000
-HStem: 0 100<109.23 235.952 364.048 535.952 664.048 790.77>
+HStem: 0 100<109.23 235.952 364.048 535.952 664.048 790.77> 680 20G<136.603 161.703 438.297 461.703 738.297 763.395>
 VStem: 99.8996 98.6112<634.149 691.004> 701.489 98.6107<634.149 691.003>
 LayerCount: 2
 Fore
@@ -2338,7 +2348,7 @@ EndChar
 StartChar: sfv_p.2
 Encoding: 47 -1 59
 Width: 1000
-HStem: 0 100<9.2299 90.9707 209.029 290.971 409.029 490.77>
+HStem: 0 100<9.2299 90.9707 209.029 290.971 409.029 490.77> 680.001 20G<36.5714 62.3901 237.61 262.39 437.61 463.426>
 VStem: -0.0467918 99.3652<616.268 691.052> 200.682 98.6367<616.268 691.291> 400.682 99.3652<616.268 691.054>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -2377,7 +2387,7 @@ EndChar
 StartChar: sfv_p.3
 Encoding: 48 -1 60
 Width: 1000
-HStem: 300 100<109.23 227.841 372.159 527.841 672.159 790.77>
+HStem: 300 100<109.23 227.841 372.159 527.841 672.159 790.77> 780 20G<136.49 160.714 439.286 460.714 739.286 763.512>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2415,7 +2425,7 @@ EndChar
 StartChar: sfv_p.4
 Encoding: 49 -1 61
 Width: 1000
-HStem: 300 100<9.2299 85.9521 214.048 285.952 414.048 490.77>
+HStem: 300 100<9.2299 85.9521 214.048 285.952 414.048 490.77> 780 20G<36.6031 61.7031 238.297 261.703 438.297 463.395>
 VStem: -0.100426 98.6112<734.149 791.004> 401.489 98.6107<734.149 791.003>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -2454,7 +2464,7 @@ EndChar
 StartChar: sfv_p.5
 Encoding: 50 -1 62
 Width: 1000
-HStem: 500 100<109.23 200.009 399.991 500.009 699.991 790.77>
+HStem: 500 100<109.23 200.009 399.991 500.009 699.991 790.77> 780 20G<136.202 158.181 441.819 458.181 741.819 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2492,7 +2502,7 @@ EndChar
 StartChar: sfv_p.6
 Encoding: 51 -1 63
 Width: 1000
-HStem: 400 100<109.23 219.094 380.906 519.094 680.906 790.77>
+HStem: 400 100<109.23 219.094 380.906 519.094 680.906 790.77> 780 20G<136.202 159.79 440.21 459.79 740.21 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2531,7 +2541,7 @@ StartChar: sfv_p.7
 Encoding: 52 -1 64
 Width: 0
 Flags: W
-HStem: -100 100<109.23 200.009 399.991 500.009 699.991 790.77>
+HStem: -100 100<109.23 200.009 399.991 500.009 699.991 790.77> 180 20G<136.202 158.181 441.819 458.181 741.819 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -2570,7 +2580,7 @@ StartChar: sfv_p.8
 Encoding: 53 -1 65
 Width: 0
 Flags: W
-HStem: -100 100<109.23 219.094 380.906 519.094 680.906 790.77>
+HStem: -100 100<109.23 219.094 380.906 519.094 680.906 790.77> 280 20G<136.202 159.79 440.21 459.79 740.21 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -2706,7 +2716,7 @@ EndChar
 StartChar: sfu_r.3
 Encoding: 57 -1 69
 Width: 1000
-HStem: 700 100<249.992 650.008>
+HStem: 300 21G<441.819 458.181> 700 100<249.992 650.008>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2732,7 +2742,7 @@ EndChar
 StartChar: sfu_r.4
 Encoding: 58 -1 70
 Width: 1000
-HStem: 700 100<130.906 369.094>
+HStem: 300 21G<240.21 259.79> 700 100<130.906 369.094>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2784,7 +2794,7 @@ EndChar
 StartChar: sfu_r.6
 Encoding: 60 -1 72
 Width: 1000
-HStem: 700 100<270.696 629.304>
+HStem: 400 21G<443.101 456.899> 700 100<270.696 629.304>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -2811,7 +2821,7 @@ StartChar: sfu_r.7
 Encoding: 61 -1 73
 Width: 0
 Flags: W
-HStem: 100 100<315.133 584.867>
+HStem: -99.7784 21G<445.116 454.885> 100 100<315.133 584.867>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -2838,7 +2848,7 @@ StartChar: sfu_r.8
 Encoding: 62 -1 74
 Width: 0
 Flags: W
-HStem: 200 100<270.696 629.304>
+HStem: -100 21G<443.101 456.899> 200 100<270.696 629.304>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -2990,7 +3000,7 @@ StartChar: sfv_r.3
 Encoding: 66 -1 78
 Width: 1000
 Flags: W
-HStem: 700 100<222.159 377.841 522.159 677.841>
+HStem: 300 21G<289.286 310.714 589.286 610.714> 700 100<222.159 377.841 522.159 677.841>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3024,7 +3034,7 @@ EndChar
 StartChar: sfv_r.4
 Encoding: 67 -1 79
 Width: 1000
-HStem: 700 100<114.049 185.951 314.049 385.951>
+HStem: 300 21G<138.297 161.703 338.297 361.703> 700 100<114.049 185.951 314.049 385.951>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3092,7 +3102,7 @@ EndChar
 StartChar: sfv_r.6
 Encoding: 69 -1 81
 Width: 1000
-HStem: 700 100<230.906 369.094 530.906 669.094>
+HStem: 400 21G<290.21 309.79 590.21 609.79> 700 100<230.906 369.094 530.906 669.094>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3127,7 +3137,7 @@ StartChar: sfv_r.7
 Encoding: 70 -1 82
 Width: 0
 Flags: W
-HStem: 100 100<249.992 350.008 549.992 650.008>
+HStem: -100 21G<291.819 308.181 591.819 608.181> 100 100<249.992 350.008 549.992 650.008>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -3162,7 +3172,7 @@ StartChar: sfv_r.8
 Encoding: 71 -1 83
 Width: 0
 Flags: W
-HStem: 200 100<230.906 369.094 530.906 669.094>
+HStem: -100 21G<290.21 309.79 590.21 609.79> 200 100<230.906 369.094 530.906 669.094>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -3242,7 +3252,7 @@ EndChar
 StartChar: sfu_a.1
 Encoding: 73 -1 85
 Width: 1000
-HStem: 0 21G<440.21 459.79>
+HStem: 0 21G<440.21 459.79> 680 20G<136.202 159.79 740.21 763.798>
 LayerCount: 2
 Fore
 SplineSet
@@ -3266,7 +3276,7 @@ EndChar
 StartChar: sfu_a.2
 Encoding: 74 -1 86
 Width: 1000
-HStem: 0 21G<238.963 261.037>
+HStem: 0 21G<238.963 261.037> 680 20G<36.545 61.0371 438.963 463.455>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3291,6 +3301,7 @@ EndChar
 StartChar: sfu_a.3
 Encoding: 75 -1 87
 Width: 1000
+HStem: 300 21G<441.819 458.181> 780 20G<136.202 158.181 741.819 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3315,6 +3326,7 @@ EndChar
 StartChar: sfu_a.4
 Encoding: 76 -1 88
 Width: 1000
+HStem: 300 21G<240.21 259.79> 780 20G<36.2021 59.79 440.21 463.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3364,6 +3376,7 @@ EndChar
 StartChar: sfu_a.6
 Encoding: 78 -1 90
 Width: 1000
+HStem: 400 21G<443.101 456.899> 780 20G<136.202 156.899 743.101 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3389,7 +3402,7 @@ StartChar: sfu_a.7
 Encoding: 79 -1 91
 Width: 0
 Flags: W
-HStem: -99.7784 299.778
+HStem: -99.7784 21G<445.116 454.885> 180 20G<136.202 155.118 744.882 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -3415,6 +3428,7 @@ StartChar: sfu_a.8
 Encoding: 80 -1 92
 Width: 0
 Flags: W
+HStem: -100 21G<443.101 456.899> 280 20G<136.202 156.899 743.101 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -3495,7 +3509,7 @@ EndChar
 StartChar: sfv_a.1
 Encoding: 82 -1 94
 Width: 1000
-HStem: 0 21G<288.297 311.703 588.297 611.703>
+HStem: 0 21G<288.297 311.703 588.297 611.703> 680 20G<136.603 161.703 438.297 461.703 738.297 763.395>
 VStem: 99.8996 98.6112<634.149 691.004> 701.489 98.6107<634.149 691.003>
 LayerCount: 2
 Fore
@@ -3528,7 +3542,7 @@ EndChar
 StartChar: sfv_a.2
 Encoding: 83 -1 95
 Width: 1000
-HStem: 0 21G<137.61 162.39 337.61 362.39>
+HStem: 0 21G<137.61 162.39 337.61 362.39> 680 20G<36.5714 62.3901 237.61 262.39 437.61 463.426>
 VStem: -0.0467918 99.3652<616.267 691.051> 100.682 98.6367<8.71 83.7334> 200.682 98.6367<616.267 691.29> 300.682 98.6367<8.71 83.7334> 400.682 99.3652<616.267 691.053>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -3562,6 +3576,7 @@ EndChar
 StartChar: sfv_a.3
 Encoding: 84 -1 96
 Width: 1000
+HStem: 300 21G<289.286 310.714 589.286 610.714> 780 20G<136.49 160.714 439.286 460.714 739.286 763.512>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3594,6 +3609,7 @@ EndChar
 StartChar: sfv_a.4
 Encoding: 85 -1 97
 Width: 1000
+HStem: 300 21G<138.297 161.703 338.297 361.703> 780 20G<36.6031 61.7031 238.297 261.703 438.297 463.395>
 VStem: -0.100426 98.6112<734.149 791.004> 401.489 98.6107<734.149 791.003>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -3660,6 +3676,7 @@ EndChar
 StartChar: sfv_a.6
 Encoding: 87 -1 99
 Width: 1000
+HStem: 400 21G<290.21 309.79 590.21 609.79> 780 20G<136.202 159.79 440.21 459.79 740.21 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -3693,7 +3710,7 @@ StartChar: sfv_a.7
 Encoding: 88 -1 100
 Width: 0
 Flags: W
-HStem: -100 300
+HStem: -100 21G<291.819 308.181 591.819 608.181> 180 20G<136.202 158.181 441.819 458.181 741.819 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -3727,6 +3744,7 @@ StartChar: sfv_a.8
 Encoding: 89 -1 101
 Width: 0
 Flags: W
+HStem: -100 21G<290.21 309.79 590.21 609.79> 280 20G<136.202 159.79 440.21 459.79 740.21 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -4477,7 +4495,7 @@ EndChar
 StartChar: nsfu_a.3
 Encoding: 111 -1 123
 Width: 1000
-HStem: 700 100<109.23 700>
+HStem: 300 21G<736.202 763.798> 700 100<109.23 700>
 VStem: 700 100<309.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -4500,7 +4518,7 @@ EndChar
 StartChar: nsfu_a.4
 Encoding: 112 -1 124
 Width: 1000
-HStem: 700 100<9.2299 400>
+HStem: 300 21G<436.202 463.798> 700 100<9.2299 400>
 VStem: 400 100<309.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -4546,7 +4564,7 @@ EndChar
 StartChar: nsfu_a.6
 Encoding: 114 -1 126
 Width: 1000
-HStem: 700 100<109.23 700>
+HStem: 400 21G<736.202 763.798> 700 100<109.23 700>
 VStem: 700 100<409.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -4570,22 +4588,22 @@ StartChar: nsfu_a.7
 Encoding: 115 -1 127
 Width: 0
 Flags: W
-HStem: -100 300<709.23 790.77> 100 100<109.23 700>
+HStem: -100 21G<736.202 763.798> 100 100<109.23 700>
 VStem: 700 100<-90.7701 100>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-150 200 m 2x60
+150 200 m 2
  750 200 l 2
  777.595703125 200 800 177.595703125 800 150 c 2
  800 -50 l 2
- 800 -77.595703125 777.595703125 -100 750 -100 c 0xa0
+ 800 -77.595703125 777.595703125 -100 750 -100 c 0
  722.404296875 -100 700 -77.595703125 700 -50 c 2
  700 100 l 1
  150 100 l 2
  122.404296875 100 100 122.404296875 100 150 c 0
- 100 177.595703125 122.404296875 200 150 200 c 2x60
+ 100 177.595703125 122.404296875 200 150 200 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -4594,7 +4612,7 @@ StartChar: nsfu_a.8
 Encoding: 116 -1 128
 Width: 0
 Flags: W
-HStem: 200 100<109.23 700>
+HStem: -100 21G<736.202 763.798> 200 100<109.23 700>
 VStem: 700 100<-90.7701 200>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -4735,7 +4753,7 @@ EndChar
 StartChar: av_a.3
 Encoding: 120 -1 132
 Width: 1000
-HStem: 700 100<109.23 300 509.23 700>
+HStem: 300 21G<336.202 363.798 736.202 763.798> 700 100<109.23 300 509.23 700>
 VStem: 300 100<309.23 700> 700 100<309.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -4768,7 +4786,7 @@ EndChar
 StartChar: av_a.4
 Encoding: 121 -1 133
 Width: 1000
-HStem: 700 100<9.2299 100 309.23 400>
+HStem: 300 21G<136.202 163.798 436.202 463.798> 700 100<9.2299 100 309.23 400>
 VStem: 100 100<309.23 700> 400 100<309.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -4834,7 +4852,7 @@ EndChar
 StartChar: av_a.6
 Encoding: 123 -1 135
 Width: 1000
-HStem: 700 100<109.23 300 509.23 700>
+HStem: 400 21G<336.202 363.798 736.202 763.798> 700 100<109.23 300 509.23 700>
 VStem: 300 100<409.23 700> 700 100<409.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -4868,7 +4886,7 @@ StartChar: av_a.7
 Encoding: 124 -1 136
 Width: 0
 Flags: W
-HStem: 100 100<109.23 300 509.23 700>
+HStem: -100 21G<336.202 363.798 736.202 763.798> 100 100<109.23 300 509.23 700>
 VStem: 300 100<-90.7701 100> 700 100<-90.7701 100>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -4902,7 +4920,7 @@ StartChar: av_a.8
 Encoding: 125 -1 137
 Width: 0
 Flags: W
-HStem: 200 100<109.23 300 509.23 700>
+HStem: -100 21G<336.202 363.798 736.202 763.798> 200 100<109.23 300 509.23 700>
 VStem: 300 100<-90.7701 200> 700 100<-90.7701 200>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -5319,9 +5337,9 @@ EndChar
 StartChar: nsfu_g.2
 Encoding: 137 -1 149
 Width: 1000
-HStem: 0 21G<125.821 176.719 323.275 374.167>
+HStem: 0 21G<125.821 176.719 323.275 374.167> 680 20G<125.833 176.725 323.281 374.179>
 VStem: 0 100<169.9 531.313> 200 100<170.034 529.966> 400 100<168.687 530.1>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -5409,8 +5427,9 @@ EndChar
 StartChar: nsfu_g.4
 Encoding: 139 -1 151
 Width: 1000
+HStem: 300 21G<131.221 172.62 327.376 368.779> 780 20G<131.221 172.624 327.38 368.779>
 VStem: 0 100<436.139 663.849> 200 100<435.604 664.396> 400 100<436.151 663.861>
-CounterMasks: 1 e0
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -5662,7 +5681,7 @@ EndChar
 StartChar: nv_v.1
 Encoding: 145 -1 157
 Width: 1000
-HStem: 0 21G<443.101 456.899>
+HStem: 0 21G<443.101 456.899> 680 20G<443.101 456.899>
 LayerCount: 2
 Fore
 SplineSet
@@ -5691,7 +5710,7 @@ EndChar
 StartChar: nv_v.2
 Encoding: 146 -1 158
 Width: 1000
-HStem: 0 21G<241.32 258.68>
+HStem: 0 21G<241.32 258.68> 680 20G<241.32 258.68>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -5721,6 +5740,7 @@ EndChar
 StartChar: nv_v.3
 Encoding: 147 -1 159
 Width: 1000
+HStem: 300.222 21G<445.115 454.884> 779.778 20G<445.116 454.885>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -5750,6 +5770,7 @@ EndChar
 StartChar: nv_v.4
 Encoding: 148 -1 160
 Width: 1000
+HStem: 300 21G<243.101 256.899> 780 20G<243.101 256.899>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -5809,6 +5830,7 @@ EndChar
 StartChar: nv_v.6
 Encoding: 150 -1 162
 Width: 1000
+HStem: 400.139 21G<446.126 453.874> 779.861 20G<446.126 453.874>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -5839,7 +5861,7 @@ StartChar: nv_v.7
 Encoding: 151 -1 163
 Width: 0
 Flags: W
-HStem: -99.9375 299.875<444.589 455.411>
+HStem: -99.9375 21G<447.294 452.706> 179.938 20G<447.294 452.706>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -5870,6 +5892,7 @@ StartChar: nv_v.8
 Encoding: 152 -1 164
 Width: 0
 Flags: W
+HStem: -99.8612 21G<446.126 453.874> 279.861 20G<446.126 453.874>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -5963,7 +5986,7 @@ EndChar
 StartChar: pa_v.1
 Encoding: 154 -1 166
 Width: 1000
-HStem: 0 21G<290.21 309.79 590.21 609.79>
+HStem: 0 21G<290.21 309.79 590.21 609.79> 680 20G<290.21 309.79 590.21 609.79>
 LayerCount: 2
 Fore
 SplineSet
@@ -6005,7 +6028,7 @@ EndChar
 StartChar: pa_v.2
 Encoding: 155 -1 167
 Width: 1000
-HStem: 0 21G<138.963 161.037 338.963 361.037>
+HStem: 0 21G<138.963 161.037 338.963 361.037> 680 20G<138.963 161.037 338.963 361.037>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -6048,6 +6071,7 @@ EndChar
 StartChar: pa_v.3
 Encoding: 156 -1 168
 Width: 1000
+HStem: 300 21G<291.819 308.181 591.819 608.181> 780 20G<291.819 308.181 591.819 608.181>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -6090,6 +6114,7 @@ EndChar
 StartChar: pa_v.4
 Encoding: 157 -1 169
 Width: 1000
+HStem: 300 21G<140.21 159.79 340.21 359.79> 780 20G<140.21 159.79 340.21 359.79>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -6175,6 +6200,7 @@ EndChar
 StartChar: pa_v.6
 Encoding: 159 -1 171
 Width: 1000
+HStem: 400 21G<293.101 306.899 593.101 606.899> 780 20G<293.101 306.899 593.101 606.899>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -6218,7 +6244,7 @@ StartChar: pa_v.7
 Encoding: 160 -1 172
 Width: 0
 Flags: W
-HStem: -99.7784 299.557<290.231 309.769 590.231 609.769>
+HStem: -99.7784 21G<295.116 304.885 595.116 604.885> 179.778 20G<295.115 304.884 595.115 604.884>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -6262,6 +6288,7 @@ StartChar: pa_v.8
 Encoding: 161 -1 173
 Width: 0
 Flags: W
+HStem: -100 21G<293.101 306.899 593.101 606.899> 280 20G<293.101 306.899 593.101 606.899>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -6351,7 +6378,7 @@ EndChar
 StartChar: nv_p.1
 Encoding: 163 -1 175
 Width: 1000
-HStem: 0 100<200 700>
+HStem: 0 100<200 700> 680 20G<136.202 163.798 736.202 763.798>
 VStem: 100 100<100 690.77> 700 100<100 690.77>
 LayerCount: 2
 Fore
@@ -6376,7 +6403,7 @@ EndChar
 StartChar: nv_p.2
 Encoding: 164 -1 176
 Width: 1000
-HStem: 0 100<100 400>
+HStem: 0 100<100 400> 680 20G<36.2021 63.7979 436.202 463.798>
 VStem: 0 100<100 690.77> 400 100<100 690.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6402,7 +6429,7 @@ EndChar
 StartChar: nv_p.3
 Encoding: 165 -1 177
 Width: 1000
-HStem: 300 100<200 700>
+HStem: 300 100<200 700> 780 20G<136.202 163.798 736.202 763.798>
 VStem: 100 100<400 790.77> 700 100<400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6428,7 +6455,7 @@ EndChar
 StartChar: nv_p.4
 Encoding: 166 -1 178
 Width: 1000
-HStem: 300 100<100 400>
+HStem: 300 100<100 400> 780 20G<36.2021 63.7979 436.202 463.798>
 VStem: 0 100<400 790.77> 400 100<400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6454,7 +6481,7 @@ EndChar
 StartChar: nv_p.5
 Encoding: 167 -1 179
 Width: 1000
-HStem: 500 100<200 700>
+HStem: 500 100<200 700> 780 20G<136.202 163.798 736.202 763.798>
 VStem: 100 100<600 790.77> 700 100<600 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6578,7 +6605,7 @@ EndChar
 StartChar: nv_r.3
 Encoding: 183 -1 183
 Width: 1000
-HStem: 700 100<200 700>
+HStem: 300 21G<136.202 163.798 736.202 763.798> 700 100<200 700>
 VStem: 100 100<309.23 700> 700 100<309.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6604,7 +6631,7 @@ EndChar
 StartChar: nv_r.4
 Encoding: 184 -1 184
 Width: 1000
-HStem: 700 100<100 400>
+HStem: 300 21G<36.2021 63.7979 436.202 463.798> 700 100<100 400>
 VStem: 0 100<309.23 700> 400 100<309.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6656,7 +6683,7 @@ EndChar
 StartChar: nv_r.6
 Encoding: 186 -1 186
 Width: 1000
-HStem: 700 100<200 700>
+HStem: 400 21G<136.202 163.798 736.202 763.798> 700 100<200 700>
 VStem: 100 100<409.23 700> 700 100<409.23 700>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -6683,7 +6710,7 @@ StartChar: nv_r.7
 Encoding: 187 -1 187
 Width: 0
 Flags: W
-HStem: 100 100<200 700>
+HStem: -100 21G<136.202 163.798 736.202 763.798> 100 100<200 700>
 VStem: 100 100<-90.7701 100> 700 100<-90.7701 100>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -6710,7 +6737,7 @@ StartChar: nv_r.8
 Encoding: 188 -1 188
 Width: 0
 Flags: W
-HStem: 200 100<200 700>
+HStem: -100 21G<136.202 163.798 736.202 763.798> 200 100<200 700>
 VStem: 100 100<-90.7701 200> 700 100<-90.7701 200>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -6850,9 +6877,9 @@ EndChar
 StartChar: pa_r.3
 Encoding: 192 -1 192
 Width: 1000
-HStem: 700 100<200 400 500 700>
+HStem: 300 21G<136.202 163.798 436.202 463.798 736.202 763.798> 700 100<200 400 500 700>
 VStem: 100 100<309.23 700> 400 100<309.23 700> 700 100<309.23 700>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -6882,9 +6909,9 @@ EndChar
 StartChar: pa_r.4
 Encoding: 193 -1 193
 Width: 1000
-HStem: 700 100<100 200 300 400>
+HStem: 300 21G<36.2021 63.7979 236.202 263.798 436.202 463.798> 700 100<100 200 300 400>
 VStem: 0 100<309.23 700> 200 100<309.23 700> 400 100<309.23 700>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -6946,9 +6973,9 @@ EndChar
 StartChar: pa_r.6
 Encoding: 195 -1 195
 Width: 1000
-HStem: 700 100<200 400 500 700>
+HStem: 400 21G<136.202 163.798 436.202 463.798 736.202 763.798> 700 100<200 400 500 700>
 VStem: 100 100<409.23 700> 400 100<409.23 700> 700 100<409.23 700>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -6979,16 +7006,16 @@ StartChar: pa_r.7
 Encoding: 196 -1 196
 Width: 0
 Flags: W
-HStem: -100 300<109.23 190.77 409.23 490.77 709.23 790.77> 100 100<200 400 500 700>
+HStem: -100 21G<136.202 163.798 436.202 463.798 736.202 763.798> 100 100<200 400 500 700>
 VStem: 100 100<-90.7701 100> 400 100<-90.7701 100> 700 100<-90.7701 100>
 CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-400 -50 m 2xb8
+400 -50 m 2
  400 100 l 1
- 200 100 l 1x78
+ 200 100 l 1
  200 -50 l 2
  200 -77.595703125 177.595703125 -100 150 -100 c 0
  122.404296875 -100 100 -77.595703125 100 -50 c 2
@@ -6997,13 +7024,13 @@ SplineSet
  350 200 550 200 750 200 c 0
  777.595703125 200 800 177.595703125 800 150 c 2
  800 -50 l 2
- 800 -77.595703125 777.595703125 -100 750 -100 c 0xb8
+ 800 -77.595703125 777.595703125 -100 750 -100 c 0
  722.404296875 -100 700 -77.595703125 700 -50 c 2
  700 100 l 1
- 500 100 l 1x78
+ 500 100 l 1
  500 -50 l 2
  500 -77.595703125 477.595703125 -100 450 -100 c 0
- 422.404296875 -100 400 -77.595703125 400 -50 c 2xb8
+ 422.404296875 -100 400 -77.595703125 400 -50 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -7012,9 +7039,9 @@ StartChar: pa_r.8
 Encoding: 197 -1 197
 Width: 0
 Flags: W
-HStem: 200 100<200 400 500 700>
+HStem: -100 21G<136.202 163.798 436.202 463.798 736.202 763.798> 200 100<200 400 500 700>
 VStem: 100 100<-90.7701 200> 400 100<-90.7701 200> 700 100<-90.7701 200>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -7098,7 +7125,7 @@ EndChar
 StartChar: nv_a.1
 Encoding: 199 -1 199
 Width: 1000
-HStem: 0 21G<136.202 156.899 743.101 763.798>
+HStem: 0 21G<136.202 156.899 743.101 763.798> 680 20G<136.202 156.899 743.101 763.798>
 LayerCount: 2
 Fore
 SplineSet
@@ -7130,7 +7157,7 @@ EndChar
 StartChar: nv_a.2
 Encoding: 200 -1 200
 Width: 1000
-HStem: 0 21G<36.2021 58.6802 441.32 463.798>
+HStem: 0 21G<36.2021 58.6802 441.32 463.798> 680 20G<36.2021 58.6802 441.32 463.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -7163,6 +7190,7 @@ EndChar
 StartChar: nv_a.3
 Encoding: 201 -1 201
 Width: 1000
+HStem: 300 21G<136.202 155.118 744.882 763.798> 780 20G<136.202 155.118 744.882 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -7195,6 +7223,7 @@ EndChar
 StartChar: nv_a.4
 Encoding: 202 -1 202
 Width: 1000
+HStem: 300 21G<36.2021 56.8989 443.101 463.798> 780 20G<36.2021 56.8989 443.101 463.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -7361,7 +7390,7 @@ EndChar
 StartChar: pa_a.1
 Encoding: 208 -1 207
 Width: 1000
-HStem: 0 21G<136.202 159.79 440.21 459.79 740.21 763.798>
+HStem: 0 21G<136.202 159.79 440.21 459.79 740.21 763.798> 680 20G<136.202 159.79 440.21 459.79 740.21 763.798>
 VStem: 100 94.751<9.2299 27.6875 672.312 690.77> 705.249 94.751<9.2299 27.6875 672.312 690.77>
 LayerCount: 2
 Fore
@@ -7474,7 +7503,7 @@ EndChar
 StartChar: pa_a.2
 Encoding: 209 -1 209
 Width: 1000
-HStem: 0 21G<36.5446 61.0371 238.963 261.037 438.963 463.455>
+HStem: 0 21G<36.5446 61.0371 238.963 261.037 438.963 463.455> 680 20G<36.545 61.0371 238.963 261.037 438.963 463.455>
 VStem: -0.144135 97.5914<9.12306 34.1973 665.803 690.882> 402.553 97.5938<9.11804 34.1973 665.803 690.877>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -7521,6 +7550,7 @@ EndChar
 StartChar: pa_a.3
 Encoding: 210 -1 210
 Width: 1000
+HStem: 300 21G<136.202 158.181 441.819 458.181 741.819 763.798> 780 20G<136.202 158.181 441.819 458.181 741.819 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -7566,6 +7596,7 @@ EndChar
 StartChar: pa_a.4
 Encoding: 211 -1 211
 Width: 1000
+HStem: 300 21G<36.2021 59.79 240.21 259.79 440.21 463.798> 780 20G<36.2021 59.79 240.21 259.79 440.21 463.798>
 VStem: 0 94.751<309.23 327.688 772.312 790.77> 405.249 94.751<309.23 327.688 772.312 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -7658,6 +7689,7 @@ EndChar
 StartChar: pa_a.6
 Encoding: 213 -1 213
 Width: 1000
+HStem: 400 21G<136.202 156.899 443.101 456.899 743.101 763.798> 780 20G<136.202 156.899 443.101 456.899 743.101 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -7704,7 +7736,7 @@ StartChar: pa_a.7
 Encoding: 214 -1 214
 Width: 0
 Flags: W
-HStem: -100 300<122.404 160.235 440.231 459.769 739.765 777.596>
+HStem: -100 21G<136.202 155.118 445.116 454.885 744.882 763.798> 180 20G<136.202 155.118 445.115 454.884 744.882 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -7751,6 +7783,7 @@ StartChar: pa_a.8
 Encoding: 215 -1 215
 Width: 0
 Flags: W
+HStem: -100 21G<136.202 156.899 443.101 456.899 743.101 763.798> 280 20G<136.202 156.899 443.101 456.899 743.101 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -8425,9 +8458,9 @@ EndChar
 StartChar: pu_g_d.1
 Encoding: 235 -1 235
 Width: 1000
-HStem: 0 21G<353.366 546.634>
+HStem: 0 21G<353.366 546.634> 680 20G<353.366 546.634>
 VStem: 100 100<251.636 448.364> 400 100<104.998 595.002> 700 100<251.636 448.364>
-CounterMasks: 1 70
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -8451,9 +8484,9 @@ EndChar
 StartChar: pu_g_d.2
 Encoding: 236 -1 236
 Width: 1000
-HStem: 0 21G<224.566 275.434>
+HStem: 0 21G<224.566 275.434> 680 20G<224.566 275.434>
 VStem: 0 100<223.133 476.873> 200 100<115.089 584.911> 400 100<223.127 476.867>
-CounterMasks: 1 70
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -8517,8 +8550,9 @@ EndChar
 StartChar: pu_g_d.4
 Encoding: 238 -1 238
 Width: 1000
+HStem: 300 21G<180.98 319.02> 780 20G<180.98 319.02>
 VStem: 0 100<473.82 626.18> 200 100<408.527 691.473> 400 100<473.82 626.18>
-CounterMasks: 1 e0
+CounterMasks: 1 38
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -8737,7 +8771,7 @@ EndChar
 StartChar: pa_u.1
 Encoding: 244 -1 244
 Width: 1000
-HStem: 0 21G<443.101 456.899>
+HStem: 0 21G<443.101 456.899> 680 20G<443.101 456.899>
 VStem: 400 100<170.697 529.303>
 LayerCount: 2
 Fore
@@ -8770,7 +8804,7 @@ EndChar
 StartChar: pa_u.2
 Encoding: 245 -1 245
 Width: 1000
-HStem: 0 21G<241.286 258.714>
+HStem: 0 21G<241.286 258.714> 680 20G<241.286 258.714>
 VStem: 200 100<215.133 484.867>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -8804,6 +8838,7 @@ EndChar
 StartChar: pa_u.3
 Encoding: 246 -1 246
 Width: 1000
+HStem: 300 21G<444.848 455.152> 780 20G<444.848 455.152>
 VStem: 400 100<443.422 656.578>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -8838,6 +8873,7 @@ StartChar: pa_u.4
 Encoding: 247 -1 247
 Width: 1000
 Flags: W
+HStem: 300 21G<243.101 256.899> 780 20G<243.101 256.899>
 VStem: 200 100<470.697 629.303>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -8977,7 +9013,7 @@ StartChar: pa_u.8
 Encoding: 251 -1 251
 Width: 0
 Flags: W
-HStem: -100 400<404.116 495.884>
+HStem: -100 21G<445.963 454.037> 280 20G<445.963 454.037>
 VStem: 400 100<30.9062 169.094>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -9057,7 +9093,7 @@ EndChar
 StartChar: pu_u.1
 Encoding: 253 -1 253
 Width: 1000
-HStem: 0 21G<745.992 763.798>
+HStem: 0 21G<745.992 763.798> 680 20G<745.992 763.798>
 LayerCount: 2
 Fore
 SplineSet
@@ -9081,7 +9117,7 @@ EndChar
 StartChar: pu_u.2
 Encoding: 254 -1 254
 Width: 1000
-HStem: 0 21G<444.383 463.798>
+HStem: 0 21G<444.383 463.798> 680 20G<444.383 463.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9106,6 +9142,7 @@ EndChar
 StartChar: pu_u.3
 Encoding: 255 -1 255
 Width: 1000
+HStem: 299.856 21G<747.812 764.163> 780.147 20G<747.822 764.176>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9130,6 +9167,7 @@ EndChar
 StartChar: pu_u.4
 Encoding: 256 -1 256
 Width: 1000
+HStem: 300 21G<445.992 463.798> 780 20G<445.992 463.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9179,6 +9217,7 @@ EndChar
 StartChar: pu_u.6
 Encoding: 258 -1 258
 Width: 1000
+HStem: 399.9 21G<748.467 764.42> 780.1 20G<748.469 764.423>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9204,7 +9243,7 @@ StartChar: pu_u.7
 Encoding: 259 -1 259
 Width: 0
 Flags: W
-HStem: -100.047 300.094<747.591 778.513>
+HStem: -100.047 21G<749.008 764.474> 180.047 20G<749.006 764.468>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -9230,6 +9269,7 @@ StartChar: pu_u.8
 Encoding: 260 -1 260
 Width: 0
 Flags: W
+HStem: -100.1 21G<748.467 764.42> 280.1 20G<748.469 764.423>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -9313,7 +9353,7 @@ EndChar
 StartChar: pv_u.1
 Encoding: 262 -1 262
 Width: 1000
-HStem: 0 21G<341.32 363.798 741.32 763.798>
+HStem: 0 21G<341.32 363.798 741.32 763.798> 680 20G<341.32 363.798 741.32 763.798>
 LayerCount: 2
 Fore
 SplineSet
@@ -9350,7 +9390,7 @@ EndChar
 StartChar: pv_u.2
 Encoding: 263 -1 263
 Width: 1000
-HStem: 0 21G<138.963 163.455 438.963 463.455>
+HStem: 0 21G<138.963 163.455 438.963 463.455> 680 20G<138.963 163.455 438.963 463.455>
 VStem: 102.554 97.5919<9.11817 34.1973 665.803 690.877> 402.554 97.5919<9.11817 34.1973 665.803 690.877>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9389,6 +9429,7 @@ EndChar
 StartChar: pv_u.3
 Encoding: 264 -1 264
 Width: 1000
+HStem: 300 21G<343.101 363.798 743.101 763.798> 780 20G<343.101 363.798 743.101 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9426,6 +9467,7 @@ EndChar
 StartChar: pv_u.4
 Encoding: 265 -1 265
 Width: 1000
+HStem: 300 21G<140.21 163.798 440.21 463.798> 780 20G<140.21 163.798 440.21 463.798>
 VStem: 105.249 94.751<309.23 327.688 772.312 790.77> 405.249 94.751<309.23 327.688 772.312 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9502,6 +9544,7 @@ EndChar
 StartChar: pv_u.6
 Encoding: 267 -1 267
 Width: 1000
+HStem: 400 21G<344.383 363.798 744.383 763.798> 780 20G<344.383 363.798 744.383 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9579,6 +9622,7 @@ StartChar: pv_u.8
 Encoding: 269 -1 269
 Width: 0
 Flags: W
+HStem: -100 21G<344.383 363.798 744.383 763.798> 280 20G<344.383 363.798 744.383 763.798>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -9663,7 +9707,7 @@ EndChar
 StartChar: pu_v.1
 Encoding: 271 -1 271
 Width: 1000
-HStem: 0 21G<136.208 154.014>
+HStem: 0 21G<136.208 154.014> 680 20G<136.208 154.014>
 LayerCount: 2
 Fore
 SplineSet
@@ -9687,7 +9731,7 @@ EndChar
 StartChar: pu_v.2
 Encoding: 272 -1 272
 Width: 1000
-HStem: 0 21G<36.2021 55.6167>
+HStem: 0 21G<36.2021 55.6167> 680 20G<36.2021 55.6167>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9712,6 +9756,7 @@ EndChar
 StartChar: pu_v.3
 Encoding: 273 -1 273
 Width: 1000
+HStem: 299.853 21G<135.824 152.178> 780.144 20G<135.837 152.188>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9736,6 +9781,7 @@ EndChar
 StartChar: pu_v.4
 Encoding: 274 -1 274
 Width: 1000
+HStem: 300 21G<36.2021 54.0078> 780 20G<36.2021 54.0078>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9785,6 +9831,7 @@ EndChar
 StartChar: pu_v.6
 Encoding: 276 -1 276
 Width: 1000
+HStem: 399.9 21G<135.577 151.531> 780.1 20G<135.58 151.533>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -9810,7 +9857,7 @@ StartChar: pu_v.7
 Encoding: 277 -1 277
 Width: 0
 Flags: W
-HStem: -100.047 300.094<121.487 152.409>
+HStem: -100.047 21G<135.532 150.994> 180.047 20G<135.526 150.992>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -9836,6 +9883,7 @@ StartChar: pu_v.8
 Encoding: 278 -1 278
 Width: 0
 Flags: W
+HStem: -100.1 21G<135.577 151.531> 280.1 20G<135.58 151.533>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -9919,7 +9967,7 @@ EndChar
 StartChar: pv_v.1
 Encoding: 280 -1 280
 Width: 1000
-HStem: 0 21G<136.208 158.687 536.208 558.687>
+HStem: 0 21G<136.208 158.687 536.208 558.687> 680 20G<136.208 158.687 536.208 558.687>
 LayerCount: 2
 Fore
 SplineSet
@@ -9956,7 +10004,7 @@ EndChar
 StartChar: pv_v.2
 Encoding: 281 -1 281
 Width: 1000
-HStem: 0 21G<36.5446 61.0371 336.545 361.037>
+HStem: 0 21G<36.5446 61.0371 336.545 361.037> 680 20G<36.5446 61.0371 336.545 361.037>
 VStem: -0.144135 97.5914<9.12306 34.1973 665.803 690.882> 299.856 97.5914<9.12306 34.1973 665.803 690.882>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -9995,6 +10043,7 @@ EndChar
 StartChar: pv_v.3
 Encoding: 282 -1 282
 Width: 1000
+HStem: 300 21G<136.202 156.899 536.202 556.899> 780 20G<136.202 156.899 536.202 556.899>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10032,6 +10081,7 @@ EndChar
 StartChar: pv_v.4
 Encoding: 283 -1 283
 Width: 1000
+HStem: 300 21G<36.2021 59.79 336.202 359.79> 780 20G<36.2021 59.79 336.202 359.79>
 VStem: 0 94.751<309.23 327.688 772.312 790.77> 300 94.751<309.23 327.688 772.312 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -10109,6 +10159,7 @@ StartChar: pv_v.6
 Encoding: 285 -1 285
 Width: 1000
 Flags: W
+HStem: 400 21G<136.202 155.617 536.202 555.617> 780 20G<136.202 155.617 536.202 555.617>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10186,6 +10237,7 @@ StartChar: pv_v.8
 Encoding: 287 -1 287
 Width: 0
 Flags: W
+HStem: -100 21G<136.202 155.617 536.202 555.617> 280 20G<136.202 155.617 536.202 555.617>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -10270,7 +10322,7 @@ EndChar
 StartChar: pu_p.1
 Encoding: 289 -1 289
 Width: 1000
-HStem: 0.00585938 100<230.906 669.094>
+HStem: 0.00585938 100<230.906 669.094> 680.006 20G<440.21 459.79>
 LayerCount: 2
 Fore
 SplineSet
@@ -10295,7 +10347,7 @@ EndChar
 StartChar: pu_p.2
 Encoding: 290 -1 290
 Width: 1000
-HStem: 0 100<119.381 380.619>
+HStem: 0 100<119.381 380.619> 680 20G<238.963 261.037>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10321,7 +10373,7 @@ EndChar
 StartChar: pu_p.3
 Encoding: 291 -1 291
 Width: 1000
-HStem: 300 100<249.992 650.008>
+HStem: 300 100<249.992 650.008> 780 20G<441.819 458.181>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10347,7 +10399,7 @@ EndChar
 StartChar: pu_p.4
 Encoding: 292 -1 292
 Width: 1000
-HStem: 300 100<130.906 369.094>
+HStem: 300 100<130.906 369.094> 780 20G<240.21 259.79>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10373,7 +10425,7 @@ EndChar
 StartChar: pu_p.5
 Encoding: 293 -1 293
 Width: 1000
-HStem: 500 100<315.133 584.867>
+HStem: 500 100<315.133 584.867> 779.778 20G<445.115 454.884>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10399,7 +10451,7 @@ EndChar
 StartChar: pu_p.6
 Encoding: 294 -1 294
 Width: 1000
-HStem: 400 100<270.696 629.304>
+HStem: 400 100<270.696 629.304> 780 20G<443.101 456.899>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10426,7 +10478,7 @@ StartChar: pu_p.7
 Encoding: 295 -1 295
 Width: 0
 Flags: W
-HStem: -100 100<315.133 584.867>
+HStem: -100 100<315.133 584.867> 179.778 20G<445.115 454.884>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -10453,7 +10505,7 @@ StartChar: pu_p.8
 Encoding: 296 -1 296
 Width: 0
 Flags: W
-HStem: -100 100<270.696 629.304>
+HStem: -100 100<270.696 629.304> 280 20G<443.101 456.899>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -10479,7 +10531,7 @@ EndChar
 StartChar: pv_p
 Encoding: 297 -1 297
 Width: 1000
-HStem: -100 100.016<109.076 790.922> 700 100<259.028 340.972 559.028 640.972>
+HStem: -100 21G<36.2026 863.797> 700 100<259.028 340.972 559.028 640.972>
 VStem: 0 100<9.02034 137.164> 800 100<9.01761 137.164>
 LayerCount: 2
 Fore
@@ -10538,7 +10590,7 @@ EndChar
 StartChar: pv_p.1
 Encoding: 298 -1 298
 Width: 1000
-HStem: 0.015625 100<214.049 385.951 514.049 685.951>
+HStem: 0.015625 100<214.049 385.951 514.049 685.951> 680.016 20G<288.297 311.703 588.297 611.703>
 LayerCount: 2
 Fore
 SplineSet
@@ -10571,7 +10623,7 @@ EndChar
 StartChar: pv_p.2
 Encoding: 299 -1 299
 Width: 1000
-HStem: 0 100<109.029 190.971 309.029 390.971>
+HStem: 0 100<109.029 190.971 309.029 390.971> 680 20G<137.61 162.39 337.61 362.39>
 VStem: 100.682 98.6367<616.267 691.29> 300.682 98.6367<616.267 691.29>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -10606,7 +10658,7 @@ EndChar
 StartChar: pv_p.3
 Encoding: 300 -1 300
 Width: 1000
-HStem: 300 100<222.159 377.841 522.159 677.841>
+HStem: 300 100<222.159 377.841 522.159 677.841> 780 20G<289.286 310.714 589.286 610.714>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10640,7 +10692,7 @@ EndChar
 StartChar: pv_p.4
 Encoding: 301 -1 301
 Width: 1000
-HStem: 300 100<114.049 185.951 314.049 385.951>
+HStem: 300 100<114.049 185.951 314.049 385.951> 780 20G<138.297 161.703 338.297 361.703>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10674,7 +10726,7 @@ EndChar
 StartChar: pv_p.5
 Encoding: 302 -1 302
 Width: 1000
-HStem: 500 100<249.992 350.008 549.992 650.008>
+HStem: 500 100<249.992 350.008 549.992 650.008> 780 20G<291.819 308.181 591.819 608.181>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10708,7 +10760,7 @@ EndChar
 StartChar: pv_p.6
 Encoding: 303 -1 303
 Width: 1000
-HStem: 400 100<230.906 369.094 530.906 669.094>
+HStem: 400 100<230.906 369.094 530.906 669.094> 780 20G<290.21 309.79 590.21 609.79>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10743,7 +10795,7 @@ StartChar: pv_p.7
 Encoding: 304 -1 304
 Width: 0
 Flags: W
-HStem: -100 100<249.992 350.008 549.992 650.008>
+HStem: -100 100<249.992 350.008 549.992 650.008> 180 20G<291.819 308.181 591.819 608.181>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -10778,7 +10830,7 @@ StartChar: pv_p.8
 Encoding: 305 -1 305
 Width: 0
 Flags: W
-HStem: -100 100<230.906 369.094 530.906 669.094>
+HStem: -100 100<230.906 369.094 530.906 669.094> 280 20G<290.21 309.79 590.21 609.79>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -10922,7 +10974,7 @@ EndChar
 StartChar: pu_r.3
 Encoding: 309 -1 309
 Width: 1000
-HStem: 700 100<109.23 350.008 549.992 790.77>
+HStem: 300 21G<136.202 158.181 741.819 763.798> 700 100<109.23 350.008 549.992 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -10952,7 +11004,7 @@ EndChar
 StartChar: pu_r.4
 Encoding: 310 -1 310
 Width: 1000
-HStem: 700 100<9.2299 169.093 330.907 490.77>
+HStem: 300 21G<36.2021 59.79 440.21 463.798> 700 100<9.2299 169.093 330.907 490.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11012,7 +11064,7 @@ EndChar
 StartChar: pu_r.6
 Encoding: 312 -1 312
 Width: 1000
-HStem: 700 100<109.23 329.303 570.697 790.77>
+HStem: 400 21G<136.202 156.899 743.101 763.798> 700 100<109.23 329.303 570.697 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11043,7 +11095,7 @@ StartChar: pu_r.7
 Encoding: 313 -1 313
 Width: 0
 Flags: W
-HStem: 100 100<109.23 284.866 615.134 790.77>
+HStem: -100 21G<136.202 155.118 744.882 763.798> 100 100<109.23 284.866 615.134 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -11074,7 +11126,7 @@ StartChar: pu_r.8
 Encoding: 314 -1 314
 Width: 0
 Flags: W
-HStem: 200 100<109.23 329.303 570.697 790.77>
+HStem: -100 21G<136.202 156.899 743.101 763.798> 200 100<109.23 329.303 570.697 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -11242,7 +11294,7 @@ EndChar
 StartChar: pv_r.3
 Encoding: 318 -1 318
 Width: 1000
-HStem: 700 100<109.23 227.841 372.159 527.841 672.159 790.77>
+HStem: 300 21G<136.488 160.714 439.286 460.714 739.286 763.51> 700 100<109.23 227.841 372.159 527.841 672.159 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11280,7 +11332,7 @@ EndChar
 StartChar: pv_r.4
 Encoding: 319 -1 319
 Width: 1000
-HStem: 700 100<9.2299 85.9521 214.048 285.952 414.048 490.77>
+HStem: 300 21G<36.6048 61.7031 238.297 261.703 438.297 463.397> 700 100<9.2299 85.9521 214.048 285.952 414.048 490.77>
 VStem: -0.0999287 98.6107<308.997 365.851> 401.489 98.6112<308.996 365.851>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -11357,7 +11409,7 @@ EndChar
 StartChar: pv_r.6
 Encoding: 321 -1 321
 Width: 1000
-HStem: 700 100<109.23 219.094 380.906 519.094 680.906 790.77>
+HStem: 400 21G<136.202 159.79 440.21 459.79 740.21 763.798> 700 100<109.23 219.094 380.906 519.094 680.906 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11396,7 +11448,7 @@ StartChar: pv_r.7
 Encoding: 322 -1 322
 Width: 0
 Flags: W
-HStem: 100 100<109.23 200.008 399.992 500.008 699.992 790.77>
+HStem: -100 21G<136.202 158.181 441.819 458.181 741.819 763.798> 100 100<109.23 200.008 399.992 500.008 699.992 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -11435,7 +11487,7 @@ StartChar: pv_r.8
 Encoding: 323 -1 323
 Width: 0
 Flags: W
-HStem: 200 100<109.23 219.094 380.906 519.094 680.906 790.77>
+HStem: -100 21G<136.202 159.79 440.21 459.79 740.21 763.798> 200 100<109.23 219.094 380.906 519.094 680.906 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -11473,7 +11525,7 @@ EndChar
 StartChar: pu_a
 Encoding: 324 -1 324
 Width: 1000
-HStem: -100 100.006<109.23 191.275 708.725 790.77> 700 100<408.674 491.326>
+HStem: -100 21G<36.2026 863.797> 700 100<408.674 491.326>
 VStem: 0 100<9.23576 100.443> 800 100<9.23576 100.443>
 LayerCount: 2
 Fore
@@ -11521,7 +11573,7 @@ StartChar: pu_a.1
 Encoding: 325 -1 325
 Width: 1000
 Flags: W
-HStem: 0.00585938 21G<136.202 159.79 740.21 763.798>
+HStem: 0.00585938 21G<136.202 159.79 740.21 763.798> 680.006 20G<440.21 459.79>
 LayerCount: 2
 Fore
 SplineSet
@@ -11545,7 +11597,7 @@ EndChar
 StartChar: pu_a.2
 Encoding: 326 -1 326
 Width: 1000
-HStem: 0 21G<36.5446 61.0371 438.963 463.455>
+HStem: 0 21G<36.5446 61.0371 438.963 463.455> 680 20G<238.963 261.037>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11570,6 +11622,7 @@ EndChar
 StartChar: pu_a.3
 Encoding: 327 -1 327
 Width: 1000
+HStem: 300 21G<136.202 158.181 741.819 763.798> 780 20G<441.819 458.181>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11594,6 +11647,7 @@ EndChar
 StartChar: pu_a.4
 Encoding: 328 -1 328
 Width: 1000
+HStem: 300 21G<36.2021 59.79 440.21 463.798> 780 20G<240.21 259.79>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11643,6 +11697,7 @@ EndChar
 StartChar: pu_a.6
 Encoding: 330 -1 330
 Width: 1000
+HStem: 400 21G<136.202 156.899 743.101 763.798> 780 20G<443.101 456.899>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11668,7 +11723,7 @@ StartChar: pu_a.7
 Encoding: 331 -1 331
 Width: 0
 Flags: W
-HStem: -100 299.778
+HStem: -100 21G<136.202 155.118 744.882 763.798> 179.778 20G<445.115 454.884>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -11694,6 +11749,7 @@ StartChar: pu_a.8
 Encoding: 332 -1 332
 Width: 0
 Flags: W
+HStem: -100 21G<136.202 156.899 743.101 763.798> 280 20G<443.101 456.899>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -11774,7 +11830,7 @@ EndChar
 StartChar: pv_a.1
 Encoding: 334 -1 334
 Width: 1000
-HStem: 0 21G<136.605 161.703 438.297 461.703 738.297 763.397>
+HStem: 0 21G<136.605 161.703 438.297 461.703 738.297 763.397> 680 20G<288.297 311.703 588.297 611.703>
 VStem: 99.9001 98.6107<8.99665 65.8514> 701.489 98.6112<8.99571 65.8514>
 LayerCount: 2
 Fore
@@ -11807,7 +11863,7 @@ EndChar
 StartChar: pv_a.2
 Encoding: 335 -1 335
 Width: 1000
-HStem: 0 21G<36.5744 62.3901 237.61 262.39 437.61 463.429>
+HStem: 0 21G<36.5744 62.3901 237.61 262.39 437.61 463.429> 680 20G<137.61 162.39 337.61 362.39>
 VStem: -0.0468569 99.3652<8.94651 83.7334> 100.682 98.6367<616.267 691.29> 200.682 98.6367<8.71 83.7334> 300.682 98.6367<616.267 691.29> 400.682 99.3652<8.94875 83.7334>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -11841,6 +11897,7 @@ EndChar
 StartChar: pv_a.3
 Encoding: 336 -1 336
 Width: 1000
+HStem: 300 21G<136.488 160.714 439.286 460.714 739.286 763.51> 780 20G<289.286 310.714 589.286 610.714>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11874,6 +11931,7 @@ StartChar: pv_a.4
 Encoding: 337 -1 337
 Width: 1000
 Flags: W
+HStem: 300 21G<36.6048 61.7031 238.297 261.703 438.297 463.397> 780 20G<138.297 161.703 338.297 361.703>
 VStem: -0.0999287 98.6107<308.997 365.851> 401.489 98.6112<308.996 365.851>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -11940,6 +11998,7 @@ EndChar
 StartChar: pv_a.6
 Encoding: 339 -1 339
 Width: 1000
+HStem: 400 21G<136.202 159.79 440.21 459.79 740.21 763.798> 780 20G<290.21 309.79 590.21 609.79>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
 Fore
@@ -11973,7 +12032,7 @@ StartChar: pv_a.7
 Encoding: 340 -1 340
 Width: 0
 Flags: W
-HStem: -100 300
+HStem: -100 21G<136.202 158.181 441.819 458.181 741.819 763.798> 180 20G<291.819 308.181 591.819 608.181>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -12007,6 +12066,7 @@ StartChar: pv_a.8
 Encoding: 341 -1 341
 Width: 0
 Flags: W
+HStem: -100 21G<136.202 159.79 440.21 459.79 740.21 763.798> 280 20G<290.21 309.79 590.21 609.79>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
@@ -12712,7 +12772,7 @@ StartChar: lfu_a.1
 Encoding: 361 -1 361
 Width: 1000
 Flags: W
-HStem: 0 100<200 790.77>
+HStem: 0 100<200 790.77> 680 20G<136.202 163.798>
 VStem: 100 100<100 690.77>
 LayerCount: 2
 Fore
@@ -12734,7 +12794,7 @@ EndChar
 StartChar: lfu_a.2
 Encoding: 362 -1 362
 Width: 1000
-HStem: 0 100<100 490.77>
+HStem: 0 100<100 490.77> 680 20G<36.2021 63.7979>
 VStem: 0 100<100 690.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -12757,7 +12817,7 @@ EndChar
 StartChar: lfu_a.3
 Encoding: 363 -1 363
 Width: 1000
-HStem: 300 100<200 790.77>
+HStem: 300 100<200 790.77> 780 20G<136.202 163.798>
 VStem: 100 100<400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -12780,7 +12840,7 @@ EndChar
 StartChar: lfu_a.4
 Encoding: 364 -1 364
 Width: 1000
-HStem: 300 100<100 490.77>
+HStem: 300 100<100 490.77> 780 20G<36.2021 63.7979>
 VStem: 0 100<400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -12826,7 +12886,7 @@ EndChar
 StartChar: lfu_a.6
 Encoding: 366 -1 366
 Width: 1000
-HStem: 400 100<200 790.77>
+HStem: 400 100<200 790.77> 780 20G<136.202 163.798>
 VStem: 100 100<500 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -12850,22 +12910,22 @@ StartChar: lfu_a.7
 Encoding: 367 -1 367
 Width: 0
 Flags: W
-HStem: -100 300<109.23 190.77> -100 100<200 790.77>
+HStem: -100 100<200 790.77> 180 20G<136.202 163.798>
 VStem: 100 100<0 190.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-750 -100 m 2x60
+750 -100 m 2
  150 -100 l 2
  122.404296875 -100 100 -77.595703125 100 -50 c 2
  100 150 l 2
- 100 177.595703125 122.404296875 200 150 200 c 0xa0
+ 100 177.595703125 122.404296875 200 150 200 c 0
  177.595703125 200 200 177.595703125 200 150 c 2
  200 0 l 1
  750 0 l 2
  777.595703125 0 800 -22.404296875 800 -50 c 0
- 800 -77.595703125 777.595703125 -100 750 -100 c 2x60
+ 800 -77.595703125 777.595703125 -100 750 -100 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -12874,7 +12934,7 @@ StartChar: lfu_a.8
 Encoding: 368 -1 368
 Width: 0
 Flags: W
-HStem: -100 100<200 790.77>
+HStem: -100 100<200 790.77> 280 20G<136.202 163.798>
 VStem: 100 100<0 290.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -12950,7 +13010,7 @@ EndChar
 StartChar: lav_a.1
 Encoding: 370 -1 370
 Width: 1000
-HStem: 0 100<200 390.77 600 790.77>
+HStem: 0 100<200 390.77 600 790.77> 680 20G<136.202 163.798 536.202 563.798>
 VStem: 100 100<100 690.77> 500 100<100 690.77>
 LayerCount: 2
 Fore
@@ -12982,7 +13042,7 @@ EndChar
 StartChar: lav_a.2
 Encoding: 371 -1 371
 Width: 1000
-HStem: 0 100<100 190.77 400 490.77>
+HStem: 0 100<100 190.77 400 490.77> 680 20G<36.2021 63.7979 336.202 363.798>
 VStem: 0 100<100 690.77> 300 100<100 690.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -13015,7 +13075,7 @@ EndChar
 StartChar: lav_a.3
 Encoding: 372 -1 372
 Width: 1000
-HStem: 300 100<200 390.77 600 790.77>
+HStem: 300 100<200 390.77 600 790.77> 780 20G<136.202 163.798 536.202 563.798>
 VStem: 100 100<400 790.77> 500 100<400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -13048,7 +13108,7 @@ EndChar
 StartChar: lav_a.4
 Encoding: 373 -1 373
 Width: 1000
-HStem: 300 100<100 190.77 400 490.77>
+HStem: 300 100<100 190.77 400 490.77> 780 20G<36.2021 63.7979 336.202 363.798>
 VStem: 0 100<400 790.77> 300 100<400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -13081,7 +13141,7 @@ EndChar
 StartChar: lav_a.5
 Encoding: 374 -1 374
 Width: 1000
-HStem: 500 100<200 390.77 600 790.77>
+HStem: 500 100<200 390.77 600 790.77> 780 20G<136.202 163.798 536.202 563.798>
 VStem: 100 100<600 790.77> 500 100<600 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -13114,7 +13174,7 @@ EndChar
 StartChar: lav_a.6
 Encoding: 375 -1 375
 Width: 1000
-HStem: 400 100<200 390.77 600 790.77>
+HStem: 400 100<200 390.77 600 790.77> 780 20G<136.202 163.798 536.202 563.798>
 VStem: 100 100<500 790.77> 500 100<500 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 basechar 0
 LayerCount: 2
@@ -13148,7 +13208,7 @@ StartChar: lav_a.7
 Encoding: 376 -1 376
 Width: 0
 Flags: W
-HStem: -100 100<200 390.77 600 790.77>
+HStem: -100 100<200 390.77 600 790.77> 180 20G<136.202 163.798 536.202 563.798>
 VStem: 100 100<0 190.77> 500 100<0 190.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13182,7 +13242,7 @@ StartChar: lav_a.8
 Encoding: 377 -1 377
 Width: 0
 Flags: W
-HStem: -100 100<200 390.77 600 790.77>
+HStem: -100 100<200 390.77 600 790.77> 280 20G<136.202 163.798 536.202 563.798>
 VStem: 100 100<0 290.77> 500 100<0 290.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13215,7 +13275,7 @@ EndChar
 StartChar: o_c
 Encoding: 378 -1 378
 Width: 1000
-HStem: -100 900<9.23145 400 500 890.769>
+HStem: -100 21G<36.2026 863.797> 780 20G<36.2026 863.797>
 VStem: 0 900<-90.7685 300 400 790.769>
 LayerCount: 2
 Fore
@@ -13282,8 +13342,7 @@ EndChar
 StartChar: m_c
 Encoding: 381 -1 381
 Width: 1000
-HStem: -100 250<409.23 490.77> 250 200<409.23 490.77> 550 250<409.23 490.77>
-CounterMasks: 1 e0
+HStem: -100 21G<36.2026 863.797> 250 200<409.23 490.77> 550 250<409.23 490.77>
 LayerCount: 2
 Fore
 SplineSet
@@ -13401,7 +13460,7 @@ StartChar: c_f.a
 Encoding: 385 -1 385
 Width: 0
 Flags: W
-HStem: 300 100<700 890.77>
+HStem: -100 21G<636.202 663.798> 300 100<700 890.77> 780 20G<636.202 663.798>
 VStem: 600 100<-90.7701 300 400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13427,7 +13486,7 @@ StartChar: c_f.b
 Encoding: 386 -1 386
 Width: 0
 Flags: W
-HStem: 500 100<700 890.77>
+HStem: 300 21G<636.202 663.798> 500 100<700 890.77> 780 20G<636.202 663.798>
 VStem: 600 100<309.23 500 600 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13494,7 +13553,7 @@ StartChar: c_b.a
 Encoding: 388 -1 388
 Width: 0
 Flags: W
-HStem: 150 100<700 890.77> 450 100<700 890.77>
+HStem: -100 21G<636.202 663.798> 150 100<700 890.77> 450 100<700 890.77> 780 20G<636.202 663.798>
 VStem: 600 100<-90.7701 150 250 450 550 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13525,7 +13584,7 @@ StartChar: c_b.b
 Encoding: 389 -1 389
 Width: 0
 Flags: W
-HStem: 400 100<700 890.77> 600 100<700 890.77>
+HStem: 300 21G<636.202 663.798> 400 100<700 890.77> 600 100<700 890.77> 780 20G<636.202 663.798>
 VStem: 600 100<309.23 400 500 600 700 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13591,7 +13650,7 @@ StartChar: m_f.a
 Encoding: 391 -1 391
 Width: 0
 Flags: W
-HStem: 300 100<509.23 700>
+HStem: -100 21G<736.202 763.798> 300 100<509.23 700> 780 20G<736.202 763.798>
 VStem: 700 100<-90.7701 300 400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13618,7 +13677,7 @@ StartChar: m_f.b
 Encoding: 392 -1 392
 Width: 0
 Flags: W
-HStem: 500 100<509.23 700>
+HStem: 300 21G<736.202 763.798> 500 100<509.23 700> 780 20G<736.202 763.798>
 VStem: 700 100<309.23 500 600 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13686,7 +13745,7 @@ StartChar: m_b.a
 Encoding: 394 -1 394
 Width: 0
 Flags: W
-HStem: 150 100<509.23 700> 450 100<509.23 700>
+HStem: -100 21G<736.202 763.798> 150 100<509.23 700> 450 100<509.23 700> 780 20G<736.202 763.798>
 VStem: 700 100<-90.7701 150 250 450 550 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13718,7 +13777,7 @@ StartChar: m_b.b
 Encoding: 395 -1 395
 Width: 0
 Flags: W
-HStem: 400 100<509.23 700> 600 100<509.23 700>
+HStem: 300 21G<736.202 763.798> 400 100<509.23 700> 600 100<509.23 700> 780 20G<736.202 763.798>
 VStem: 700 100<309.23 400 500 600 700 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13749,7 +13808,7 @@ EndChar
 StartChar: av_p_o_c
 Encoding: 396 -1 396
 Width: 1000
-HStem: -100 900<9.23145 400 500 890.769>
+HStem: -100 21G<36.2026 863.797> 780 20G<36.2026 863.797>
 VStem: 0 900<-90.7685 300 400 790.769>
 LayerCount: 2
 Fore
@@ -13816,8 +13875,9 @@ EndChar
 StartChar: av_p_m_c
 Encoding: 399 -1 399
 Width: 1000
+HStem: -100 21G<36.2026 863.797> 780 20G<36.2026 863.797>
 VStem: 0 250<309.23 390.77> 350 200<309.23 390.77> 650 250<309.23 390.77>
-CounterMasks: 1 e0
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -13899,7 +13959,7 @@ EndChar
 StartChar: av_p_c_f
 Encoding: 402 -1 402
 Width: 1000
-HStem: -100 500<109.23 400 500 790.77> 500 300<109.23 790.77>
+HStem: -100 21G<36.2026 863.797> 500 300<109.23 790.77>
 VStem: 0 100<409.23 490.77> 800 100<409.23 490.77>
 LayerCount: 2
 Fore
@@ -13935,7 +13995,7 @@ StartChar: av_p_c_f.a
 Encoding: 403 -1 403
 Width: 0
 Flags: W
-HStem: 100 100<9.2299 400 500 890.77>
+HStem: -100 21G<436.202 463.798> 100 100<9.2299 400 500 890.77>
 VStem: 400 100<-90.7701 100>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13961,7 +14021,7 @@ StartChar: av_p_c_f.b
 Encoding: 404 -1 404
 Width: 0
 Flags: W
-HStem: 300 100<9.2299 400 500 890.77>
+HStem: 200 21G<436.202 463.798> 300 100<9.2299 400 500 890.77>
 VStem: 400 100<209.23 300>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -13987,15 +14047,15 @@ EndChar
 StartChar: av_p_c_b
 Encoding: 405 -1 405
 Width: 1000
-HStem: -100 500<109.23 250 350 550 650 790.77> 500 300<109.23 790.77>
+HStem: -100 21G<36.2026 863.797> 380 20G<350 550> 500 300<109.23 790.77>
 VStem: 0 250<209.23 400> 0 100<409.23 490.77> 350 200<209.23 400> 650 250<209.23 400> 800 100<409.23 490.77>
 LayerCount: 2
 Fore
 SplineSet
-800 450 m 0xca
+800 450 m 0xe5
  800 477.595703125 777.595703125 500 750 500 c 2
  150 500 l 2
- 122.404296875 500 100 477.595703125 100 450 c 0xda
+ 122.404296875 500 100 477.595703125 100 450 c 0xed
  100 422.404296875 122.404296875 400 150 400 c 2
  250 400 l 1
  250 250 l 2
@@ -14006,9 +14066,9 @@ SplineSet
  550 250 l 2
  550 222.404296875 572.404296875 200 600 200 c 0
  627.595703125 200 650 222.404296875 650 250 c 2
- 650 400 l 1xec
+ 650 400 l 1xf6
  750 400 l 2
- 777.595703125 400 800 422.404296875 800 450 c 0xca
+ 777.595703125 400 800 422.404296875 800 450 c 0xe5
 50 800 m 2
  850 800 l 2
  877.594726562 799.997070312 899.997070312 777.594726562 900 750 c 2
@@ -14028,7 +14088,7 @@ StartChar: av_p_c_b.a
 Encoding: 406 -1 406
 Width: 0
 Flags: W
-HStem: 100 100<9.2299 250 350 550 650 890.77>
+HStem: -100 21G<286.202 313.798 586.202 613.798> 100 100<9.2299 250 350 550 650 890.77>
 VStem: 250 100<-90.7701 100> 550 100<-90.7701 100>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14090,7 +14150,7 @@ EndChar
 StartChar: av_p_m_f
 Encoding: 408 -1 408
 Width: 1000
-HStem: -100 300<109.23 790.77> 300 500<109.23 400 500 790.77>
+HStem: -100 21G<36.2026 863.797> 300 500<109.23 400 500 790.77>
 VStem: 0 100<209.23 290.77> 800 100<209.23 290.77>
 LayerCount: 2
 Fore
@@ -14126,7 +14186,7 @@ StartChar: av_p_m_f.a
 Encoding: 409 -1 409
 Width: 0
 Flags: W
-HStem: 0 100<9.2299 400 500 890.77>
+HStem: 0 100<9.2299 400 500 890.77> 280 20G<436.202 463.798>
 VStem: 400 100<100 290.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14179,7 +14239,7 @@ EndChar
 StartChar: av_p_m_b
 Encoding: 411 -1 411
 Width: 1000
-HStem: -100 300<109.23 790.77> 300 500<109.23 250 350 550 650 790.77>
+HStem: -100 21G<36.2026 863.797> 300 500<109.23 250 350 550 650 790.77>
 VStem: 0 250<300 490.77> 0 100<209.23 290.77> 350 200<300 490.77> 650 250<300 490.77> 800 100<209.23 290.77>
 LayerCount: 2
 Fore
@@ -14220,7 +14280,7 @@ StartChar: av_p_m_b.a
 Encoding: 412 -1 412
 Width: 0
 Flags: W
-HStem: 0 100<9.2299 250 350 550 650 890.77>
+HStem: 0 100<9.2299 250 350 550 650 890.77> 280 20G<286.202 313.798 586.202 613.798>
 VStem: 250 100<100 290.77> 550 100<100 290.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14314,6 +14374,7 @@ StartChar: av_v_o_c.a
 Encoding: 415 -1 415
 Width: 0
 Flags: W
+HStem: -100 21G<736.202 763.798> 780 20G<736.202 763.798>
 VStem: 700 100<-90.7701 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14334,6 +14395,7 @@ StartChar: av_v_o_c.b
 Encoding: 416 -1 416
 Width: 0
 Flags: W
+HStem: 300 21G<736.202 763.798> 780 20G<736.202 763.798>
 VStem: 700 100<309.23 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14392,6 +14454,7 @@ StartChar: av_v_m_c.a
 Encoding: 418 -1 418
 Width: 0
 Flags: W
+HStem: -100 21G<636.202 663.798 836.202 863.798> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<-90.7701 790.77> 800 100<-90.7701 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14419,6 +14482,7 @@ StartChar: av_v_m_c.b
 Encoding: 419 -1 419
 Width: 0
 Flags: W
+HStem: 300 21G<636.202 663.798 836.202 863.798> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<309.23 790.77> 800 100<309.23 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14445,9 +14509,9 @@ EndChar
 StartChar: av_v_c_f
 Encoding: 420 -1 420
 Width: 1000
-HStem: -100 100<309.23 390.77 509.23 590.77> 700 100<309.23 390.77 509.23 590.77>
+HStem: -100 100<309.23 390.77 509.23 590.77> 280 20G<400 500> 400 21G<400 500> 700 100<309.23 390.77 509.23 590.77>
 VStem: 0 300<9.2299 690.77> 400 100<9.2299 300 400 690.77> 600 300<9.2299 690.77>
-CounterMasks: 1 38
+CounterMasks: 1 0e
 LayerCount: 2
 Fore
 SplineSet
@@ -14487,7 +14551,7 @@ StartChar: av_v_c_f.a
 Encoding: 421 -1 421
 Width: 0
 Flags: W
-HStem: 300 100<700 800>
+HStem: -100 21G<636.202 663.798 836.202 863.798> 300 100<700 800> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<-90.7701 300 400 790.77> 800 100<-90.7701 300 400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14518,7 +14582,7 @@ StartChar: av_v_c_f.b
 Encoding: 422 -1 422
 Width: 0
 Flags: W
-HStem: 500 100<700 800>
+HStem: 300 21G<636.202 663.798 836.202 863.798> 500 100<700 800> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<309.23 500 600 790.77> 800 100<309.23 500 600 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14595,7 +14659,7 @@ StartChar: av_v_c_b.a
 Encoding: 424 -1 424
 Width: 0
 Flags: W
-HStem: 150 100<700 800> 450 100<700 800>
+HStem: -100 21G<636.202 663.798 836.202 863.798> 150 100<700 800> 450 100<700 800> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<-90.7701 150 250 450 550 790.77> 800 100<-90.7701 150 250 450 550 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14631,7 +14695,7 @@ StartChar: av_v_c_b.b
 Encoding: 425 -1 425
 Width: 0
 Flags: W
-HStem: 400 100<700 800> 600 100<700 800>
+HStem: 300 21G<636.202 663.798 836.202 863.798> 400 100<700 800> 600 100<700 800> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<309.23 400 500 600 700 790.77> 800 100<309.23 400 500 600 700 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14709,7 +14773,7 @@ StartChar: av_v_m_f.a
 Encoding: 427 -1 427
 Width: 0
 Flags: W
-HStem: 300 100<509.23 600>
+HStem: -100 21G<636.202 663.798 836.202 863.798> 300 100<509.23 600> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<-90.7701 300 400 790.77> 800 100<-90.7701 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14743,7 +14807,7 @@ StartChar: av_v_m_f.b
 Encoding: 428 -1 428
 Width: 0
 Flags: W
-HStem: 500 100<509.23 600>
+HStem: 300 21G<636.202 663.798 836.202 863.798> 500 100<509.23 600> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<309.23 500 600 790.77> 800 100<309.23 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -14825,17 +14889,17 @@ StartChar: av_v_m_b.a
 Encoding: 430 -1 430
 Width: 0
 Flags: W
-HStem: 150 100<509.23 600> 450 100<509.23 600>
+HStem: -100 21G<636.202 663.798 836.202 863.798> 150 100<509.23 600> 450 100<509.23 600> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 500 200<159.23 240.77 459.23 540.77> 600 100<-90.7701 150 250 450 550 790.77> 800 100<-90.7701 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-550 250 m 2xe8
+550 250 m 2xfa
  600 250 l 1
- 600 450 l 1xd8
+ 600 450 l 1xf6
  550 450 l 2
- 522.404296875 450 500 472.404296875 500 500 c 0xe8
+ 522.404296875 450 500 472.404296875 500 500 c 0xfa
  500 527.595703125 522.404296875 550 550 550 c 2
  600 550 l 1
  600 750 l 2
@@ -14844,10 +14908,10 @@ SplineSet
  700 -50 l 2
  700 -77.595703125 677.595703125 -100 650 -100 c 0
  622.404296875 -100 600 -77.595703125 600 -50 c 2
- 600 150 l 1xd8
+ 600 150 l 1xf6
  550 150 l 2
  522.404296875 150 500 172.404296875 500 200 c 0
- 500 227.595703125 522.404296875 250 550 250 c 2xe8
+ 500 227.595703125 522.404296875 250 550 250 c 2xfa
 900 750 m 2
  900 -50 l 2
  900 -77.595703125 877.595703125 -100 850 -100 c 0
@@ -14864,17 +14928,17 @@ StartChar: av_v_m_b.b
 Encoding: 431 -1 431
 Width: 0
 Flags: W
-HStem: 400 100<509.23 600> 600 100<509.23 600>
+HStem: 300 21G<636.202 663.798 836.202 863.798> 400 100<509.23 600> 600 100<509.23 600> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 500 200<409.23 490.77 609.23 690.77> 600 100<309.23 400 500 600 700 790.77> 800 100<309.23 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-550 500 m 2xe8
+550 500 m 2xfa
  600 500 l 1
- 600 600 l 1xd8
+ 600 600 l 1xf6
  550 600 l 2
- 522.404296875 600 500 622.404296875 500 650 c 0xe8
+ 522.404296875 600 500 622.404296875 500 650 c 0xfa
  500 677.595703125 522.404296875 700 550 700 c 2
  600 700 l 1
  600 750 l 2
@@ -14883,10 +14947,10 @@ SplineSet
  700 350 l 2
  700 322.404296875 677.595703125 300 650 300 c 0
  622.404296875 300 600 322.404296875 600 350 c 2
- 600 400 l 1xd8
+ 600 400 l 1xf6
  550 400 l 2
  522.404296875 400 500 422.404296875 500 450 c 0
- 500 477.595703125 522.404296875 500 550 500 c 2xe8
+ 500 477.595703125 522.404296875 500 550 500 c 2xfa
 900 750 m 2
  900 350 l 2
  900 322.404296875 877.595703125 300 850 300 c 0
@@ -14902,7 +14966,7 @@ EndChar
 StartChar: vn
 Encoding: 432 -1 432
 Width: 1000
-HStem: -100 400<109.23 790.77> 400 400<109.23 790.77>
+HStem: -100 21G<36.2026 863.797> 400 400<109.23 790.77>
 VStem: 0 100<309.23 390.77> 800 100<309.23 390.77>
 LayerCount: 2
 Fore
@@ -14972,6 +15036,7 @@ EndChar
 StartChar: vb
 Encoding: 435 -1 435
 Width: 1000
+HStem: -100 21G<36.2026 863.797> 780 20G<36.2026 863.797>
 VStem: 0 100<309.23 390.77> 200 200<309.23 390.77> 500 200<309.23 390.77> 800 100<309.23 390.77>
 LayerCount: 2
 Fore
@@ -15662,17 +15727,17 @@ StartChar: av_v_m_b.b.e
 Encoding: 517 -1 501
 Width: 0
 Flags: W
-HStem: 400 100<430 600> 600 100<430 600>
+HStem: 300 21G<636.202 663.798 836.202 863.798> 400 100<430 600> 600 100<430 600> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 430 270<400 500 600 700> 600 100<309.23 400 500 600 700 790.77> 800 100<309.23 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-430 500 m 1xe8
+430 500 m 1xfa
  600 500 l 1
- 600 600 l 1xd8
+ 600 600 l 1xf6
  430 600 l 1
- 430 700 l 1xe8
+ 430 700 l 1xfa
  600 700 l 1
  600 750 l 2
  600 777.595703125 622.404296875 800 650 800 c 0
@@ -15680,9 +15745,9 @@ SplineSet
  700 350 l 2
  700 322.404296875 677.595703125 300 650 300 c 0
  622.404296875 300 600 322.404296875 600 350 c 2
- 600 400 l 1xd8
+ 600 400 l 1xf6
  430 400 l 1
- 430 500 l 1xe8
+ 430 500 l 1xfa
 900 750 m 2
  900 350 l 2
  900 322.404296875 877.595703125 300 850 300 c 0
@@ -15698,7 +15763,7 @@ StartChar: m_f.a.e
 Encoding: 504 -1 502
 Width: 0
 Flags: W
-HStem: 300 100<470 700>
+HStem: -100 21G<736.202 763.798> 300 100<470 700> 780 20G<736.202 763.798>
 VStem: 700 100<-90.7701 300 400 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -15723,7 +15788,7 @@ StartChar: m_f.b.e
 Encoding: 505 -1 503
 Width: 0
 Flags: W
-HStem: 500 100<470 700>
+HStem: 300 21G<736.202 763.798> 500 100<470 700> 780 20G<736.202 763.798>
 VStem: 700 100<309.23 500 600 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -15748,7 +15813,7 @@ StartChar: m_b.a.e
 Encoding: 506 -1 504
 Width: 0
 Flags: W
-HStem: 150 100<430 700> 450 100<430 700>
+HStem: -100 21G<736.202 763.798> 150 100<430 700> 450 100<430 700> 780 20G<736.202 763.798>
 VStem: 700 100<-90.7701 150 250 450 550 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -15777,7 +15842,7 @@ StartChar: m_b.b.e
 Encoding: 507 -1 505
 Width: 0
 Flags: W
-HStem: 400 100<440 700> 600 100<440 700>
+HStem: 300 21G<736.202 763.798> 400 100<440 700> 600 100<440 700> 780 20G<736.202 763.798>
 VStem: 700 100<309.23 400 500 600 700 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -15968,7 +16033,7 @@ StartChar: av_v_m_f.a.e
 Encoding: 514 -1 512
 Width: 0
 Flags: W
-HStem: 300 100<470 600>
+HStem: -100 21G<636.202 663.798 836.202 863.798> 300 100<470 600> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<-90.7701 300 400 790.77> 800 100<-90.7701 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -16000,7 +16065,7 @@ StartChar: av_v_m_f.b.e
 Encoding: 515 -1 513
 Width: 0
 Flags: W
-HStem: 500 100<470 600>
+HStem: 300 21G<636.202 663.798 836.202 863.798> 500 100<470 600> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 600 100<309.23 500 600 790.77> 800 100<309.23 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
@@ -16032,17 +16097,17 @@ StartChar: av_v_m_b.a.e
 Encoding: 516 -1 514
 Width: 0
 Flags: W
-HStem: 150 100<420 600> 450 100<420 600>
+HStem: -100 21G<636.202 663.798 836.202 863.798> 150 100<420 600> 450 100<420 600> 780 20G<636.202 663.798 836.202 863.798>
 VStem: 420 280<150 250 450 550> 600 100<-90.7701 150 250 450 550 790.77> 800 100<-90.7701 790.77>
 AnchorPoint: "MarkBaseSet" -50 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
-420 250 m 5xe8
+420 250 m 5xfa
  600 250 l 5
- 600 450 l 1xd8
+ 600 450 l 1xf6
  420 450 l 1
- 420 550 l 1xe8
+ 420 550 l 1xfa
  600 550 l 1
  600 750 l 2
  600 777.595703125 622.404296875 800 650 800 c 0
@@ -16050,9 +16115,9 @@ SplineSet
  700 -50 l 2
  700 -77.595703125 677.595703125 -100 650 -100 c 0
  622.404296875 -100 600 -77.595703125 600 -50 c 2
- 600 150 l 5xd8
+ 600 150 l 5xf6
  420 150 l 5
- 420 250 l 5xe8
+ 420 250 l 5xfa
 900 750 m 2
  900 -50 l 2
  900 -77.595703125 877.595703125 -100 850 -100 c 0
@@ -16067,7 +16132,7 @@ EndChar
 StartChar: uni3044
 Encoding: 522 12356 515
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Validated: 1
@@ -16076,7 +16141,7 @@ EndChar
 StartChar: uni3046
 Encoding: 523 12358 516
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Validated: 1
@@ -16085,7 +16150,7 @@ EndChar
 StartChar: uni304b
 Encoding: 524 12363 517
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Validated: 1
@@ -16094,7 +16159,7 @@ EndChar
 StartChar: uni3057
 Encoding: 525 12375 518
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Validated: 1
@@ -16103,7 +16168,7 @@ EndChar
 StartChar: uni306e
 Encoding: 526 12398 519
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Validated: 1
@@ -16112,12 +16177,1056 @@ EndChar
 StartChar: uni3093
 Encoding: 527 12435 520
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Validated: 1
 EndChar
 EndChars
+BitmapFont: 9 521 7 2 1
+BDFChar: 0 0 9 0 7 -1 7
+s+14Ms8W+Mrr<$!
+BDFChar: 1 1 9 1 6 0 6
+r"'DN&.na>
+BDFChar: 2 2 9 0 3 0 6
+n/rhr+<^.R
+BDFChar: 3 3 9 1 6 3 7
+r"'DNqu?]s
+BDFChar: 4 4 9 0 3 3 7
+n/rhrn,NFg
+BDFChar: 5 5 9 1 6 5 7
+r"/c+
+BDFChar: 6 6 9 1 6 4 7
+r"'G;
+BDFChar: 7 7 0 1 6 -1 1
+r"/c+
+BDFChar: 8 8 0 1 6 -1 2
+r"'G;
+BDFChar: 9 9 9 0 7 -1 7
+s+/qZgY:J6rr<$!
+BDFChar: 10 10 9 1 6 0 6
+r('@L84`XY
+BDFChar: 11 11 9 0 3 0 6
+n5)qX:f-W]
+BDFChar: 12 12 9 1 6 3 7
+r('@Lqu?]s
+BDFChar: 13 13 9 0 3 3 7
+n5)qXn,NFg
+BDFChar: 14 14 9 1 6 5 7
+r(-_c
+BDFChar: 15 15 9 1 6 4 7
+r('BV
+BDFChar: 16 16 0 1 6 -1 1
+r(-_c
+BDFChar: 17 17 0 1 6 -1 2
+r('BV
+BDFChar: 18 18 9 0 7 -1 7
+s0o>@gWe"1rr<$!
+BDFChar: 19 19 9 1 6 0 5
+R$^udA0_-T
+BDFChar: 20 20 9 0 3 0 5
+TWkY>:f%,l
+BDFChar: 21 168 9 1 6 4 7
+KS5$V
+BDFChar: 22 169 0 1 6 -1 1
+KS97'
+BDFChar: 23 170 0 1 6 -1 2
+KS5$V
+BDFChar: 24 171 9 0 7 -1 7
+s1Q+Z]tM+1rr<$!
+BDFChar: 25 172 9 1 6 0 5
+Pa%DsPl(L]
+BDFChar: 26 173 9 0 4 0 5
+W2QYnW;$>m
+BDFChar: 27 174 9 1 6 3 7
+KTq^cqu?]s
+BDFChar: 28 175 9 0 4 3 7
+TW"ffn,NFg
+BDFChar: 29 176 9 1 6 5 7
+Pa)(G
+BDFChar: 30 177 9 1 6 4 7
+KTq`!
+BDFChar: 31 178 0 1 6 -1 1
+Pa)(G
+BDFChar: 32 179 0 1 6 -1 2
+KTq`!
+BDFChar: 33 21 9 1 6 3 6
+R$_Dp
+BDFChar: 34 22 9 0 3 3 6
+TWiB3
+BDFChar: 35 23 9 1 6 5 7
+R!^.Z
+BDFChar: 36 24 9 1 6 4 6
+Qrml!
+BDFChar: 37 25 0 1 6 -1 1
+R!^.Z
+BDFChar: 38 26 0 1 6 -1 2
+J='jm
+BDFChar: 39 27 9 0 7 -1 7
+s6\(UgU"5qrr<$!
+BDFChar: 40 28 9 1 6 0 5
+,\1T@R#h:J
+BDFChar: 41 29 9 0 3 0 5
+:f),8Yb1sr
+BDFChar: 42 30 9 1 6 3 6
+,\1#E
+BDFChar: 43 31 9 0 3 3 6
+:iNY3
+BDFChar: 44 32 9 1 6 5 7
+ACuD4
+BDFChar: 45 33 9 1 6 4 6
+A9aIA
+BDFChar: 46 34 0 1 6 -1 1
+ACuD4
+BDFChar: 47 35 0 1 6 -1 2
+,\5Ph
+BDFChar: 48 36 9 0 7 -1 7
+s1Q,#g\9l^rr<$!
+BDFChar: 49 37 9 1 6 0 5
+KLA?Z0`1nN
+BDFChar: 50 38 9 0 3 0 5
+OH<:H@.4-r
+BDFChar: 51 39 9 1 6 3 7
+KS2lMqu?]s
+BDFChar: 52 40 9 0 3 3 7
+J<3T8n,NFg
+BDFChar: 53 41 9 1 6 4 6
+KLl"@
+BDFChar: 54 42 9 1 6 4 7
+KZn]=
+BDFChar: 55 43 0 1 6 -1 1
+KLl"@
+BDFChar: 56 44 0 1 6 -1 2
+KZn]=
+BDFChar: 57 45 9 0 7 -1 7
+s0\]"jjVt8rr<$!
+BDFChar: 58 46 9 1 6 0 5
+['[2b8GiGf
+BDFChar: 59 47 9 0 3 0 5
+Yd!V9;"+Gb
+BDFChar: 60 48 9 1 6 3 7
+KXA+"qu?]s
+BDFChar: 61 49 9 0 3 3 7
+TWmp)n,NFg
+BDFChar: 62 50 9 1 6 4 6
+K_50B
+BDFChar: 63 51 9 1 6 4 7
+KX?"%
+BDFChar: 64 52 0 1 6 -1 1
+KXCXW
+BDFChar: 65 53 0 1 6 -1 2
+KX?"%
+BDFChar: 66 54 9 0 7 -1 7
+s+.l<g\9morr<$!
+BDFChar: 67 55 9 1 6 0 6
+r.IU30JF%<
+BDFChar: 68 56 9 0 3 0 6
+n;pIC?sk)W
+BDFChar: 69 57 9 1 6 4 7
+r(KX8
+BDFChar: 70 58 9 0 3 4 7
+n;pIS
+BDFChar: 71 59 9 1 6 5 7
+r-/bQ
+BDFChar: 72 60 9 1 6 5 7
+r(&LA
+BDFChar: 73 61 0 1 6 -1 1
+r-/bQ
+BDFChar: 74 62 0 1 6 0 2
+r(&LA
+BDFChar: 75 63 9 0 7 -1 7
+s+.#CjjVu=rr<$!
+BDFChar: 76 64 9 1 6 0 6
+r3Wi<GXt@*
+BDFChar: 77 65 9 0 3 0 6
+n?DEOE)9@2
+BDFChar: 78 66 9 1 6 4 7
+r3U]>
+BDFChar: 79 67 9 0 3 4 7
+n?DCY
+BDFChar: 80 68 9 1 6 5 7
+r-V$8
+BDFChar: 81 69 9 1 6 4 7
+r3U-.
+BDFChar: 82 70 0 1 6 -1 1
+r-V$8
+BDFChar: 83 71 0 1 6 -1 2
+r3U-.
+BDFChar: 84 72 9 0 7 -1 7
+s1Q,#g\9morr<$!
+BDFChar: 85 73 9 1 6 0 5
+KLA?Z0G"3a
+BDFChar: 86 74 9 0 3 0 5
+OH<:H?m#FL
+BDFChar: 87 75 9 1 6 3 6
+KLfc1
+BDFChar: 88 76 9 0 3 3 6
+OAK=-
+BDFChar: 89 77 9 1 6 5 7
+KQn%.
+BDFChar: 90 78 9 1 6 4 6
+KLdcs
+BDFChar: 91 79 0 1 6 -1 1
+KQn%.
+BDFChar: 92 80 0 1 6 -1 2
+KZnZp
+BDFChar: 93 81 9 0 7 -1 7
+s0\]"jjVu=rr<$!
+BDFChar: 94 82 9 1 6 0 5
+['[2b84W^\
+BDFChar: 95 83 9 0 3 0 5
+Yd!V9:f%,l
+BDFChar: 96 84 9 1 6 3 6
+['Y'K
+BDFChar: 97 85 9 0 3 3 6
+YjcU.
+BDFChar: 98 86 9 1 6 5 7
+[!YCE
+BDFChar: 99 87 9 1 6 4 6
+['W@(
+BDFChar: 100 88 0 1 6 -1 1
+[!YCE
+BDFChar: 101 89 0 1 6 -1 2
+KX>tp
+BDFChar: 102 90 9 0 7 -1 7
+s+1.IrVc\Grr<$!
+BDFChar: 103 91 9 1 6 0 6
+qud-*"9eW&
+BDFChar: 104 92 9 0 4 0 6
+p]q-2#RL2*
+BDFChar: 105 93 9 1 6 3 7
+qud-*qu?]s
+BDFChar: 106 94 9 0 4 3 7
+p]q-2n,NFg
+BDFChar: 107 95 9 1 6 5 7
+qulot
+BDFChar: 108 96 9 1 6 4 7
+qud0#
+BDFChar: 109 97 0 1 6 -1 1
+qulot
+BDFChar: 110 98 0 1 6 -1 2
+qud0#
+BDFChar: 111 99 9 0 7 -1 7
+s,$.1mHs:trr<$!
+BDFChar: 112 100 9 1 6 0 6
+lm*i%,UD^V
+BDFChar: 113 101 9 0 4 0 6
+fLSP(84_A5
+BDFChar: 114 102 9 1 6 3 7
+lm*i%li7"c
+BDFChar: 115 103 9 0 4 3 7
+fLSP(ci=%G
+BDFChar: 116 104 9 1 6 5 7
+lm1ot
+BDFChar: 117 105 9 1 6 4 7
+lm*kC
+BDFChar: 118 106 0 1 6 -1 1
+lm1ot
+BDFChar: 119 107 0 1 6 -1 2
+lm*kC
+BDFChar: 120 108 9 0 7 -1 7
+s+,b"rVc]nrr<$!
+BDFChar: 121 109 9 1 6 0 6
+qud-*"9\i-
+BDFChar: 122 110 9 0 4 0 6
+p]q-2#RC\9
+BDFChar: 123 111 9 1 6 4 7
+qud-*
+BDFChar: 124 112 9 0 4 4 7
+p]q-2
+BDFChar: 125 113 9 1 6 5 7
+qud-&
+BDFChar: 126 114 9 1 6 4 7
+qud-*
+BDFChar: 127 115 0 1 6 -1 1
+qud-&
+BDFChar: 128 116 0 1 6 -1 2
+qud-*
+BDFChar: 129 117 9 0 7 -1 7
+s,$.1mHs<.rr<$!
+BDFChar: 130 118 9 1 6 0 6
+lm*i%,U=W8
+BDFChar: 131 119 9 0 4 0 6
+fLSP(84Z8O
+BDFChar: 132 120 9 1 6 4 7
+lm*i%
+BDFChar: 133 121 9 0 4 4 7
+fLSP(
+BDFChar: 134 122 9 1 6 5 7
+lm*hV
+BDFChar: 135 123 9 1 6 4 7
+lm*hZ
+BDFChar: 136 124 0 1 6 -1 1
+lm*hV
+BDFChar: 137 125 0 1 6 -1 2
+lm*i%
+BDFChar: 138 126 9 0 7 -1 7
+s22af]tKiOrr<$!
+BDFChar: 139 127 9 1 6 0 6
+Gg(hoKZnZ@
+BDFChar: 140 128 9 0 4 0 6
+@$$J+OH<iM
+BDFChar: 141 129 9 1 6 3 7
+G_Ca'GQ7^D
+BDFChar: 142 130 9 0 3 3 7
+E0-0CDu]k<
+BDFChar: 143 131 9 1 6 5 7
+I"Z_E
+BDFChar: 144 132 9 1 6 4 7
+G_C`p
+BDFChar: 145 133 0 1 6 -1 1
+I"_Ct
+BDFChar: 146 134 0 1 6 -1 2
+G_C`p
+BDFChar: 147 135 9 0 7 -1 7
+s3mgP]sX]crr<$!
+BDFChar: 148 136 9 1 6 0 6
+GdN^"PdGZ8
+BDFChar: 149 137 9 0 3 0 5
+n?B.$Y]'RB
+BDFChar: 150 138 9 1 6 3 7
+I'f-FGQ7^D
+BDFChar: 151 139 9 0 3 3 6
+n?B.d
+BDFChar: 152 140 9 1 6 5 7
+r07*Z
+BDFChar: 153 141 9 1 6 4 7
+r04R9
+BDFChar: 154 142 0 1 6 -1 1
+r07*Z
+BDFChar: 155 143 0 1 6 -1 2
+GdN_5
+BDFChar: 156 144 9 0 7 -1 7
+s6%;S^"L<drr<$!
+BDFChar: 157 145 9 1 6 0 5
+0M$l@GVB*t
+BDFChar: 158 146 9 0 3 0 5
+?r2rH?m#FL
+BDFChar: 159 147 9 1 6 3 6
+0[.`p
+BDFChar: 160 148 9 0 3 3 6
+@*m8.
+BDFChar: 161 149 9 1 6 5 7
+36X&V
+BDFChar: 162 150 9 1 6 4 6
+35g%A
+BDFChar: 163 151 0 1 6 -1 1
+36X&V
+BDFChar: 164 152 0 1 6 -1 2
+&8]QE
+BDFChar: 165 153 9 0 7 -1 7
+s4c#![AD@,rr<$!
+BDFChar: 166 154 9 1 6 0 5
+89D5GGXqf7
+BDFChar: 167 155 9 0 3 0 5
+;"1]nE)6N7
+BDFChar: 168 156 9 1 6 3 6
+8@5a;
+BDFChar: 169 157 9 0 3 3 6
+;"1].
+BDFChar: 170 158 9 1 6 5 7
+BXC;1
+BDFChar: 171 159 9 1 6 4 6
+BXE!a
+BDFChar: 172 160 0 1 6 -1 1
+BXC;1
+BDFChar: 173 161 0 1 6 -1 2
+8Gohc
+BDFChar: 174 162 9 0 7 -1 7
+s1Q+Z]tM+1rr<$!
+BDFChar: 175 163 9 1 6 0 5
+KS5#3K_tfM
+BDFChar: 176 164 9 0 4 0 5
+LkpkCM"grM
+BDFChar: 177 165 9 1 6 3 7
+KS5#3qu?]s
+BDFChar: 178 166 9 0 4 3 7
+J;B#;n,NFg
+BDFChar: 179 167 9 1 6 4 6
+KS97'
+BDFChar: 180 180 9 0 7 -1 7
+s+.ks]tM+mrr<$!
+BDFChar: 181 181 9 1 6 0 6
+r.K`VKS5!Y
+BDFChar: 182 182 9 0 4 0 6
+pkX`^Lkpie
+BDFChar: 183 183 9 1 6 4 7
+r.K`V
+BDFChar: 184 184 9 0 4 3 7
+pkX`^J,fQL
+BDFChar: 185 185 9 1 6 5 7
+r.K_'
+BDFChar: 186 186 9 1 6 4 7
+r.K`V
+BDFChar: 187 187 0 1 6 -1 1
+r.K_'
+BDFChar: 188 188 0 1 6 -1 2
+r.K`V
+BDFChar: 189 189 9 0 7 -1 7
+s+.ks]tM+mrr<$!
+BDFChar: 190 190 9 1 6 0 6
+r03G1Pa%C4
+BDFChar: 191 191 9 0 4 0 6
+po(-iW2QWp
+BDFChar: 192 192 9 1 6 4 7
+r03G1
+BDFChar: 193 193 9 0 4 3 7
+po(-iJ,fQL
+BDFChar: 194 194 9 1 6 5 7
+r02j7
+BDFChar: 195 195 9 1 6 4 7
+r03G!
+BDFChar: 196 196 0 1 6 -1 1
+r02j7
+BDFChar: 197 197 0 1 6 -1 2
+r03G!
+BDFChar: 198 198 9 0 7 -1 7
+s1R1IkMt=1rr<$!
+BDFChar: 199 199 9 1 6 0 5
+KLddN8;$sC
+BDFChar: 200 200 9 0 3 0 5
+OAK=m:lkYW
+BDFChar: 201 201 9 1 6 3 6
+`-=8c
+BDFChar: 202 202 9 0 3 3 6
+OC2IX
+BDFChar: 203 203 9 1 6 5 7
+bW*N@
+BDFChar: 204 204 9 1 6 4 7
+KQq`p
+BDFChar: 205 205 0 1 6 -1 1
+bV76@
+BDFChar: 206 206 0 1 6 -1 2
+KQq`p
+BDFChar: 207 208 9 1 6 0 5
+ZueiP[$1Oj
+BDFChar: 208 207 9 0 7 -1 7
+s0\]PgXE!qrr<$!
+BDFChar: 209 209 9 0 3 0 5
+YjbJ.n?;lm
+BDFChar: 210 210 9 1 6 3 6
+[!68k
+BDFChar: 211 211 9 0 3 3 6
+Y]+Qc
+BDFChar: 212 212 9 1 6 5 7
+[!7f8
+BDFChar: 213 213 9 1 6 4 6
+Zq.P(
+BDFChar: 214 214 0 1 6 -1 1
+[!7f8
+BDFChar: 215 215 0 1 6 -1 2
+K`$)%
+BDFChar: 216 216 9 0 7 -1 7
+s+.ks]tM+1rr<$!
+BDFChar: 217 217 9 1 6 0 6
+r.K`VKS97'
+BDFChar: 218 218 9 0 4 0 6
+pkX`^Lktg+
+BDFChar: 219 219 9 1 6 3 7
+r.K`Vqu?]s
+BDFChar: 220 220 9 0 4 3 7
+pkX`^n,NFg
+BDFChar: 221 221 9 1 6 5 7
+r.OtJ
+BDFChar: 222 222 9 1 6 4 7
+r.Kb$
+BDFChar: 223 223 0 1 6 -1 1
+r.OtJ
+BDFChar: 224 224 0 1 6 -1 2
+r.Kb$
+BDFChar: 225 225 9 0 7 -1 7
+s+.ks]tM+1rr<$!
+BDFChar: 226 226 9 1 6 0 6
+r03G1Pa)(G
+BDFChar: 227 227 9 0 4 0 6
+po(-iW2TIk
+BDFChar: 228 228 9 1 6 3 7
+r03G1qu?]s
+BDFChar: 229 229 9 0 4 3 7
+po(-in,NFg
+BDFChar: 230 230 9 1 6 5 7
+r07*Z
+BDFChar: 231 231 9 1 6 4 7
+r03HD
+BDFChar: 232 232 0 1 6 -1 1
+r07*Z
+BDFChar: 233 233 0 1 6 -1 2
+r03HD
+BDFChar: 234 234 9 0 7 -1 7
+s218<]tKiOrr<$!
+BDFChar: 235 235 9 1 6 0 5
+Ga+GWe9Crn
+BDFChar: 236 236 9 0 3 0 5
+E3QRNY[@G2
+BDFChar: 237 237 9 1 6 2 7
+Ga+GWP^!0.
+BDFChar: 238 238 9 0 3 3 6
+E3QQc
+BDFChar: 239 239 9 1 6 5 7
+I$AjU
+BDFChar: 240 240 9 1 6 4 7
+Ga+G;
+BDFChar: 241 241 0 1 6 -1 1
+I$FO/
+BDFChar: 242 242 0 1 6 -1 2
+Ga+G;
+BDFChar: 243 243 9 0 7 -1 7
+s6%;S^"L<drr<$!
+BDFChar: 244 244 9 1 6 0 5
+0NaRpGVB*t
+BDFChar: 245 245 9 0 3 0 5
+?uW?S?m#FL
+BDFChar: 246 246 9 1 6 3 6
+0\kG;
+BDFChar: 247 247 9 0 3 3 6
+@.<Yn
+BDFChar: 248 248 9 1 6 4 6
+GhatQ
+BDFChar: 249 249 9 1 6 5 7
+0\gmQ
+BDFChar: 250 250 0 1 6 -1 1
+0\gmQ
+BDFChar: 251 251 0 1 6 -1 1
+GhatQ
+BDFChar: 252 252 9 0 7 -1 7
+s8DQ8^X)NMrr<$!
+BDFChar: 253 253 9 1 6 0 5
+$o#J)(^'g=
+BDFChar: 254 254 9 0 3 0 5
+&0SbR+:nMQ
+BDFChar: 255 255 9 1 6 3 6
+$uk,E
+BDFChar: 256 256 9 0 3 3 6
+&7E:-
+BDFChar: 257 257 9 1 6 5 7
+*:O@:
+BDFChar: 258 258 9 1 6 4 6
+*8ipZ
+BDFChar: 259 259 0 1 6 -1 1
+*:O@:
+BDFChar: 260 260 0 1 6 -1 2
+"F0DE
+BDFChar: 261 261 9 0 7 -1 7
+s6\XS^Ur=hrr<$!
+BDFChar: 262 262 9 1 6 0 5
+6qE,i9I'T<
+BDFChar: 263 263 9 0 3 0 5
+:lpd#OAGoW
+BDFChar: 264 264 9 1 6 3 6
+AB9Qp
+BDFChar: 265 265 9 0 3 3 6
+:lpc8
+BDFChar: 266 266 9 1 6 5 7
+A;Far
+BDFChar: 267 267 9 1 6 4 6
+A;EnZ
+BDFChar: 268 268 0 1 6 -1 1
+A;Far
+BDFChar: 269 269 0 1 6 -1 2
+,g=>?
+BDFChar: 270 270 9 0 7 -1 7
+s1cnOrU\@-rr<$!
+BDFChar: 271 271 9 1 6 0 5
+^b?06@"84W
+BDFChar: 272 272 9 0 3 0 5
+^gI^-@"84W
+BDFChar: 273 273 9 1 6 3 6
+i#E`p
+BDFChar: 274 274 9 0 3 3 6
+^b@IX
+BDFChar: 275 275 9 1 6 5 7
+i&ndT
+BDFChar: 276 276 9 1 6 4 6
+i#M4d
+BDFChar: 277 277 0 1 6 -1 1
+i&ndT
+BDFChar: 278 278 0 1 6 -1 2
+J9X2l
+BDFChar: 279 279 9 0 7 -1 7
+s1=cVmG48Drr<$!
+BDFChar: 280 280 9 1 6 0 5
+Le'p%8;I6G
+BDFChar: 281 281 9 0 3 0 5
+OH<:8OH9GB
+BDFChar: 282 282 9 1 6 3 6
+LdXXe
+BDFChar: 283 283 9 0 3 3 6
+OAJc8
+BDFChar: 284 284 9 1 6 5 7
+Lh);A
+BDFChar: 285 285 9 1 6 4 6
+Lh+R,
+BDFChar: 286 286 0 1 6 -1 1
+Lh);A
+BDFChar: 287 287 0 1 6 -1 2
+J4rXm
+BDFChar: 288 288 9 0 7 -1 7
+s7b^NgY9Dmrr<$!
+BDFChar: 289 289 9 1 6 0 5
+0JH$gK_tfM
+BDFChar: 290 290 9 0 3 0 5
++CJSRORN5M
+BDFChar: 291 291 9 1 6 3 6
+0M"n8
+BDFChar: 292 292 9 0 3 3 7
++CJ$-n,NFg
+BDFChar: 293 293 9 1 6 4 6
+0R3Kq
+BDFChar: 294 294 9 1 6 4 6
+0M)*A
+BDFChar: 295 295 0 1 6 -1 0
+Gl.OA
+BDFChar: 296 296 0 1 6 -1 1
+0M)*A
+BDFChar: 297 297 9 0 7 -1 7
+s4c;Wje\f)rr<$!
+BDFChar: 298 298 9 1 6 0 5
+84\!4[/9n(
+BDFChar: 299 299 9 0 3 0 5
+:iLCCYj_Vm
+BDFChar: 300 300 9 1 6 3 7
+84\!4qu?]s
+BDFChar: 301 301 9 0 3 3 7
+5Z$sSn,NFg
+BDFChar: 302 302 9 1 6 4 6
+8GrAc
+BDFChar: 303 303 9 1 6 4 7
+88,C.
+BDFChar: 304 304 0 1 6 -1 1
+8::=8
+BDFChar: 305 305 0 1 6 -1 2
+88,C.
+BDFChar: 306 306 9 0 7 -1 7
+s+0A-gY9ETrr<$!
+BDFChar: 307 307 9 1 6 0 6
+r%Kfq8;)Wr
+BDFChar: 308 308 9 0 4 0 6
+n6fX#:lpJ5
+BDFChar: 309 309 9 1 6 4 7
+r%LZp
+BDFChar: 310 310 9 0 3 3 7
+n6f(SJ,fQL
+BDFChar: 311 311 9 1 6 5 7
+r()J@
+BDFChar: 312 312 9 1 6 4 7
+r-6G=
+BDFChar: 313 313 0 1 6 -1 1
+r()J@
+BDFChar: 314 314 0 1 6 -1 2
+r-6G=
+BDFChar: 315 315 9 0 7 -1 7
+s+/qRje\f]rr<$!
+BDFChar: 316 316 9 1 6 0 6
+r()(>['Z%t
+BDFChar: 317 317 9 0 4 0 6
+n5+)nn?Ahk
+BDFChar: 318 318 9 1 6 4 7
+r+NIE
+BDFChar: 319 319 9 0 3 3 7
+n8Rm$J,fQL
+BDFChar: 320 320 9 1 6 5 7
+r3V+W
+BDFChar: 321 321 9 1 6 4 7
+r-5T%
+BDFChar: 322 322 0 1 6 -1 1
+r3V+W
+BDFChar: 323 323 0 1 6 -1 2
+r-5T%
+BDFChar: 324 324 9 0 7 -1 7
+s7b^NgY9ETrr<$!
+BDFChar: 325 325 9 1 6 0 5
+0JH$gKS0=*
+BDFChar: 326 326 9 0 3 0 5
++CJSROH9GB
+BDFChar: 327 327 9 1 6 3 6
+0K;UV
+BDFChar: 328 328 9 0 3 3 6
++CJ$-
+BDFChar: 329 329 9 1 6 5 7
+0M$is
+BDFChar: 330 330 9 1 6 4 6
+0M$is
+BDFChar: 331 331 0 1 6 -1 1
+0M$is
+BDFChar: 332 332 0 1 6 -1 1
+0M$is
+BDFChar: 333 333 9 0 7 -1 7
+s4c;Wje\f]rr<$!
+BDFChar: 334 334 9 1 6 0 5
+84\!4[$1Oj
+BDFChar: 335 335 9 0 3 0 5
+:iLCCYcn*-
+BDFChar: 336 336 9 1 6 3 6
+89hMK
+BDFChar: 337 337 9 0 3 3 6
+:iPp.
+BDFChar: 338 338 9 1 6 5 7
+8@4$M
+BDFChar: 339 339 9 1 6 4 6
+89D3=
+BDFChar: 340 340 0 1 6 -1 1
+8@4$M
+BDFChar: 341 341 0 1 6 -1 2
+88,Ap
+BDFChar: 342 342 9 0 7 -1 7
+s+.r"^V@O7rr<$!
+BDFChar: 343 343 9 1 6 0 6
+r.'<JJ:ROt
+BDFChar: 344 344 9 0 3 0 6
+n:6%>J:R+h
+BDFChar: 345 345 9 1 6 3 7
+r.'<Jqu?]s
+BDFChar: 346 346 9 0 3 3 7
+n:6%>n,NFg
+BDFChar: 347 347 9 1 6 5 7
+r.+\F
+BDFChar: 348 348 9 1 6 4 7
+r.'=q
+BDFChar: 349 349 0 1 6 -1 1
+r.+\F
+BDFChar: 350 350 0 1 6 -1 2
+r.'=q
+BDFChar: 351 351 9 0 7 -1 7
+s,"M*^V@O?rr<$!
+BDFChar: 352 352 9 1 6 0 6
+r/d#%OHBA?
+BDFChar: 353 353 9 0 3 0 6
+d#a?NOH@fh
+BDFChar: 354 354 9 1 6 3 7
+r/d#%li7"c
+BDFChar: 355 355 9 0 3 3 7
+d#a?Nci=%G
+BDFChar: 356 356 9 1 6 5 7
+r/g7F
+BDFChar: 357 357 9 1 6 4 7
+r/d$,
+BDFChar: 358 358 0 1 6 -1 1
+r/ggV
+BDFChar: 359 359 0 1 6 -1 2
+m#[>,
+BDFChar: 360 360 9 0 7 -1 7
+s1c=`^V>>Nrr<$!
+BDFChar: 361 361 9 1 6 0 5
+J:N0#JG]BI
+BDFChar: 362 362 9 0 3 0 5
+J:N0#JFEO=
+BDFChar: 363 363 9 1 6 3 7
+J:N0#qu?]s
+BDFChar: 364 364 9 0 3 3 7
+J:N0#n,NFg
+BDFChar: 365 365 9 1 6 5 7
+J:ROt
+BDFChar: 366 366 9 1 6 4 7
+J:N1J
+BDFChar: 367 367 0 1 6 -1 1
+J:ROt
+BDFChar: 368 368 0 1 6 -1 2
+J:N1J
+BDFChar: 369 369 9 0 7 -1 7
+s1c=`^V@O?rr<$!
+BDFChar: 370 370 9 1 6 0 5
+OH>QcOSf(Y
+BDFChar: 371 371 9 0 3 0 5
+OH>QcOO*t-
+BDFChar: 372 372 9 1 6 3 7
+J<5kSli7"c
+BDFChar: 373 373 9 0 3 3 7
+J<5kSci=%G
+BDFChar: 374 374 9 1 6 4 6
+J<9*t
+BDFChar: 375 375 9 1 6 4 7
+J<5lj
+BDFChar: 376 376 0 1 6 -1 1
+J<9[/
+BDFChar: 377 377 0 1 6 -1 2
+J<5lj
+BDFChar: 378 378 9 0 7 0 7
+s8W-!s8W-!
+BDFChar: 379 379 0 6 6 3 3
+J,fQL
+BDFChar: 380 380 0 6 6 4 4
+J,fQL
+BDFChar: 381 381 9 0 7 -1 7
+s8W-!s8W-!rr<$!
+BDFChar: 382 382 0 6 6 2 4
+J,k*"
+BDFChar: 383 383 0 6 6 4 6
+J,k*"
+BDFChar: 384 384 9 0 7 -1 7
+s6oFFkO7m.rr<$!
+BDFChar: 385 385 0 5 7 0 6
+J:N1.J:N.M
+BDFChar: 386 386 0 5 7 2 6
+J:QR.J,fQL
+BDFChar: 387 387 9 0 7 -1 7
+s6oF>n)s0.rr<$!
+BDFChar: 388 388 0 5 7 0 6
+J:QR.i.-=X
+BDFChar: 389 389 0 5 7 3 7
+JDbt9J,fQL
+BDFChar: 390 390 9 0 7 -1 7
+s8W-!kPtS^rr<$!
+BDFChar: 391 391 0 5 6 0 7
+5X7S"^d(.M
+BDFChar: 392 392 0 5 6 2 6
+5X<+M5QCca
+BDFChar: 393 393 9 0 7 -1 7
+s8W,^s6'F^rr<$!
+BDFChar: 394 394 0 5 6 0 6
+5X<+M^d(-b
+BDFChar: 395 395 0 5 6 3 7
+5eoY#5QCca
+BDFChar: 396 396 9 0 7 0 7
+s8W-!s8W-!
+BDFChar: 397 397 0 4 4 0 0
+z
+BDFChar: 398 398 0 4 4 3 3
+z
+BDFChar: 399 399 9 0 7 -1 6
+s8W,Rs8W-!
+BDFChar: 400 400 0 2 5 0 0
+O8o7\
+BDFChar: 401 401 0 2 5 3 3
+O8o7\
+BDFChar: 402 402 9 0 7 -1 7
+s8W+Ms8W-!rr<$!
+BDFChar: 403 403 0 0 7 0 1
+rs/T)
+BDFChar: 404 404 0 0 7 3 3
+rr<$!
+BDFChar: 405 405 9 0 7 -1 7
+s8W+MgY;c.rr<$!
+BDFChar: 406 406 0 0 7 -1 1
+s!/ii
+BDFChar: 407 407 0 0 7 2 3
+s!.RE
+BDFChar: 408 408 9 0 7 -1 7
+s8W-!s+14Mrr<$!
+BDFChar: 409 409 0 0 7 0 1
+#lal)
+BDFChar: 410 410 0 0 7 3 3
+rr<$!
+BDFChar: 411 411 9 0 7 -1 7
+s8W,RgO]D)rr<$!
+BDFChar: 412 412 0 0 7 0 2
+,UEBi
+BDFChar: 413 413 0 0 7 3 3
+rr<$!
+BDFChar: 414 414 9 0 7 -1 7
+s8W-!s8W-!rr<$!
+BDFChar: 415 415 0 6 6 -1 6
+J:N0#J:N0#
+BDFChar: 416 416 0 6 6 3 6
+J:N0#
+BDFChar: 417 417 9 0 7 -1 7
+s6oFFn*f`6rr<$!
+BDFChar: 418 418 0 5 7 -1 6
+TV.sNTV.sN
+BDFChar: 419 419 0 5 7 3 6
+TV.sN
+BDFChar: 420 420 9 0 7 -1 7
+s6oFFkO7m.rr<$!
+BDFChar: 421 421 0 5 7 0 7
++J>C#i1Qa9
+BDFChar: 422 422 0 5 7 2 6
+TV159TE"rl
+BDFChar: 423 423 9 0 7 -1 7
+s6oF>n)s0.rr<$!
+BDFChar: 424 424 0 5 7 0 6
+TV159i1Q_C
+BDFChar: 425 425 0 5 7 3 7
+T\uL$TE"rl
+BDFChar: 426 426 9 0 7 -1 7
+s82]jbPV26rr<$!
+BDFChar: 427 427 0 5 7 0 7
++J>C#TV.sN
+BDFChar: 428 428 0 5 7 2 6
+TV.sNTE"rl
+BDFChar: 429 429 9 0 7 -1 7
+s82]:qoem6rr<$!
+BDFChar: 430 430 0 5 7 0 6
+TV.sNTV.qX
+BDFChar: 431 431 0 5 7 3 7
+TV.sNTE"rl
+BDFChar: 432 432 9 0 7 -1 7
+s8W-!JcGcMrr<$!
+BDFChar: 433 433 0 0 7 0 0
+rr<$!
+BDFChar: 434 434 0 0 7 3 3
+rr<$!
+BDFChar: 435 435 9 0 7 -1 6
+s8W,4s8W-!
+BDFChar: 436 436 9 0 0 0 0
+z
+BDFChar: 437 437 0 0 0 0 0
+z
+BDFChar: 438 438 0 0 0 0 0
+z
+BDFChar: 439 439 0 0 0 0 0
+z
+BDFChar: 440 440 0 0 0 0 0
+z
+BDFChar: 441 441 0 0 0 0 0
+z
+BDFChar: 442 442 0 0 0 0 0
+z
+BDFChar: 443 443 0 0 0 0 0
+z
+BDFChar: 444 444 0 0 0 0 0
+z
+BDFChar: 445 445 0 0 0 0 0
+z
+BDFChar: 446 446 0 0 0 0 0
+z
+BDFChar: 447 447 0 0 0 0 0
+z
+BDFChar: 448 448 0 0 0 0 0
+z
+BDFChar: 449 449 0 0 0 0 0
+z
+BDFChar: 450 450 0 0 0 0 0
+z
+BDFChar: 451 451 0 0 0 0 0
+z
+BDFChar: 452 452 0 0 0 0 0
+z
+BDFChar: 453 453 0 0 0 0 0
+z
+BDFChar: 454 454 0 0 0 0 0
+z
+BDFChar: 455 455 0 0 0 0 0
+z
+BDFChar: 456 456 0 0 0 0 0
+z
+BDFChar: 457 457 0 0 0 0 0
+z
+BDFChar: 458 458 0 0 0 0 0
+z
+BDFChar: 459 459 0 0 0 0 0
+z
+BDFChar: 460 460 0 0 0 0 0
+z
+BDFChar: 461 461 0 0 0 0 0
+z
+BDFChar: 462 462 0 0 0 0 0
+z
+BDFChar: 463 463 0 0 0 0 0
+z
+BDFChar: 464 464 0 0 0 0 0
+z
+BDFChar: 465 465 0 0 0 0 0
+z
+BDFChar: 466 466 0 0 0 0 0
+z
+BDFChar: 467 467 0 0 0 0 0
+z
+BDFChar: 468 468 0 0 0 0 0
+z
+BDFChar: 469 469 0 0 0 0 0
+z
+BDFChar: 470 470 0 0 0 0 0
+z
+BDFChar: 471 471 0 0 0 0 0
+z
+BDFChar: 472 472 0 0 0 0 0
+z
+BDFChar: 473 473 0 0 0 0 0
+z
+BDFChar: 474 474 0 0 0 0 0
+z
+BDFChar: 475 475 0 0 0 0 0
+z
+BDFChar: 476 476 0 0 0 0 0
+z
+BDFChar: 477 477 0 0 0 0 0
+z
+BDFChar: 478 478 0 0 0 0 0
+z
+BDFChar: 479 479 0 0 0 0 0
+z
+BDFChar: 480 480 0 0 0 0 0
+z
+BDFChar: 481 481 0 0 0 0 0
+z
+BDFChar: 482 482 0 0 0 0 0
+z
+BDFChar: 483 483 0 0 0 0 0
+z
+BDFChar: 484 484 0 0 0 0 0
+z
+BDFChar: 485 485 0 0 0 0 0
+z
+BDFChar: 486 486 0 0 0 0 0
+z
+BDFChar: 487 487 0 0 0 0 0
+z
+BDFChar: 488 488 0 0 0 0 0
+z
+BDFChar: 489 489 0 0 0 0 0
+z
+BDFChar: 490 490 0 0 0 0 0
+z
+BDFChar: 491 491 0 0 0 0 0
+z
+BDFChar: 492 492 0 0 0 0 0
+z
+BDFChar: 493 493 0 0 0 0 0
+z
+BDFChar: 494 494 0 0 0 0 0
+z
+BDFChar: 495 495 0 0 0 0 0
+z
+BDFChar: 496 496 0 0 0 0 0
+z
+BDFChar: 497 497 0 0 0 0 0
+z
+BDFChar: 498 498 0 0 0 0 0
+z
+BDFChar: 499 499 0 0 0 0 0
+z
+BDFChar: 500 500 0 0 0 0 0
+z
+BDFChar: 501 517 0 4 7 3 7
+:s`%c:]LIq
+BDFChar: 502 504 0 4 6 0 7
++<VdLi#j-b
+BDFChar: 503 505 0 4 6 2 6
++<]Sb+92BA
+BDFChar: 504 506 0 4 6 0 6
++<]Sbi#j-B
+BDFChar: 505 507 0 4 6 3 7
++Q+C#+92BA
+BDFChar: 506 508 0 0 7 2 3
+rs/T)
+BDFChar: 507 509 0 0 7 2 3
+s!.RE
+BDFChar: 508 510 0 0 7 0 2
+#RLG1
+BDFChar: 509 511 0 0 7 3 4
+#lal)
+BDFChar: 510 512 0 0 7 0 2
+,UEBi
+BDFChar: 511 513 0 0 7 3 4
+,l[iE
+BDFChar: 512 514 0 4 7 0 7
+&5Z2"cqmP8
+BDFChar: 513 515 0 4 7 2 6
+:f,M8:]LIq
+BDFChar: 514 516 0 4 7 0 6
+:f,M8cqmO=
+BDFChar: 515 522 9 0 0 0 0
+z
+BDFChar: 516 523 9 0 0 0 0
+z
+BDFChar: 517 524 9 0 0 0 0
+z
+BDFChar: 518 525 9 0 0 0 0
+z
+BDFChar: 519 526 9 0 0 0 0
+z
+BDFChar: 520 527 9 0 0 0 0
+z
+EndBitmapFont
 BitmapFont: 10 522 8 2 1
 BDFChar: 0 0 10 0 8 -1 7
 s+#WMpON!gpON!gpOIdEs*t(L
@@ -16138,29 +17247,29 @@ rXf&/
 BDFChar: 8 8 0 1 7 -1 2
 rX]Y?
 BDFChar: 9 9 10 0 8 -1 7
-s+#WMgOS%/gOS%/gOOg)s*t(L
+s+#WMh14=3h14=3h11$+s*t(L
 BDFChar: 10 10 10 1 7 0 6
-r^]RN84`^[
+r^9.B6q%"S
 BDFChar: 11 11 10 0 4 0 6
 peXd`:f-oe
 BDFChar: 12 12 10 1 7 3 7
-r^]RNrVuou
+r^9.BrVuou
 BDFChar: 13 13 10 0 4 3 7
 peXd`p](9o
 BDFChar: 14 14 10 1 7 5 7
-r^d"g
+r^?_c
 BDFChar: 15 15 10 1 7 4 7
-r^]TZ
+r^90R
 BDFChar: 16 16 0 1 7 -1 1
-r^d"g
+r^?_c
 BDFChar: 17 17 0 1 7 -1 2
-r^]TZ
+r^90R
 BDFChar: 18 18 10 0 8 -1 7
 s+%_3]7AF^eUZ2#mXX_Us*t(L
 BDFChar: 19 19 10 1 7 0 6
 Lko#0<$ELd
 BDFChar: 20 20 10 0 4 0 6
-OKbs.BP9p:
+OH?E>W(9GZ
 BDFChar: 21 168 10 1 7 4 7
 JqAUR
 BDFChar: 22 169 0 1 7 -1 1
@@ -16186,9 +17295,9 @@ P*5eE
 BDFChar: 32 179 0 1 7 -1 2
 P*2"-
 BDFChar: 33 21 10 1 7 3 7
-LtksQ+ohTC
+Lm1k:+ohTC
 BDFChar: 34 22 10 0 4 3 7
-OK`\;8,rVi
+OH?D38,rVi
 BDFChar: 35 23 10 1 7 5 7
 Lf>Pu
 BDFChar: 36 24 10 1 7 4 7
@@ -16202,11 +17311,11 @@ s+'NfmXWi<eUZ2#]7@MDs*t(L
 BDFChar: 40 28 10 1 7 0 6
 +sKuc</?>1
 BDFChar: 41 29 10 0 4 0 6
-88)[UYcs2h
+84]\XW0!)@
 BDFChar: 42 30 10 1 7 3 7
-,'Hr@L]@DT
+,#VC)L]@DT
 BDFChar: 43 31 10 0 4 3 7
-88)tHO8o7\
+84]\@O8o7\
 BDFChar: 44 32 10 1 7 5 7
 ,#j?u
 BDFChar: 45 33 10 1 7 4 7
@@ -16216,15 +17325,15 @@ BDFChar: 46 34 0 1 7 -1 1
 BDFChar: 47 35 0 1 7 -1 2
 ,#hNt
 BDFChar: 48 36 10 0 8 -1 7
-s+%h6S:KFGaai]-j+)Z1s*t(L
+s+%h6^4>$ih14gAl[XM9s*t(L
 BDFChar: 49 37 10 1 7 0 6
-K#U2p-oh2+
+Jq?BY-n,&p
 BDFChar: 50 38 10 0 4 0 6
-Lknl(:a#N5
+Lknl(+<^FZ
 BDFChar: 51 39 10 1 7 3 7
-JjaE'rVuou
+Jj_!urVuou
 BDFChar: 52 40 10 0 4 3 7
-LtGOCp](9o
+Lknl(p](9o
 BDFChar: 53 41 10 1 7 5 7
 Jo(Dd
 BDFChar: 54 42 10 1 7 4 7
@@ -16234,33 +17343,33 @@ Jo(Dd
 BDFChar: 56 44 0 1 7 -1 2
 Jj_$d
 BDFChar: 57 45 10 0 8 -1 7
-s+%P.[Xb0(aahK`aaenls*t(L
+s+%P.[Xbf:Uk$R;aaenls*t(L
 BDFChar: 58 46 10 1 7 0 6
-P*37iCi'(N
+P*2!:Ci'(N
 BDFChar: 59 47 10 0 4 0 6
-W2QZa:f-oe
+W2QYn:f-oe
 BDFChar: 60 48 10 1 7 3 7
-P*0WtrVuou
+P*37irVuou
 BDFChar: 61 49 10 0 4 3 7
-W2TJfp](9o
+W2QXkp](9o
 BDFChar: 62 50 10 1 7 5 7
 P&1*t
 BDFChar: 63 51 10 1 7 4 7
-P5]:s
+P.#3+
 BDFChar: 64 52 0 1 7 -1 1
 P&1*t
 BDFChar: 65 53 0 1 7 -1 2
-P5]:s
+P*0Y\
 BDFChar: 66 54 10 0 8 -1 7
-s+#WMS:KFGaai]-j+-lSs*t(L
+s+#WM^4>$ih14gAl[\_[s*t(L
 BDFChar: 67 55 10 1 7 0 6
-rl.?B-o_b<
+rdmO+-n#W,
 BDFChar: 68 56 10 0 4 0 6
-pkVaC:`pk\
+pkX`&:`pk\
 BDFChar: 69 57 10 1 7 3 7
-r^:QN&-)\1
+rdmNd&-)\1
 BDFChar: 70 58 10 0 4 3 7
-pt/D^+92BA
+pkVaC+92BA
 BDFChar: 71 59 10 1 7 5 7
 rbN,G
 BDFChar: 72 60 10 1 7 4 7
@@ -16270,33 +17379,33 @@ rbN,G
 BDFChar: 74 62 0 1 7 -1 2
 r^8.G
 BDFChar: 75 63 10 0 8 -1 7
-s+#WM[Xb3)aahK`aahQbs*t(L
+s+#WM[Xbf:Uk$R;aai,rs*t(L
 BDFChar: 76 64 10 1 7 0 6
-rfX^+Ci!nf
+rfWGQCi!nf
 BDFChar: 77 65 10 0 4 0 6
-po(.d:f'sg
+po(-i:f'sg
 BDFChar: 78 66 10 1 7 3 7
-rfV)6C]FG8
+rfX^+C]FG8
 BDFChar: 79 67 10 0 4 3 7
-po*sa:]LIq
+po(,f:]LIq
 BDFChar: 80 68 10 1 7 5 7
-rbQBN
+rfV't
 BDFChar: 81 69 10 1 7 4 7
-rr-_M
+rfX^+
 BDFChar: 82 70 0 1 7 -1 1
-ri/?d
+rfV't
 BDFChar: 83 71 0 1 7 -1 2
-rr-_M
+rfX^+
 BDFChar: 84 72 10 0 8 -1 7
-s+%h6S:KFGaai]-j+-lSs*t(L
+s+%h6^4>$ih14gAl[\_[s*t(L
 BDFChar: 85 73 10 1 7 0 6
-K#U2p-o_b<
+Jq?BY-n#W,
 BDFChar: 86 74 10 0 4 0 6
 Lkpj`:`pk\
 BDFChar: 87 75 10 1 7 3 7
-JjaE'&-)\1
+Jj`!T&-)\1
 BDFChar: 88 76 10 0 4 3 7
-LtGOC+92BA
+Lknl(+92BA
 BDFChar: 89 77 10 1 7 5 7
 Jnttu
 BDFChar: 90 78 10 1 7 4 7
@@ -16306,23 +17415,23 @@ Jnttu
 BDFChar: 92 80 0 1 7 -1 2
 Jj_!u
 BDFChar: 93 81 10 0 8 -1 7
-s+%P.[Xb3)aahK`aahQbs*t(L
+s+%P.[Xbf:Uk$R;aahK`s*t(L
 BDFChar: 94 82 10 1 7 0 6
-P*37iCi!nf
+P*2!:Ci!nf
 BDFChar: 95 83 10 0 4 0 6
-W2QZi:f'sg
+W2QYn:f'sg
 BDFChar: 96 84 10 1 7 3 7
-P*0WtC]FG8
+P*37iC]FG8
 BDFChar: 97 85 10 0 4 3 7
-W2TJf:]LIq
+W2QXk:]LIq
 BDFChar: 98 86 10 1 7 5 7
-P&+q7
+P.#0,
 BDFChar: 99 87 10 1 7 4 7
-P5]96
+P.#1C
 BDFChar: 100 88 0 1 7 -1 1
-P&+q7
+P.#0,
 BDFChar: 101 89 0 1 7 -1 2
-P5]96
+P.#1C
 BDFChar: 102 90 10 0 8 -1 7
 s+#WMrdauurdauurd]NLs*t(L
 BDFChar: 103 91 10 1 7 0 6
@@ -16400,9 +17509,9 @@ s+'-[h134i^4<qJh14O9s*t(L
 BDFChar: 139 127 10 1 7 0 6
 3(/@MJj_Qu
 BDFChar: 140 128 10 0 4 0 6
-E7fu&LtHYH
+E/9=+Lkp!M
 BDFChar: 141 129 10 1 7 3 7
-I)^cXHiO-H
+I"Hs%HiO-H
 BDFChar: 142 130 10 0 4 3 7
 E/9=+Du]k<
 BDFChar: 143 131 10 1 7 5 7
@@ -16424,11 +17533,11 @@ Cm'sEC]FG8
 BDFChar: 151 139 10 0 4 3 7
 :oL=k:]LIq
 BDFChar: 152 140 10 1 7 5 7
-r0%$Z
+Cm&T7
 BDFChar: 153 141 10 1 7 4 7
 Cm'rt
 BDFChar: 154 142 0 1 7 -1 1
-r0%$Z
+Cm&T7
 BDFChar: 155 143 0 1 7 -1 2
 Cm'rt
 BDFChar: 156 144 10 0 8 -1 7
@@ -16438,35 +17547,35 @@ BDFChar: 157 145 10 1 7 0 6
 BDFChar: 158 146 10 0 4 0 6
 +Abmj:f&87
 BDFChar: 159 147 10 1 7 3 7
-&8Zr7&-)\1
+&1GOH&-)\1
 BDFChar: 160 148 10 0 4 3 7
 +Adkj+92BA
 BDFChar: 161 149 10 1 7 5 7
 36!oX
 BDFChar: 162 150 10 1 7 4 7
-3:?2o
+36&rt
 BDFChar: 163 151 0 1 7 -1 1
 36!oX
 BDFChar: 164 152 0 1 7 -1 2
-3:?2o
+36&rt
 BDFChar: 165 153 10 0 8 -1 7
-s+&4Aaag1;[Xb0(aahK`s*t(L
+s+&4AaaggM[Xbf:aahK`s*t(L
 BDFChar: 166 154 10 1 7 0 6
-Ci'*6rbQBN
+Ci#8tP&+q7
 BDFChar: 167 155 10 0 4 0 6
 :f+*hW)-:j
 BDFChar: 168 156 10 1 7 3 7
 Ci#8NC]FG8
 BDFChar: 169 157 10 0 4 3 7
-;#%!a:]LIq
+:f+)e:]LIq
 BDFChar: 170 158 10 1 7 5 7
-Cm&T7
+.+TdH
 BDFChar: 171 159 10 1 7 4 7
-D#XEM
+.+Zrt
 BDFChar: 172 160 0 1 7 -1 1
-Cm&T7
+.+TdH
 BDFChar: 173 161 0 1 7 -1 2
-D#XEM
+.+Zrt
 BDFChar: 174 162 10 0 8 -1 7
 s+%h6^4<qJ^4<qJ^4:`as*t(L
 BDFChar: 175 163 10 1 7 0 6
@@ -16528,21 +17637,21 @@ Leo3jL]@DT
 BDFChar: 203 203 10 1 7 5 7
 `]1s<
 BDFChar: 204 204 10 1 7 4 7
-`dE0R
+`],rt
 BDFChar: 205 205 0 1 7 -1 1
 `]1s<
 BDFChar: 206 206 0 1 7 -1 2
-`dE0R
+`],rt
 BDFChar: 207 208 10 1 7 0 6
-P5]96D#TRt
+P*0WtCm'q]
 BDFChar: 208 207 10 0 8 -1 7
-s+%P.Uk$R;aahK`Uk#n(s*t(L
+s+%P.[XcJMaahK`[Xbf:s*t(L
 BDFChar: 209 209 10 0 4 0 6
 W2NNh:oL;m
 BDFChar: 210 210 10 1 7 3 7
 P&+rNOoPI^
 BDFChar: 211 211 10 0 4 3 7
-W;'3aVuQet
+W2NOkVuQet
 BDFChar: 212 212 10 1 7 5 7
 P&-9]
 BDFChar: 213 213 10 1 7 4 7
@@ -16592,9 +17701,9 @@ s+'-[eUY)Y[Xbf:eUZ\1s*t(L
 BDFChar: 235 235 10 1 7 0 6
 3)l'(P#OC@
 BDFChar: 236 236 10 0 4 0 6
-E;6B1W;(<3
+E2]_6W2OY8
 BDFChar: 237 237 10 1 7 3 7
-I+FJ3HiO-H
+I$0YUHiO-H
 BDFChar: 238 238 10 0 4 3 7
 E2]_6Du]k<
 BDFChar: 239 239 10 1 7 5 7
@@ -16612,35 +17721,35 @@ BDFChar: 244 244 10 1 7 0 6
 BDFChar: 245 245 10 0 4 0 6
 +E2:uE,Zp"
 BDFChar: 246 246 10 1 7 3 7
-&:BXg&-)\1
+&3/6#&-)\1
 BDFChar: 247 247 10 0 4 3 7
 +E48u+92BA
 BDFChar: 248 248 10 1 7 5 7
 37^%h
 BDFChar: 249 249 10 1 7 4 7
-3<&n:
+37cY?
 BDFChar: 250 250 0 1 7 -1 1
 37^%h
 BDFChar: 251 251 0 1 7 -1 2
-3<&n:
+37cY?
 BDFChar: 252 252 10 0 8 -1 7
-s+(#tnUSZ1T7Ft4nUUOfs*t(L
+s+(#to75/;^OXX\o76ahs*t(L
 BDFChar: 253 253 10 1 7 0 6
-"rqTtE#]&^
+"rL`u?l0(J
 BDFChar: 254 254 10 0 4 0 6
-#V]Y:?n_id
+(a)(o5TgmD
 BDFChar: 255 255 10 1 7 3 7
 "usCX"onW'
 BDFChar: 256 256 10 0 4 3 7
-(i[90(]XO9
+(gql%(]XO9
 BDFChar: 257 257 10 1 7 5 7
-*q13N
+*oJ(>
 BDFChar: 258 258 10 1 7 4 7
-%f#N'
+*oQN/
 BDFChar: 259 259 0 1 7 -1 1
-*q13N
+*oJ(>
 BDFChar: 260 260 0 1 7 -1 2
-%f#f/
+*oQN/
 BDFChar: 261 261 10 0 8 -1 7
 s+'Nfh14=3]7A^fh14pDs*t(L
 BDFChar: 262 262 10 1 7 0 6
@@ -16650,33 +17759,33 @@ BDFChar: 263 263 10 0 4 0 6
 BDFChar: 264 264 10 1 7 3 7
 ,".5T+ohTC
 BDFChar: 265 265 10 0 4 3 7
-8D'$V8,rVi
+84\h58,rVi
 BDFChar: 266 266 10 1 7 5 7
-B$=ie
+Ar(%!
 BDFChar: 267 267 10 1 7 4 7
-,0\7T
+Ar+ZC
 BDFChar: 268 268 0 1 7 -1 1
-B$=ie
+Ar(%!
 BDFChar: 269 269 0 1 7 -1 2
-,0\7T
+Ar+ZC
 BDFChar: 270 270 10 0 8 -1 7
-s+$_la+3]1r.+<fa+0e4s*t(L
+s+$_lkCEAYrdafpkCB1Ts*t(L
 BDFChar: 271 271 10 1 7 0 6
-^i17t*,r[n
+^b?/u$o#Hs
 BDFChar: 272 272 10 0 4 0 6
-J7(&:0OTD2
+^`X0o&0Sag
 BDFChar: 273 273 10 1 7 3 7
 ^c2NX^]4?7
 BDFChar: 274 274 10 0 4 3 7
-^i1-0^]4?7
+^b?$J^]4?7
 BDFChar: 275 275 10 1 7 5 7
-i#_@f
+n.+pf
 BDFChar: 276 276 10 1 7 4 7
-^cXg=
+n.$N/
 BDFChar: 277 277 0 1 7 -1 1
-i#_@f
+n.+pf
 BDFChar: 278 278 0 1 7 -1 2
-^cXg=
+n.$N/
 BDFChar: 279 279 10 0 8 -1 7
 s+%_3h14=3mXX,Dh13+fs*t(L
 BDFChar: 280 280 10 1 7 0 6
@@ -16686,25 +17795,25 @@ OH<"(8<Ao5
 BDFChar: 282 282 10 1 7 3 7
 LdWFTL]@DT
 BDFChar: 283 283 10 0 4 3 7
-OP!+VO8o7\
+OH<"pO8o7\
 BDFChar: 284 284 10 1 7 5 7
-b\#'!
+bTb72
 BDFChar: 285 285 10 1 7 4 7
-Lh:7T
+bT^ZC
 BDFChar: 286 286 0 1 7 -1 1
-b\#'!
+bTb72
 BDFChar: 287 287 0 1 7 -1 2
-Lh:7T
+bT^ZC
 BDFChar: 288 288 10 0 8 -1 7
-s+'ioj+-HGaai2tS:H-?s*t(L
+s+'iol[\;Oh14=3^4:`as*t(L
 BDFChar: 289 289 10 1 7 0 6
-&3)(S7)o3+
+&1Aqp7"YC<
 BDFChar: 290 290 10 0 4 0 6
 +<XKW:l+lH
 BDFChar: 291 291 10 1 7 3 7
-&1D?_rVuou
+&1BqurVuou
 BDFChar: 292 292 10 0 4 3 7
-+E100p](9o
++Abmjp](9o
 BDFChar: 293 293 10 1 7 5 7
 &8_=G
 BDFChar: 294 294 10 1 7 4 7
@@ -16714,33 +17823,33 @@ BDFChar: 295 295 0 1 7 -1 1
 BDFChar: 296 296 0 1 7 -1 2
 &1BsG
 BDFChar: 297 297 10 0 8 -1 7
-s+&jSaahK`aag4<[X`mYs*t(L
+s+&4AaahK`Uk#n([X`mYs*t(L
 BDFChar: 298 298 10 1 7 0 6
-88N*Yr0%$Z
+Ci!prP*5eE
 BDFChar: 299 299 10 0 4 0 6
-:f(!XW2TIk
+:f'ueW2TIk
 BDFChar: 300 300 10 1 7 3 7
-Ci!pNrVuou
+Ci$PCrVuou
 BDFChar: 301 301 10 0 4 3 7
-:f-Y[p](9o
+:f+*hp](9o
 BDFChar: 302 302 10 1 7 5 7
-Ci'(N
+Cm+bt
 BDFChar: 303 303 10 1 7 4 7
-Ci'+M
+CpoN+
 BDFChar: 304 304 0 1 7 -1 1
-Ci'(N
+Cm+bt
 BDFChar: 305 305 0 1 7 -1 2
-Ci'+M
+CpoN+
 BDFChar: 306 306 10 0 8 -1 7
-s+#WMj+-HGaai2tS:J>(s*t(L
+s+#WMl[\;Oh14=3^4<qJs*t(L
 BDFChar: 307 307 10 1 7 0 6
-r\u<B7)jfY
+r[90_7"U!j
 BDFChar: 308 308 10 0 4 0 6
-p`NC0:l'o-
+p`L\U:l'o-
 BDFChar: 309 309 10 1 7 3 7
-r[;SNJcGcN
+rX^JGJcGcN
 BDFChar: 310 310 10 0 4 3 7
-pi''^L]@DT
+peXeCL]@DT
 BDFChar: 311 311 10 1 7 5 7
 rbR/d
 BDFChar: 312 312 10 1 7 4 7
@@ -16750,33 +17859,33 @@ rbR/d
 BDFChar: 314 314 0 1 7 -1 2
 r[:0d
 BDFChar: 315 315 10 0 8 -1 7
-s+#WMaahK`aag4<[Xbf:s*t(L
+s+#WMaahK`Uk#n([Xbf:s*t(L
 BDFChar: 316 316 10 1 7 0 6
-rbQCer0!3C
+rbQDZP*1t.
 BDFChar: 317 317 10 0 4 0 6
-peXfVW2QWp
+peXecW2QWp
 BDFChar: 318 318 10 1 7 3 7
-rbQD6OoPI^
+rbT$+OoPI^
 BDFChar: 319 319 10 0 4 3 7
-pe^IYVuQet
+pe[ofVuQet
 BDFChar: 320 320 10 1 7 5 7
 rbR_t
 BDFChar: 321 321 10 1 7 4 7
-rbVRs
+rbT$+
 BDFChar: 322 322 0 1 7 -1 1
 rbR_t
 BDFChar: 323 323 0 1 7 -1 2
-rbVRs
+rbT$+
 BDFChar: 324 324 10 0 8 -1 7
-s+'ioj+-HGaai2tS:J>(s*t(L
+s+'iol[\;Oh14=3^4<qJs*t(L
 BDFChar: 325 325 10 1 7 0 6
-&3)(S7)jfY
+&1Aqp7"U!j
 BDFChar: 326 326 10 0 4 0 6
 +<XKW:l'o-
 BDFChar: 327 327 10 1 7 3 7
-&1D?_JcGcN
+&1Bq7JcGcN
 BDFChar: 328 328 10 0 4 3 7
-+E100L]@DT
++AbmjL]@DT
 BDFChar: 329 329 10 1 7 5 7
 &8Zpu
 BDFChar: 330 330 10 1 7 4 7
@@ -16786,23 +17895,23 @@ BDFChar: 331 331 0 1 7 -1 1
 BDFChar: 332 332 0 1 7 -1 2
 &1Bqu
 BDFChar: 333 333 10 0 8 -1 7
-s+&jSaahK`aag4<[Xbf:s*t(L
+s+&4AaahK`Uk#n([Xbf:s*t(L
 BDFChar: 334 334 10 1 7 0 6
-88N*Yr0!3C
+Ci!prP*1t.
 BDFChar: 335 335 10 0 4 0 6
-:f(!XW2QWp
+:f'ueW2QWp
 BDFChar: 336 336 10 1 7 3 7
-Ci!pNOoPI^
+Ci$PCOoPI^
 BDFChar: 337 337 10 0 4 3 7
-:f-Y[VuQet
+:f+*hVuQet
 BDFChar: 338 338 10 1 7 5 7
-Ci#77
+CpoK,
 BDFChar: 339 339 10 1 7 4 7
-Ci'*6
+Ci$PC
 BDFChar: 340 340 0 1 7 -1 1
-Ci#77
+CpoK,
 BDFChar: 341 341 0 1 7 -1 2
-Ci'*6
+Ci$PC
 BDFChar: 342 342 10 0 8 -1 7
 s+#WM^OX(L^OX(L^OUibs*t(L
 BDFChar: 343 343 10 1 7 0 6
@@ -16882,9 +17991,9 @@ J,fQL
 BDFChar: 380 380 0 7 7 5 5
 J,fQL
 BDFChar: 381 381 10 0 8 -1 7
-s+(-"s+'ios+(-"pON9os*t(L
-BDFChar: 382 382 0 7 7 1 4
-J,fS"
+s+(-"pON9os+(-"pON9os*t(L
+BDFChar: 382 382 0 7 7 1 5
+J,fQLJ,fQL
 BDFChar: 383 383 0 7 7 4 6
 J,k*"
 BDFChar: 384 384 10 0 8 -1 7
@@ -16895,8 +18004,8 @@ BDFChar: 386 386 0 6 8 3 7
 J:QR.J,fQL
 BDFChar: 387 387 10 0 8 -1 7
 s+'QgmssGKmssGKmsskWs*t(L
-BDFChar: 388 388 0 6 8 -1 6
-J:QR.JDbs.
+BDFChar: 388 388 0 6 8 -1 7
+J:QR.J:QR.J,fQL
 BDFChar: 389 389 0 6 8 3 7
 JDbt9J,fQL
 BDFChar: 390 390 10 0 8 -1 7
@@ -16907,8 +18016,8 @@ BDFChar: 392 392 0 5 7 3 7
 +<]Sb+92BA
 BDFChar: 393 393 10 0 8 -1 7
 s+'usqgd^Wqgd^WqgeQos*t(L
-BDFChar: 394 394 0 5 7 -1 6
-+<]Sb+Q+@b
+BDFChar: 394 394 0 5 7 -1 7
++<]Sb+<]Sb+92BA
 BDFChar: 395 395 0 5 7 3 7
 +Q+C#+92BA
 BDFChar: 396 396 10 0 8 -1 7
@@ -16918,11 +18027,11 @@ J,fQL
 BDFChar: 398 398 0 4 4 3 3
 J,fQL
 BDFChar: 399 399 10 0 8 -1 7
-s+(-"s+(-"gOT<Ss+(-"s*t(L
-BDFChar: 400 400 0 2 5 0 0
-O8o7\
-BDFChar: 401 401 0 2 5 3 3
-O8o7\
+s+(-"s+(-"h15NUs+(-"s*t(L
+BDFChar: 400 400 0 2 6 0 0
+L]@DT
+BDFChar: 401 401 0 2 6 3 3
+L]@DT
 BDFChar: 402 402 10 0 8 -1 7
 s+(-"s+#WMpON!gs+(-"s*t(L
 BDFChar: 403 403 0 0 8 -1 1
@@ -16930,11 +18039,11 @@ s*t@T#QOi)
 BDFChar: 404 404 0 0 8 2 3
 s*t@T
 BDFChar: 405 405 10 0 8 -1 7
-s+(-"s+#WMgOS%/s+(-"s*t(L
+s+(-"s+#WMl[\;Os+(-"s*t(L
 BDFChar: 406 406 0 0 8 -1 1
-s*u?p,QIfE
+s*u9n+ohTC
 BDFChar: 407 407 0 0 8 2 3
-s*u?p
+s*u9n
 BDFChar: 408 408 10 0 8 -1 7
 s+(-"s+'iopOIdEs+(-"s*t(L
 BDFChar: 409 409 0 0 8 0 2
@@ -16942,11 +18051,11 @@ BDFChar: 409 409 0 0 8 0 2
 BDFChar: 410 410 0 0 8 3 4
 #QXmT
 BDFChar: 411 411 10 0 8 -1 7
-s+(-"s+&jSgOOg)s+(-"s*t(L
+s+(-"s+'Ecl[XM9s+(-"s*t(L
 BDFChar: 412 412 0 0 8 0 2
-,QK(is*t(L
++oiees*t(L
 BDFChar: 413 413 0 0 8 3 4
-,QRjp
++oqXn
 BDFChar: 414 414 10 0 8 -1 7
 s+'iopON!gpON!gpON!gs*t(L
 BDFChar: 415 415 0 7 7 -1 7
@@ -16966,7 +18075,7 @@ TV.sNi1Qa9TE"rl
 BDFChar: 422 422 0 6 8 3 7
 TV159TE"rl
 BDFChar: 423 423 10 0 8 -1 7
-s+'Ecl[\#Gl[\#Gl[\;Os*t(L
+s+'Ecj+-HGl[\;Oj+-HGs*t(L
 BDFChar: 424 424 0 6 8 -1 6
 TV159T\uK9
 BDFChar: 425 425 0 6 8 3 7
@@ -17123,2119 +18232,31 @@ BDFChar: 500 500 0 0 0 0 0
 z
 BDFChar: 501 517 0 4 8 3 7
 .-N)C-ia5I
-BDFChar: 502 504 0 5 7 -1 7
-+<VdLi#j-b+92BA
-BDFChar: 503 505 0 5 7 3 7
-+<]Sb+92BA
+BDFChar: 502 504 0 4 7 -1 7
+&.fBan.6-B&-)\1
+BDFChar: 503 505 0 4 7 3 7
+&.n=B&-)\1
 BDFChar: 504 506 0 4 7 -1 7
 &.n=B&.n=B&-)\1
 BDFChar: 505 507 0 4 7 3 7
 &F^8#&-)\1
-BDFChar: 506 508 0 0 8 2 3
-s*t@T
-BDFChar: 507 509 0 0 8 2 3
-s*u?p
-BDFChar: 508 510 0 0 8 0 2
+BDFChar: 506 508 0 0 8 1 3
+s*t@T#QOi)
+BDFChar: 507 509 0 0 8 1 3
+s*u9n+ohTC
+BDFChar: 508 510 0 0 8 0 3
+#QP,1#QXmT
+BDFChar: 509 511 0 0 8 3 5
 #QP,1s*t(L
-BDFChar: 509 511 0 0 8 3 4
-#QXmT
 BDFChar: 510 512 0 0 8 0 3
-,QK(i,QRjp
-BDFChar: 511 513 0 0 8 3 4
-,QRjp
-BDFChar: 512 514 0 5 8 -1 7
-:f'tbcqmP8:]LIq
-BDFChar: 513 515 0 5 8 3 7
-:f,M8:]LIq
++oiee+oqXn
+BDFChar: 511 513 0 0 8 3 5
++oiees*t(L
+BDFChar: 512 514 0 4 8 -1 7
+-n$JlkU7i--ia5I
+BDFChar: 513 515 0 4 8 3 7
+-n+:--ia5I
 BDFChar: 514 516 0 4 8 -1 7
 -n+:--n+:--ia5I
-EndBitmapFont
-BitmapFont: 16 522 13 3 1
-BDFChar: 0 0 16 0 13 -2 12
-s8;op^]aT5r;?Kjr;?Kjr;?Kjr;=>5^]a]8s82is
-BDFChar: 1 1 16 2 12 0 10
-s5<pm$ig\9$ig\9$ig\9$ip=Cs53kW
-BDFChar: 2 2 16 0 7 0 10
-s8NoQ(`4),)#sU9
-BDFChar: 3 3 16 2 12 5 12
-s5<pm$ig\9$ig\9s1nZm
-BDFChar: 4 4 16 0 7 5 12
-s8NoQ(`<;Q
-BDFChar: 5 5 16 2 12 8 12
-s5<pm$ip=Cs53kW
-BDFChar: 6 6 16 2 12 6 12
-s5<pm$ig\9$ip=cs1eU7
-BDFChar: 7 7 0 2 12 -2 2
-s5<pm$ip=cs1eU7
-BDFChar: 8 8 0 2 12 -2 4
-s5<pm$ig\9$ip=cs1eU7
-BDFChar: 9 9 16 0 13 -2 12
-s8;op^]a8Ao=X\-o=X\-o=X\-o=VjA^]a]8s82is
-BDFChar: 10 10 16 2 12 0 10
-s5<pm0`Wp.0`Wp.0`Wp.0`_6hs53kW
-BDFChar: 11 11 16 0 7 0 10
-s8O>i,U=W\,ldlE
-BDFChar: 12 12 16 2 12 5 12
-s5<pm0`Wp.0`Wp.s1nZm
-BDFChar: 13 13 16 0 7 5 12
-s8O>i,UEEi
-BDFChar: 14 14 16 2 12 8 12
-s5<pm0`_6hs53kW
-BDFChar: 15 15 16 2 12 6 12
-s5<pm0`Wp.0`_73s1eU7
-BDFChar: 16 16 0 2 12 -2 2
-s5<pm0`_73s1eU7
-BDFChar: 17 17 0 2 12 -2 4
-s5<pm0`Wp.0`_73s1eU7
-BDFChar: 18 18 16 0 13 -2 12
-s8;oph`T4Ic91M7k+(MfoZZjLna-)4qrIeTs82is
-BDFChar: 19 19 16 2 12 0 10
-K)idh`rJV[AUnTI/AO6\3'\<g&7>J<
-BDFChar: 20 20 16 0 7 0 10
-bfn:+?@I2U1G^fe
-BDFChar: 21 168 16 2 12 6 12
-J7*n8J7*n8J7/E8s1eU7
-BDFChar: 22 169 0 2 12 -2 2
-J7*n8J7/E8s1eU7
-BDFChar: 23 170 0 2 12 -2 4
-J7*n8J7*n8J7/E8s1eU7
-BDFChar: 24 171 16 0 13 -2 12
-s8;opguR8OguR8OguR8OguR8OguQ6R^]a]8s82is
-BDFChar: 25 172 16 2 12 0 10
-N*qTPN*qTPN*qTPN*qTPN*u\Ds53kW
-BDFChar: 26 173 16 0 7 0 10
-gY:K;gY:K;g].9R
-BDFChar: 27 174 16 2 12 5 12
-N*qTPN*qTPN*qTPs5<q8
-BDFChar: 28 175 16 0 7 5 12
-gY:K;gY;c.
-BDFChar: 29 176 16 2 12 8 12
-KOBaHN*u\Ds53kW
-BDFChar: 30 177 16 2 12 6 12
-KOBaHN*qTPN*u\Ds1eU7
-BDFChar: 31 178 0 2 12 -2 2
-N*qTPN*u\Ds53kW
-BDFChar: 32 179 0 2 12 -2 4
-KOBaHN*qTPN*u\Ds1eU7
-BDFChar: 33 21 16 2 12 5 12
-JcN[g`rK\$Ck+L\3'\$_
-BDFChar: 34 22 16 0 7 5 12
-N6KLPIW@5#
-BDFChar: 35 23 16 2 12 8 12
-JcNgkD1FU]&7>J<
-BDFChar: 36 24 16 2 12 6 12
-JcNgka+/#W35@L]&-)\1
-BDFChar: 37 25 0 2 12 -2 2
-K)irBD88-h&7>J<
-BDFChar: 38 26 0 2 12 -2 4
-JcNgka+/#W35@L]&-)\1
-BDFChar: 39 27 16 0 13 -2 12
-s8;opqrI;6n]^[MjNQ\Tm[VQBc90uHh`Ur:s82is
-BDFChar: 40 28 16 2 12 0 10
-&7@J*3'\n-Cqsk;7=`F/`rL_lK)blO
-BDFChar: 41 29 16 0 7 0 10
-1G^h-H@B0obfn92
-BDFChar: 42 30 16 2 12 5 12
-&7@J*35B@GD1KZW`rL_l
-BDFChar: 43 31 16 0 7 5 12
-0f(V3ISS,2
-BDFChar: 44 32 16 2 12 8 12
-&7@KUD8=2BK)blO
-BDFChar: 45 33 16 2 12 6 12
-&7@J*4MYfaa+2&-JcGcN
-BDFChar: 46 34 0 2 12 -2 2
-&7@K5D1KY,JcGcN
-BDFChar: 47 35 0 2 12 -2 4
-&7@J*4MYfaa+2&-JcGcN
-BDFChar: 48 36 16 0 13 -2 12
-s8;ophrN,Mn''tMpRLifo/uhrpjBjc^]a]8s82is
-BDFChar: 49 37 16 2 12 0 10
-J7-/X^qa?.@=U'41B8<n*WZ5Us53kW
-BDFChar: 50 38 16 0 7 0 10
-_o"fQAgBK$)#sU9
-BDFChar: 51 39 16 2 12 5 12
-J7-1.@)-3$1B8Hrs1nZm
-BDFChar: 52 40 16 0 7 5 12
-_o$(u4?WZD
-BDFChar: 53 41 16 2 12 8 12
-J7.<nF+F;+s53kW
-BDFChar: 54 42 16 2 12 6 12
-J7-1N@DF[L*ru?!s1eU7
-BDFChar: 55 43 0 2 12 -2 2
-^gQ-:4+R@hs1eU7
-BDFChar: 56 44 0 2 12 -2 4
-J7-1N@DF[L*ru?!s1eU7
-BDFChar: 57 45 16 0 13 -2 12
-s8;opguR8Ob\YKskY157i>gkto,POS^]a]8s82is
-BDFChar: 58 46 16 2 12 0 10
-N*qTPbWsIh?GKa[H@U'e1P#M@s53kW
-BDFChar: 59 47 16 0 7 0 10
-gY:K;>(1pLB)hl2
-BDFChar: 60 48 16 2 12 5 12
-N*sk;c9P^OH@U'es1nZm
-BDFChar: 61 49 16 0 7 5 12
-gY:J/IX_=s
-BDFChar: 62 50 16 2 12 8 12
-KOE)5I_c!!s53kW
-BDFChar: 63 51 16 2 12 6 12
-KOE#3cG4bAF+F;Ks1eU7
-BDFChar: 64 52 0 2 12 -2 2
-N*srHHbf[>s1eU7
-BDFChar: 65 53 0 2 12 -2 4
-KOE#3cG4bAF+F;Ks1eU7
-BDFChar: 66 54 16 0 13 -2 12
-s8;op^]`!Mn''tMpRLifo/uhrpjE#;r;?Tms82is
-BDFChar: 67 55 16 2 12 0 10
-s5<q8^qa?n@=U(_1B8<n*WQTK$ig8-
-BDFChar: 68 56 16 0 7 0 10
-s8PDtAgBK$(`4(i
-BDFChar: 69 57 16 2 12 5 12
-s5<pm@)-3$1B8Hr%KHn;
-BDFChar: 70 58 16 0 7 5 12
-s8Q\C4?OGt
-BDFChar: 71 59 16 2 12 8 12
-s5<pmF+>;3$ig8-
-BDFChar: 72 60 16 2 12 7 12
-s5<pm@=U-6*WQTK
-BDFChar: 73 61 0 2 12 -2 2
-s5<pmF+>;3$ig8-
-BDFChar: 74 62 0 2 12 -1 4
-s5<pm@=U-6*WQTK
-BDFChar: 75 63 16 0 13 -2 12
-s8;op^]`HRb\YKskY157i>gkto,R@lo=Y,$s82is
-BDFChar: 76 64 16 2 12 0 10
-s5<q8bWsIh?GKa[H@U'e1Oq310`V1R
-BDFChar: 77 65 16 0 7 0 10
-s8Uj.>(1pLIV'i*
-BDFChar: 78 66 16 2 12 5 12
-s5<q8c9P^OH@U'e1Oq1[
-BDFChar: 79 67 16 0 7 5 12
-s8Ui"IXYlS
-BDFChar: 80 68 16 2 12 8 12
-s5<pmI_^#T+TMKB
-BDFChar: 81 69 16 2 12 7 12
-s5<q8hS=HQF+>uq
-BDFChar: 82 70 0 1 13 -2 2
-s7h0O71^l?&3p3q
-BDFChar: 83 71 0 2 12 -1 4
-s5<q8hS=HQF+>uq
-BDFChar: 84 72 16 0 13 -2 12
-s8;ophrN,Mn''tMpRLifo/uhrpjE#;r;?Tms82is
-BDFChar: 85 73 16 2 12 0 10
-J7-/X^qa?.@=U'41B8<n*WQTK$ig8-
-BDFChar: 86 74 16 0 7 0 10
-JUp-S66mg%(`4(i
-BDFChar: 87 75 16 2 12 5 12
-J7-0#@)-3$1B8?o%KHn;
-BDFChar: 88 76 16 0 7 5 12
-J\sfd,Wln\
-BDFChar: 89 77 16 2 12 8 12
-J7.<nF+>>4$ig8-
-BDFChar: 90 78 16 2 12 6 12
-J7-1N@DF[L*rlcN"98E%
-BDFChar: 91 79 0 2 12 -2 2
-J7.<NF+>;3$ig8-
-BDFChar: 92 80 0 2 12 -2 4
-J7-1N@DF[L*rlcN"98E%
-BDFChar: 93 81 16 0 13 -2 12
-s8;opguR8Ob\YKskY157i>gkto,R@lo=Y,$s82is
-BDFChar: 94 82 16 2 12 0 10
-N*qTPbWsIh?GKa[H@U'e1Oq310`V1R
-BDFChar: 95 83 16 0 7 0 10
-gY:K;>(1pLAnE:g
-BDFChar: 96 84 16 2 12 5 12
-KOBaHc9U7%HGFTP1Oq1[
-BDFChar: 97 85 16 0 7 5 12
-RG6J"IXYlS
-BDFChar: 98 86 16 2 12 8 12
-KOE)5I_^#T0`V1R
-BDFChar: 99 87 16 2 12 6 12
-KOE#3cG4bAF+>uq+TMKB
-BDFChar: 100 88 0 2 12 -2 2
-N*srHI_^#T+TMKB
-BDFChar: 101 89 0 2 12 -2 4
-KOE#3cG4bAF+>uq+TMKB
-BDFChar: 102 90 16 0 13 -2 12
-s8;op^]a\us5a4@s5a4@s5a4@s5^ru^]a]8s82is
-BDFChar: 103 91 16 2 12 0 10
-s5<q8!+5e7!+5e7!+5e7!+>ibs53kW
-BDFChar: 104 92 16 0 7 0 10
-s8N0'!s8W-"98B$
-BDFChar: 105 93 16 2 12 5 12
-s5<q8!+5e7!+5e7s5<q8
-BDFChar: 106 94 16 0 7 5 12
-s8N0'!sAT'
-BDFChar: 107 95 16 2 12 8 12
-s5<q8!+>ibs53kW
-BDFChar: 108 96 16 2 12 6 12
-s5<q8!+5e7!+>ibs1eU7
-BDFChar: 109 97 0 2 12 -2 2
-s5<q8!+>ibs1eU7
-BDFChar: 110 98 0 2 12 -2 4
-s5<q8!+5e7!+>ibs1eU7
-BDFChar: 111 99 16 0 13 -2 12
-s8;op_Z]ktqrIY8qrIY8qrIY8qrGWt_Z^#;s82is
-BDFChar: 112 100 16 2 12 0 10
-oAK5u&7?&W&7?&W&7?&W&7G+foABTK
-BDFChar: 113 101 16 0 7 0 10
-kN='7,9nEX,Nn4i
-BDFChar: 114 102 16 2 12 5 12
-oAK5u&7?&W&7?&WoAK5u
-BDFChar: 115 103 16 0 7 5 12
-kN='7,9uC7
-BDFChar: 116 104 16 2 12 8 12
-oAK5u&7G+foABTK
-BDFChar: 117 105 16 2 12 6 12
-oAK5u&7?&W&7G+fo=t>+
-BDFChar: 118 106 0 2 12 -2 2
-oAK5u&7G+fo=t>+
-BDFChar: 119 107 0 2 12 -2 4
-oAK5u&7?&W&7G+fo=t>+
-BDFChar: 120 108 16 0 13 -2 12
-s8;op^]a\us5a4@s5a4@s5a4@s5a4@s5a4Xs82is
-BDFChar: 121 109 16 2 12 0 10
-s5<q8!+5e7!+5e7!+5e7!+5e7!+5d,
-BDFChar: 122 110 16 0 7 0 10
-s8N0'!s8W-!s8W*
-BDFChar: 123 111 16 2 12 5 12
-s5<q8!+5e7!+5e7!+5e7
-BDFChar: 124 112 16 0 7 5 12
-s8N0'!s8W-
-BDFChar: 125 113 16 2 12 8 12
-s5<q8!+5e7!+5d,
-BDFChar: 126 114 16 2 12 7 12
-s5<q8!+5e7!+5e7
-BDFChar: 127 115 0 2 12 -2 2
-s5<q8!+5e7!+5d,
-BDFChar: 128 116 0 2 12 -1 4
-s5<q8!+5e7!+5e7
-BDFChar: 129 117 16 0 13 -2 12
-s8;op_Z]ktqrIY8qrIY8qrIY8qrIY8qrIeTs82is
-BDFChar: 130 118 16 2 12 0 10
-oAK5u&7?&W&7?&W&7?&W&7?&W&7>J<
-BDFChar: 131 119 16 0 7 0 10
-kN='7,9nEX,9nE5
-BDFChar: 132 120 16 2 12 5 12
-oAK5u&7?&W&7?&W&7?&W
-BDFChar: 133 121 16 0 7 5 12
-k91ul+X&!P
-BDFChar: 134 122 16 2 12 8 12
-oAK5u&7?&W&7>J<
-BDFChar: 135 123 16 2 12 7 12
-oAK5u&7?&W&7?&W
-BDFChar: 136 124 0 2 12 -2 2
-oAK5u&7?&W&7>J<
-BDFChar: 137 125 0 2 12 -1 4
-oAK5u&7?&W&7?&W
-BDFChar: 138 126 16 0 13 -2 12
-s8;opn3#m(cck;-hrN\UhrN,-kD\mMpjE,>s82is
-BDFChar: 139 127 16 2 12 0 10
-*rpe@@)0QCJ7*n8J7-/X@).8B*rl9@
-BDFChar: 140 128 16 0 7 0 10
-4FTc;_o'C06@M#s
-BDFChar: 141 129 16 2 12 5 12
-56-2K^qbJ.J7-1.J&"8K
-BDFChar: 142 130 16 0 7 5 12
-4@4UMJUp-M
-BDFChar: 143 131 16 2 12 8 12
-5Cc!aJ07*B5C`_6
-BDFChar: 144 132 16 2 12 6 12
-561`!^gM\#^qbH8%KHJ/
-BDFChar: 145 133 0 2 12 -2 2
-5Cc!aJ07*B5C`_6
-BDFChar: 146 134 0 2 12 -2 4
-561`!^gM\#^qbH8%KHJ/
-BDFChar: 147 135 16 0 13 -2 12
-s8;opi>fp4bj=-GguR8OguR8Ob\Z2GiuJ*ss82is
-BDFChar: 148 136 16 2 12 0 10
-F+AbUc9R=rN*qTPN*qTPc9QlpF+=5j
-BDFChar: 149 137 16 0 7 0 10
-IX^&+gY:K;gO=SO
-BDFChar: 150 138 16 2 12 5 12
-F+F;+b[?B;N*sk;s1i]+
-BDFChar: 151 139 16 0 7 5 12
-Aq&LhgY:J3
-BDFChar: 152 140 16 2 12 8 12
-Hbf[>N*u\DHb]U]
-BDFChar: 153 141 16 2 12 6 12
-H[u.3N*qTPb[CId0`V1R
-BDFChar: 154 142 0 2 12 -2 2
-Hbf[>N*u\$0n96(
-BDFChar: 155 143 0 2 12 -2 4
-H[u.3N*qTPb[CId0`V1R
-BDFChar: 156 144 16 0 13 -2 12
-s8;opr;?>;o/u3+ccj_ra3<S6nN?Sor;?Tms82is
-BDFChar: 157 145 16 2 12 0 10
-$ih=K1B:j6^qd`ni4s>_3rg<%$ig8-
-BDFChar: 158 146 16 0 7 0 10
-(d'om_o"fQ4;\n8
-BDFChar: 159 147 16 2 12 5 12
-"99JC1P"H"^u04J56)/n
-BDFChar: 160 148 16 0 7 5 12
-(d*91_e)"J
-BDFChar: 161 149 16 2 12 8 12
-$ikd-iS]4$%KHJ/
-BDFChar: 162 150 16 2 12 6 12
-$iiKlo>&0"F2/jt"98E%
-BDFChar: 163 151 0 2 12 -2 2
-%KM!oiS]39$ig8-
-BDFChar: 164 152 0 2 12 -2 4
-$iiKlo>&0"F2/jt"98E%
-BDFChar: 165 153 16 0 13 -2 12
-s8;opo:4h\iCq<dbj=-Gb\ZK:i>hG/o=Y,$s82is
-BDFChar: 166 154 16 2 12 0 10
-0`Z9FH[stgc9R=rc9P^OH[mo&0`V1R
-BDFChar: 167 155 16 0 7 0 10
-,^t2GgY:J3IV'i*
-BDFChar: 168 156 16 2 12 5 12
-+TQS6I_a7Eb[B;CF+>uq
-BDFChar: 169 157 16 0 7 5 12
-,^t3sgO=Ss
-BDFChar: 170 158 16 2 12 8 12
-+TR#-cJ\`<0n96(
-BDFChar: 171 159 16 2 12 6 12
-+TQS6hS@?CrkNT*+TMKB
-BDFChar: 172 160 0 2 12 -2 2
-0nB;>cJX2f+TMKB
-BDFChar: 173 161 0 2 12 -2 4
-+TQS6hS@?CrkNT*+TMKB
-BDFChar: 174 162 16 0 13 -2 12
-s8;ophrN\UhrN\UhrN\UhrN\UhrMQU^]a]8s82is
-BDFChar: 175 163 16 2 12 0 10
-J7*n8J7*n8J7*n8J7*n8J7/E8s53kW
-BDFChar: 176 164 16 0 7 0 10
-_o'C0_o'C0_uK`:
-BDFChar: 177 165 16 2 12 5 12
-J7*n8J7*n8J7*n8s5<q8
-BDFChar: 178 166 16 0 7 5 12
-_o'C0_o)NS
-BDFChar: 179 167 16 2 12 8 12
-J7*n8J7/E8s53kW
-BDFChar: 180 180 16 0 13 -2 12
-s8;op^]`QUhrN\UhrN\UhrN\UhrN\UhrOh8s82is
-BDFChar: 181 181 16 2 12 0 10
-s5<q8J7*n8J7*n8J7*n8J7*n8J7&?W
-BDFChar: 182 182 16 0 7 0 10
-s8U!S_o'C0_o'@l
-BDFChar: 183 183 16 2 12 5 12
-s5<q8J7*n8J7*n8J7*n8
-BDFChar: 184 184 16 0 7 5 12
-s8U!S_o'C0
-BDFChar: 185 185 16 2 12 8 12
-s5<q8J7*n8J7&?W
-BDFChar: 186 186 16 2 12 7 12
-s5<q8J7*n8J7*n8
-BDFChar: 187 187 0 2 12 -2 2
-s5<q8J7*n8J7&?W
-BDFChar: 188 188 0 2 12 -1 4
-s5<q8J7*n8J7*n8
-BDFChar: 189 189 16 0 13 -2 12
-s8;op^]`HRguR8OguR8OguR8OguR8OguSM5s82is
-BDFChar: 190 190 16 2 12 0 10
-s5<q8N*qTPN*qTPN*qTPN*qTPN*lVc
-BDFChar: 191 191 16 0 7 0 10
-s8Uj.gY:K;gY:H_
-BDFChar: 192 192 16 2 12 5 12
-s5<q8N*qTPN*qTPN*qTP
-BDFChar: 193 193 16 0 7 5 12
-s8Uj.gY:K;
-BDFChar: 194 194 16 2 12 8 12
-s5<q8N*qTPN*lVc
-BDFChar: 195 195 16 2 12 7 12
-s5<q8N*qTPN*qTP
-BDFChar: 196 196 0 2 12 -2 2
-s5<q8N*qTPKO=c[
-BDFChar: 197 197 0 2 12 -1 4
-s5<q8N*qTPN*qTP
-BDFChar: 198 198 16 0 13 -2 12
-s8;opcfE-jj.,X%pjE!epjDZqkFBlBhrOh8s82is
-BDFChar: 199 199 16 2 12 0 10
-J7-1.@=U-6*WQTK*WRtr@=Z//J7&?W
-BDFChar: 200 200 16 0 7 0 10
-JO2[K,T%dP6:-5'
-BDFChar: 201 201 16 2 12 5 12
-J7.<nF+>>4*WS9PiP<6:
-BDFChar: 202 202 16 0 7 5 12
-J\u(^(d)EJ
-BDFChar: 203 203 16 2 12 8 12
-^u57.*ru>V^u,1m
-BDFChar: 204 204 16 2 12 6 12
-^gQ]J56)`)H[t&4J,fQL
-BDFChar: 205 205 0 2 12 -2 2
-^u57.56163J,fQL
-BDFChar: 206 206 0 2 12 -2 4
-^gQ]J56)`)H[t&4J,fQL
-BDFChar: 207 208 16 2 12 0 10
-N*sprhS=JgF+>uqF+ASPhS@?CN*lVc
-BDFChar: 208 207 16 0 13 -2 12
-s8;opguQ[qkY0qTo,R@liuI#Oa@sh=guSM5s82is
-BDFChar: 209 209 16 0 7 0 10
-gY5n\IO'Ak>2.d3
-BDFChar: 210 210 16 2 12 5 12
-KOE)5I_^#T1OshfcG5BH
-BDFChar: 211 211 16 0 7 5 12
-RG31>Aq&Lh
-BDFChar: 212 212 16 2 12 8 12
-KOFf;F+F;+N*lVc
-BDFChar: 213 213 16 2 12 6 12
-KOE*`Hb_FfJ&'?;KE(uP
-BDFChar: 214 214 0 2 12 -2 2
-N*u\$F+F8JN*lVc
-BDFChar: 215 215 0 2 12 -2 4
-KOE*`Hb_FfJ&'?;KE(uP
-BDFChar: 216 216 16 0 13 -2 12
-s8;op^]`QUhrN\UhrN\UhrN\UhrMQU^]a]8s82is
-BDFChar: 217 217 16 2 12 0 10
-s5<q8J7*n8J7*n8J7*n8J7/E8s53kW
-BDFChar: 218 218 16 0 7 0 10
-s8U!S_o'C0_uK`:
-BDFChar: 219 219 16 2 12 5 12
-s5<q8J7*n8J7*n8s5<q8
-BDFChar: 220 220 16 0 7 5 12
-s8U!S_o)NS
-BDFChar: 221 221 16 2 12 8 12
-s5<q8J7/E8s53kW
-BDFChar: 222 222 16 2 12 6 12
-s5<q8J7*n8J7/E8s1eU7
-BDFChar: 223 223 0 2 12 -2 2
-s5<q8J7/E8s1eU7
-BDFChar: 224 224 0 2 12 -2 4
-s5<q8J7*n8J7/E8s1eU7
-BDFChar: 225 225 16 0 13 -2 12
-s8;op^]`HRguR8OguR8OguR8OguQ6R^]a]8s82is
-BDFChar: 226 226 16 2 12 0 10
-s5<q8N*qTPN*qTPN*qTPN*u\Ds53kW
-BDFChar: 227 227 16 0 7 0 10
-s8Uj.gY:K;g].9R
-BDFChar: 228 228 16 2 12 5 12
-s5<q8N*qTPN*qTPs5<q8
-BDFChar: 229 229 16 0 7 5 12
-s8Uj.gY;c.
-BDFChar: 230 230 16 2 12 8 12
-s58PQKHPpjs53kW
-BDFChar: 231 231 16 2 12 6 12
-s5<q8N*qTPN*u\Ds1eU7
-BDFChar: 232 232 0 2 12 -2 2
-s5<q8N*u\Ds1eU7
-BDFChar: 233 233 0 2 12 -2 4
-s5<q8N*qTPN*u\Ds1eU7
-BDFChar: 234 234 16 0 13 -2 12
-s8;opn3#X!bfn;lguR8OguQ]GjNQO%pjE,>s82is
-BDFChar: 235 235 16 2 12 0 10
-56-1`beVFfN*qTPN*sjpCqtON*rl9@
-BDFChar: 236 236 16 0 7 0 10
-4FUJggY:K;>(/R6
-BDFChar: 237 237 16 2 12 5 12
-%KM!/m(eQfN*slFJ&"8K
-BDFChar: 238 238 16 0 7 5 12
-4FZ&>gY70>
-BDFChar: 239 239 16 2 12 8 12
-*WZ5Ub[CId5C`_6
-BDFChar: 240 240 16 2 12 6 12
-%KM!obi"Ffbi!ud*WQ0?
-BDFChar: 241 241 0 2 12 -2 2
-5CidLb[CId*WQ0?
-BDFChar: 242 242 0 2 12 -2 4
-%KM!obi"Ffbi!ud*WQ0?
-BDFChar: 243 243 16 0 13 -2 12
-s8;opr;?>;n3#d%bfn;l`6@;4n3$Jnr;?Tms82is
-BDFChar: 244 244 16 2 12 0 10
-$ih=K56,PNbeVG1m(e%"56)`)$ig8-
-BDFChar: 245 245 16 0 7 0 10
-(d'p0gY5n\4;\n8
-BDFChar: 246 246 16 2 12 5 12
-"99JC5Ci.:bi!o"56))l
-BDFChar: 247 247 16 0 7 5 12
-(d*9IgO;7%
-BDFChar: 248 248 16 2 12 8 12
-$ikd-mGNK0%KHJ/
-BDFChar: 249 249 16 2 12 7 12
-$iiKlrP7dXIt/R?
-BDFChar: 250 250 0 2 12 -2 2
-*WZ5UmGNJE$ig8-
-BDFChar: 251 251 0 2 12 -1 4
-$iiKlrP7dXIt/R?
-BDFChar: 252 252 16 0 13 -2 12
-s8;ops2=pGr&jKH_u.RQiV`KKr]L4>s5a4Xs82is
-BDFChar: 253 253 16 2 12 0 10
-!8msp%fe]ln,U6(Du^jX#64e?!+5d,
-BDFChar: 254 254 16 0 7 0 10
-!sT`)@)-_@$jQk7
-BDFChar: 255 255 16 2 12 5 12
-!+5oe*ru'9n,PWP#J^>t
-BDFChar: 256 256 16 0 7 5 12
-!tRN`i&D2K
-BDFChar: 257 257 16 2 12 8 12
-!8p*"quD5^!T3qX
-BDFChar: 258 258 16 2 12 6 12
-!+6&iIK8j;IfK`3!'gMa
-BDFChar: 259 259 0 2 12 -2 2
-!T8ICquAt>!8mhW
-BDFChar: 260 260 0 2 12 -2 4
-!+6&iIK8j;IfK`3!'gMa
-BDFChar: 261 261 16 0 13 -2 12
-s8;opqrI@mkKN+ZcTL)Ic^a0gpWW6qqrIeTs82is
-BDFChar: 262 262 16 2 12 0 10
-&7@3-@)-3$_Z5;h_#Rno@)+H]&7>J<
-BDFChar: 263 263 16 0 7 0 10
-,@b1P`l,kd@UgV_
-BDFChar: 264 264 16 2 12 5 12
-&7@3M@DKd2_Z4+q0Ye6-
-BDFChar: 265 265 16 0 7 5 12
-+_,!$`^XG_
-BDFChar: 266 266 16 2 12 8 12
-0OXFd_gq9m0OOk\
-BDFChar: 267 267 16 2 12 6 12
-&7@3MiIJfG@DFST&-)\1
-BDFChar: 268 268 0 2 12 -2 2
-0OXFdj+)+,&-)\1
-BDFChar: 269 269 0 2 12 -2 4
-&7@3MiIJfG@DFST&-)\1
-BDFChar: 270 270 16 0 13 -2 12
-s8;opchui$q#(+Rs,?urruCranGL3%ci!h@s82is
-BDFChar: 271 271 16 2 12 0 10
-^]<j(49,ll"2Fop"2GEI494jN^]4?7
-BDFChar: 272 272 16 0 7 0 10
-^gK,A"p5>T0]9_H
-BDFChar: 273 273 16 2 12 5 12
-J,o'=4obi'!T4K=HiW()
-BDFChar: 274 274 16 0 7 5 12
-_!jGs#97]u
-BDFChar: 275 275 16 2 12 8 12
-^]=B7&)dJ<n,NFg
-BDFChar: 276 276 16 2 12 6 12
-^]=94+2A!:5CiM/J,fQL
-BDFChar: 277 277 0 2 12 -2 2
-huNe-#N5U^^]4?7
-BDFChar: 278 278 0 2 12 -2 4
-^]=94+2A!:5CiM/J,fQL
-BDFChar: 279 279 16 0 13 -2 12
-s8;oph`T5tkFC_Zo?@*mo??CAn!q]dh`Ur:s82is
-BDFChar: 280 280 16 2 12 0 10
-K)idh@=Vb$0Ye6-0Yh)36%HiQK)blO
-BDFChar: 281 281 16 0 7 0 10
-`5Y8U@j>Jm7`N@H
-BDFChar: 282 282 16 2 12 5 12
-JcN[g@=U&I0OS;(_17.<
-BDFChar: 283 283 16 0 7 5 12
-KZ6Jk@q*Hr
-BDFChar: 284 284 16 2 12 8 12
-_Z9;D0];Q<_Z0Z:
-BDFChar: 285 285 16 2 12 6 12
-JcN]=EPO89@DKd2JcGcN
-BDFChar: 286 286 0 2 12 -2 2
-_Z9;DE8]c,J,fQL
-BDFChar: 287 287 0 2 12 -2 4
-JcN]=EPO89@DKd2JcGcN
-BDFChar: 288 288 16 0 13 -2 12
-s8;opr;?J?pjDm"o/uW7kFC_Zccj0-^]a]8s82is
-BDFChar: 289 289 16 2 12 0 10
-$igb;*WR,Z1B9.[@=Vb$^qg!.s53kW
-BDFChar: 290 290 16 0 7 0 10
-(`4)P4="NN6N@&c
-BDFChar: 291 291 16 2 12 5 12
-$igb;*WRtr@=Vb$s1nZm
-BDFChar: 292 292 16 0 7 5 12
-(`5@tAnM)C
-BDFChar: 293 293 16 2 12 8 12
-"99JC1P#M@s53kW
-BDFChar: 294 294 16 2 12 6 12
-"98o3)ZVUC@)2g#s1eU7
-BDFChar: 295 295 0 2 12 -2 2
-$iiKlEIe)Is1eU7
-BDFChar: 296 296 0 2 12 -2 4
-"98o3)ZVUC@)2g#s1eU7
-BDFChar: 297 297 16 0 13 -2 12
-s8;opo=X[biuI)!iEYV@a@sfobj<+J^]a]8s82is
-BDFChar: 298 298 16 2 12 0 10
-0`WqYF+A=^H@T27hS@FPbWu3ds53kW
-BDFChar: 299 299 16 0 7 0 10
-,\DLSIXYJTg].9R
-BDFChar: 300 300 16 2 12 5 12
-0`X"[F+ARe?GOiOs5<q8
-BDFChar: 301 301 16 0 7 5 12
-,\DLSHJAK"
-BDFChar: 302 302 16 2 12 8 12
-+TQS6I_c!!s53kW
-BDFChar: 303 303 16 2 12 6 12
-+TO<KF+@T4cG9J<s1eU7
-BDFChar: 304 304 0 2 12 -2 2
-0n==qhSB0Ls1eU7
-BDFChar: 305 305 0 2 12 -2 4
-+TO<KF+@T4cG9J<s1eU7
-BDFChar: 306 306 16 0 13 -2 12
-s8;op^]aR_pjDm"o/uW7kFC_Zccj_rhrOh8s82is
-BDFChar: 307 307 16 2 12 0 10
-s5<pm*WR)Y1B9-0@=Vb$^qd`nJ7&?W
-BDFChar: 308 308 16 0 7 0 10
-s8Nou4="NN6Gp\@
-BDFChar: 309 309 16 2 12 5 12
-s5<pm*WRtr@=Vb$^qbJ.
-BDFChar: 310 310 16 0 7 5 12
-s8P2DAnJru
-BDFChar: 311 311 16 2 12 8 12
-s5<pmF+E3,J7&?W
-BDFChar: 312 312 16 2 12 7 12
-s5<pm3rj8Ni5!-9
-BDFChar: 313 313 0 2 12 -2 2
-s5<pmF+E3,J7&?W
-BDFChar: 314 314 0 2 12 -1 4
-s5<pm3rj8Ni5!-9
-BDFChar: 315 315 16 0 13 -2 12
-s8;op^]a8!iuI)!iEYV@a@sfobj=-GguSM5s82is
-BDFChar: 316 316 16 2 12 0 10
-s5<pm1OsOsH@T27?GOk%bWq+pN*lVc
-BDFChar: 317 317 16 0 7 0 10
-s8Q\[IXYJTgY:H_
-BDFChar: 318 318 16 2 12 5 12
-s5<pmF+ARe?GOiOb[?B;
-BDFChar: 319 319 16 0 7 5 12
-s8ROsHJ@3/
-BDFChar: 320 320 16 2 12 8 12
-s5<pmI_a6:KO=c[
-BDFChar: 321 321 16 2 12 7 12
-s5<pmH[oG<c9R=r
-BDFChar: 322 322 0 2 12 -2 2
-s5<pmI_a6:KO=c[
-BDFChar: 323 323 0 2 12 -1 4
-s5<pmH[oG<c9R=r
-BDFChar: 324 324 16 0 13 -2 12
-s8;opr;?J?pjDm"o/uW7kFC_Zccj_rhrOh8s82is
-BDFChar: 325 325 16 2 12 0 10
-$igb;*WR,Z1B9.[@=Vb$^qd`nJ7&?W
-BDFChar: 326 326 16 0 7 0 10
-(`4)P4="NN6Gp\@
-BDFChar: 327 327 16 2 12 5 12
-"98o3*WRtr0n<ZI^qbJ.
-BDFChar: 328 328 16 0 7 5 12
-(`5@tAnJru
-BDFChar: 329 329 16 2 12 8 12
-"99JC1P"H"J7&?W
-BDFChar: 330 330 16 2 12 6 12
-"98o3)ZVUC@)0QcJ,fQL
-BDFChar: 331 331 0 2 12 -2 2
-$ih@LF+E3,J7&?W
-BDFChar: 332 332 0 2 12 -2 4
-"98o3)ZVUC@)0QcJ,fQL
-BDFChar: 333 333 16 0 13 -2 12
-s8;opo=X[biuI)!iEYV@a@sfobj=-GguSM5s82is
-BDFChar: 334 334 16 2 12 0 10
-0`WqYF+A=^H@T27hS@FPbWq+pN*lVc
-BDFChar: 335 335 16 0 7 0 10
-,\DLSIXYJTgY:H_
-BDFChar: 336 336 16 2 12 5 12
-+TO6IF+AUf?GOk%b[?B;
-BDFChar: 337 337 16 0 7 5 12
-,\DLSIbWW3
-BDFChar: 338 338 16 2 12 8 12
-+TQS6I_a7EN*lVc
-BDFChar: 339 339 16 2 12 6 12
-+TO<KF+@T4cG5BHKE(uP
-BDFChar: 340 340 0 2 12 -2 2
-0`Z9FI_a6:KO=c[
-BDFChar: 341 341 0 2 12 -2 4
-+TO<KF+@T4cG5BHKE(uP
-BDFChar: 342 342 16 0 13 -2 12
-s8;op^]`Qmhu)C0hu)C0hu)C0hu(7m^]a]8s82is
-BDFChar: 343 343 16 2 12 0 10
-s5<pmJ,k*"J,k*"J,k*"J,oVbs53kW
-BDFChar: 344 344 16 0 7 0 10
-s8TmM^qdb$_#OE7
-BDFChar: 345 345 16 2 12 5 12
-s5<pmJ,k*"J,k*"s1nZm
-BDFChar: 346 346 16 0 7 5 12
-s8TmM^qg!M
-BDFChar: 347 347 16 2 12 8 12
-s5<pmJ,oVbs53kW
-BDFChar: 348 348 16 2 12 6 12
-s5<pmJ,k*"J,oW-s1eU7
-BDFChar: 349 349 0 2 12 -2 2
-s5<pmJ,oW-s1eU7
-BDFChar: 350 350 0 2 12 -2 4
-s5<pmJ,k*"J,oW-s1eU7
-BDFChar: 351 351 16 0 13 -2 12
-s8;op_Z\jZh`TdYh`TdYh`TdYh`SdZ_Z^#;s82is
-BDFChar: 352 352 16 2 12 0 10
-oAK5UK)gN(K)gN(K)gN(K)kMYoABTK
-BDFChar: 353 353 16 0 7 0 10
-kNBe%`5KU4`96:`
-BDFChar: 354 354 16 2 12 5 12
-oAK5UK)gN(K)gN(o>'tU
-BDFChar: 355 355 16 0 7 5 12
-kNBe%`5Lj%
-BDFChar: 356 356 16 2 12 8 12
-oAK5UK)kMYoABTK
-BDFChar: 357 357 16 2 12 6 12
-oAK5UK)gN(K)kN$o=t>+
-BDFChar: 358 358 0 2 12 -2 2
-oAK5UK)kN$o=t>+
-BDFChar: 359 359 0 2 12 -2 4
-oAK5UK)gN(K)kN$o=t>+
-BDFChar: 360 360 16 0 13 -2 12
-s8;ophu)C0hu)C0hu)C0hu)C0hu(7u^]a]8s82is
-BDFChar: 361 361 16 2 12 0 10
-J,k*"J,k*"J,k*"J,k*"J,oVbs53kW
-BDFChar: 362 362 16 0 7 0 10
-^qdb$^qdb$_#OE7
-BDFChar: 363 363 16 2 12 5 12
-J,k*"J,k*"J,k*"s1nZm
-BDFChar: 364 364 16 0 7 5 12
-^qdb$^qg!M
-BDFChar: 365 365 16 2 12 8 12
-J,k*"J,oVbs53kW
-BDFChar: 366 366 16 2 12 6 12
-J,k*"J,k*"J,oW-s1eU7
-BDFChar: 367 367 0 2 12 -2 2
-J,k*"J,oW-s1eU7
-BDFChar: 368 368 0 2 12 -2 4
-J,k*"J,k*"J,oW-s1eU7
-BDFChar: 369 369 16 0 13 -2 12
-s8;oph`TdYh`TdYh`TdYh`TdYh`Sdb_Z^#;s82is
-BDFChar: 370 370 16 2 12 0 10
-K)gN(K)gN(K)gN(K)gN(K)kMYoABTK
-BDFChar: 371 371 16 0 7 0 10
-`5KU4`5KU4`96:`
-BDFChar: 372 372 16 2 12 5 12
-K)gN(K)gN(K)gN(o>'tU
-BDFChar: 373 373 16 0 7 5 12
-`5KU4`5Lj%
-BDFChar: 374 374 16 2 12 8 12
-JcLE'K)kMYoABTK
-BDFChar: 375 375 16 2 12 6 12
-JcLE'K)gN(K)kN$o=t>+
-BDFChar: 376 376 0 2 12 -2 2
-K)gN(K)kN$o=t>+
-BDFChar: 377 377 0 2 12 -2 4
-JcLE'K)gN(K)kN$o=t>+
-BDFChar: 378 378 16 0 13 -1 12
-s8;ops8;ops8;oprqu]ls8;ops8;ops8;op
-BDFChar: 379 379 0 11 12 5 5
-^]4?7
-BDFChar: 380 380 0 11 12 8 8
-^]4?7
-BDFChar: 381 381 16 0 13 -2 12
-s8;ops8;opr;?Qls8;ops8;fmr;?Tms8;ops82is
-BDFChar: 382 382 0 11 12 3 8
-^]4?7!5JR7
-BDFChar: 383 383 0 11 12 7 10
-^]4AM
-BDFChar: 384 384 16 0 13 -2 12
-s8;opqu$?hqu$?hqu$4Oqu$?hqu$?hqu$Kls82is
-BDFChar: 385 385 0 10 13 -1 12
-J:N0#J:R.YJ:N0#J:IV"
-BDFChar: 386 386 0 10 13 5 12
-J:N1>n:6%>
-BDFChar: 387 387 16 0 13 -2 12
-s8;opqu$?hqu$4Oqu$?hpcS>!qu$?hqu$Kls82is
-BDFChar: 388 388 0 10 13 -2 12
-J:N0#nF1sYJFN&YJ:N.M
-BDFChar: 389 389 0 10 13 5 12
-J:R.YJFN&Y
-BDFChar: 390 390 16 0 13 -2 12
-s8;ops#g<Ds#g<Ds#g'=s#g<Ds#g<Ds#g>Zs82is
-BDFChar: 391 391 0 8 11 -1 12
-&.fBa&.fEB&.fBa&.egA
-BDFChar: 392 392 0 8 12 5 12
-(`4+bp_Xhb
-BDFChar: 393 393 16 0 13 -2 12
-s8;ops#g<Ds#g'=s#g<DpcS=6s#g<Ds#g>Zs82is
-BDFChar: 394 394 0 8 12 -1 12
-(`4),q"P[C)#3kC(`35Q
-BDFChar: 395 395 0 8 12 5 11
-)#3kCq"P[+
-BDFChar: 396 396 16 0 13 -1 12
-s8;ops8;ops8;oprqu]ls8;ops8;ops8;op
-BDFChar: 397 397 0 6 7 0 1
-5em@"
-BDFChar: 398 398 0 6 7 5 6
-5em@"
-BDFChar: 399 399 16 0 13 -2 12
-s8;ops8;ops8;ops8;K$s8;ops8;ops8;ops82is
-BDFChar: 400 400 0 4 9 0 1
-KZ!ij
-BDFChar: 401 401 0 4 9 5 6
-KZ!ij
-BDFChar: 402 402 16 0 13 -2 12
-s8;ops8;ops89Y8^]aT5r;?Kjs8;ops8;ops82is
-BDFChar: 403 403 0 0 13 -2 2
-s8;op!rrE'!<<*"
-BDFChar: 404 404 0 0 13 3 5
-s82ou!WW3#
-BDFChar: 405 405 16 0 13 -2 12
-s8;ops8;ops89Y8^]a8Ao=X\-s8;ops8;ops82is
-BDFChar: 406 406 0 0 13 -2 2
-s8;op$pY4d#XA@i
-BDFChar: 407 407 0 0 13 3 6
-s8;op$pY4d
-BDFChar: 408 408 16 0 13 -2 12
-s8;ops8;ops8;fmr;?Kj^]_FUs8;ops8;ops82is
-BDFChar: 409 409 0 0 13 0 4
-!<<3%!s&B!s82is
-BDFChar: 410 410 0 0 13 5 7
-!s&B!s82is
-BDFChar: 411 411 16 0 13 -2 12
-s8;ops8;ops8;K$o=X\-^]_FUs8;ops8;ops82is
-BDFChar: 412 412 0 0 13 0 4
-#XAe`$pajjs82is
-BDFChar: 413 413 0 0 13 5 7
-$pajjs82is
-BDFChar: 414 414 16 0 13 -2 12
-s8;opr;?Kjr;?Kjr;?Kjr;?Kjr;?Kjr;?Tms82is
-BDFChar: 415 415 0 11 12 -1 12
-^qdb$^qdb$^qdb$^q]pM
-BDFChar: 416 416 0 11 12 5 12
-^qdb$^qdb$
-BDFChar: 417 417 16 0 13 -2 12
-s8;opq`Oa<q`Oa<q`Oa<q`Oa<q`Oa<q`OoVs82is
-BDFChar: 418 418 0 10 13 -2 12
-OH>QcOH>QcOH>QcOH>P(
-BDFChar: 419 419 0 10 13 5 12
-OH>QcOH>Qc
-BDFChar: 420 420 16 0 13 -2 12
-s8;opq`Oa<q`Oa<q`OX9q`Oa<q`Oa<q`OoVs82is
-BDFChar: 421 421 0 10 13 -1 12
-OH>QcOHAu$OH>QcOH9GB
-BDFChar: 422 422 0 10 13 5 12
-OH>Rnn;r`n
-BDFChar: 423 423 16 0 13 -2 12
-s8;opq`Oa<q`OX9pcSF9pcS=6q`Oa<q`OoVs82is
-BDFChar: 424 424 0 10 13 -2 12
-OH>QcnF2O$ORVb$OH>P(
-BDFChar: 425 425 0 10 13 5 12
-OHAu$ORVb$
-BDFChar: 426 426 16 0 13 -2 12
-s8;opr7q5*r7q5*r7p5cr7q5*r7q5*r7q>Ms82is
-BDFChar: 427 427 0 8 13 -1 12
-,U=W\,U=Yr,U=W\,U<?i
-BDFChar: 428 428 0 8 13 5 12
-,U=Yrj<Pur
-BDFChar: 429 429 16 0 13 -2 12
-s8;opr7q5*r7p5cr7q5*i8!hWr7q5*r7q>Ms82is
-BDFChar: 430 430 0 8 13 -2 12
-,U=W\,ig3r,ig3r,U=W8
-BDFChar: 431 431 0 8 13 5 12
-,UDI3,in#3
-BDFChar: 432 432 16 0 13 -1 12
-s8;ops8;ops8;op^^S!]s8;ops8;ops8;op
-BDFChar: 433 433 0 0 13 0 1
-s8;op
-BDFChar: 434 434 0 0 13 5 6
-s8;op
-BDFChar: 435 435 16 0 13 -2 12
-s8;ops8;ops8;ops8:[5s8;ops8;ops8;ops82is
-BDFChar: 436 436 16 0 0 0 0
-z
-BDFChar: 437 437 0 0 0 0 0
-z
-BDFChar: 438 438 0 0 0 0 0
-z
-BDFChar: 439 439 0 0 0 0 0
-z
-BDFChar: 440 440 0 0 0 0 0
-z
-BDFChar: 441 441 0 0 0 0 0
-z
-BDFChar: 442 442 0 0 0 0 0
-z
-BDFChar: 443 443 0 0 0 0 0
-z
-BDFChar: 444 444 0 0 0 0 0
-z
-BDFChar: 445 445 0 0 0 0 0
-z
-BDFChar: 446 446 0 0 0 0 0
-z
-BDFChar: 447 447 0 0 0 0 0
-z
-BDFChar: 448 448 0 0 0 0 0
-z
-BDFChar: 449 449 0 0 0 0 0
-z
-BDFChar: 450 450 0 0 0 0 0
-z
-BDFChar: 451 451 0 0 0 0 0
-z
-BDFChar: 452 452 0 0 0 0 0
-z
-BDFChar: 453 453 0 0 0 0 0
-z
-BDFChar: 454 454 0 0 0 0 0
-z
-BDFChar: 455 455 0 0 0 0 0
-z
-BDFChar: 456 456 0 0 0 0 0
-z
-BDFChar: 457 457 0 0 0 0 0
-z
-BDFChar: 458 458 0 0 0 0 0
-z
-BDFChar: 459 459 0 0 0 0 0
-z
-BDFChar: 460 460 0 0 0 0 0
-z
-BDFChar: 461 461 0 0 0 0 0
-z
-BDFChar: 462 462 0 0 0 0 0
-z
-BDFChar: 463 463 0 0 0 0 0
-z
-BDFChar: 464 464 0 0 0 0 0
-z
-BDFChar: 465 465 0 0 0 0 0
-z
-BDFChar: 466 466 0 0 0 0 0
-z
-BDFChar: 467 467 0 0 0 0 0
-z
-BDFChar: 468 468 0 0 0 0 0
-z
-BDFChar: 469 469 0 0 0 0 0
-z
-BDFChar: 470 470 0 0 0 0 0
-z
-BDFChar: 471 471 0 0 0 0 0
-z
-BDFChar: 472 472 0 0 0 0 0
-z
-BDFChar: 473 473 0 0 0 0 0
-z
-BDFChar: 474 474 0 0 0 0 0
-z
-BDFChar: 475 475 0 0 0 0 0
-z
-BDFChar: 476 476 0 0 0 0 0
-z
-BDFChar: 477 477 0 0 0 0 0
-z
-BDFChar: 478 478 0 0 0 0 0
-z
-BDFChar: 479 479 0 0 0 0 0
-z
-BDFChar: 480 480 0 0 0 0 0
-z
-BDFChar: 481 481 0 0 0 0 0
-z
-BDFChar: 482 482 0 0 0 0 0
-z
-BDFChar: 483 483 0 0 0 0 0
-z
-BDFChar: 484 484 0 0 0 0 0
-z
-BDFChar: 485 485 0 0 0 0 0
-z
-BDFChar: 486 486 0 0 0 0 0
-z
-BDFChar: 487 487 0 0 0 0 0
-z
-BDFChar: 488 488 0 0 0 0 0
-z
-BDFChar: 489 489 0 0 0 0 0
-z
-BDFChar: 490 490 0 0 0 0 0
-z
-BDFChar: 491 491 0 0 0 0 0
-z
-BDFChar: 492 492 0 0 0 0 0
-z
-BDFChar: 493 493 0 0 0 0 0
-z
-BDFChar: 494 494 0 0 0 0 0
-z
-BDFChar: 495 495 0 0 0 0 0
-z
-BDFChar: 496 496 0 0 0 0 0
-z
-BDFChar: 497 497 0 0 0 0 0
-z
-BDFChar: 498 498 0 0 0 0 0
-z
-BDFChar: 499 499 0 0 0 0 0
-z
-BDFChar: 500 500 0 0 0 0 0
-z
-BDFChar: 501 517 0 7 13 5 12
-&eaaJ'(QYJ
-BDFChar: 502 504 0 8 12 -1 12
-(`4),(`<&C(`4),(`35Q
-BDFChar: 503 505 0 8 12 5 12
-(`4+bp_Xhb
-BDFChar: 504 506 0 7 12 -1 12
-$k*OQr;6s3%/g#3$k*+9
-BDFChar: 505 507 0 7 12 5 11
-"9eW*qud-&
-BDFChar: 506 508 0 0 13 2 5
-s82lt!<<-#
-BDFChar: 507 509 0 0 13 3 6
-s8;op$pY4d
-BDFChar: 508 510 0 0 13 0 4
-!rrE'!s&B!s82is
-BDFChar: 509 511 0 0 13 5 8
-!rrE's8;op
-BDFChar: 510 512 0 0 13 0 5
-$pY4d$pY4ds8;op
-BDFChar: 511 513 0 0 13 5 8
-#XAY\s8;op
-BDFChar: 512 514 0 8 13 -1 12
-,U=W\,UDI3,U=W\,U<?i
-BDFChar: 513 515 0 8 13 5 12
-,U=Yrj<Pur
-BDFChar: 514 516 0 7 13 -2 12
-&eYfio(!D+'(YT+&eYfW
-BDFChar: 515 522 16 0 0 0 0
-z
-BDFChar: 516 523 16 0 0 0 0
-z
-BDFChar: 517 524 16 0 0 0 0
-z
-BDFChar: 518 525 16 0 0 0 0
-z
-BDFChar: 519 526 16 0 0 0 0
-z
-BDFChar: 520 527 16 0 0 0 0
-z
-EndBitmapFont
-BitmapFont: 20 521 16 4 1
-BDFChar: 0 0 20 0 17 -2 15
-s8Tn7s1lDM^q]rcs$+=!5J[:`_#HX7s$+=!5J[:`_#HX7s$+=!5JY&7^q]rcs8Tn7s1eU7
-BDFChar: 1 1 20 2 15 0 13
-s8;op!rrE'!rrE'!rrE'!rrE'!rrE's8;op
-BDFChar: 2 2 20 0 9 0 13
-s1nZM$ig\9$ig\9$ig\9$ig\9$ig\9s1nZM
-BDFChar: 3 3 20 2 15 6 15
-s8;op!rrE'!rrE'!rrE's8;op
-BDFChar: 4 4 20 0 9 6 15
-s1nZM$ig\9$ig\9$ig\9s1nZM
-BDFChar: 5 5 20 2 15 10 15
-s8;op!rrE's8;op
-BDFChar: 6 6 20 2 15 8 15
-s8;op!rrE'!rrE's8;op
-BDFChar: 7 7 0 2 15 -2 3
-s8;op!rrE's8;op
-BDFChar: 8 8 0 2 15 -2 5
-s8;op!rrE'!rrE's8;op
-BDFChar: 9 9 20 0 17 -2 15
-s8Tn7s1lDM^q]rcq<,QhkJ6oV_"m0/q<,QhkJ6oV_"m0/q<,QhkJ4k5^q]rcs8Tn7s1eU7
-BDFChar: 10 10 20 2 15 0 13
-s8;op(gn1g(gn1g(gn1g(gn1g(gn1gs8;op
-BDFChar: 11 11 20 0 9 0 13
-s1nZM1B9321B9321B9321B9321B932s1nZM
-BDFChar: 12 12 20 2 15 6 15
-s8;op(gn1g(gn1g(gn1gs8;op
-BDFChar: 13 13 20 0 9 6 15
-s1nZM1B9321B9321B932s1nZM
-BDFChar: 14 14 20 2 15 10 15
-s8;op(gn1gs8;op
-BDFChar: 15 15 20 2 15 8 15
-s8;op(gn1g(gn1gs8;op
-BDFChar: 16 16 0 2 15 -2 3
-s8;op(gn1gs8;op
-BDFChar: 17 17 0 2 15 -2 5
-s8;op(gn1g(gn1gs8;op
-BDFChar: 18 18 20 0 17 -2 15
-s8Tn7s1lt,^sC?Ba+qInLVW).^uHZTo/"2R1ViQ9_"`2jpj'[MGej7T_#4,Gs8Tn7s1eU7
-BDFChar: 19 19 20 2 15 0 13
-^qdb$iS\/&@Gl4r1GCU=5<']$*Z,q<$k*OQ
-BDFChar: 20 20 20 0 9 0 13
-`W4!Y`rK`PB)liMD1HJR4b,PC3Ij*)(r.!(
-BDFChar: 21 168 20 2 15 8 15
-^^S!e^^S!e^^S!es8;op
-BDFChar: 22 169 0 2 15 -2 3
-^^S!e^^S!es8;op
-BDFChar: 23 170 0 2 15 -2 5
-^^S!e^^S!e^^S!es8;op
-BDFChar: 24 171 20 0 17 -2 15
-s8Tn7s1lrC^s>-YcTK"h4M]9*^s>-YcTK"h4M]9*^s>-YcTK"h4M\`4^q]rcs8Tn7s1eU7
-BDFChar: 25 172 20 2 15 0 13
-_[OEk_[OEk_[OEk_[OEk_[OEk_[OEks8;op
-BDFChar: 26 173 20 0 9 0 13
-beVH<beVH<beVH<beVH<beVH<beVH<s1nZM
-BDFChar: 27 174 20 2 15 6 15
-_[OEk_[OEk_[OEk_[OEks8;op
-BDFChar: 28 175 20 0 9 6 15
-beVH<beVH<beVH<beVH<s1nZM
-BDFChar: 29 176 20 2 15 10 15
-_[OEk_[OEks8;op
-BDFChar: 30 177 20 2 15 8 15
-_[OEk_[OEk_[OEks8;op
-BDFChar: 31 178 0 2 15 -2 3
-_[OEk_[OEks8;op
-BDFChar: 32 179 0 2 15 -2 5
-_[OEk_[OEk_[OEks8;op
-BDFChar: 33 21 20 2 15 6 15
-^qdb$@GkSP1GCU=*Z,q8$k*OQ
-BDFChar: 34 22 20 0 9 6 15
-`W4$Zk5]E#Dh*7d4b,Q.35?BH
-BDFChar: 35 23 20 2 15 10 15
-^qepeF7;CR*ZPRs
-BDFChar: 36 24 20 2 15 8 15
-^qepe@Gl4r5<']$*ZPRs
-BDFChar: 37 25 0 2 15 -2 3
-^qepeF7;CR*ZPRs
-BDFChar: 38 26 0 2 15 -2 5
-^qepe@Gl4r5<']$*ZPRs
-BDFChar: 39 27 20 0 17 -2 15
-s8Tn7s1nR1_#4,GpisULH,03#_"'4qo/"2R1Vi#q^upKgkD-jnLVV6^^sC?Bs8Tn7s1eU7
-BDFChar: 40 28 20 2 15 0 13
-$k*OQ*ZQ4<*Z.+$1GCU=F7<Vr@Gp,&^qdb$
-BDFChar: 41 29 20 0 9 0 13
-(r.!(35@P)3Ij8CD1HJRDZFDMB)osP`W4!Y
-BDFChar: 42 30 20 2 15 6 15
-$k*OQ*Z,q81GCU=@GkSP^qdb$
-BDFChar: 43 31 20 0 9 6 15
-(r/,H3P[e.I=Q6dDZJr#`rO*Z
-BDFChar: 44 32 20 2 15 10 15
-$k+0s5<*`RiS_Me
-BDFChar: 45 33 20 2 15 8 15
-$k+0s*Z.+$F7<VriS_Me
-BDFChar: 46 34 0 2 15 -2 3
-$k+0s5<*`RiS_Me
-BDFChar: 47 35 0 2 15 -2 5
-$k+0s*Z.+$F7<VriS_Me
-BDFChar: 48 36 20 0 17 -2 15
-s8Tn7s1ltY^sDqokP;pVq7uUn_"705q<,QhkJ7#A_#2NorZArT+2GYl^q]rcs8Tn7s1eU7
-BDFChar: 49 37 20 2 15 0 13
-^^S!e?l38g0JG17(gn1g%)<:e#Cm&0s8;op
-BDFChar: 50 38 20 0 9 0 13
-^qdb$iP8lP@=WEL1B93256)`)*WR5]s1nZM
-BDFChar: 51 39 20 2 15 6 15
-^^T-@?l1RO3,fkq%)<*us8;op
-BDFChar: 52 40 20 0 9 6 15
-^qdb$@=Vd:1B932*WR5]s1nZM
-BDFChar: 53 41 20 2 15 10 15
-^^T]pG^(=gs8;op
-BDFChar: 54 42 20 2 15 8 15
-^^T-@E&]gr*8h@Cs8;op
-BDFChar: 55 43 0 2 15 -2 3
-^^T]pG^(=gs8;op
-BDFChar: 56 44 0 2 15 -2 5
-^^T-@E&]gr*8h@Cs8;op
-BDFChar: 57 45 20 0 17 -2 15
-s8Tn7s1lrC^s>-YcTK#*)8PAP^ucNMk*a$We%kIj_!o7WnAE';kJ4k5^q]rcs8Tn7s1eU7
-BDFChar: 58 46 20 2 15 0 13
-_[OEk_[L1FB:*>!B:(gN4RbK&4Ra1qs8;op
-BDFChar: 59 47 20 0 9 0 13
-beVH<beVH<It3$!It3$!It3$!1B932s1nZM
-BDFChar: 60 48 20 2 15 6 15
-_[OEkkF?1PB:(gN4RbK&s8;op
-BDFChar: 61 49 20 0 9 6 15
-beVH<beS^YIt3$!It0<Ts1nZM
-BDFChar: 62 50 20 2 15 10 15
-_[P^uB:(gNs8;op
-BDFChar: 63 51 20 2 15 8 15
-_[OEkB:*>!4RbK&s8;op
-BDFChar: 64 52 0 2 15 -2 3
-_[P^uB:(gNs8;op
-BDFChar: 65 53 0 2 15 -2 5
-_[OEkB:*>!4RbK&s8;op
-BDFChar: 66 54 20 0 17 -2 15
-s8Tn7s1lDM^q]rckP;pVq7uUn_"705q<,QhkJ7#A_#2NorZArT+2In@_#HX7s8Tn7s1eU7
-BDFChar: 67 55 20 2 15 0 13
-s8;op?l38g0JG17(gn1g%)<:e#Cm&0!rrE'
-BDFChar: 68 56 20 0 9 0 13
-s1nZMiP8lP@=WEL1B93256)`)*WR5]$ig\9
-BDFChar: 69 57 20 2 15 6 15
-s8;op?l1RO3,fkq%)<*u#ClmV
-BDFChar: 70 58 20 0 9 6 15
-s1nZM@=Vd:1B932*WR5]$ig\9
-BDFChar: 71 59 20 2 15 10 15
-s8;opG^(=g&&88I
-BDFChar: 72 60 20 2 15 8 15
-s8;opE&]gr*8h@C#ClmV
-BDFChar: 73 61 0 2 15 -2 3
-s8;opG^(=g&&88I
-BDFChar: 74 62 0 2 15 -2 5
-s8;opE&]gr*8h@C#ClmV
-BDFChar: 75 63 20 0 17 -2 15
-s8Tn7s1lDM^q]rccTK#*)8PAP^ucNMk*a$We%kIj_!o7WnAE';kJ6oV_"m0/s8Tn7s1eU7
-BDFChar: 76 64 20 2 15 0 13
-s8;op_[L1FB:*>!B:(gN4RbK&4Ra1q(gn1g
-BDFChar: 77 65 20 0 9 0 13
-s1nZMbeVH<It3$!It3$!It3$!1B9321B932
-BDFChar: 78 66 20 2 15 6 15
-s8;opkF?1PB:(gN4RbK&(gn1g
-BDFChar: 79 67 20 0 9 6 15
-s1nZMbeS^YIt3$!It0<T1B932
-BDFChar: 80 68 20 2 15 10 15
-s8;opB:(gN4Ra1q
-BDFChar: 81 69 20 2 15 8 15
-s8;opB:*>!4RbK&(gn1g
-BDFChar: 82 70 0 1 15 -2 3
-s8IP#5m/Bf'Mo&X
-BDFChar: 83 71 0 2 15 -2 5
-s8;opB:*>!4RbK&(gn1g
-BDFChar: 84 72 20 0 17 -2 15
-s8Tn7s1ltY^sDqokP;pVq7uUn_"705q<,QhkJ7#A_#2NorZArT+2In@_#HX7s8Tn7s1eU7
-BDFChar: 85 73 20 2 15 0 13
-^^S!e?l38g0JG17(gn1g%)<:e#Cm&0!rrE'
-BDFChar: 86 74 20 0 9 0 13
-J3\WMJ3ZAM5_)+M+TNYc+TN,T&c`OE$ig\9
-BDFChar: 87 75 20 2 15 6 15
-^^T-@?l1RO3,fkq%)<*u#ClmV
-BDFChar: 88 76 20 0 9 6 15
-^qdb$@=Vd:1B932*WR5]$ig\9
-BDFChar: 89 77 20 2 15 10 15
-^^T]pG^(=g&&88I
-BDFChar: 90 78 20 2 15 8 15
-^^T-@E&]gr*8h@C#ClmV
-BDFChar: 91 79 0 2 15 -2 3
-^^T]pG^(=g&&88I
-BDFChar: 92 80 0 2 15 -2 5
-^^T-@E&]gr*8h@C#ClmV
-BDFChar: 93 81 20 0 17 -2 15
-s8Tn7s1lrC^s>-YcTK#*)8PAP^ucNMk*a$We%kIj_!o7WnAE';kJ6oV_"m0/s8Tn7s1eU7
-BDFChar: 94 82 20 2 15 0 13
-_[OEk_[L1FB:*>!B:(gN4RbK&4Ra1q(gn1g
-BDFChar: 95 83 20 0 9 0 13
-beVH<beVH<It3$!It3$!It3$!1B9321B932
-BDFChar: 96 84 20 2 15 6 15
-_[OEkkF?1PB:(gN4RbK&(gn1g
-BDFChar: 97 85 20 0 9 6 15
-beVH<beS^YIt3$!It0<T1B932
-BDFChar: 98 86 20 2 15 10 15
-_[P^uB:(gN4Ra1q
-BDFChar: 99 87 20 2 15 8 15
-_[OEkB:*>!4RbK&(gn1g
-BDFChar: 100 88 0 2 15 -2 3
-_[P^uB:(gN4Ra1q
-BDFChar: 101 89 0 2 15 -2 5
-_[OEkB:*>!4RbK&(gn1g
-BDFChar: 102 90 20 0 17 -2 15
-s8Tn7s1lDM^q]rcs89\4r4r@1_#O>Js89\4r4r@1_#O>Js89\4r4p)J^q]rcs8Tn7s1eU7
-BDFChar: 103 91 20 2 15 0 13
-s8;op!"8i9!"8i9!"8i9!"8i9!"8i9s8;op
-BDFChar: 104 92 20 0 9 0 13
-s1nZM!5JTM!5JTM!5JTM!5JTM!5JTMs1nZM
-BDFChar: 105 93 20 2 15 6 15
-s8;op!"8i9!"8i9!"8i9s8;op
-BDFChar: 106 94 20 0 9 6 15
-s1nZM!5JTM!5JTM!5JTMs1nZM
-BDFChar: 107 95 20 2 15 10 15
-s8;op!"8i9s8;op
-BDFChar: 108 96 20 2 15 8 15
-s8;op!"8i9!"8i9s8;op
-BDFChar: 109 97 0 2 15 -2 3
-s8;op!"8i9s8;op
-BDFChar: 110 98 0 2 15 -2 5
-s8;op!"8i9!"8i9s8;op
-BDFChar: 111 99 20 0 17 -2 15
-s8Tn7s1lFc^qdb$r;=A.r4r7._#4,Gr;=A.r4r7._#4,Gr;=A.r4p+`^qdb$s8Tn7s1eU7
-BDFChar: 112 100 20 2 15 0 13
-r;?Kj$k*OQ$k*OQ$k*OQ$k*OQ$k*OQr;?Kj
-BDFChar: 113 101 20 0 9 0 13
-o>'t50YfBX0YfBX0YfBX0YfBX0YfBXo>'t5
-BDFChar: 114 102 20 2 15 6 15
-r;?Kj$k*OQ$k*OQ$k*OQr;?Kj
-BDFChar: 115 103 20 0 9 6 15
-o>'t50YfBX0YfBX0YfBXo>'t5
-BDFChar: 116 104 20 2 15 10 15
-r;?Kj$k*OQr;?Kj
-BDFChar: 117 105 20 2 15 8 15
-r;?Kj$k*OQ$k*OQr;?Kj
-BDFChar: 118 106 0 2 15 -2 3
-r;?Kj$k*OQr;?Kj
-BDFChar: 119 107 0 2 15 -2 5
-r;?Kj$k*OQ$k*OQr;?Kj
-BDFChar: 120 108 20 0 17 -2 15
-s8Tn7s1lDM^q]rcs89\4r4r@1_#O>Js89\4r4r@1_#O>Js89\4r4r@1_#O>Js8Tn7s1eU7
-BDFChar: 121 109 20 2 15 0 13
-s8;op!"8i9!"8i9!"8i9!"8i9!"8i9!"8i9
-BDFChar: 122 110 20 0 9 0 13
-s1nZM!5JTM!5JTM!5JTM!5JTM!5JTM!5JTM
-BDFChar: 123 111 20 2 15 6 15
-s8;op!"8i9!"8i9!"8i9!"8i9
-BDFChar: 124 112 20 0 9 6 15
-s1nZM!5JTM!5JTM!5JTM!5JTM
-BDFChar: 125 113 20 2 15 10 15
-s8;op!"8i9!"8i9
-BDFChar: 126 114 20 2 15 8 15
-s8;op!"8i9!"8i9!"8i9
-BDFChar: 127 115 0 2 15 -2 3
-s8;op!"8i9!"8i9
-BDFChar: 128 116 0 2 15 -2 5
-s8;op!"8i9!"8i9!"8i9
-BDFChar: 129 117 20 0 17 -2 15
-s8Tn7s1lFc^qdb$r;=A.r4r7._#4,Gr;=A.r4r7._#4,Gr;=A.r4r7._#4,Gs8Tn7s1eU7
-BDFChar: 130 118 20 2 15 0 13
-r;?Kj$k*OQ$k*OQ$k*OQ$k*OQ$k*OQ$k*OQ
-BDFChar: 131 119 20 0 9 0 13
-o>'t50YfBX0YfBX0YfBX0YfBX0YfBX0YfBX
-BDFChar: 132 120 20 2 15 6 15
-r;?Kj$k*OQ$k*OQ$k*OQ$k*OQ
-BDFChar: 133 121 20 0 9 6 15
-o=to&&3pdl&3pdl&3pdl&3pdl
-BDFChar: 134 122 20 2 15 10 15
-r;?Kj$k*OQ$k*OQ
-BDFChar: 135 123 20 2 15 8 15
-r;?Kj$k*OQ$k*OQ$k*OQ
-BDFChar: 136 124 0 2 15 -2 3
-r;?Kj$k*OQ$k*OQ
-BDFChar: 137 125 0 2 15 -2 5
-r;?Kj$k*OQ$k*OQ$k*OQ
-BDFChar: 138 126 20 0 17 -2 15
-s8Tn7s1nOC_"\/Mn`.FJq7t&G^sDqochtT)r4pYV^rQ5ckP;p`j1tEp_#+_Ys8Tn7s1eU7
-BDFChar: 139 127 20 2 15 0 13
-&&9:F3,i7Bi#KN@^^S!e^^T-@?l1kB+5d[F
-BDFChar: 140 128 20 0 9 0 13
-*WSD)F+@\L^qdb$^qdb$^qdb$@=WEL56)`)
-BDFChar: 141 129 20 2 15 6 15
-&&:F!E&cbq^^S!ei#H\q5O]3!
-BDFChar: 142 130 20 0 9 6 15
-*WR>`5_+AMJ3\WMJ3ZAM+TNP`
-BDFChar: 143 131 20 2 15 10 15
-+5gNDJ-:B*?l1!D
-BDFChar: 144 132 20 2 15 8 15
-&&9kQ5R;lCJ-8+C+:oXQ
-BDFChar: 145 133 0 2 15 -2 3
-+5gNDJ-:B*?l1!D
-BDFChar: 146 134 0 2 15 -2 5
-+2EC$n3"Jp^^T]pJ+t,D
-BDFChar: 147 135 20 0 17 -2 15
-s8Tn7s1n-A^u0dZjr(tS)8OQ\^s>-YcTK"h4M]9*^s>-Y`YcMR)8P0]_!o7Ws8Tn7s1eU7
-BDFChar: 148 136 20 2 15 0 13
-4RdjqB:.kL_[OEk_[OEk_[OEkkF?1PJ+u.q
-BDFChar: 149 137 20 0 9 0 13
-1B;oTIt5bYbeVH<beVH<beVH<beS^YIt0<T
-BDFChar: 150 138 20 2 15 6 15
-4RdjqB:-RF_[OEk_[L1FJ+u.q
-BDFChar: 151 139 20 0 9 6 15
-1B;oTs1ljobeVH<beX7oIt0<T
-BDFChar: 152 140 20 2 15 10 15
-4Rdjq_[OEkJ+u.q
-BDFChar: 153 141 20 2 15 8 15
-4RdjqkFBEu_[P^uJ+u.q
-BDFChar: 154 142 0 2 15 -2 3
-4Rdjq_[OEkJ+u.q
-BDFChar: 155 143 0 2 15 -2 5
-4RdjqkFBEu_[P^uJ+u.q
-BDFChar: 156 144 20 0 17 -2 15
-s8Tn7s1nY!_#>Fkr"$U<a2%6*^uOt#a8!HjpqYq[_"$I#prC2J&&A/d_#HX7s8Tn7s1eU7
-BDFChar: 157 145 20 2 15 0 13
-!rrRV&&91C3,igri#LYpE&]gr*8h@C#ClmV
-BDFChar: 158 146 20 0 9 0 13
-$ih=K*WSD)F+@\LiP=Ef@=WEL56)`)*WQTK
-BDFChar: 159 147 20 2 15 6 15
-!rrkI+5hBgn3$2&G^(=g&&88I
-BDFChar: 160 148 20 0 9 6 15
-$ih=K56,bTiP=EfF+?IT*WQTK
-BDFChar: 161 149 20 2 15 10 15
-#Co&.r;?Kj5O\o.
-BDFChar: 162 150 20 2 15 8 15
-!rrkI4Rhi&n2ri&&&88I
-BDFChar: 163 151 0 2 15 -2 3
-#Co&.r;?Kj5O\o.
-BDFChar: 164 152 0 2 15 -2 5
-!rrkI4Rhi&n2ri&&&88I
-BDFChar: 165 153 20 0 17 -2 15
-s8Tn7s1nHn_"m0/nAE'2_nbCP^ucNMcTK"h4M^(s^ucNMnAE'2_nc*2_"m0/s8Tn7s1eU7
-BDFChar: 166 154 20 2 15 0 13
-(gn1g4RbK&B:*>!_[OEkB:*>!4RbK&(gn1g
-BDFChar: 167 155 20 0 9 0 13
-1B932It3$!It7R7beVH<s1j,7It3$!1B932
-BDFChar: 168 156 20 2 15 6 15
-(goJq4Rd!NkFC_*B:(gN4Ra1q
-BDFChar: 169 157 20 0 9 6 15
-1B932It3$!beVH<It3$!1B932
-BDFChar: 170 158 20 2 15 10 15
-(gqjgs8;opJ+sjg
-BDFChar: 171 159 20 2 15 8 15
-(goJqJ,&2skF@%s4Ra1q
-BDFChar: 172 160 0 2 15 -2 3
-(gqjgs8;opJ+sjg
-BDFChar: 173 161 0 2 15 -2 5
-(goJqJ,&2skF@%s4Ra1q
-BDFChar: 174 162 20 0 17 -2 15
-s8Tn7s1ltY^sDqochtT)r4pYV^sDqochtT)r4pYV^sDqochtT)r4p)J^q]rcs8Tn7s1eU7
-BDFChar: 175 163 20 2 15 0 13
-^^S!e^^S!e^^S!e^^S!e^^S!e^^S!es8;op
-BDFChar: 176 164 20 0 9 0 13
-^qdb$^qdb$^qdb$^qdb$^qdb$^qdb$s1nZM
-BDFChar: 177 165 20 2 15 6 15
-^^S!e^^S!e^^S!e^^S!es8;op
-BDFChar: 178 166 20 0 9 6 15
-^qdb$^qdb$^qdb$^qdb$s1nZM
-BDFChar: 179 167 20 2 15 10 15
-^^S!e^^S!es8;op
-BDFChar: 180 180 20 0 17 -2 15
-s8Tn7s1lDM^q]rcchtT)r4pYV^sDqochtT)r4pYV^sDqochtT)r4pYV^sDqos8Tn7s1eU7
-BDFChar: 181 181 20 2 15 0 13
-s8;op^^S!e^^S!e^^S!e^^S!e^^S!e^^S!e
-BDFChar: 182 182 20 0 9 0 13
-s1nZM^qdb$^qdb$^qdb$^qdb$^qdb$^qdb$
-BDFChar: 183 183 20 2 15 6 15
-s8;op^^S!e^^S!e^^S!e^^S!e
-BDFChar: 184 184 20 0 9 6 15
-s1nZM^qdb$^qdb$^qdb$^qdb$
-BDFChar: 185 185 20 2 15 10 15
-s8;op^^S!e^^S!e
-BDFChar: 186 186 20 2 15 8 15
-s8;op^^S!e^^S!e^^S!e
-BDFChar: 187 187 0 2 15 -2 3
-s8;op^^S!e^^S!e
-BDFChar: 188 188 0 2 15 -2 5
-s8;op^^S!e^^S!e^^S!e
-BDFChar: 189 189 20 0 17 -2 15
-s8Tn7s1lDM^q]rccTK"h4M]9*^s>-YcTK"h4M]9*^s>-YcTK"h4M]9*^s>-Ys8Tn7s1eU7
-BDFChar: 190 190 20 2 15 0 13
-s8;op_[OEk_[OEk_[OEk_[OEk_[OEk_[OEk
-BDFChar: 191 191 20 0 9 0 13
-s1nZMbeVH<beVH<beVH<beVH<beVH<beVH<
-BDFChar: 192 192 20 2 15 6 15
-s8;op_[OEk_[OEk_[OEk_[OEk
-BDFChar: 193 193 20 0 9 6 15
-s1nZMbeVH<beVH<beVH<beVH<
-BDFChar: 194 194 20 2 15 10 15
-s8;op_[OEk_[OEk
-BDFChar: 195 195 20 2 15 8 15
-s8;op_[OEk_[OEk_[OEk
-BDFChar: 196 196 0 2 15 -2 3
-s8;op_[OEk_[OEk
-BDFChar: 197 197 0 2 15 -2 5
-s8;op_[OEk_[OEk_[OEk
-BDFChar: 198 198 20 0 17 -2 15
-s8Tn7s1ltY^rQ5cj70qTj1tH1_#+_YrZArT+2Idb_"bscn`.FFn\E3?^sDqos8Tn7s1eU7
-BDFChar: 199 199 20 2 15 0 13
-^^T-@E&]gr*8h@C#Cm&0&&91C3,igri#KN@
-BDFChar: 200 200 20 0 9 0 13
-J3ZAM5_(!X&c`OE$ig\9&c`OE+TOcX5_+AM
-BDFChar: 201 201 20 2 15 6 15
-^^T]pG^(=g&&8^k+5hBgn3"Jp
-BDFChar: 202 202 20 0 9 6 15
-^qepEF+?IT*WR5]56,bTiP<7E
-BDFChar: 203 203 20 2 15 10 15
-i#M[m5O^o,r;>Im
-BDFChar: 204 204 20 2 15 8 15
-^^T]p4R`ls&&:<sn3"Jp
-BDFChar: 205 205 0 2 15 -2 3
-i#M[m5O^o,r;>Im
-BDFChar: 206 206 0 2 15 -2 5
-^^T]p4R`ls&&:<sn3"Jp
-BDFChar: 207 208 20 2 15 0 13
-_[OEkB:*>!4RbK&(gn1g4RbK&B:*>!_[OEk
-BDFChar: 208 207 20 0 17 -2 15
-s8Tn7s1lrC^s>-Yjr(ts)8PaZ_!o7Wq<,QhkJ6T)_!o7Wjr(ts)8OQ\^s>-Ys8Tn7s1eU7
-BDFChar: 209 209 20 0 9 0 13
-beVH<s1j,7It3$!1B932It3$!It7R7beVH<
-BDFChar: 210 210 20 2 15 6 15
-_[P^uB:(gN4RbK&4Rd!NkFBEu
-BDFChar: 211 211 20 0 9 6 15
-beVH<It3$!1B932It3$!beVH<
-BDFChar: 212 212 20 2 15 10 15
-_[QSCJ,"Ngs89bC
-BDFChar: 213 213 20 2 15 8 15
-_[P^uJ+u.q4RdjqkFBEu
-BDFChar: 214 214 0 2 15 -2 3
-_[QSCJ,"Ngs89bC
-BDFChar: 215 215 0 2 15 -2 5
-_[P^uJ+u.q4RdjqkFBEu
-BDFChar: 216 216 20 0 17 -2 15
-s8Tn7s1lDM^q]rcchtT)r4pYV^sDqochtT)r4pYV^sDqochtT)r4p)J^q]rcs8Tn7s1eU7
-BDFChar: 217 217 20 2 15 0 13
-s8;op^^S!e^^S!e^^S!e^^S!e^^S!es8;op
-BDFChar: 218 218 20 0 9 0 13
-s1nZM^qdb$^qdb$^qdb$^qdb$^qdb$s1nZM
-BDFChar: 219 219 20 2 15 6 15
-s8;op^^S!e^^S!e^^S!es8;op
-BDFChar: 220 220 20 0 9 6 15
-s1nZM^qdb$^qdb$^qdb$s1nZM
-BDFChar: 221 221 20 2 15 10 15
-s8;op^^S!es8;op
-BDFChar: 222 222 20 2 15 8 15
-s8;op^^S!e^^S!es8;op
-BDFChar: 223 223 0 2 15 -2 3
-s8;op^^S!es8;op
-BDFChar: 224 224 0 2 15 -2 5
-s8;op^^S!e^^S!es8;op
-BDFChar: 225 225 20 0 17 -2 15
-s8Tn7s1lDM^q]rccTK"h4M]9*^s>-YcTK"h4M]9*^s>-YcTK"h4M\`4^q]rcs8Tn7s1eU7
-BDFChar: 226 226 20 2 15 0 13
-s8;op_[OEk_[OEk_[OEk_[OEk_[OEks8;op
-BDFChar: 227 227 20 0 9 0 13
-s1nZMbeVH<beVH<beVH<beVH<beVH<s1nZM
-BDFChar: 228 228 20 2 14 6 15
-s7h0OJd?r6Jd?r6Jd?r6JdDDO
-BDFChar: 229 229 20 0 9 6 15
-s1nZMbeVH<beVH<beVH<s1nZM
-BDFChar: 230 230 20 2 14 10 15
-s7h0OJd?r6JdDDO
-BDFChar: 231 231 20 2 14 8 15
-s7h0OJd?r6Jd?r6JdDDO
-BDFChar: 232 232 0 2 15 -2 3
-s8;op_[OEks8;op
-BDFChar: 233 233 0 2 15 -2 5
-s8;op_[OEk_[OEks8;op
-BDFChar: 234 234 20 0 17 -2 15
-s8Tn7s1nOC_"\/MnKYj43P`Zp^s>-YcTK"h4M]9*^rJFMk;g?J,Ja'Z_#+_Ys8Tn7s1eU7
-BDFChar: 235 235 20 2 15 0 13
-&&9:F4)e[HiuGrF_[OEk_[PQF@i.:H+5d[F
-BDFChar: 236 236 20 0 9 0 13
-*WSD)It2BdbeVH<beVH<beVH<D1I+d56)`)
-BDFChar: 237 237 20 2 15 6 15
-&&:F!F#`2"_[OEkiuE,"5O]3!
-BDFChar: 238 238 20 0 9 6 15
-*WU\?D1KjGbeVH<beS(GIt/R?
-BDFChar: 239 239 20 2 15 10 15
-+5hYDiuI)!J+t,D
-BDFChar: 240 240 20 2 15 8 15
-+2EC$o/so!_[Q-!J+t,D
-BDFChar: 241 241 0 2 15 -2 3
-+5hYDiuI)!J+t,D
-BDFChar: 242 242 0 2 15 -2 5
-+2EC$o/so!_[Q-!J+t,D
-BDFChar: 243 243 20 0 17 -2 15
-s8Tn7s1nY!_#>Fkr"$U<#JfjS^uI/ba#LlT35FQ/_!rYbp]nV4&&A/d_#HX7s8Tn7s1eU7
-BDFChar: 244 244 20 2 15 0 13
-!rrRV&&9:F4)f7#iuI)!F#Z7#+5d[F#ClmV
-BDFChar: 245 245 20 0 9 0 13
-$ih=K*WSD)It2BdmD/,)D1I+d56)`)*WQTK
-BDFChar: 246 246 20 2 15 6 15
-!rrkI+5hKjo/uV,H[$Xj&&88I
-BDFChar: 247 247 20 0 9 6 15
-$ih=K56-1`mD/,)It0``*WQTK
-BDFChar: 248 248 20 2 15 10 15
-#Co&.s8;op5O\o.
-BDFChar: 249 249 20 2 15 8 15
-!rrkI5Oe8,o/o8,&&88I
-BDFChar: 250 250 0 2 15 -2 3
-#Co&.s8;op5O\o.
-BDFChar: 251 251 0 2 15 -2 5
-!rrkI5Oe8,o/o8,&&88I
-BDFChar: 252 252 20 0 17 -2 15
-s8Tn7s1n[4_#No>s22YP&&A*-_!qB>_uINis1n.(_#-F4rsupF_nc<A_#O>Js8Tn7s1eU7
-BDFChar: 253 253 20 2 15 0 13
-!"8ii!:U*+%fe]ln,VqX49,ll"2Fp+!'C5i
-BDFChar: 254 254 20 0 9 0 13
-!5JWN#Cm9a)ut3`huM[8GQ8]`%KH`a!Pe]N
-BDFChar: 255 255 20 2 15 6 15
-!#u":#Ojs.quHWp5Ca".!;lg:
-BDFChar: 256 256 20 0 9 6 15
-!5J]P%fe]ln,VqX49,ll"2FoP
-BDFChar: 257 257 20 2 15 10 15
-!'Ceis1nZM&,ZDi
-BDFChar: 258 258 20 2 15 8 15
-!#u%;+5m+urW"%u!W2p;
-BDFChar: 259 259 0 2 15 -2 3
-!'Ceis1nZM&,ZDi
-BDFChar: 260 260 0 2 15 -2 5
-!#u%;+5m+urW"%u!W2p;
-BDFChar: 261 261 20 0 17 -2 15
-s8Tn7s1nR1_"d]?q>%hrn\F2F^usmra2c!9a2$m$^uOIjnaXEjq7ue#_#4,Gs8Tn7s1eU7
-BDFChar: 262 262 20 2 15 0 13
-$k+*q(`54lE,]2mi8EPO?smqm3&h`l*#o@q
-BDFChar: 263 263 20 0 9 0 13
-0YfBXEPQ"5@=[Bg_Z7RSj+(Qg@=W@50YfBX
-BDFChar: 264 264 20 2 15 6 15
-$k+*q3&kkri8EPOE,[cr*#o@q
-BDFChar: 265 265 20 0 9 6 15
-0YfBX@=Vd:_Z7RS@=Vd:0YfBX
-BDFChar: 266 266 20 2 15 10 15
-$k,6\nF5r:4?O#\
-BDFChar: 267 267 20 2 15 8 15
-$k+*qG^/0)i8Aj)*#o@q
-BDFChar: 268 268 0 2 15 -2 3
-$k,6\nF5r:4?O#\
-BDFChar: 269 269 0 2 15 -2 5
-$k+*qG^/0)i8Aj)*#o@q
-BDFChar: 270 270 20 0 17 -2 15
-s8Tn7s1lt\^r-2fnGg<%5J[:0_#M<fs7!i(nA,(A_#Fq\r'/!ds1lPP^sE%rs8Tn7s1eU7
-BDFChar: 271 271 20 2 15 0 13
-^]<j(49,ll"2Fp+!'C6D!:U*+%fe]ln,U6(
-BDFChar: 272 272 20 0 9 0 13
-^]<9mGQ8]`%KH`a!Pe`O#Cm9a)ut3`huLOm
-BDFChar: 273 273 20 2 15 6 15
-huNZT5Ca".!;lip#Ojs.quGXT
-BDFChar: 274 274 20 0 9 6 15
-^]<j(49,ll"2G#S%fe]ln,U6(
-BDFChar: 275 275 20 2 15 10 15
-n,WL(&,Zt9s1n+(
-BDFChar: 276 276 20 2 15 8 15
-huN`V+5d1t!W4%trW(jV
-BDFChar: 277 277 0 2 15 -2 3
-n,WL(&,Zt9s1n+(
-BDFChar: 278 278 0 2 15 -2 5
-huN`V+5d1t!W4%trW(jV
-BDFChar: 279 279 20 0 17 -2 15
-s8Tn7s1lt,^rOL2kNBY@j1t3T_"mfAq"VZ"pqZ_$_"$s1j5[r<kJ5-Y^sC?Bs8Tn7s1eU7
-BDFChar: 280 280 20 2 15 0 13
-^qemd?smqm3&h`l*#oq<(`54lE,]2mi8DDd
-BDFChar: 281 281 20 0 9 0 13
-_Z7RSj+(Qg@=W@50YfBXEPQ"5@=[Bg_Z7RS
-BDFChar: 282 282 20 2 15 6 15
-^qemdE,[cr*#oq<3&kkri8DDd
-BDFChar: 283 283 20 0 9 6 15
-_Z7RS@=Vd:0YfBX@=Vd:_Z7RS
-BDFChar: 284 284 20 2 15 10 15
-^qfI/4?P_gnF46/
-BDFChar: 285 285 20 2 15 8 15
-^qemdG^(2J*#s3Ji8DDd
-BDFChar: 286 286 0 2 15 -2 3
-^qfI/4?P_gnF46/
-BDFChar: 287 287 0 2 15 -2 5
-^qemdG^(2J*#s3Ji8DDd
-BDFChar: 288 288 20 0 17 -2 15
-s8Tn7s1nY!_#HX7rZArT+2Ig#_#2Noq<,QhkJ6]\_"705kP;pVq7scG^q]rcs8Tn7s1eU7
-BDFChar: 289 289 20 2 15 0 13
-!rrE'#Cm&0%)<:e(gn1g0JG17?l38gs8;op
-BDFChar: 290 290 20 0 9 0 13
-$ig\9*WR5]*WSD)1B932F+@\L@=[=Ps1nZM
-BDFChar: 291 291 20 2 15 6 15
-!rrRV#Cm5u*8ieq0JHlOs8;op
-BDFChar: 292 292 20 0 9 6 15
-$ig\9*WR5]1B932@=Vd:s1nZM
-BDFChar: 293 293 20 2 15 10 15
-!rrkI+5hBgs8;op
-BDFChar: 294 294 20 2 15 8 15
-!rrRV&&91C3,igrs8;op
-BDFChar: 295 295 0 2 15 -2 3
-!rrkI+5hBgs8;op
-BDFChar: 296 296 0 2 15 -2 5
-!rrRV&&91C3,igrs8;op
-BDFChar: 297 297 20 0 17 -2 15
-s8Tn7s1nHn_"m0/q<,Q__nbcZ_!o7Wo[CV<RD@r&^ucNMjr(t\4M\`4^q]rcs8Tn7s1eU7
-BDFChar: 298 298 20 2 15 0 13
-(gn1g(goJq4RbK&4Rd!NB:*>!B:-RFs8;op
-BDFChar: 299 299 20 0 9 0 13
-1B9321B932It3$!It3$!It3$!beVH<s1nZM
-BDFChar: 300 300 20 2 15 6 15
-(gn1g4RbK&4Rd!NB:.kPs8;op
-BDFChar: 301 301 20 0 9 6 15
-1B9321B;oTIt3$!It5bYs1nZM
-BDFChar: 302 302 20 2 15 10 15
-(goJq4Rd!Ns8;op
-BDFChar: 303 303 20 2 15 8 15
-(gn1g4RbK&B:*>!s8;op
-BDFChar: 304 304 0 2 15 -2 3
-(goJq4Rd!Ns8;op
-BDFChar: 305 305 0 2 15 -2 5
-(gn1g4RbK&B:*>!s8;op
-BDFChar: 306 306 20 0 17 -2 15
-s8Tn7s1lDM^q]rcrZArT+2Ig#_#2Noq<,QhkJ6]\_"705kP;pVq7t>S^sDqos8Tn7s1eU7
-BDFChar: 307 307 20 2 15 0 13
-s8;op#Cm&0%)<:e(gn1g0JG17?l38g^^S!e
-BDFChar: 308 308 20 0 9 0 13
-s1nZM*WR5]*WSD)1B932F+@\L@=[=P^qdb$
-BDFChar: 309 309 20 2 15 6 15
-s8;op#Cm5u*8ieq0JHlOi#KN@
-BDFChar: 310 310 20 0 9 6 15
-s1nZM*WR5]1B932@=Vd:^qdb$
-BDFChar: 311 311 20 2 15 10 15
-s8;op+5hBgn3"Jp
-BDFChar: 312 312 20 2 15 8 15
-s8;op&&91C3,igri#KN@
-BDFChar: 313 313 0 2 15 -2 3
-s8;op+5hBgn3"Jp
-BDFChar: 314 314 0 2 15 -2 5
-s8;op&&91C3,igri#KN@
-BDFChar: 315 315 20 0 17 -2 15
-s8Tn7s1lDM^q]rcq<,Q__nbcZ_!o7Wo[CV<RD@r&^ucNMjr(t\4M]9*^s>-Ys8Tn7s1eU7
-BDFChar: 316 316 20 2 15 0 13
-s8;op(goJq4RbK&4Rd!NB:*>!B:-RF_[OEk
-BDFChar: 317 317 20 0 9 0 13
-s1nZM1B932It3$!It3$!It3$!beVH<beVH<
-BDFChar: 318 318 20 2 15 6 15
-s8;op4RbK&4Rd!NB:.kP_[OEk
-BDFChar: 319 319 20 0 9 6 15
-s1nZM1B;oTIt3$!It5bYbeVH<
-BDFChar: 320 320 20 2 15 10 15
-s8;op4Rd!NkFBEu
-BDFChar: 321 321 20 2 15 8 15
-s8;op4RbK&B:*>!_[OEk
-BDFChar: 322 322 0 2 15 -2 3
-s8;op4Rd!NkFBEu
-BDFChar: 323 323 0 2 15 -2 5
-s8;op4RbK&B:*>!_[OEk
-BDFChar: 324 324 20 0 17 -2 15
-s8Tn7s1nY!_#HX7rZArT+2Ig#_#2Noq<,QhkJ6]\_"705kP;pVq7t>S^sDqos8Tn7s1eU7
-BDFChar: 325 325 20 2 15 0 13
-!rrE'#Cm&0%)<:e(gn1g0JG17?l38g^^S!e
-BDFChar: 326 326 20 0 9 0 13
-$ig\9*WR5]*WSD)1B932F+@\L@=[=P^qdb$
-BDFChar: 327 327 20 2 15 6 15
-!rrRV#Cm5u*8ieq0JHlOi#KN@
-BDFChar: 328 328 20 0 9 6 15
-$ig\9*WR5]1B932@=Vd:^qdb$
-BDFChar: 329 329 20 2 15 10 15
-!rrkI+5hBgn3"Jp
-BDFChar: 330 330 20 2 15 8 15
-!rrRV&&91C3,igri#KN@
-BDFChar: 331 331 0 2 15 -2 3
-!rrkI+5hBgn3"Jp
-BDFChar: 332 332 0 2 15 -2 5
-!rrRV&&91C3,igri#KN@
-BDFChar: 333 333 20 0 17 -2 15
-s8Tn7s1nHn_"m0/q<,Q__nbcZ_!o7Wo[CV<RD@r&^ucNMjr(t\4M]9*^s>-Ys8Tn7s1eU7
-BDFChar: 334 334 20 2 15 0 13
-(gn1g(goJq4RbK&4Rd!NB:*>!B:-RF_[OEk
-BDFChar: 335 335 20 0 9 0 13
-1B9321B932It3$!It3$!It3$!beVH<beVH<
-BDFChar: 336 336 20 2 15 6 15
-(gn1g4RbK&4Rd!NB:.kP_[OEk
-BDFChar: 337 337 20 0 9 6 15
-1B9321B;oTIt3$!It5bYbeVH<
-BDFChar: 338 338 20 2 15 10 15
-(goJq4Rd!NkFBEu
-BDFChar: 339 339 20 2 15 8 15
-(gn1g4RbK&B:*>!_[OEk
-BDFChar: 340 340 0 2 15 -2 3
-(goJq4Rd!NkFBEu
-BDFChar: 341 341 0 2 15 -2 5
-(gn1g4RbK&B:*>!_[OEk
-BDFChar: 342 342 20 0 17 -2 15
-s8Tn7s1lDM^q]rcci:f,s1lt\^sE%rci:f,s1lt\^sE%rci:f,s1lDM^q]rcs8Tn7s1eU7
-BDFChar: 343 343 20 2 15 0 13
-s8;op^];.M^];.M^];.M^];.M^];.Ms8;op
-BDFChar: 344 344 20 0 9 0 13
-s1nZM^];.M^];.M^];.M^];.M^];.Ms1nZM
-BDFChar: 345 345 20 2 15 6 15
-s8;op^];.M^];.M^];.Ms8;op
-BDFChar: 346 346 20 0 9 6 15
-s1nZM^];.M^];.M^];.Ms1nZM
-BDFChar: 347 347 20 2 15 10 15
-s8;op^];.Ms8;op
-BDFChar: 348 348 20 2 15 8 15
-s8;op^];.M^];.Ms8;op
-BDFChar: 349 349 0 2 15 -2 3
-s8;op^];.Ms8;op
-BDFChar: 350 350 0 2 15 -2 5
-s8;op^];.M^];.Ms8;op
-BDFChar: 351 351 20 0 17 -2 15
-s8Tn7s1lFc^qdb$cd0DQcbRlQ^sC?Bcd0DQcbRlQ^sC?Bcd0DQcbR?3^qdb$s8Tn7s1eU7
-BDFChar: 352 352 20 2 15 0 13
-r;?Kj^qdb$^qdb$^qdb$^qdb$^qdb$r;?Kj
-BDFChar: 353 353 20 0 9 0 13
-o>'t5_Z7RS_Z7RS_Z7RS_Z7RS_Z7RSo>'t5
-BDFChar: 354 354 20 2 15 6 15
-r;?Kj^qdb$^qdb$^qdb$r;?Kj
-BDFChar: 355 355 20 0 9 6 15
-o>'t5_Z7RS_Z7RS_Z7RSo>'t5
-BDFChar: 356 356 20 2 15 10 15
-r;?Kj^qdb$r;?Kj
-BDFChar: 357 357 20 2 15 8 15
-r;?Kj^qdb$^qdb$r;?Kj
-BDFChar: 358 358 0 2 15 -2 3
-r;?Kj^qdb$r;?Kj
-BDFChar: 359 359 0 2 15 -2 5
-r;?Kj^qdb$^qdb$r;?Kj
-BDFChar: 360 360 20 0 17 -2 15
-s8Tn7s1lt\^sE%rci:f,s1lt\^sE%rci:f,s1lt\^sE%rci:f,s1lDM^q]rcs8Tn7s1eU7
-BDFChar: 361 361 20 2 15 0 13
-^];.M^];.M^];.M^];.M^];.M^];.Ms8;op
-BDFChar: 362 362 20 0 9 0 13
-^];.M^];.M^];.M^];.M^];.M^];.Ms1nZM
-BDFChar: 363 363 20 2 15 6 15
-^];.M^];.M^];.M^];.Ms8;op
-BDFChar: 364 364 20 0 9 6 15
-^];.M^];.M^];.M^];.Ms1nZM
-BDFChar: 365 365 20 2 15 10 15
-^];.M^];.Ms8;op
-BDFChar: 366 366 20 2 15 8 15
-^];.M^];.M^];.Ms8;op
-BDFChar: 367 367 0 2 15 -2 3
-^];.M^];.Ms8;op
-BDFChar: 368 368 0 2 15 -2 5
-^];.M^];.M^];.Ms8;op
-BDFChar: 369 369 20 0 17 -2 15
-s8Tn7s1lt,^sC?Bcd0DQcbRlQ^sC?Bcd0DQcbRlQ^sC?Bcd0DQcbR?3^qdb$s8Tn7s1eU7
-BDFChar: 370 370 20 2 15 0 13
-^qdb$^qdb$^qdb$^qdb$^qdb$^qdb$r;?Kj
-BDFChar: 371 371 20 0 9 0 13
-_Z7RS_Z7RS_Z7RS_Z7RS_Z7RS_Z7RSo>'t5
-BDFChar: 372 372 20 2 15 6 15
-^qdb$^qdb$^qdb$^qdb$r;?Kj
-BDFChar: 373 373 20 0 9 6 15
-_Z7RS_Z7RS_Z7RS_Z7RSo>'t5
-BDFChar: 374 374 20 2 15 10 15
-^qdb$^qdb$r;?Kj
-BDFChar: 375 375 20 2 15 8 15
-^qdb$^qdb$^qdb$r;?Kj
-BDFChar: 376 376 0 2 15 -2 3
-^qdb$^qdb$r;?Kj
-BDFChar: 377 377 0 2 15 -2 5
-^qdb$^qdb$^qdb$r;?Kj
-BDFChar: 378 378 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs$+=!5J[=!_#OGMs8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 379 379 0 14 15 6 7
-^q]pM
-BDFChar: 380 380 0 14 15 10 11
-^q]pM
-BDFChar: 381 381 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn75J[:`_#OGMs8Tn7s1n[7_#HX7s$+=!s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 382 382 0 14 15 3 10
-^q]pM!!'gM
-BDFChar: 383 383 0 14 15 8 13
-^q]pM^q]pM
-BDFChar: 384 384 20 0 17 -2 15
-s8Tn7s1nR4_#45Jr;XS1s1nR4_#45Jr"$U@&&A,C_#45Jr;XS1s1nR4_#45Js8Tn7s1eU7
-BDFChar: 385 385 0 12 17 -2 15
-^qdb$^qdb$r;=@G^qdb$^q]pM
-BDFChar: 386 386 0 12 17 6 15
-^qdb$r;=@G^q]pM
-BDFChar: 387 387 20 0 17 -2 15
-s8Tn7s1nR4_#45Jr;XS1s1nOC_#+_Yr;XS1s1nOC_#+_Yr;XS1s1nR4_#45Js8Tn7s1eU7
-BDFChar: 388 388 0 12 17 -2 15
-^qdb$_#4,G^qdb`r4p+`^q]pM
-BDFChar: 389 389 0 12 17 6 15
-^qfmG^qfmG^q]pM
-BDFChar: 390 390 20 0 17 -2 15
-s8Tn7s1nZ\_#M`rs3JL\cbTS,_#M`rr"$U@&&A4k_#M`rs3JL\cbTS,_#M`rs8Tn7s1eU7
-BDFChar: 391 391 0 10 15 -2 15
-$k*OQ$k*OQr;6s3$k*OQ$k*+9
-BDFChar: 392 392 0 10 15 6 15
-$k*OQr;6s3$k*+9
-BDFChar: 393 393 20 0 17 -2 15
-s8Tn7s1nZ\_#M`rs3JL\cbTGh_#+_Ys3JL\cbTGh_#+_Ys3JL\cbTS,_#M`rs8Tn7s1eU7
-BDFChar: 394 394 0 10 15 -2 15
-$k*OQ%/g#3$k*RBr!WuB$k*+9
-BDFChar: 395 395 0 10 15 6 15
-$k3(3$k3(3$k*+9
-BDFChar: 396 396 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs$+=!5J[=!_#OGMs8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 397 397 0 8 9 0 1
-^q]pM
-BDFChar: 398 398 0 8 9 6 7
-^q]pM
-BDFChar: 399 399 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMq<,QhkJ7,t_#OGMs8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 400 400 0 5 12 0 1
-_nuHS
-BDFChar: 401 401 0 5 12 6 7
-_nuHS
-BDFChar: 402 402 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1lDM^q]rcs$+=!5J[:`_#HX7s8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 403 403 0 0 17 -2 3
-s8Tn7s1eWM!!'e7!5JR7^]4?7
-BDFChar: 404 404 0 0 17 4 7
-s8Tn7s1eWM!!'e7
-BDFChar: 405 405 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1lDM^q]rcq<,QhkJ6oV_"m0/s8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 406 406 0 0 17 -2 3
-s8Tn7s1egU!!X8?"rI=E(]XO9
-BDFChar: 407 407 0 0 17 4 7
-s8Tn7s1egU!!X8?
-BDFChar: 408 408 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1nY!_#HX7s$+=!5JY&7^q]rcs8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 409 409 0 0 17 0 5
-!5JR7^]4AM!!'e7s8Tn7s1eU7
-BDFChar: 410 410 0 0 17 6 9
-!5JR7^]=E7_#OGM
-BDFChar: 411 411 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1nHn_"m0/q<,QhkJ4k5^q]rcs8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 412 412 0 0 17 0 5
-"rI=E(]XaW!!X8?s8Tn7s1eU7
-BDFChar: 413 413 0 0 17 6 9
-"rI=E(]aU9_#OGM
-BDFChar: 414 414 20 0 17 -2 15
-s8Tn7s1nY!_#HX7s$+=!5J[:`_#HX7s$+=!5J[:`_#HX7s$+=!5J[:`_#HX7s8Tn7s1eU7
-BDFChar: 415 415 0 14 15 -2 15
-^qdb$^qdb$^qdb$^qdb$^q]pM
-BDFChar: 416 416 0 14 15 6 15
-^qdb$^qdb$^q]pM
-BDFChar: 417 417 20 0 17 -2 15
-s8Tn7s1nQY_#2Nor6N1VcbTJ)_#2Nor6N1VcbTJ)_#2Nor6N1VcbTJ)_#2Nos8Tn7s1eU7
-BDFChar: 418 418 0 12 17 -2 15
-bfn;Tbfn;Tbfn;Tbfn;Tbfg%e
-BDFChar: 419 419 0 12 17 6 15
-bfn;Tbfn;Tbfg%e
-BDFChar: 420 420 20 0 17 -2 15
-s8Tn7s1nQY_#2Nor6N1VcbTJ)_#2Nor"$U@&&A+h_#2Nor6N1VcbTJ)_#2Nos8Tn7s1eU7
-BDFChar: 421 421 0 12 17 -2 15
-bfn;Tbfn;Tr;=d_bfn;Tbfg%e
-BDFChar: 422 422 0 12 17 6 15
-bfn;Tr;=d_bfg%e
-BDFChar: 423 423 20 0 17 -2 15
-s8Tn7s1nQY_#2Nor6N1VcbTGh_#+_Yr6N1VcbTGh_#+_Yr6N1VcbTJ)_#2Nos8Tn7s1eU7
-BDFChar: 424 424 0 12 17 -2 15
-bfn;Tbl%C_bfn</r63C/bfg%e
-BDFChar: 425 425 0 12 17 6 15
-bfp"_bfp"_bfg%e
-BDFChar: 426 426 20 0 17 -2 15
-s8Tn7s1nXj_#H4+s"hIj1Vj#H_#H4+n2%lL1Vj#H_#H4+s"hIj1Vj#H_#H4+s8Tn7s1eU7
-BDFChar: 427 427 0 10 17 -2 15
-+sJ3T+sJ3T,2sdj+sJ3T+sI!e
-BDFChar: 428 428 0 10 17 6 15
-1G^gCoCFao1G]"2
-BDFChar: 429 429 20 0 17 -2 15
-s8Tn7s1nXj_#H4+s"hIj1ViK9_!j.qs"hIj1ViK9_!j.qs"hIj1Vj#H_#H4+s8Tn7s1eU7
-BDFChar: 430 430 0 10 17 -2 15
-&J5Te&J=OF&J5TenIZ?F&J5!C
-BDFChar: 431 431 0 10 17 6 15
-1GeXo1GeXo1G]"2
-BDFChar: 432 432 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM^];0c!5SX7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 433 433 0 0 17 0 1
-s8Tn7s1eU7
-BDFChar: 434 434 0 0 17 6 7
-s8Tn7s1eU7
-BDFChar: 435 435 20 0 17 -2 15
-s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMcTK"h4M_!s_#OGMs8Tn7s1n[7_#OGMs8Tn7s1eU7
-BDFChar: 436 436 20 0 0 0 0
-z
-BDFChar: 437 437 0 0 0 0 0
-z
-BDFChar: 438 438 0 0 0 0 0
-z
-BDFChar: 439 439 0 0 0 0 0
-z
-BDFChar: 440 440 0 0 0 0 0
-z
-BDFChar: 441 441 0 0 0 0 0
-z
-BDFChar: 442 442 0 0 0 0 0
-z
-BDFChar: 443 443 0 0 0 0 0
-z
-BDFChar: 444 444 0 0 0 0 0
-z
-BDFChar: 445 445 0 0 0 0 0
-z
-BDFChar: 446 446 0 0 0 0 0
-z
-BDFChar: 447 447 0 0 0 0 0
-z
-BDFChar: 448 448 0 0 0 0 0
-z
-BDFChar: 449 449 0 0 0 0 0
-z
-BDFChar: 450 450 0 0 0 0 0
-z
-BDFChar: 451 451 0 0 0 0 0
-z
-BDFChar: 452 452 0 0 0 0 0
-z
-BDFChar: 453 453 0 0 0 0 0
-z
-BDFChar: 454 454 0 0 0 0 0
-z
-BDFChar: 455 455 0 0 0 0 0
-z
-BDFChar: 456 456 0 0 0 0 0
-z
-BDFChar: 457 457 0 0 0 0 0
-z
-BDFChar: 458 458 0 0 0 0 0
-z
-BDFChar: 459 459 0 0 0 0 0
-z
-BDFChar: 460 460 0 0 0 0 0
-z
-BDFChar: 461 461 0 0 0 0 0
-z
-BDFChar: 462 462 0 0 0 0 0
-z
-BDFChar: 463 463 0 0 0 0 0
-z
-BDFChar: 464 464 0 0 0 0 0
-z
-BDFChar: 465 465 0 0 0 0 0
-z
-BDFChar: 466 466 0 0 0 0 0
-z
-BDFChar: 467 467 0 0 0 0 0
-z
-BDFChar: 468 468 0 0 0 0 0
-z
-BDFChar: 469 469 0 0 0 0 0
-z
-BDFChar: 470 470 0 0 0 0 0
-z
-BDFChar: 471 471 0 0 0 0 0
-z
-BDFChar: 472 472 0 0 0 0 0
-z
-BDFChar: 473 473 0 0 0 0 0
-z
-BDFChar: 474 474 0 0 0 0 0
-z
-BDFChar: 475 475 0 0 0 0 0
-z
-BDFChar: 476 476 0 0 0 0 0
-z
-BDFChar: 477 477 0 0 0 0 0
-z
-BDFChar: 478 478 0 0 0 0 0
-z
-BDFChar: 479 479 0 0 0 0 0
-z
-BDFChar: 480 480 0 0 0 0 0
-z
-BDFChar: 481 481 0 0 0 0 0
-z
-BDFChar: 482 482 0 0 0 0 0
-z
-BDFChar: 483 483 0 0 0 0 0
-z
-BDFChar: 484 484 0 0 0 0 0
-z
-BDFChar: 485 485 0 0 0 0 0
-z
-BDFChar: 486 486 0 0 0 0 0
-z
-BDFChar: 487 487 0 0 0 0 0
-z
-BDFChar: 488 488 0 0 0 0 0
-z
-BDFChar: 489 489 0 0 0 0 0
-z
-BDFChar: 490 490 0 0 0 0 0
-z
-BDFChar: 491 491 0 0 0 0 0
-z
-BDFChar: 492 492 0 0 0 0 0
-z
-BDFChar: 493 493 0 0 0 0 0
-z
-BDFChar: 494 494 0 0 0 0 0
-z
-BDFChar: 495 495 0 0 0 0 0
-z
-BDFChar: 496 496 0 0 0 0 0
-z
-BDFChar: 497 497 0 0 0 0 0
-z
-BDFChar: 498 498 0 0 0 0 0
-z
-BDFChar: 499 499 0 0 0 0 0
-z
-BDFChar: 500 500 0 0 0 0 0
-z
-BDFChar: 501 517 0 9 17 6 15
-#lk83#lsc$#lk83q#C^$#lk83
-BDFChar: 502 504 0 9 15 -2 15
-"pP89"pP89rr**+"pP89"pP&-
-BDFChar: 503 505 0 9 15 6 15
-"pP89rr**+"pP&-
-BDFChar: 504 506 0 9 15 -2 15
-"pP89#6+T+"pP;2rWWQ2"pP&-
-BDFChar: 505 507 0 9 14 6 15
-"9\l*"9eW*"9\])
-BDFChar: 506 508 0 0 17 3 6
-s8Tk7J,fS"!!%NL
-BDFChar: 507 509 0 0 17 3 7
-s8Tn7s1egU!!X8?"rI=?
-BDFChar: 508 510 0 0 17 0 6
-!5JR7^]4AM!!'e7!5JU7s1n[7^]4?7
-BDFChar: 509 511 0 0 17 6 10
-!5JR7^]4AM!<<)7s8Tk7
-BDFChar: 510 512 0 0 17 0 7
-"rI=E(]XaW!!X8?"rI=E(]aU9_#OGM
-BDFChar: 511 513 0 0 17 6 10
-"rI=E(]XaW!<<)7s8Tk7
-BDFChar: 512 514 0 9 17 -2 15
-)1WTT)1WTT)1WTT)1WTTq1/9k)1WTT)1WTT)1WTT)1WTT
-BDFChar: 513 515 0 9 17 6 15
-)1WTT)1WTTq1/9k)1WTT)1WTT
-BDFChar: 514 516 0 8 17 -2 15
-%)<:e%)<:e%)DeVr4i`V%)<:e%)DeVr4i`V%)<:e%)<:e
-BDFChar: 515 522 20 0 0 0 0
-z
-BDFChar: 516 523 20 0 0 0 0
-z
-BDFChar: 517 524 20 0 0 0 0
-z
-BDFChar: 518 525 20 0 0 0 0
-z
-BDFChar: 519 526 20 0 0 0 0
-z
-BDFChar: 520 527 20 0 0 0 0
-z
 EndBitmapFont
 EndSplineFont
